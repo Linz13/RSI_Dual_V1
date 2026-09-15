@@ -1,0 +1,8 @@
+version,training_round,zh,en,mean,scored,source
+base,0,83.1,78.7,80.9,2000,results/tts_dsd/base_current_api.json
+v5,1,82.0,77.8,79.9,2000,results/tts_dsd/v5_round000.json
+v5,2,81.6,79.1,80.35,2000,results/tts_dsd/v5_round001.json
+v6,1,82.4,77.6,80.0,2000,results/benchmarks/v6_round000_002_benchmarks_run01/summary.json
+v6,2,84.2,78.7,81.45,2000,results/benchmarks/v6_round000_002_benchmarks_run01/summary.json
+v6,3,84.2,77.3,80.75,2000,results/benchmarks/v6_round000_002_benchmarks_run01/summary.json
+v6,4,81.7,76.6,79.15,2000,results/benchmarks/v6_round003_benchmarks_run01/summary.json

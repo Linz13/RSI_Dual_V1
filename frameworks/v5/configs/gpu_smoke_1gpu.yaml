@@ -1,0 +1,24 @@
+extends: base_3gpu.yaml
+
+run:
+  output_dir: ../runs/gpu_smoke_1gpu
+
+distributed:
+  enabled: false
+  world_size: 1
+  backend: gloo
+
+data:
+  paired_path: ../../training_data_v2/smoke/paired.jsonl
+  audio_only_path: ../../training_data_v2/smoke/audio_only.jsonl
+  caption_only_path: ../../training_data_v2/smoke/caption_only.jsonl
+  max_records_per_role: 1
+
+captioner:
+  generation:
+    rollout_batch_size: 1
+  training:
+    replay_batch_size: 1
+
+training:
+  rounds: 1

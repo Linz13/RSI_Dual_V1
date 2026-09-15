@@ -1,0 +1,6 @@
+extends: mock.yaml
+version: 5
+training: {rounds: 2, paired_anchor_enabled: true}
+reward:
+  audio_only: {reconstruction_weight: 0.9, format_weight: 0.1}
+labeling: {judge_workers: 2}

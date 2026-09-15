@@ -1,0 +1,56 @@
+Listen to the audio and annotate only the requested fields.
+
+Return one valid JSON object and nothing else. Do not return markdown or explanations.
+
+The output must contain exactly the requested nested paths and no Target_JSON_Schema wrapper is required.
+
+Use the main/most prominent speaker when more than one speaker is present.
+
+Closed-vocabulary fields must use exactly one listed string.
+
+For event-list fields, return a non-empty list; use ["none"] or ["unknown"] exclusively.
+
+Do not use metadata or a supplied transcript; judge the audio itself.
+
+Model backend: kimi_audio.
+
+Requested field descriptions:
+{
+  "paralinguistic": {
+    "emphasis": {
+      "level": "strength of prosodic emphasis",
+      "emphasized_text": "up to 5 distinct exact emphasized words or phrases; never repeat an item; use [] if none or unknown"
+    },
+    "nonverbal_vocalization": "all salient nonverbal vocal events as a list"
+  }
+}
+
+Allowed closed values:
+{
+  "paralinguistic.emphasis.level": [
+    "emphasized",
+    "heavily emphasized",
+    "none",
+    "unknown"
+  ],
+  "paralinguistic.nonverbal_vocalization": [
+    "agreement sound",
+    "audible breath",
+    "cough",
+    "crying",
+    "filled pause",
+    "laughter",
+    "none",
+    "other",
+    "scream",
+    "sigh",
+    "sneeze",
+    "sniff",
+    "sobbing",
+    "throat clearing",
+    "unknown",
+    "yawn"
+  ]
+}
+
+Kimi structured-output constraints: keep the entire response under 200 text tokens. Do not transcribe or retell the audio. emphasized_text must contain at most 5 distinct items. nonverbal_vocalization must contain distinct event labels only, with each event type at most once. emphasis.level describes prosodic emphasis only and MUST be exactly one of: none, emphasized, heavily emphasized, unknown. Words such as sobbing, crying, screaming, laughter, cough, or sigh are NEVER emphasis levels; put such events only in nonverbal_vocalization. If emphasis cannot be judged, use unknown. Before answering, silently remove duplicate emphasized_text items and keep at most the first 5. Never repeat words, phrases, list items, or JSON blocks. Stop immediately after the final closing brace.

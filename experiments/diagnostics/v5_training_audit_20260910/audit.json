@@ -1,0 +1,372 @@
+{
+  "captured_unix": 1789011870.5887678,
+  "run": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01",
+  "source": "/data/L202500147/Caption/DualISL_Train_RewardV5_FastResume",
+  "current": {
+    "caption_checkpoint": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/checkpoints/caption_final",
+    "caption_checkpoint_sha256": "049cdc4f82930efaaeb193a0305c2a37686087a52a2adc5c167d997e3ada9dfa",
+    "round": 0,
+    "tts_checkpoint": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/checkpoints/tts_final",
+    "tts_checkpoint_sha256": "70ffaeb070e6d0c2b4fd4ee24c0cc4e89cd8206b7aaf98abe316162ae6478cc2"
+  },
+  "implementation_hash": "e081f357623773e0c26ab6081a1477d1b2af992d6e378ca708c8010b0f7a8ca7",
+  "config_source_lock_matches": true,
+  "evaluator_resources_match": true,
+  "stage_minutes": {
+    "round_000_audio_caption_rollout.stage": 32.07859493819997,
+    "round_000_audio_collection.stage": 0.0,
+    "round_000_caption_anchor_reconstruction.stage": 3.607803808680425,
+    "round_000_caption_audio_quality.stage": 1.3507396209053695,
+    "round_000_caption_caption_reconstruction.stage": 3.669944962610801,
+    "round_000_caption_collection.stage": 0.0,
+    "round_000_caption_tts_rollout.stage": 101.25147767731299,
+    "round_000_audio_attribute_synthesis.stage": 40.35733339590952,
+    "round_000_audio_rewards.stage": 0.0,
+    "round_000_caption_rewards.stage": 0.0,
+    "round_000_sftcal_caption_anchor.stage": 3.179344532483568,
+    "round_000_sftcal_caption_current.stage": 3.005230081236611,
+    "round_000_caption_grpo.stage": 38.195988398542006,
+    "round_000_caption_sft.stage": 3.277037576927493,
+    "round_000_tts_grpo.stage": 69.26128215119243,
+    "round_000_tts_sft.stage": 1.943930775206536,
+    "round_000_caption_reload.stage": 1.360066354678323,
+    "round_000_tts_reload.stage": 0.8070500624986986
+  },
+  "labeling_times": {
+    "generated_labels_wait_and_local_seconds": 544.2762119397521,
+    "reference_labels_seconds": 1046.005397470668,
+    "text_judgments_seconds": 731.973842645064
+  },
+  "rollouts": {
+    "0": {
+      "candidates": 736,
+      "raw_schema_valid": 101,
+      "json_parseable": 457,
+      "semantic_input_valid": 457,
+      "trajectory_valid": 735,
+      "synthesis_eligible": 457,
+      "format": {
+        "n": 736,
+        "mean": 0.5760869565217391,
+        "min": 0.0,
+        "max": 1.0,
+        "p25": 0.0,
+        "median": 0.90625,
+        "p75": 0.96875
+      },
+      "finish_reasons": {
+        "eos": 730,
+        "length": 6
+      },
+      "invalid_finish_reasons": {
+        "eos": 273,
+        "length": 6
+      },
+      "parse_errors": {
+        "Expecting ',' delimiter": 194,
+        "Unterminated string starting at": 13,
+        "Expecting property name enclosed in double quotes": 27,
+        "Expecting value": 8,
+        "Invalid control character at": 24,
+        "Extra data": 8,
+        "Expecting '": 4,
+        "duplicate JSON key": 1
+      },
+      "batch_sizes": {
+        "1": 736
+      },
+      "fallback_reasons": {
+        "trajectory_mismatch": 736
+      },
+      "eligible_known_condition_fields": {
+        "n": 457,
+        "mean": 11.914660831509847,
+        "min": 1,
+        "max": 16,
+        "p25": 11,
+        "median": 13,
+        "p75": 14
+      },
+      "eligible_no_voice_instruction": 22
+    },
+    "1": {
+      "candidates": 736,
+      "raw_schema_valid": 98,
+      "json_parseable": 434,
+      "semantic_input_valid": 432,
+      "trajectory_valid": 736,
+      "synthesis_eligible": 432,
+      "format": {
+        "n": 736,
+        "mean": 0.5383406929347826,
+        "min": 0.0,
+        "max": 1.0,
+        "p25": 0.0,
+        "median": 0.84375,
+        "p75": 0.96875
+      },
+      "finish_reasons": {
+        "eos": 730,
+        "length": 6
+      },
+      "invalid_finish_reasons": {
+        "eos": 298,
+        "length": 6
+      },
+      "parse_errors": {
+        "Expecting ',' delimiter": 217,
+        "Invalid control character at": 24,
+        "Extra data": 5,
+        "Expecting property name enclosed in double quotes": 32,
+        "Expecting '": 6,
+        "Unterminated string starting at": 11,
+        "Invalid \\escape": 2,
+        "Expecting value": 1,
+        "duplicate JSON key": 4
+      },
+      "batch_sizes": {
+        "1": 736
+      },
+      "fallback_reasons": {
+        "trajectory_mismatch": 736
+      },
+      "eligible_known_condition_fields": {
+        "n": 432,
+        "mean": 11.555555555555555,
+        "min": 1,
+        "max": 16,
+        "p25": 11,
+        "median": 13.0,
+        "p75": 14
+      },
+      "eligible_no_voice_instruction": 34
+    }
+  },
+  "audio_reward": {
+    "reconstruction": {
+      "n": 457,
+      "mean": 0.5745628525401733,
+      "min": 0.13333333333333333,
+      "max": 0.9333333333333333,
+      "p25": 0.4507936507936508,
+      "median": 0.5833333333333334,
+      "p75": 0.7
+    },
+    "selected": {
+      "n": 176,
+      "mean": 0.6474808367219148,
+      "min": 0.25,
+      "max": 0.9333333333333333,
+      "p25": 0.5444444444444444,
+      "median": 0.6509259259259259,
+      "p75": 0.7666666666666667
+    },
+    "reference_denominator": {
+      "n": 184,
+      "mean": 14.766304347826088,
+      "min": 12,
+      "max": 15,
+      "p25": 15,
+      "median": 15.0,
+      "p75": 15
+    },
+    "valid_pair_count": 422,
+    "format_reverses_reconstruction_order_pairs": 4,
+    "no_reconstruction_groups": 8,
+    "format_only_update_groups": 0,
+    "reference_unknown": {
+      "semantic_content.language": 0,
+      "speaker_profile.gender": 0,
+      "speaker_profile.age": 0,
+      "speaker_profile.timbre": 0,
+      "speaker_profile.accent": 0,
+      "paralinguistic.speaking_rate": 7,
+      "paralinguistic.pitch_level": 13,
+      "paralinguistic.volume_level": 0,
+      "paralinguistic.emotion": 0,
+      "paralinguistic.emotion_intensity": 0,
+      "paralinguistic.emphasis.level": 0,
+      "paralinguistic.emphasis.emphasized_text": 0,
+      "paralinguistic.prosody": 12,
+      "paralinguistic.pause": 11,
+      "paralinguistic.nonverbal_vocalization": 0
+    },
+    "generated_unknown": {
+      "semantic_content.language": 1,
+      "speaker_profile.gender": 0,
+      "speaker_profile.age": 0,
+      "speaker_profile.timbre": 0,
+      "speaker_profile.accent": 3,
+      "paralinguistic.speaking_rate": 6,
+      "paralinguistic.pitch_level": 46,
+      "paralinguistic.volume_level": 0,
+      "paralinguistic.emotion": 0,
+      "paralinguistic.emotion_intensity": 0,
+      "paralinguistic.emphasis.level": 0,
+      "paralinguistic.emphasis.emphasized_text": 0,
+      "paralinguistic.prosody": 40,
+      "paralinguistic.pause": 41,
+      "paralinguistic.nonverbal_vocalization": 0
+    },
+    "per_field_mean": {
+      "semantic_content.language": 0.9649890590809628,
+      "speaker_profile.gender": 0.824945295404814,
+      "speaker_profile.age": 0.8687089715536105,
+      "speaker_profile.timbre": 0.4814004376367615,
+      "speaker_profile.accent": 0.6389496717724289,
+      "paralinguistic.speaking_rate": 0.5560640732265446,
+      "paralinguistic.pitch_level": 0.5083932853717026,
+      "paralinguistic.volume_level": 0.35667396061269147,
+      "paralinguistic.emotion": 0.3610503282275711,
+      "paralinguistic.emotion_intensity": 0.5557986870897156,
+      "paralinguistic.emphasis.level": 0.5667396061269147,
+      "paralinguistic.emphasis.emphasized_text": 0.4421578898186386,
+      "paralinguistic.prosody": 0.38836104513064135,
+      "paralinguistic.pause": 0.5,
+      "paralinguistic.nonverbal_vocalization": 0.5773887673231218
+    }
+  },
+  "sft": {
+    "caption": {
+      "total": 235,
+      "anchors": 39
+    },
+    "tts": {
+      "total": 215,
+      "anchors": 39
+    }
+  },
+  "updates": {
+    "caption_grpo": {
+      "steps": [
+        22
+      ],
+      "unique_samples": 176,
+      "loss": 7.202100757488303e-05,
+      "peak_gib": 27.581947326660156,
+      "parameter_sync": null,
+      "loaded_adapters_exact": {}
+    },
+    "caption_sft": {
+      "steps": [
+        30
+      ],
+      "unique_samples": 235,
+      "loss": 1.0612702826658884,
+      "peak_gib": 19.178122520446777,
+      "parameter_sync": null,
+      "loaded_adapters_exact": {
+        "policy": true
+      }
+    },
+    "tts_grpo": {
+      "steps": [
+        25
+      ],
+      "unique_samples": 196,
+      "loss": -0.0002087856753496453,
+      "peak_gib": 37.53313970565796,
+      "parameter_sync": true,
+      "loaded_adapters_exact": {}
+    },
+    "tts_sft": {
+      "steps": [
+        27
+      ],
+      "unique_samples": 215,
+      "loss": 3.5757621973752975,
+      "peak_gib": 5.051193714141846,
+      "parameter_sync": true,
+      "loaded_adapters_exact": {
+        "policy": true
+      }
+    }
+  },
+  "changed_core_files": [
+    "dual_isl_train/stages.py",
+    "dual_isl_train/workers/qwen_voice_design.py",
+    "dual_isl_train/workers/tts_batch.py"
+  ],
+  "errors": [],
+  "new_synthesis": {
+    "captured_unix": 1789012091.8370059,
+    "rows": 432,
+    "minutes": 6.911862387601286,
+    "distributed": true,
+    "world_size": 8,
+    "placement": {
+      "algorithm": "intact_global_batches_length_lpt_v1",
+      "batch_size": 4,
+      "batches": 108,
+      "estimated_load_per_rank": [
+        765,
+        764,
+        767,
+        764,
+        765,
+        766,
+        765,
+        765
+      ],
+      "global_batch_membership_preserved": true
+    },
+    "batch_sizes": {
+      "4": 432
+    },
+    "ids_exact": true,
+    "requests_seeds_exact": true,
+    "peak_gib": 6.829936981201172
+  },
+  "v4_grpo_method_equivalence": {
+    "dual_isl_train/workers/qwen3_captioner.py": {
+      "grpo_update": true,
+      "_native_candidates_backward": true,
+      "_native_grpo_loss_value": true
+    },
+    "dual_isl_train/workers/qwen_voice_design.py": {
+      "grpo_update": true,
+      "_clipped_loss": true
+    }
+  },
+  "default_instruct_candidates": {
+    "count": 22,
+    "selected": 11,
+    "reconstruction_mean": 0.4985961423242125,
+    "reconstruction_max": 0.7666666666666667,
+    "candidate_ids": [
+      "random440_expressivespeech_017::0",
+      "random440_expressivespeech_004::0",
+      "random440_expressivespeech_192::0",
+      "random440_expressivespeech_192::3",
+      "random440_expressivespeech_079::3",
+      "random440_expressivespeech_043::2",
+      "random440_expressivespeech_175::3",
+      "random440_expressivespeech_202::0",
+      "random440_expressivespeech_168::0",
+      "random440_expressivespeech_095::2",
+      "random440_expressivespeech_076::3",
+      "random440_deear_087::0",
+      "random440_expressivespeech_310::2",
+      "random440_expressivespeech_265::2",
+      "random440_expressivespeech_102::3",
+      "random440_expressivespeech_233::3",
+      "random440_expressivespeech_144::1",
+      "random440_expressivespeech_317::0",
+      "random440_expressivespeech_056::3",
+      "random440_expressivespeech_260::0",
+      "random440_expressivespeech_103::2",
+      "random440_expressivespeech_264::0"
+    ]
+  },
+  "stale_raw_schema_flag": [
+    "random440_expressivespeech_031::1"
+  ],
+  "test_results": {
+    "v5": "160 passed",
+    "broad_including_inherited_legacy_tests": "40 failed, 272 passed, 3 skipped, 20 errors",
+    "broad_failure_causes": [
+      "V2/V4 config fixtures rejected by V5 version validation",
+      "legacy .recovery fixture directory absent"
+    ]
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "v4": [
+    {
+      "round": 1,
+      "groups": 184,
+      "candidates": 736,
+      "loss": {
+        "n": 139,
+        "mean": 3.412884,
+        "std": 0.777234,
+        "min": 1.457252,
+        "p05": 2.433936,
+        "median": 3.276041,
+        "p95": 4.735017,
+        "max": 6.358505
+      },
+      "group_range": {
+        "n": 34,
+        "mean": 0.207136,
+        "std": 0.321617,
+        "min": 0.002482,
+        "p05": 0.005336,
+        "median": 0.113324,
+        "p95": 0.688212,
+        "max": 1.654248
+      },
+      "within_std": {
+        "n": 34,
+        "mean": 0.101991,
+        "std": 0.161092,
+        "min": 0.001241,
+        "p05": 0.002668,
+        "median": 0.053402,
+        "p95": 0.344106,
+        "max": 0.827124
+      },
+      "original_minus_counterfactual": {
+        "n": 136,
+        "mean": 0.000489,
+        "std": 0.016866,
+        "min": -0.059716,
+        "p05": -0.019698,
+        "median": -0.000414,
+        "p95": 0.024892,
+        "max": 0.099028
+      },
+      "original_beats_cf_mean_fraction": 0.47794117647058826
+    },
+    {
+      "round": 2,
+      "groups": 184,
+      "candidates": 736,
+      "loss": {
+        "n": 140,
+        "mean": 3.485576,
+        "std": 0.655605,
+        "min": 1.593532,
+        "p05": 2.557113,
+        "median": 3.407673,
+        "p95": 4.557086,
+        "max": 5.809237
+      },
+      "group_range": {
+        "n": 29,
+        "mean": 0.175195,
+        "std": 0.256501,
+        "min": 0.005397,
+        "p05": 0.013096,
+        "median": 0.064802,
+        "p95": 0.571855,
+        "max": 1.252323
+      },
+      "within_std": {
+        "n": 29,
+        "mean": 0.08443,
+        "std": 0.125256,
+        "min": 0.002698,
+        "p05": 0.006548,
+        "median": 0.032401,
+        "p95": 0.251912,
+        "max": 0.626162
+      },
+      "original_minus_counterfactual": {
+        "n": 138,
+        "mean": 0.00213,
+        "std": 0.022627,
+        "min": -0.064713,
+        "p05": -0.025858,
+        "median": 0.000976,
+        "p95": 0.029137,
+        "max": 0.146654
+      },
+      "original_beats_cf_mean_fraction": 0.5144927536231884
+    },
+    {
+      "round": 3,
+      "groups": 184,
+      "candidates": 736,
+      "loss": {
+        "n": 150,
+        "mean": 3.501141,
+        "std": 0.754403,
+        "min": 1.45731,
+        "p05": 2.497284,
+        "median": 3.397876,
+        "p95": 4.802572,
+        "max": 5.549151
+      },
+      "group_range": {
+        "n": 33,
+        "mean": 0.2776,
+        "std": 0.404614,
+        "min": 0.000522,
+        "p05": 0.001434,
+        "median": 0.083545,
+        "p95": 0.951218,
+        "max": 1.933896
+      },
+      "within_std": {
+        "n": 33,
+        "mean": 0.134005,
+        "std": 0.199065,
+        "min": 0.000261,
+        "p05": 0.000717,
+        "median": 0.041772,
+        "p95": 0.448051,
+        "max": 0.966948
+      },
+      "original_minus_counterfactual": {
+        "n": 148,
+        "mean": 0.001605,
+        "std": 0.020532,
+        "min": -0.115826,
+        "p05": -0.024285,
+        "median": 0.001698,
+        "p95": 0.030952,
+        "max": 0.076067
+      },
+      "original_beats_cf_mean_fraction": 0.5337837837837838
+    },
+    {
+      "round": 4,
+      "groups": 184,
+      "candidates": 736,
+      "loss": {
+        "n": 155,
+        "mean": 3.324262,
+        "std": 0.746884,
+        "min": 1.454248,
+        "p05": 2.242806,
+        "median": 3.245993,
+        "p95": 4.674872,
+        "max": 5.669214
+      },
+      "group_range": {
+        "n": 43,
+        "mean": 0.15076,
+        "std": 0.200728,
+        "min": 0.001128,
+        "p05": 0.006005,
+        "median": 0.079268,
+        "p95": 0.657089,
+        "max": 0.717877
+      },
+      "within_std": {
+        "n": 43,
+        "mean": 0.072473,
+        "std": 0.097328,
+        "min": 0.000564,
+        "p05": 0.002977,
+        "median": 0.032489,
+        "p95": 0.3236,
+        "max": 0.358938
+      },
+      "original_minus_counterfactual": {
+        "n": 155,
+        "mean": -0.000433,
+        "std": 0.024532,
+        "min": -0.106602,
+        "p05": -0.032018,
+        "median": -0.001157,
+        "p95": 0.03366,
+        "max": 0.141298
+      },
+      "original_beats_cf_mean_fraction": 0.432258064516129
+    },
+    {
+      "round": 5,
+      "groups": 184,
+      "candidates": 736,
+      "loss": {
+        "n": 36,
+        "mean": 3.355362,
+        "std": 0.86531,
+        "min": 1.625072,
+        "p05": 2.288776,
+        "median": 3.251883,
+        "p95": 4.682711,
+        "max": 5.484043
+      },
+      "group_range": {
+        "n": 4,
+        "mean": 0.317857,
+        "std": 0.490729,
+        "min": 0.008977,
+        "p05": 0.009508,
+        "median": 0.048098,
+        "p95": 1.003869,
+        "max": 1.166255
+      },
+      "within_std": {
+        "n": 4,
+        "mean": 0.158929,
+        "std": 0.245364,
+        "min": 0.004489,
+        "p05": 0.004754,
+        "median": 0.024049,
+        "p95": 0.501935,
+        "max": 0.583128
+      },
+      "original_minus_counterfactual": {
+        "n": 36,
+        "mean": 0.005189,
+        "std": 0.011851,
+        "min": -0.011245,
+        "p05": -0.009351,
+        "median": 0.001025,
+        "p95": 0.028161,
+        "max": 0.03484
+      },
+      "original_beats_cf_mean_fraction": 0.5555555555555556
+    },
+    {
+      "round": 6,
+      "groups": 184,
+      "candidates": 736,
+      "loss": {
+        "n": 58,
+        "mean": 3.252627,
+        "std": 0.610726,
+        "min": 1.625773,
+        "p05": 2.498827,
+        "median": 3.182892,
+        "p95": 4.343399,
+        "max": 4.659363
+      },
+      "group_range": {
+        "n": 6,
+        "mean": 0.070866,
+        "std": 0.067174,
+        "min": 0.007281,
+        "p05": 0.007824,
+        "median": 0.040276,
+        "p95": 0.165283,
+        "max": 0.166611
+      },
+      "within_std": {
+        "n": 6,
+        "mean": 0.035433,
+        "std": 0.033587,
+        "min": 0.003641,
+        "p05": 0.003912,
+        "median": 0.020138,
+        "p95": 0.082642,
+        "max": 0.083306
+      },
+      "original_minus_counterfactual": {
+        "n": 58,
+        "mean": 0.002263,
+        "std": 0.011555,
+        "min": -0.037894,
+        "p05": -0.016791,
+        "median": 0.001553,
+        "p95": 0.021627,
+        "max": 0.031461
+      },
+      "original_beats_cf_mean_fraction": 0.5517241379310345
+    },
+    {
+      "round": 7,
+      "groups": 184,
+      "candidates": 736,
+      "loss": {
+        "n": 109,
+        "mean": 3.489775,
+        "std": 0.781384,
+        "min": 1.603063,
+        "p05": 2.255077,
+        "median": 3.491462,
+        "p95": 4.946594,
+        "max": 5.520945
+      },
+      "group_range": {
+        "n": 19,
+        "mean": 0.218188,
+        "std": 0.229008,
+        "min": 0.000184,
+        "p05": 0.002692,
+        "median": 0.189471,
+        "p95": 0.742496,
+        "max": 0.771375
+      },
+      "within_std": {
+        "n": 19,
+        "mean": 0.108242,
+        "std": 0.114736,
+        "min": 9.2e-05,
+        "p05": 0.001346,
+        "median": 0.093716,
+        "p95": 0.371248,
+        "max": 0.385687
+      },
+      "original_minus_counterfactual": {
+        "n": 109,
+        "mean": -0.00132,
+        "std": 0.014386,
+        "min": -0.072636,
+        "p05": -0.026643,
+        "median": -0.000927,
+        "p95": 0.020667,
+        "max": 0.037756
+      },
+      "original_beats_cf_mean_fraction": 0.45871559633027525
+    }
+  ],
+  "v5": [
+    {
+      "round": 1,
+      "reconstruction_score": {
+        "n": 457,
+        "mean": 0.574563,
+        "std": 0.162938,
+        "min": 0.133333,
+        "p05": 0.3,
+        "median": 0.583333,
+        "p95": 0.834667,
+        "max": 0.933333
+      },
+      "format_score": {
+        "n": 736,
+        "mean": 0.576087,
+        "std": 0.455812,
+        "min": 0.0,
+        "p05": 0.0,
+        "median": 0.90625,
+        "p95": 1.0,
+        "max": 1.0
+      },
+      "reward": {
+        "n": 736,
+        "mean": 0.378693,
+        "std": 0.318093,
+        "min": 0.0,
+        "p05": 0.0,
+        "median": 0.469643,
+        "p95": 0.811818,
+        "max": 0.94
+      },
+      "tts_target_logprob": {
+        "n": 0,
+        "mean": null,
+        "std": null,
+        "min": null,
+        "p05": null,
+        "median": null,
+        "p95": null,
+        "max": null
+      }
+    },
+    {
+      "round": 2,
+      "reconstruction_score": {
+        "n": 432,
+        "mean": 0.558557,
+        "std": 0.159855,
+        "min": 0.071429,
+        "p05": 0.3,
+        "median": 0.566667,
+        "p95": 0.833333,
+        "max": 1.0
+      },
+      "format_score": {
+        "n": 736,
+        "mean": 0.538341,
+        "std": 0.457927,
+        "min": 0.0,
+        "p05": 0.0,
+        "median": 0.84375,
+        "p95": 1.0,
+        "max": 1.0
+      },
+      "reward": {
+        "n": 736,
+        "mean": 0.348898,
+        "std": 0.312775,
+        "min": 0.0,
+        "p05": 0.0,
+        "median": 0.444006,
+        "p95": 0.793958,
+        "max": 0.996875
+      },
+      "tts_target_logprob": {
+        "n": 0,
+        "mean": null,
+        "std": null,
+        "min": null,
+        "p05": null,
+        "median": null,
+        "p95": null,
+        "max": null
+      }
+    }
+  ],
+  "source_v4_run": "/data/L202500147/Caption/DualISL_Train_RewardV4/runs/midasheng_7b_reward_v4_10rounds_optimized_run01",
+  "source_v5_run": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01",
+  "loss_definition": "negative tts_target_logprob; mean main token NLL + 0.3 * mean sub token NLL; inference scoring, not post-update training loss",
+  "limitations": [
+    "Only finite scored candidates are included; missing/rejected candidates are not zero loss.",
+    "Scoring checkpoints and scored candidate sets vary across rounds.",
+    "Group ranges use only groups with at least two scored candidates, not necessarily all four.",
+    "No annotated good/bad-caption labels; global loss values do not establish absolute caption quality.",
+    "V5 audio reward records contain no per-candidate TTS target likelihood; historical V4 scales are provisional."
+  ],
+  "pooled_descriptive": {
+    "scored_candidates": 787,
+    "multi_scored_groups": 168,
+    "group_candidate_counts": {
+      "3": 33,
+      "2": 132,
+      "4": 3
+    },
+    "median_group_range": 0.08361266255378719
+  }
+}

@@ -1,0 +1,12 @@
+extends: gpu_smoke_1gpu.yaml
+
+run:
+  output_dir: ../runs/gpu_smoke_4gpu_h100
+
+distributed:
+  enabled: true
+  world_size: 4
+  backend: nccl
+
+data:
+  max_records_per_role: 4

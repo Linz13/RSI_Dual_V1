@@ -1,0 +1,64 @@
+{
+  "errors": [],
+  "ok": true,
+  "rounds": [
+    {
+      "audio_reward": {
+        "candidates": 736,
+        "cycle_sft_selection": "attribute_reconstruction_top1",
+        "format_mean": 0.5760869565217391,
+        "generated_unknown_counts": {
+          "paralinguistic.emotion": 0,
+          "paralinguistic.emotion_intensity": 0,
+          "paralinguistic.emphasis.emphasized_text": 0,
+          "paralinguistic.emphasis.level": 0,
+          "paralinguistic.nonverbal_vocalization": 0,
+          "paralinguistic.pause": 41,
+          "paralinguistic.pitch_level": 46,
+          "paralinguistic.prosody": 40,
+          "paralinguistic.speaking_rate": 6,
+          "paralinguistic.volume_level": 0,
+          "semantic_content.language": 1,
+          "speaker_profile.accent": 3,
+          "speaker_profile.age": 0,
+          "speaker_profile.gender": 0,
+          "speaker_profile.timbre": 0
+        },
+        "groups": 184,
+        "grpo_usable_groups": 176,
+        "per_field_mean": {
+          "paralinguistic.emotion": 0.3610503282275711,
+          "paralinguistic.emotion_intensity": 0.5557986870897156,
+          "paralinguistic.emphasis.emphasized_text": 0.4421578898186386,
+          "paralinguistic.emphasis.level": 0.5667396061269147,
+          "paralinguistic.nonverbal_vocalization": 0.5773887673231218,
+          "paralinguistic.pause": 0.5,
+          "paralinguistic.pitch_level": 0.5083932853717026,
+          "paralinguistic.prosody": 0.38836104513064135,
+          "paralinguistic.speaking_rate": 0.5560640732265446,
+          "paralinguistic.volume_level": 0.35667396061269147,
+          "semantic_content.language": 0.9649890590809628,
+          "speaker_profile.accent": 0.6389496717724289,
+          "speaker_profile.age": 0.8687089715536105,
+          "speaker_profile.gender": 0.824945295404814,
+          "speaker_profile.timbre": 0.4814004376367615
+        },
+        "raw_schema_valid_candidates": 102,
+        "reconstruction_mean": 0.5745628525401734,
+        "reward_mean": 0.3786925288719745,
+        "semantic_input_valid_candidates": 457,
+        "sft_selected": 176,
+        "synthesized_candidates": 457
+      },
+      "caption_anchor_rows": 39,
+      "generated_audio": 457,
+      "round": 0,
+      "tts_anchor_rows": 39
+    }
+  ],
+  "scope": "real run artifacts",
+  "warnings": [
+    "round_000: Captioner batching not exercised (fallback or unavailable metadata)",
+    "round_000: TTS rollout fell back to serial in 193 groups"
+  ]
+}

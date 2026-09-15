@@ -1,0 +1,53 @@
+{
+  "id": "v5-inference-only-resume-20260910-v1",
+  "run_dir": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01",
+  "old_source_root": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust",
+  "new_source_root": "/data/L202500147/Caption/DualISL_Train_RewardV5_FastResume",
+  "committed_round": 0,
+  "resume_round": 1,
+  "total_rounds": 10,
+  "remaining_rounds": 9,
+  "paired_anchor_enabled": true,
+  "world_size": 8,
+  "checkpoint_commit": {
+    "captioner": {
+      "path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/checkpoints/caption_final",
+      "sha256": "049cdc4f82930efaaeb193a0305c2a37686087a52a2adc5c167d997e3ada9dfa"
+    },
+    "framework_version": "DualISL-Train-RewardV5-0.5",
+    "input_captioner": null,
+    "input_tts": null,
+    "round": 0,
+    "same_round_start": true,
+    "trajectory_version": "dual_isl_train.trajectory.v1",
+    "tts": {
+      "path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/checkpoints/tts_final",
+      "sha256": "70ffaeb070e6d0c2b4fd4ee24c0cc4e89cd8206b7aaf98abe316162ae6478cc2"
+    }
+  },
+  "from_implementation_hash": "cd2d9b74410d56d31dcbeb46f2a3cb781956a711b91a97ca62664235dc6b6765",
+  "to_implementation_hash": "e081f357623773e0c26ab6081a1477d1b2af992d6e378ca708c8010b0f7a8ca7",
+  "from_config_hash": "bc767034088b4bb6bff7360213c99f377dca207eecc9262aa8c1bdb591878465",
+  "to_config_hash": "eeeb30335d14d45a44beb4fed73f51f31c144a05c99b35889744f9d331801b0c",
+  "old_identity": "ec704367a7d88109e7640c6e138c7f0193585bad7b70b9856c91ae723d1e6df1",
+  "new_identity": "3f98a6a7fe9acffa2de31cbde702cd5fc61d838794a4ed71cd1e9ebf2069a3bf",
+  "old_cache_dir": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/label_cache",
+  "new_cache_dir": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/label_cache_fast_resume_v1",
+  "caches_preserved": {
+    "remote": 1282,
+    "labels": 641,
+    "judge": 387
+  },
+  "gpu_execution": "not_performed",
+  "api_requests": 0,
+  "changed_core_files": [
+    "dual_isl_train/stages.py",
+    "dual_isl_train/workers/qwen_voice_design.py",
+    "dual_isl_train/workers/tts_batch.py"
+  ],
+  "evaluators_identical": true,
+  "grpo_sft_methods_identical": true,
+  "backup_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/inference_resume_migration_20260910T030000207989Z",
+  "applied_at": "2026-09-10T03:00:00.226081+00:00",
+  "applied": true
+}

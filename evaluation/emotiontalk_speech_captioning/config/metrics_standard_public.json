@@ -1,0 +1,14 @@
+{
+  "profile": "standard_public",
+  "paper_exact_reproduction": false,
+  "text_preprocessing": "aac-metrics default PTB preprocessing",
+  "metrics": {
+    "bleu_4": {"package": "aac-metrics", "version": "0.6.0"},
+    "rouge_l": {"package": "aac-metrics", "version": "0.6.0"},
+    "meteor": {"package": "aac-metrics", "version": "0.6.0"},
+    "spider": {"package": "aac-metrics", "version": "0.6.0"},
+    "fense": {"package": "aac-metrics", "version": "0.6.0", "language_limitation": "default model is not Chinese-specific"},
+    "bertscore": {"package": "aac-metrics", "version": "0.6.0", "model": "google-bert/bert-base-chinese"},
+    "clapscore": {"package": "aac-metrics", "version": "0.6.0", "model": "MS-CLAP-2023", "mode": "audio-prediction cosine similarity", "language_limitation": "model is not specific to Chinese emotional speech"}
+  }
+}

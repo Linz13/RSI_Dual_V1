@@ -1,0 +1,16 @@
+{
+  "captioner": {
+    "path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/checkpoints/caption_final",
+    "sha256": "049cdc4f82930efaaeb193a0305c2a37686087a52a2adc5c167d997e3ada9dfa"
+  },
+  "framework_version": "DualISL-Train-RewardV5-0.5",
+  "input_captioner": null,
+  "input_tts": null,
+  "round": 0,
+  "same_round_start": true,
+  "trajectory_version": "dual_isl_train.trajectory.v1",
+  "tts": {
+    "path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/checkpoints/tts_final",
+    "sha256": "70ffaeb070e6d0c2b4fd4ee24c0cc4e89cd8206b7aaf98abe316162ae6478cc2"
+  }
+}

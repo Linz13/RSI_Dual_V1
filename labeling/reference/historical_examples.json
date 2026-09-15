@@ -1,0 +1,1034 @@
+[
+  {
+    "label": {
+      "Target_JSON_Schema": {
+        "environment": {
+          "acoustic_scene": "meeting room",
+          "background_sound_events": [
+            "none"
+          ],
+          "recording_quality": "good"
+        },
+        "paralinguistic": {
+          "emotion": "neutral",
+          "emotion_intensity": "low",
+          "emphasis": {
+            "emphasized_text": [],
+            "level": "none"
+          },
+          "nonverbal_vocalization": [
+            "filled pause"
+          ],
+          "pause": "brief natural pauses used for cognitive processing and grammatical boundaries",
+          "pitch_level": "medium",
+          "prosody": "Slight upward inflection at phrase boundaries.",
+          "speaking_rate": "moderate",
+          "volume_level": "low"
+        },
+        "semantic_content": {
+          "intent": "suggestion",
+          "language": "English",
+          "topic": "urban development and traffic"
+        },
+        "speaker_profile": {
+          "accent": "Canadian English",
+          "age": "adult",
+          "gender": "female",
+          "timbre": "neutral"
+        }
+      },
+      "audio_path": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/data/test_labeling/v1/audio/people_speech/tl_people_speech_58ec3fdd4e885cbaa80f.flac",
+      "dataset": "people_speech",
+      "sample_id": "tl_people_speech_58ec3fdd4e885cbaa80f",
+      "schema_version": "labeling2.v1"
+    },
+    "provenance": {
+      "diarization": "not_run",
+      "fields": {
+        "environment.acoustic_scene": {
+          "decision": {
+            "conflicts": [],
+            "core_consistent_models": [
+              "qwen35",
+              "gemini"
+            ],
+            "passed": true,
+            "reason": "semantic_consensus",
+            "required": 2,
+            "status": "resolved",
+            "supported_items": [
+              {
+                "supporting_models": [
+                  "qwen35",
+                  "gemini"
+                ],
+                "value": "meeting room"
+              }
+            ],
+            "valid_votes": 2,
+            "value": "meeting room"
+          },
+          "resolution_method": "gpt_text_semantic_consensus",
+          "status": "resolved",
+          "value": "meeting room"
+        },
+        "environment.background_sound_events": {
+          "decision": {
+            "conflicts": [
+              "B"
+            ],
+            "core_consistent_models": [
+              "qwen35",
+              "gemini"
+            ],
+            "passed": true,
+            "reason": "semantic_consensus",
+            "required": 2,
+            "status": "resolved",
+            "supported_items": [
+              {
+                "supporting_models": [
+                  "qwen35",
+                  "gemini"
+                ],
+                "value": "none"
+              }
+            ],
+            "valid_votes": 3,
+            "value": [
+              "none"
+            ]
+          },
+          "resolution_method": "gpt_text_semantic_consensus",
+          "status": "resolved",
+          "value": [
+            "none"
+          ]
+        },
+        "environment.recording_quality": {
+          "counts": {
+            "good": 2
+          },
+          "models": [
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen35",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+              "status": "success",
+              "value": "good"
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen3_captioner",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen3_captioner.jsonl",
+              "status": "success",
+              "value": "good"
+            }
+          ],
+          "passed": true,
+          "required": 2,
+          "value": "good"
+        },
+        "paralinguistic.emotion": {
+          "evidence": {
+            "labels": [
+              "生气/angry",
+              "厌恶/disgusted",
+              "恐惧/fearful",
+              "开心/happy",
+              "中立/neutral",
+              "其他/other",
+              "难过/sad",
+              "吃惊/surprised",
+              "<unk>"
+            ],
+            "model": "emotion2vec_plus_large",
+            "model_version": "emotion2vec/emotion2vec_plus_large",
+            "raw_label": "中立/neutral",
+            "score": 0.9570366144180298,
+            "scores": [
+              2.108208900608588e-05,
+              0.00013446659431792796,
+              0.00018235782044939697,
+              0.00031649789889343083,
+              0.9570366144180298,
+              2.3204500394058414e-05,
+              0.0422658771276474,
+              1.8439719497109763e-05,
+              1.44489183639962e-06
+            ]
+          },
+          "expert": "emotion",
+          "status": "success",
+          "value": "neutral"
+        },
+        "paralinguistic.emotion_intensity": {
+          "counts": {
+            "low": 2
+          },
+          "models": [
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen35",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+              "status": "success",
+              "value": "low"
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen3_captioner",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen3_captioner.jsonl",
+              "status": "success",
+              "value": "low"
+            }
+          ],
+          "passed": true,
+          "required": 2,
+          "value": "low"
+        },
+        "paralinguistic.emphasis.emphasized_text": {
+          "decision": {
+            "conflicts": [],
+            "core_consistent_models": [],
+            "passed": true,
+            "reason": "emphasis_level_has_no_text",
+            "required": 2,
+            "status": "resolved_empty",
+            "supported_items": [],
+            "valid_votes": 0,
+            "value": []
+          },
+          "resolution_method": "gpt_text_semantic_consensus",
+          "status": "resolved_empty",
+          "value": []
+        },
+        "paralinguistic.emphasis.level": {
+          "counts": {
+            "emphasized": 1,
+            "none": 2
+          },
+          "models": [
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen35",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+              "status": "success",
+              "value": "none"
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen3_captioner",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen3_captioner.jsonl",
+              "status": "success",
+              "value": "emphasized"
+            },
+            {
+              "attempt": 2,
+              "field_errors": {},
+              "model": "kimi_audio",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/kimi_audio.jsonl",
+              "status": "success",
+              "value": "none"
+            }
+          ],
+          "passed": true,
+          "required": 2,
+          "value": "none"
+        },
+        "paralinguistic.nonverbal_vocalization": {
+          "counts": {
+            "audible breath": 1,
+            "filled pause": 3,
+            "none": 1
+          },
+          "models": [
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen35",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+              "status": "success",
+              "value": [
+                "filled pause"
+              ]
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen3_captioner",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen3_captioner.jsonl",
+              "status": "success",
+              "value": [
+                "audible breath",
+                "filled pause"
+              ]
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "step_audio_r1_1",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/step_audio_r1_1.jsonl",
+              "status": "success",
+              "value": [
+                "filled pause"
+              ]
+            },
+            {
+              "attempt": 2,
+              "field_errors": {},
+              "model": "kimi_audio",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/kimi_audio.jsonl",
+              "status": "success",
+              "value": [
+                "none"
+              ]
+            }
+          ],
+          "passed": true,
+          "required": 3,
+          "value": [
+            "filled pause"
+          ]
+        },
+        "paralinguistic.pause": {
+          "attempt": 1,
+          "field_errors": {},
+          "model": "gemini",
+          "parse_status": "json",
+          "raw_prediction_file": "raw_predictions/gemini.jsonl",
+          "status": "success",
+          "value": "brief natural pauses used for cognitive processing and grammatical boundaries"
+        },
+        "paralinguistic.pitch_level": {
+          "attempt": 1,
+          "field_errors": {},
+          "model": "gemini",
+          "parse_status": "json",
+          "raw_prediction_file": "raw_predictions/gemini.jsonl",
+          "status": "success",
+          "value": "medium"
+        },
+        "paralinguistic.prosody": {
+          "decision": {
+            "conflicts": [],
+            "core_consistent_models": [
+              "qwen35",
+              "qwen3_captioner"
+            ],
+            "passed": true,
+            "reason": "semantic_consensus",
+            "required": 2,
+            "status": "resolved",
+            "supported_items": [
+              {
+                "supporting_models": [
+                  "qwen35",
+                  "qwen3_captioner"
+                ],
+                "value": "slight upward inflection at phrase boundaries"
+              }
+            ],
+            "valid_votes": 3,
+            "value": "Slight upward inflection at phrase boundaries."
+          },
+          "resolution_method": "gpt_text_semantic_consensus",
+          "status": "resolved",
+          "value": "Slight upward inflection at phrase boundaries."
+        },
+        "paralinguistic.speaking_rate": {
+          "evidence": {
+            "fast_edge": 19.129019129019127,
+            "intervals": [
+              {
+                "end_sec": 14.965343750000002,
+                "start_sec": 0.03096875
+              }
+            ],
+            "method": "ParaSpeechCaps/DataSpeech PPS",
+            "model_version": "DataSpeech v02 edges",
+            "phoneme_count": 173,
+            "phoneme_string": "ɪkstɛndɪŋ , ʌv kɔɹs oʊnli tu kɑ'ʌnɑ', bʌt ðæt wʊd ɹɪliv sʌm ʌv ðæt tɹæfɪk. ʌnd ðɛn ɪf ju teɪk ɪntu kʌnsɪdɜ˞eɪʃʌn ðʌ toʊtælʌti ʌv dɪvɛlʌpmʌnts ðæt ɑɹ ɡoʊɪŋ tu bi ɪn ðʌ  ɛɹiʌ.",
+            "phones_per_sec": 11.584013391922994,
+            "sample_rate": 16000,
+            "slow_edge": 11.477411477411476,
+            "speech_duration_sec": 14.934375000000003,
+            "transcript": "extending Liloa, of course only to Ka'ona'ulu, but that would relieve some of that traffic. And then if you take into consideration the totality of developments that are going to be in the Kihei area.",
+            "vad": "Brouhaha RegressiveActivityDetectionPipeline"
+          },
+          "expert": "rate_en",
+          "status": "success",
+          "value": "moderate"
+        },
+        "paralinguistic.volume_level": {
+          "evidence": {
+            "duration_sec": 15.0,
+            "energy": 0.006091306917369366,
+            "low_normal": 0.03331899,
+            "method": "TextrolSpeech librosa.feature.rms(y).mean",
+            "model_version": "TextrolSpeech energy rule",
+            "normal_high": 0.05054203,
+            "sample_rate": 22050
+          },
+          "expert": "volume",
+          "status": "success",
+          "value": "low"
+        },
+        "semantic_content.intent": {
+          "attempt": 1,
+          "field_errors": {},
+          "model": "qwen35",
+          "parse_status": "json",
+          "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+          "status": "success",
+          "value": "suggestion"
+        },
+        "semantic_content.language": {
+          "attempt": 1,
+          "field_errors": {},
+          "model": "gemini",
+          "parse_status": "json",
+          "raw_prediction_file": "raw_predictions/gemini.jsonl",
+          "status": "success",
+          "value": "English"
+        },
+        "semantic_content.topic": {
+          "attempt": 1,
+          "field_errors": {},
+          "model": "gemini",
+          "parse_status": "json",
+          "raw_prediction_file": "raw_predictions/gemini.jsonl",
+          "status": "success",
+          "value": "urban development and traffic"
+        },
+        "speaker_profile.accent": {
+          "evidence": {
+            "method": "accent_xlsr",
+            "model_version": "Jzuluaga/accent-id-commonaccent_xlsr-en-english",
+            "raw_label": "canada",
+            "scores": [
+              6.646872634519241e-07,
+              6.206177498996324e-12,
+              1.2716577634929328e-15,
+              1.3641543966078128e-15,
+              0.9999992847442627,
+              3.31812938636608e-15,
+              1.6102080445436488e-15,
+              1.0015033812297517e-15,
+              8.410152863838269e-15,
+              1.5360235259033004e-18,
+              1.142753457313356e-16,
+              7.213884473722317e-17,
+              2.080921426925869e-14,
+              4.381727270651387e-15,
+              1.2360548511374664e-15,
+              1.9018186819211996e-14
+            ]
+          },
+          "expert": "accent_en",
+          "status": "success",
+          "value": "Canadian English"
+        },
+        "speaker_profile.age": {
+          "counts": {
+            "adult": 2
+          },
+          "models": [
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen35",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+              "status": "success",
+              "value": "adult"
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen3_captioner",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen3_captioner.jsonl",
+              "status": "success",
+              "value": "adult"
+            }
+          ],
+          "passed": true,
+          "required": 2,
+          "value": "adult"
+        },
+        "speaker_profile.gender": {
+          "counts": {
+            "female": 2
+          },
+          "models": [
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen35",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+              "status": "success",
+              "value": "female"
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen3_captioner",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen3_captioner.jsonl",
+              "status": "success",
+              "value": "female"
+            }
+          ],
+          "passed": true,
+          "required": 2,
+          "value": "female"
+        },
+        "speaker_profile.timbre": {
+          "attempt": 1,
+          "field_errors": {},
+          "model": "qwen35",
+          "parse_status": "json",
+          "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+          "status": "success",
+          "value": "neutral"
+        }
+      },
+      "sample_id": "tl_people_speech_58ec3fdd4e885cbaa80f",
+      "schema_version": "labeling2.v1"
+    }
+  },
+  {
+    "label": {
+      "Target_JSON_Schema": {
+        "environment": {
+          "acoustic_scene": "studio",
+          "background_sound_events": [
+            "none"
+          ],
+          "recording_quality": "unknown"
+        },
+        "paralinguistic": {
+          "emotion": "neutral",
+          "emotion_intensity": "low",
+          "emphasis": {
+            "emphasized_text": [],
+            "level": "emphasized"
+          },
+          "nonverbal_vocalization": [
+            "none"
+          ],
+          "pause": "brief structured pauses at phrasal boundaries for clarity",
+          "pitch_level": "medium",
+          "prosody": "Steady rhythm with steady, neutral intonation.",
+          "speaking_rate": "moderate",
+          "volume_level": "medium"
+        },
+        "semantic_content": {
+          "intent": "statement",
+          "language": "Chinese",
+          "topic": "consumer product comparative experiment"
+        },
+        "speaker_profile": {
+          "accent": "Mandarin",
+          "age": "adult",
+          "gender": "female",
+          "timbre": "bright"
+        }
+      },
+      "audio_path": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/data/test_labeling/v1/audio/wenetspeech/tl_wenetspeech_d2cc90041ce32e31c793.flac",
+      "dataset": "wenetspeech",
+      "sample_id": "tl_wenetspeech_d2cc90041ce32e31c793",
+      "schema_version": "labeling2.v1"
+    },
+    "provenance": {
+      "diarization": "not_run",
+      "fields": {
+        "environment.acoustic_scene": {
+          "decision": {
+            "conflicts": [],
+            "core_consistent_models": [
+              "gemini",
+              "qwen35"
+            ],
+            "passed": true,
+            "reason": "semantic_consensus",
+            "required": 2,
+            "status": "resolved",
+            "supported_items": [
+              {
+                "supporting_models": [
+                  "gemini",
+                  "qwen35"
+                ],
+                "value": "studio"
+              }
+            ],
+            "valid_votes": 2,
+            "value": "studio"
+          },
+          "resolution_method": "gpt_text_semantic_consensus",
+          "status": "resolved",
+          "value": "studio"
+        },
+        "environment.background_sound_events": {
+          "decision": {
+            "conflicts": [],
+            "core_consistent_models": [
+              "qwen35",
+              "gemini",
+              "step_audio_r1_1"
+            ],
+            "passed": true,
+            "reason": "semantic_consensus",
+            "required": 2,
+            "status": "resolved",
+            "supported_items": [
+              {
+                "supporting_models": [
+                  "qwen35",
+                  "gemini",
+                  "step_audio_r1_1"
+                ],
+                "value": "none"
+              }
+            ],
+            "valid_votes": 3,
+            "value": [
+              "none"
+            ]
+          },
+          "resolution_method": "gpt_text_semantic_consensus",
+          "status": "resolved",
+          "value": [
+            "none"
+          ]
+        },
+        "environment.recording_quality": {
+          "counts": {
+            "excellent": 1,
+            "good": 1
+          },
+          "models": [
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen35",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+              "status": "success",
+              "value": "excellent"
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen3_captioner",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen3_captioner.jsonl",
+              "status": "success",
+              "value": "good"
+            }
+          ],
+          "passed": false,
+          "required": 2,
+          "value": "unknown"
+        },
+        "paralinguistic.emotion": {
+          "evidence": {
+            "labels": [
+              "生气/angry",
+              "厌恶/disgusted",
+              "恐惧/fearful",
+              "开心/happy",
+              "中立/neutral",
+              "其他/other",
+              "难过/sad",
+              "吃惊/surprised",
+              "<unk>"
+            ],
+            "model": "emotion2vec_plus_large",
+            "model_version": "emotion2vec/emotion2vec_plus_large",
+            "raw_label": "中立/neutral",
+            "score": 0.9521650075912476,
+            "scores": [
+              0.0007852388080209494,
+              8.498713577864692e-05,
+              3.2782216294435784e-05,
+              0.04484879970550537,
+              0.9521650075912476,
+              3.386598450560996e-07,
+              0.0012757581425830722,
+              0.0008071179618127644,
+              2.814479482804444e-10
+            ]
+          },
+          "expert": "emotion",
+          "status": "success",
+          "value": "neutral"
+        },
+        "paralinguistic.emotion_intensity": {
+          "counts": {
+            "low": 2
+          },
+          "models": [
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen35",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+              "status": "success",
+              "value": "low"
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen3_captioner",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen3_captioner.jsonl",
+              "status": "success",
+              "value": "low"
+            }
+          ],
+          "passed": true,
+          "required": 2,
+          "value": "low"
+        },
+        "paralinguistic.emphasis.emphasized_text": {
+          "decision": {
+            "conflicts": [],
+            "core_consistent_models": [
+              "qwen35",
+              "kimi_audio"
+            ],
+            "passed": true,
+            "reason": "semantic_consensus",
+            "required": 2,
+            "status": "resolved_empty",
+            "supported_items": [],
+            "valid_votes": 3,
+            "value": []
+          },
+          "resolution_method": "gpt_text_semantic_consensus",
+          "status": "resolved_empty",
+          "value": []
+        },
+        "paralinguistic.emphasis.level": {
+          "counts": {
+            "emphasized": 2,
+            "none": 1
+          },
+          "models": [
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen35",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+              "status": "success",
+              "value": "none"
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen3_captioner",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen3_captioner.jsonl",
+              "status": "success",
+              "value": "emphasized"
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "kimi_audio",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/kimi_audio.jsonl",
+              "status": "success",
+              "value": "emphasized"
+            }
+          ],
+          "passed": true,
+          "required": 2,
+          "value": "emphasized"
+        },
+        "paralinguistic.nonverbal_vocalization": {
+          "counts": {
+            "audible breath": 1,
+            "none": 3
+          },
+          "models": [
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen35",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+              "status": "success",
+              "value": [
+                "none"
+              ]
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen3_captioner",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen3_captioner.jsonl",
+              "status": "success",
+              "value": [
+                "audible breath"
+              ]
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "step_audio_r1_1",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/step_audio_r1_1.jsonl",
+              "status": "success",
+              "value": [
+                "none"
+              ]
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "kimi_audio",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/kimi_audio.jsonl",
+              "status": "success",
+              "value": [
+                "none"
+              ]
+            }
+          ],
+          "passed": true,
+          "required": 3,
+          "value": [
+            "none"
+          ]
+        },
+        "paralinguistic.pause": {
+          "attempt": 1,
+          "field_errors": {},
+          "model": "gemini",
+          "parse_status": "json",
+          "raw_prediction_file": "raw_predictions/gemini.jsonl",
+          "status": "success",
+          "value": "brief structured pauses at phrasal boundaries for clarity"
+        },
+        "paralinguistic.pitch_level": {
+          "attempt": 1,
+          "field_errors": {},
+          "model": "gemini",
+          "parse_status": "json",
+          "raw_prediction_file": "raw_predictions/gemini.jsonl",
+          "status": "success",
+          "value": "medium"
+        },
+        "paralinguistic.prosody": {
+          "decision": {
+            "conflicts": [],
+            "core_consistent_models": [
+              "gemini",
+              "qwen3_captioner",
+              "qwen35"
+            ],
+            "passed": true,
+            "reason": "semantic_consensus",
+            "required": 2,
+            "status": "resolved",
+            "supported_items": [
+              {
+                "supporting_models": [
+                  "qwen3_captioner",
+                  "qwen35"
+                ],
+                "value": "steady rhythm"
+              },
+              {
+                "supporting_models": [
+                  "gemini",
+                  "qwen3_captioner"
+                ],
+                "value": "steady intonation"
+              },
+              {
+                "supporting_models": [
+                  "qwen3_captioner",
+                  "qwen35"
+                ],
+                "value": "neutral intonation"
+              }
+            ],
+            "valid_votes": 3,
+            "value": "Steady rhythm with steady, neutral intonation."
+          },
+          "resolution_method": "gpt_text_semantic_consensus",
+          "status": "resolved",
+          "value": "Steady rhythm with steady, neutral intonation."
+        },
+        "paralinguistic.speaking_rate": {
+          "evidence": {
+            "fast_edge": 10.0,
+            "intervals": [
+              {
+                "end_sec": 8.04659375,
+                "start_sec": 0.03096875
+              }
+            ],
+            "method": "Learning Speech Rate in Speech Recognition inspired pinyin initial/final rate",
+            "model_version": "paper-inspired deployment heuristic",
+            "phone_count": 80,
+            "phones_per_sec": 9.980506822612085,
+            "sample_rate": 16000,
+            "slow_edge": 4.0,
+            "speech_duration_sec": 8.015625,
+            "transcript": "江苏省消费者权益保护委员会对运动APP平台销售或者推荐的轻纺产品开展的比较试验结果显示",
+            "vad": "Brouhaha RegressiveActivityDetectionPipeline"
+          },
+          "expert": "rate_zh",
+          "status": "success",
+          "value": "moderate"
+        },
+        "paralinguistic.volume_level": {
+          "evidence": {
+            "duration_sec": 8.02,
+            "energy": 0.03608068451285362,
+            "low_normal": 0.03331899,
+            "method": "TextrolSpeech librosa.feature.rms(y).mean",
+            "model_version": "TextrolSpeech energy rule",
+            "normal_high": 0.05054203,
+            "sample_rate": 22050
+          },
+          "expert": "volume",
+          "status": "success",
+          "value": "medium"
+        },
+        "semantic_content.intent": {
+          "attempt": 1,
+          "field_errors": {},
+          "model": "qwen35",
+          "parse_status": "json",
+          "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+          "status": "success",
+          "value": "statement"
+        },
+        "semantic_content.language": {
+          "attempt": 1,
+          "field_errors": {},
+          "model": "gemini",
+          "parse_status": "json",
+          "raw_prediction_file": "raw_predictions/gemini.jsonl",
+          "status": "success",
+          "value": "Chinese"
+        },
+        "semantic_content.topic": {
+          "attempt": 1,
+          "field_errors": {},
+          "model": "gemini",
+          "parse_status": "json",
+          "raw_prediction_file": "raw_predictions/gemini.jsonl",
+          "status": "success",
+          "value": "consumer product comparative experiment"
+        },
+        "speaker_profile.accent": {
+          "evidence": {
+            "confidence": 0.971195638179779,
+            "method": "voxlect-whisper-small",
+            "model_version": "tiantiaf/voxlect-mandarin-cantonese-dialect-whisper-small",
+            "raw_label": "Mandarin",
+            "sample_rate": 16000
+          },
+          "expert": "accent_zh",
+          "status": "success",
+          "value": "Mandarin"
+        },
+        "speaker_profile.age": {
+          "counts": {
+            "adult": 2
+          },
+          "models": [
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen35",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+              "status": "success",
+              "value": "adult"
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen3_captioner",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen3_captioner.jsonl",
+              "status": "success",
+              "value": "adult"
+            }
+          ],
+          "passed": true,
+          "required": 2,
+          "value": "adult"
+        },
+        "speaker_profile.gender": {
+          "counts": {
+            "female": 2
+          },
+          "models": [
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen35",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+              "status": "success",
+              "value": "female"
+            },
+            {
+              "attempt": 1,
+              "field_errors": {},
+              "model": "qwen3_captioner",
+              "parse_status": "json",
+              "raw_prediction_file": "raw_predictions/qwen3_captioner.jsonl",
+              "status": "success",
+              "value": "female"
+            }
+          ],
+          "passed": true,
+          "required": 2,
+          "value": "female"
+        },
+        "speaker_profile.timbre": {
+          "attempt": 1,
+          "field_errors": {},
+          "model": "qwen35",
+          "parse_status": "json",
+          "raw_prediction_file": "raw_predictions/qwen35.jsonl",
+          "status": "success",
+          "value": "bright"
+        }
+      },
+      "sample_id": "tl_wenetspeech_d2cc90041ce32e31c793",
+      "schema_version": "labeling2.v1"
+    }
+  }
+]

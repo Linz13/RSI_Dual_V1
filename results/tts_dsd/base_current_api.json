@@ -1,0 +1,97 @@
+{
+  "benchmark": "InstructTTSEval",
+  "official": false,
+  "official_protocol_requirements": {
+    "judge_model": "models/gemini-2.5-pro-preview-05-06",
+    "prompt_sha256": "3d4b2a49f86606eb18fab9bc862e4e417d3b23f4a19150ebfd5ffe85208dcd70",
+    "backend": "files",
+    "endpoint": "Google default"
+  },
+  "dry_run": false,
+  "complete": true,
+  "expected": 2000,
+  "success": 2000,
+  "scored": 2000,
+  "coverage_percentage": 100.0,
+  "score_basis": {
+    "policy": "successful_judge_results_only",
+    "expected_items": 2000,
+    "scored_items": 2000,
+    "failed_items": 0,
+    "missing_items": 0,
+    "coverage_percentage": 100.0,
+    "macro_cells_expected": 2,
+    "macro_cells_scored": 2
+  },
+  "missing": [],
+  "missing_items": [],
+  "failed": [],
+  "failed_items": [],
+  "metrics": {
+    "en": {
+      "APS": {
+        "expected": 0,
+        "valid": 0,
+        "scored": 0,
+        "true": 0,
+        "percentage": null,
+        "coverage_percentage": null
+      },
+      "DSD": {
+        "expected": 1000,
+        "valid": 1000,
+        "scored": 1000,
+        "true": 787,
+        "percentage": 78.7,
+        "coverage_percentage": 100.0
+      },
+      "RP": {
+        "expected": 0,
+        "valid": 0,
+        "scored": 0,
+        "true": 0,
+        "percentage": null,
+        "coverage_percentage": null
+      },
+      "macro_average": 78.7
+    },
+    "zh": {
+      "APS": {
+        "expected": 0,
+        "valid": 0,
+        "scored": 0,
+        "true": 0,
+        "percentage": null,
+        "coverage_percentage": null
+      },
+      "DSD": {
+        "expected": 1000,
+        "valid": 1000,
+        "scored": 1000,
+        "true": 831,
+        "percentage": 83.1,
+        "coverage_percentage": 100.0
+      },
+      "RP": {
+        "expected": 0,
+        "valid": 0,
+        "scored": 0,
+        "true": 0,
+        "percentage": null,
+        "coverage_percentage": null
+      },
+      "macro_average": 83.1
+    }
+  },
+  "bilingual_macro_average": 80.9,
+  "usage": {
+    "input_tokens": 2574969,
+    "output_tokens": 466339,
+    "thinking_tokens": 3106073,
+    "billable_output_tokens": 3572412,
+    "cost_basis": "recorded_successful_responses_including_thinking; excludes unrecorded retries",
+    "input_price_per_million_usd": 1.25,
+    "output_price_per_million_usd": 10.0,
+    "estimated_cost_usd": 38.942831
+  }
+}

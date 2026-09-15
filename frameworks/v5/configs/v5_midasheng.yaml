@@ -1,0 +1,33 @@
+extends: train_8gpu_h100_midasheng_reward_v4.yaml
+version: 5
+run:
+  output_dir: ../runs/midasheng_v5_run01
+captioner:
+  generation: {rollout_batch_size: 4, batch_fallback: true}
+  training: {replay_batch_size: 1, grpo_backward_chunk_tokens: 16}
+tts:
+  generation:
+    synthesis_batch_size: 4
+    rollout_batch_size: 1
+    batch_fallback: true
+training:
+  paired_anchor_enabled: true
+reward:
+  audio_only: {reconstruction_weight: 0.9, format_weight: 0.1}
+labeling:
+  source_root: ../../labeling2_transfer_20260909/source
+  config_path: ../../labeling2_transfer_20260909/configs/config.target.json
+  cache_dir: ""
+  reference_labels_path: ""
+  api_workers: 4
+  judge_workers: 4
+  attempts: 3
+  local_device: cuda:0
+  accent_base_model_dir: ../../cache/labeling2/huggingface/hub/models--facebook--wav2vec2-large-xlsr-53/snapshots/c3f9d884181a224a6ac87bf8885c84d1cff3384f
+  whisper_cache_dir: ../../models/whisper
+  judge_demo_path: ../../../api/gpt_text.py
+  judge_timeout: 90
+  asr:
+    python: ../../../miniconda3/envs/qwen3-asr/bin/python
+    model_path: ../../../Models/Qwen3-ASR/ckpt/Qwen3-ASR-1.7B
+    batch_size: 4

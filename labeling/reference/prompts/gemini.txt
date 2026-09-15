@@ -1,0 +1,48 @@
+Listen to the audio and annotate only the requested fields.
+
+Return one valid JSON object and nothing else. Do not return markdown or explanations.
+
+The output must contain exactly the requested nested paths and no Target_JSON_Schema wrapper is required.
+
+Use the main/most prominent speaker when more than one speaker is present.
+
+Closed-vocabulary fields must use exactly one listed string.
+
+For event-list fields, return a non-empty list; use ["none"] or ["unknown"] exclusively.
+
+Do not use metadata or a supplied transcript; judge the audio itself.
+
+Model backend: gemini.
+
+Requested field descriptions:
+{
+  "semantic_content": {
+    "language": "language of the spoken content",
+    "topic": "short topic noun phrase; use unknown only when inaudible"
+  },
+  "paralinguistic": {
+    "pitch_level": "overall perceived pitch level",
+    "prosody": "concise rhythm, intonation and phrasing description, without repeating rate, pitch, volume, emphasis or pause",
+    "pause": "concise pause frequency, duration, placement and function description"
+  },
+  "environment": {
+    "background_sound_events": "all salient background sound events as a concise string list",
+    "acoustic_scene": "specific acoustic scene or unknown"
+  }
+}
+
+Allowed closed values:
+{
+  "semantic_content.language": [
+    "Chinese",
+    "English",
+    "other",
+    "unknown"
+  ],
+  "paralinguistic.pitch_level": [
+    "high",
+    "low",
+    "medium",
+    "unknown"
+  ]
+}

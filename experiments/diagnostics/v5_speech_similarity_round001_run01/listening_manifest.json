@@ -1,0 +1,179 @@
+{
+  "plan_hash": "0dd5e2a91599b844463ccddc914961ef559c1bcd2083f1e4f58f71a3f6679f68",
+  "groups": [
+    {
+      "group_id": "random440_expressivespeech_270",
+      "category": "random",
+      "candidate_ids": [
+        "random440_expressivespeech_270::3",
+        "random440_expressivespeech_270::1",
+        "random440_expressivespeech_270::0"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_329",
+      "category": "random",
+      "candidate_ids": [
+        "random440_expressivespeech_329::1",
+        "random440_expressivespeech_329::2",
+        "random440_expressivespeech_329::3",
+        "random440_expressivespeech_329::0"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_290",
+      "category": "random",
+      "candidate_ids": [
+        "random440_expressivespeech_290::0",
+        "random440_expressivespeech_290::2",
+        "random440_expressivespeech_290::1",
+        "random440_expressivespeech_290::3"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_176",
+      "category": "random",
+      "candidate_ids": [
+        "random440_expressivespeech_176::2",
+        "random440_expressivespeech_176::0"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_004",
+      "category": "random",
+      "candidate_ids": [
+        "random440_expressivespeech_004::2",
+        "random440_expressivespeech_004::0",
+        "random440_expressivespeech_004::1"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_147",
+      "category": "random",
+      "candidate_ids": [
+        "random440_expressivespeech_147::0",
+        "random440_expressivespeech_147::3",
+        "random440_expressivespeech_147::1"
+      ]
+    },
+    {
+      "group_id": "random440_deear_080",
+      "category": "random",
+      "candidate_ids": [
+        "random440_deear_080::3",
+        "random440_deear_080::2"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_294",
+      "category": "random",
+      "candidate_ids": [
+        "random440_expressivespeech_294::2",
+        "random440_expressivespeech_294::0",
+        "random440_expressivespeech_294::3",
+        "random440_expressivespeech_294::1"
+      ]
+    },
+    {
+      "group_id": "random440_deear_049",
+      "category": "random",
+      "candidate_ids": [
+        "random440_deear_049::1",
+        "random440_deear_049::2",
+        "random440_deear_049::0",
+        "random440_deear_049::3"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_312",
+      "category": "random",
+      "candidate_ids": [
+        "random440_expressivespeech_312::1",
+        "random440_expressivespeech_312::0"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_122",
+      "category": "disagreement",
+      "candidate_ids": [
+        "random440_expressivespeech_122::2",
+        "random440_expressivespeech_122::3"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_208",
+      "category": "disagreement",
+      "candidate_ids": [
+        "random440_expressivespeech_208::0",
+        "random440_expressivespeech_208::3"
+      ]
+    },
+    {
+      "group_id": "random440_deear_044",
+      "category": "disagreement",
+      "candidate_ids": [
+        "random440_deear_044::0",
+        "random440_deear_044::1"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_027",
+      "category": "disagreement",
+      "candidate_ids": [
+        "random440_expressivespeech_027::1",
+        "random440_expressivespeech_027::0",
+        "random440_expressivespeech_027::2"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_202",
+      "category": "disagreement",
+      "candidate_ids": [
+        "random440_expressivespeech_202::3",
+        "random440_expressivespeech_202::1"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_219",
+      "category": "disagreement",
+      "candidate_ids": [
+        "random440_expressivespeech_219::2",
+        "random440_expressivespeech_219::0"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_150",
+      "category": "disagreement",
+      "candidate_ids": [
+        "random440_expressivespeech_150::0",
+        "random440_expressivespeech_150::1"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_304",
+      "category": "disagreement",
+      "candidate_ids": [
+        "random440_expressivespeech_304::2",
+        "random440_expressivespeech_304::0"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_102",
+      "category": "disagreement",
+      "candidate_ids": [
+        "random440_expressivespeech_102::3",
+        "random440_expressivespeech_102::2",
+        "random440_expressivespeech_102::1"
+      ]
+    },
+    {
+      "group_id": "random440_expressivespeech_195",
+      "category": "disagreement",
+      "candidate_ids": [
+        "random440_expressivespeech_195::0",
+        "random440_expressivespeech_195::2",
+        "random440_expressivespeech_195::3"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+% Paste this table into the manuscript body.
+% Required packages: booktabs, graphicx (already present in the supplied draft).
+% Sources and row-selection rationale: README.md in this directory.
+\begin{table}[t]
+\centering
+\caption{Preliminary captioning results across backbones and recursive training rounds.}
+\label{tab:preliminary-captioner-main}
+\small
+\setlength{\tabcolsep}{5pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrrrr}
+\toprule
+Method & Rounds & ParaSpeechCaps & StyleCap & \multicolumn{2}{c}{EmotionTalk$^{\dagger}$} \\
+\cmidrule(lr){5-6}
+& & Scheme A $\uparrow$ & Acc. (\%) $\uparrow$ & SPIDEr $\uparrow$ & FENSE $\uparrow$ \\
+\midrule
+\multicolumn{6}{l}{\textbf{MiDashengLM-7B}} \\
+Base & 0 & 0.2338 & 40.46 & 0.0533 & 0.8716 \\
+DualISL (original) & 5 & 0.2929 & 41.00 & 0.0570 & 0.8795 \\
+DualISL (original) & 10 & 0.3123 & 41.29 & 0.0591 & 0.8837 \\
+DualISL (original) & 13 & 0.3099 & 41.52 & 0.0594 & 0.8850 \\
+\midrule
+\multicolumn{6}{l}{\textbf{Qwen3-Omni-30B-A3B-Captioner}} \\
+Base & 0 & 0.5519 & 58.68 & 0.1009 & 0.9294 \\
+DualISL (original) & 5 & 0.5490 & 58.61 & 0.1005 & 0.9280 \\
+\midrule
+\multicolumn{6}{l}{\textbf{Qwen2.5-Omni-3B}} \\
+Base & 0 & -- & -- & -- & -- \\
+DualISL (original) & 5 & 0.4253 & 40.17 & 0.0631 & 0.7966 \\
+DualISL (RewardV2) & 5 & 0.4230 & 39.85 & 0.0629 & 0.8050 \\
+DualISL (RewardV2) & 9 & 0.4288 & 40.04 & 0.0637 & 0.8016 \\
+\bottomrule
+\end{tabular}%
+}
+\par\smallskip
+\begin{minipage}{\linewidth}
+\footnotesize
+Rounds count completed training rounds: 0 denotes the untrained base, and code checkpoint \texttt{r0} corresponds to one completed round. -- denotes an unavailable result. ParaSpeechCaps is a composite score, not classification accuracy; StyleCap is macro-averaged accuracy. $^{\dagger}$EmotionTalk reports the overall-caption task under our \texttt{standard\_public} scoring configuration. Its default SPIDEr/FENSE components have not been validated for Chinese emotional speech; these auxiliary scores are not directly comparable with the original paper. Original MiDasheng training used four GPUs for its first three rounds and eight thereafter; the Qwen runs shown used eight GPUs. Rows with different versions or round counts are not matched-budget ablations.
+\end{minipage}
+\end{table}

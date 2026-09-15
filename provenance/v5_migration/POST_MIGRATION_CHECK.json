@@ -1,0 +1,119 @@
+{
+  "api_requests": 0,
+  "first_round_verification": {
+    "errors": [],
+    "ok": true,
+    "rounds": [
+      {
+        "audio_reward": {
+          "candidates": 736,
+          "cycle_sft_selection": "attribute_reconstruction_top1",
+          "format_mean": 0.5760869565217391,
+          "generated_unknown_counts": {
+            "paralinguistic.emotion": 0,
+            "paralinguistic.emotion_intensity": 0,
+            "paralinguistic.emphasis.emphasized_text": 0,
+            "paralinguistic.emphasis.level": 0,
+            "paralinguistic.nonverbal_vocalization": 0,
+            "paralinguistic.pause": 41,
+            "paralinguistic.pitch_level": 46,
+            "paralinguistic.prosody": 40,
+            "paralinguistic.speaking_rate": 6,
+            "paralinguistic.volume_level": 0,
+            "semantic_content.language": 1,
+            "speaker_profile.accent": 3,
+            "speaker_profile.age": 0,
+            "speaker_profile.gender": 0,
+            "speaker_profile.timbre": 0
+          },
+          "groups": 184,
+          "grpo_usable_groups": 176,
+          "per_field_mean": {
+            "paralinguistic.emotion": 0.3610503282275711,
+            "paralinguistic.emotion_intensity": 0.5557986870897156,
+            "paralinguistic.emphasis.emphasized_text": 0.4421578898186386,
+            "paralinguistic.emphasis.level": 0.5667396061269147,
+            "paralinguistic.nonverbal_vocalization": 0.5773887673231218,
+            "paralinguistic.pause": 0.5,
+            "paralinguistic.pitch_level": 0.5083932853717026,
+            "paralinguistic.prosody": 0.38836104513064135,
+            "paralinguistic.speaking_rate": 0.5560640732265446,
+            "paralinguistic.volume_level": 0.35667396061269147,
+            "semantic_content.language": 0.9649890590809628,
+            "speaker_profile.accent": 0.6389496717724289,
+            "speaker_profile.age": 0.8687089715536105,
+            "speaker_profile.gender": 0.824945295404814,
+            "speaker_profile.timbre": 0.4814004376367615
+          },
+          "raw_schema_valid_candidates": 102,
+          "reconstruction_mean": 0.5745628525401734,
+          "reward_mean": 0.3786925288719745,
+          "semantic_input_valid_candidates": 457,
+          "sft_selected": 176,
+          "synthesized_candidates": 457
+        },
+        "caption_anchor_rows": 39,
+        "generated_audio": 457,
+        "round": 0,
+        "tts_anchor_rows": 39
+      }
+    ],
+    "scope": "real run artifacts",
+    "warnings": [
+      "round_000: Captioner batching not exercised (fallback or unavailable metadata)",
+      "round_000: TTS rollout fell back to serial in 193 groups"
+    ]
+  },
+  "generated_labels_reused": 457,
+  "gpu_execution": "not_performed",
+  "next_round_index": 1,
+  "ok": true,
+  "preflight": {
+    "cpu_preflight": "passed",
+    "dependencies": {
+      "asr": true,
+      "captioner": true,
+      "critics": true,
+      "experts": true,
+      "rate": true,
+      "tts": true,
+      "voxlect": true
+    },
+    "gpu_execution": "not_performed",
+    "inference_batch": 4,
+    "paired_anchor_enabled": true,
+    "rounds": 10,
+    "run_dir": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01",
+    "source_records": {
+      "audio_only": 184,
+      "caption_only": 196,
+      "paired": 39
+    },
+    "world_size": 8
+  },
+  "reconstruction_judgments_checked": 457,
+  "remaining_rounds": 9,
+  "reusable_stages": [
+    "audio_pool_codecs",
+    "paired_anchor_codecs",
+    "round_000_audio_attribute_synthesis",
+    "round_000_audio_caption_rollout",
+    "round_000_audio_collection",
+    "round_000_audio_rewards",
+    "round_000_caption_anchor_reconstruction",
+    "round_000_caption_audio_quality",
+    "round_000_caption_caption_reconstruction",
+    "round_000_caption_collection",
+    "round_000_caption_grpo",
+    "round_000_caption_reload",
+    "round_000_caption_rewards",
+    "round_000_caption_sft",
+    "round_000_caption_tts_rollout",
+    "round_000_sftcal_caption_anchor",
+    "round_000_sftcal_caption_current",
+    "round_000_tts_grpo",
+    "round_000_tts_reload",
+    "round_000_tts_sft"
+  ],
+  "source_labels_reused": 184
+}

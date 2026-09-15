@@ -1,0 +1,17 @@
+% Upload this file and midasheng_joint_every3_table.tex to Overleaf.
+% Replace the old tab:caption_tts_results table with:
+% \input{midasheng_joint_every3_results}
+% Do not separately input the table again.
+\subsection{Preliminary Dual-Learning Results}
+
+We report preliminary results for the original DualISL configuration, pairing
+MiDashengLM-7B with Qwen3-TTS-12Hz-1.7B-VoiceDesign.
+Table~\ref{tab:midasheng-joint-every3} tracks both models at three-round intervals.
+
+\input{midasheng_joint_every3_table}
+
+After nine rounds, the ParaSpeechCaps composite score increases from 0.2338
+to 0.3010 (+28.7\% relative), while StyleCap accuracy improves by 0.86
+percentage points. These results indicate improved captioner performance.
+The available round-3 TTS results show higher WER and slightly lower WVMOS
+than Base; later-round TTS evaluations are pending.

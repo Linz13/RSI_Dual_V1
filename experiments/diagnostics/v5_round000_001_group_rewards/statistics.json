@@ -1,0 +1,590 @@
+{
+  "run": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01",
+  "sources": [
+    {
+      "path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/rewards/round_000_audio_rewards.output.jsonl",
+      "sha256": "bd5af59618c5e03aed9e300e059599d5f72bca0f7bba8760c0fdbae96417dbf7"
+    },
+    {
+      "path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/rewards/round_000_caption_rewards.output.jsonl",
+      "sha256": "d23faa41408bc3ed0c3d9b2d390f8388a03d025f59075c512093540c9319f7e7"
+    },
+    {
+      "path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/rewards/round_001_audio_rewards.output.jsonl",
+      "sha256": "e42c14e6ba4535fe1e3a0b1c96e6ad43c57d7639273557e6d0c6657c42727f68"
+    },
+    {
+      "path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/rewards/round_001_caption_rewards.output.jsonl",
+      "sha256": "ff45eae74d6cc486fd956f67af95f1bb0d70f0c1f66865dc5d9fa6015f37dd2f"
+    }
+  ],
+  "rounds": {
+    "0": {
+      "audio": {
+        "groups": 184,
+        "candidates": 736,
+        "valid_candidates": 457,
+        "valid_count_histogram": {
+          "2": 49,
+          "3": 68,
+          "4": 32,
+          "1": 27,
+          "0": 8
+        },
+        "comparable_groups": 149,
+        "candidate_score": {
+          "count": 457,
+          "mean": 0.5745628525401734,
+          "min": 0.13333333333333333,
+          "p10": 0.36666666666666664,
+          "p25": 0.4507936507936508,
+          "median": 0.5833333333333334,
+          "p75": 0.7,
+          "p90": 0.7841904761904763,
+          "max": 0.9333333333333333
+        },
+        "span": {
+          "count": 149,
+          "mean": 0.18296589417680723,
+          "min": 0.0,
+          "p10": 0.061155555555555574,
+          "p25": 0.09653524492234178,
+          "median": 0.16666666666666663,
+          "p75": 0.2537037037037037,
+          "p90": 0.33481481481481495,
+          "max": 0.5770114942528735
+        },
+        "std": {
+          "count": 149,
+          "mean": 0.0803673684089248,
+          "min": 0.0,
+          "p10": 0.026384353269183803,
+          "p25": 0.04433319409613339,
+          "median": 0.07241853660800149,
+          "p75": 0.11291368465696489,
+          "p90": 0.14575048732943469,
+          "max": 0.22194177163028925
+        },
+        "top2_gap": {
+          "count": 149,
+          "mean": 0.1047959754967603,
+          "min": 0.0,
+          "p10": 0.011047619047618995,
+          "p25": 0.03333333333333344,
+          "median": 0.08333333333333326,
+          "p75": 0.13333333333333341,
+          "p90": 0.24555555555555555,
+          "max": 0.43333333333333335
+        },
+        "pairwise_gap": {
+          "count": 149,
+          "mean": 0.13214201407545148,
+          "min": 0.0,
+          "p10": 0.04388888888888889,
+          "p25": 0.06908831908831907,
+          "median": 0.11111111111111109,
+          "p75": 0.17333333333333334,
+          "p90": 0.25000000000000006,
+          "max": 0.43333333333333335
+        },
+        "span_thresholds": {
+          "equal": 3,
+          "le_0.01": 5,
+          "le_0.05": 14,
+          "ge_0.10": 111
+        },
+        "four_candidate_span": {
+          "count": 32,
+          "mean": 0.2392145899150379,
+          "min": 0.053333333333333344,
+          "p10": 0.11375213675213676,
+          "p25": 0.15462962962962962,
+          "median": 0.20000000000000004,
+          "p75": 0.32250000000000006,
+          "p90": 0.3966666666666668,
+          "max": 0.5770114942528735
+        },
+        "evaluation_status": {
+          "unrenderable": 279,
+          "complete": 457
+        },
+        "reference_denominators": {
+          "15": 397,
+          "14": 24,
+          "12": 33,
+          "13": 3
+        },
+        "groups_with_inconsistent_reference_mask": 0,
+        "field_discrimination": {
+          "paralinguistic.emotion": {
+            "comparable_groups": 149,
+            "differing_groups": 53,
+            "mean_span": 0.35570469798657717
+          },
+          "paralinguistic.emotion_intensity": {
+            "comparable_groups": 149,
+            "differing_groups": 75,
+            "mean_span": 0.5033557046979866
+          },
+          "paralinguistic.emphasis.emphasized_text": {
+            "comparable_groups": 149,
+            "differing_groups": 111,
+            "mean_span": 0.41093735118077995
+          },
+          "paralinguistic.emphasis.level": {
+            "comparable_groups": 149,
+            "differing_groups": 77,
+            "mean_span": 0.5167785234899329
+          },
+          "paralinguistic.nonverbal_vocalization": {
+            "comparable_groups": 149,
+            "differing_groups": 79,
+            "mean_span": 0.47897091722595075
+          },
+          "paralinguistic.pause": {
+            "comparable_groups": 139,
+            "differing_groups": 77,
+            "mean_span": 0.37410071942446044
+          },
+          "paralinguistic.pitch_level": {
+            "comparable_groups": 137,
+            "differing_groups": 89,
+            "mean_span": 0.6496350364963503
+          },
+          "paralinguistic.prosody": {
+            "comparable_groups": 138,
+            "differing_groups": 79,
+            "mean_span": 0.322463768115942
+          },
+          "paralinguistic.speaking_rate": {
+            "comparable_groups": 142,
+            "differing_groups": 68,
+            "mean_span": 0.4788732394366197
+          },
+          "paralinguistic.volume_level": {
+            "comparable_groups": 149,
+            "differing_groups": 22,
+            "mean_span": 0.1476510067114094
+          },
+          "semantic_content.language": {
+            "comparable_groups": 149,
+            "differing_groups": 7,
+            "mean_span": 0.04697986577181208
+          },
+          "speaker_profile.accent": {
+            "comparable_groups": 149,
+            "differing_groups": 46,
+            "mean_span": 0.3087248322147651
+          },
+          "speaker_profile.age": {
+            "comparable_groups": 149,
+            "differing_groups": 20,
+            "mean_span": 0.1342281879194631
+          },
+          "speaker_profile.gender": {
+            "comparable_groups": 149,
+            "differing_groups": 45,
+            "mean_span": 0.30201342281879195
+          },
+          "speaker_profile.timbre": {
+            "comparable_groups": 149,
+            "differing_groups": 75,
+            "mean_span": 0.5033557046979866
+          }
+        }
+      },
+      "caption": {
+        "groups": 196,
+        "candidates": 784,
+        "valid_candidates": 784,
+        "valid_count_histogram": {
+          "4": 196
+        },
+        "comparable_groups": 196,
+        "candidate_score": {
+          "count": 784,
+          "mean": -1.593519987483136,
+          "min": -2.776416867680382,
+          "p10": -1.9893938448352855,
+          "p25": -1.7813877783264616,
+          "median": -1.571954534544299,
+          "p75": -1.3838966759831237,
+          "p90": -1.1992874366044997,
+          "max": -0.822789924859535
+        },
+        "span": {
+          "count": 196,
+          "mean": 0.14445216105702835,
+          "min": 0.016989353694953024,
+          "p10": 0.05036986042978242,
+          "p25": 0.07821376343781594,
+          "median": 0.11775391717092132,
+          "p75": 0.1782590695474937,
+          "p90": 0.27907605667375424,
+          "max": 0.6090660514310002
+        },
+        "std": {
+          "count": 196,
+          "mean": 0.05635603447373467,
+          "min": 0.00618640695923893,
+          "p10": 0.019811787169359794,
+          "p25": 0.02942772353362904,
+          "median": 0.04593161676078525,
+          "p75": 0.07108786082034883,
+          "p90": 0.10869033193659824,
+          "max": 0.25410509341008
+        },
+        "top2_gap": {
+          "count": 196,
+          "mean": 0.04743973702137193,
+          "min": 2.2776919649913907e-05,
+          "p10": 0.004237399218254723,
+          "p25": 0.013286888007617847,
+          "median": 0.029770450463305065,
+          "p75": 0.06027643878387612,
+          "p90": 0.10979035682976246,
+          "max": 0.28846072902282094
+        },
+        "pairwise_gap": {
+          "count": 196,
+          "mean": 0.07883598937809595,
+          "min": 0.008667186151190739,
+          "p10": 0.027499633183793316,
+          "p25": 0.042254520761465145,
+          "median": 0.06369421024307181,
+          "p75": 0.09926047341982161,
+          "p90": 0.148710757181915,
+          "max": 0.3158178629043202
+        },
+        "span_thresholds": {
+          "equal": 0,
+          "le_0.01": 0,
+          "le_0.05": 20,
+          "ge_0.10": 117
+        },
+        "four_candidate_span": {
+          "count": 196,
+          "mean": 0.14445216105702835,
+          "min": 0.016989353694953024,
+          "p10": 0.05036986042978242,
+          "p25": 0.07821376343781594,
+          "median": 0.11775391717092132,
+          "p75": 0.1782590695474937,
+          "p90": 0.27907605667375424,
+          "max": 0.6090660514310002
+        },
+        "semantic_reward": {
+          "count": 784,
+          "mean": -0.014567827843393921,
+          "min": -5.158694653675718,
+          "p10": -1.0388457203073618,
+          "p25": -0.576883426377272,
+          "median": 0.043024347644388464,
+          "p75": 0.554659697137614,
+          "p90": 1.003705335096348,
+          "max": 2.0930253534418526
+        },
+        "semantic_reward_span": {
+          "count": 196,
+          "mean": 1.0316619693378826,
+          "min": 0.059061663185998425,
+          "p10": 0.4263347522478751,
+          "p25": 0.6766583062337668,
+          "median": 0.9443946879233984,
+          "p75": 1.2688480773577926,
+          "p90": 1.6645073140266011,
+          "max": 4.027718044877512
+        }
+      }
+    },
+    "1": {
+      "audio": {
+        "groups": 184,
+        "candidates": 736,
+        "valid_candidates": 432,
+        "valid_count_histogram": {
+          "4": 24,
+          "2": 74,
+          "3": 55,
+          "1": 23,
+          "0": 8
+        },
+        "comparable_groups": 153,
+        "candidate_score": {
+          "count": 432,
+          "mean": 0.5585572269654254,
+          "min": 0.07142857142857142,
+          "p10": 0.35809523809523813,
+          "p25": 0.43333333333333335,
+          "median": 0.5666666666666667,
+          "p75": 0.6666666666666666,
+          "p90": 0.7666666666666667,
+          "max": 1.0
+        },
+        "span": {
+          "count": 153,
+          "mean": 0.1711377835980369,
+          "min": 0.0,
+          "p10": 0.033333333333333326,
+          "p25": 0.07500000000000001,
+          "median": 0.13571428571428568,
+          "p75": 0.24358974358974356,
+          "p90": 0.3539495798319331,
+          "max": 0.5
+        },
+        "std": {
+          "count": 153,
+          "mean": 0.07659455486539715,
+          "min": 0.0,
+          "p10": 0.016666666666666663,
+          "p25": 0.035714285714285726,
+          "median": 0.06397632782163999,
+          "p75": 0.11051681053890706,
+          "p90": 0.15524905479571238,
+          "max": 0.22301587301587297
+        },
+        "top2_gap": {
+          "count": 153,
+          "mean": 0.10795482534618042,
+          "min": 0.0,
+          "p10": 0.010211640211640186,
+          "p25": 0.033333333333333326,
+          "median": 0.08333333333333337,
+          "p75": 0.14285714285714288,
+          "p90": 0.2466666666666668,
+          "max": 0.44603174603174595
+        },
+        "pairwise_gap": {
+          "count": 153,
+          "mean": 0.13041029460616516,
+          "min": 0.0,
+          "p10": 0.033333333333333326,
+          "p25": 0.06666666666666665,
+          "median": 0.10952380952380952,
+          "p75": 0.18055555555555558,
+          "p90": 0.2536363636363636,
+          "max": 0.44603174603174595
+        },
+        "span_thresholds": {
+          "equal": 3,
+          "le_0.01": 4,
+          "le_0.05": 21,
+          "ge_0.10": 104
+        },
+        "four_candidate_span": {
+          "count": 24,
+          "mean": 0.2723778534894376,
+          "min": 0.026666666666666727,
+          "p10": 0.1333333333333333,
+          "p25": 0.1880952380952381,
+          "median": 0.27807017543859647,
+          "p75": 0.3416666666666667,
+          "p90": 0.43017973856209146,
+          "max": 0.5
+        },
+        "evaluation_status": {
+          "complete": 432,
+          "unrenderable": 304
+        },
+        "reference_denominators": {
+          "15": 386,
+          "14": 15,
+          "12": 28,
+          "13": 3
+        },
+        "groups_with_inconsistent_reference_mask": 0,
+        "field_discrimination": {
+          "paralinguistic.emotion": {
+            "comparable_groups": 153,
+            "differing_groups": 61,
+            "mean_span": 0.39869281045751637
+          },
+          "paralinguistic.emotion_intensity": {
+            "comparable_groups": 153,
+            "differing_groups": 60,
+            "mean_span": 0.39215686274509803
+          },
+          "paralinguistic.emphasis.emphasized_text": {
+            "comparable_groups": 153,
+            "differing_groups": 110,
+            "mean_span": 0.3983969177368924
+          },
+          "paralinguistic.emphasis.level": {
+            "comparable_groups": 153,
+            "differing_groups": 68,
+            "mean_span": 0.4444444444444444
+          },
+          "paralinguistic.nonverbal_vocalization": {
+            "comparable_groups": 153,
+            "differing_groups": 71,
+            "mean_span": 0.4246187363834423
+          },
+          "paralinguistic.pause": {
+            "comparable_groups": 143,
+            "differing_groups": 93,
+            "mean_span": 0.458041958041958
+          },
+          "paralinguistic.pitch_level": {
+            "comparable_groups": 142,
+            "differing_groups": 72,
+            "mean_span": 0.5070422535211268
+          },
+          "paralinguistic.prosody": {
+            "comparable_groups": 142,
+            "differing_groups": 77,
+            "mean_span": 0.3028169014084507
+          },
+          "paralinguistic.speaking_rate": {
+            "comparable_groups": 147,
+            "differing_groups": 68,
+            "mean_span": 0.46258503401360546
+          },
+          "paralinguistic.volume_level": {
+            "comparable_groups": 153,
+            "differing_groups": 34,
+            "mean_span": 0.2222222222222222
+          },
+          "semantic_content.language": {
+            "comparable_groups": 153,
+            "differing_groups": 11,
+            "mean_span": 0.0718954248366013
+          },
+          "speaker_profile.accent": {
+            "comparable_groups": 153,
+            "differing_groups": 46,
+            "mean_span": 0.3006535947712418
+          },
+          "speaker_profile.age": {
+            "comparable_groups": 153,
+            "differing_groups": 20,
+            "mean_span": 0.13071895424836602
+          },
+          "speaker_profile.gender": {
+            "comparable_groups": 153,
+            "differing_groups": 38,
+            "mean_span": 0.24836601307189543
+          },
+          "speaker_profile.timbre": {
+            "comparable_groups": 153,
+            "differing_groups": 68,
+            "mean_span": 0.4444444444444444
+          }
+        }
+      },
+      "caption": {
+        "groups": 196,
+        "candidates": 784,
+        "valid_candidates": 784,
+        "valid_count_histogram": {
+          "4": 196
+        },
+        "comparable_groups": 196,
+        "candidate_score": {
+          "count": 784,
+          "mean": -1.5680871989843193,
+          "min": -2.7553899976192042,
+          "p10": -1.936398612933408,
+          "p25": -1.7491923328470875,
+          "median": -1.5498225224146154,
+          "p75": -1.368181162441033,
+          "p90": -1.168724716695724,
+          "max": -0.8324470697552897
+        },
+        "span": {
+          "count": 196,
+          "mean": 0.1249650223829771,
+          "min": 0.015575524885207415,
+          "p10": 0.041547486717900095,
+          "p25": 0.06903950652485946,
+          "median": 0.10846905352445901,
+          "p75": 0.15856813474965747,
+          "p90": 0.22274076496008388,
+          "max": 0.4984062131804725
+        },
+        "std": {
+          "count": 196,
+          "mean": 0.04851039023661844,
+          "min": 0.006283636374947897,
+          "p10": 0.015503561063209301,
+          "p25": 0.027092427751802664,
+          "median": 0.04064749724371908,
+          "p75": 0.061188977675449056,
+          "p90": 0.08384214736366633,
+          "max": 0.20273951836678103
+        },
+        "top2_gap": {
+          "count": 196,
+          "mean": 0.04166959006480612,
+          "min": 0.00010820350144058466,
+          "p10": 0.0044191882998347864,
+          "p25": 0.011509951173017285,
+          "median": 0.02687590227481762,
+          "p75": 0.06180384778417647,
+          "p90": 0.08714742899792327,
+          "max": 0.3300873607397079
+        },
+        "pairwise_gap": {
+          "count": 196,
+          "mean": 0.06844207047515624,
+          "min": 0.007878269233818477,
+          "p10": 0.0219657577382249,
+          "p25": 0.037660577758591295,
+          "median": 0.057923215143253236,
+          "p75": 0.08589623091969163,
+          "p90": 0.12122215745168632,
+          "max": 0.29275655279246476
+        },
+        "span_thresholds": {
+          "equal": 0,
+          "le_0.01": 0,
+          "le_0.05": 24,
+          "ge_0.10": 107
+        },
+        "four_candidate_span": {
+          "count": 196,
+          "mean": 0.1249650223829771,
+          "min": 0.015575524885207415,
+          "p10": 0.041547486717900095,
+          "p25": 0.06903950652485946,
+          "median": 0.10846905352445901,
+          "p75": 0.15856813474965747,
+          "p90": 0.22274076496008388,
+          "max": 0.4984062131804725
+        },
+        "semantic_reward": {
+          "count": 784,
+          "mean": 0.04102630577910225,
+          "min": -4.766881308861632,
+          "p10": -0.9664414496435488,
+          "p25": -0.49731235400956963,
+          "median": 0.06722638381863923,
+          "p75": 0.6052642890165639,
+          "p90": 1.0668646187707027,
+          "max": 2.2997467633447775
+        },
+        "semantic_reward_span": {
+          "count": 196,
+          "mean": 1.014112877727446,
+          "min": 0.12205936728531014,
+          "p10": 0.48472676703056883,
+          "p25": 0.6478672108349619,
+          "median": 0.9313463276593718,
+          "p75": 1.2208004555601362,
+          "p90": 1.633465571385893,
+          "max": 3.6746883810227766
+        }
+      }
+    }
+  },
+  "matched_audio_groups": {
+    "count": 126,
+    "0": {
+      "mean_group_score": 0.573518358637585,
+      "mean_span": 0.18452127128902318
+    },
+    "1": {
+      "mean_group_score": 0.5573375950425672,
+      "mean_span": 0.17612929725451404
+    }
+  }
+}

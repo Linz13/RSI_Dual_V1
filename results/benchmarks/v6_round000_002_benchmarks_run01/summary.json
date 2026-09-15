@@ -1,0 +1,1744 @@
+{
+  "entries": [
+    {
+      "round": 0,
+      "suite": "emotiontalk",
+      "complete": true,
+      "detail": "prediction_rows=7716; task_counts={'speaker': 1929, 'style': 1929, 'emotion': 1929, 'overall': 1929}",
+      "result": {
+        "profile": "standard_public",
+        "tasks": {
+          "speaker": {
+            "count": 1929,
+            "metrics": {
+              "bleu_4": {
+                "status": "ok",
+                "value": 2.4966772516360896e-07,
+                "error_type": null,
+                "error": null
+              },
+              "rouge_l": {
+                "status": "ok",
+                "value": 0.30400037395670254,
+                "error_type": null,
+                "error": null
+              },
+              "meteor": {
+                "status": "ok",
+                "value": 0.1429644023401165,
+                "error_type": null,
+                "error": null
+              },
+              "spider": {
+                "status": "ok",
+                "value": 0.1449616644516834,
+                "error_type": null,
+                "error": null
+              },
+              "fense": {
+                "status": "ok",
+                "value": 0.7806761747138249,
+                "error_type": null,
+                "error": null
+              },
+              "bertscore": {
+                "status": "ok",
+                "value": 0.6790370345115662,
+                "error_type": null,
+                "error": null
+              },
+              "clapscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "RuntimeError",
+                "error": "stack expects each tensor to be equal size, but got [77] at entry 0 and [86] at entry 1"
+              }
+            }
+          },
+          "style": {
+            "count": 1929,
+            "metrics": {
+              "bleu_4": {
+                "status": "ok",
+                "value": 2.5431837835357316e-06,
+                "error_type": null,
+                "error": null
+              },
+              "rouge_l": {
+                "status": "ok",
+                "value": 0.3818850605992506,
+                "error_type": null,
+                "error": null
+              },
+              "meteor": {
+                "status": "ok",
+                "value": 0.14618277919241018,
+                "error_type": null,
+                "error": null
+              },
+              "spider": {
+                "status": "ok",
+                "value": 0.16158932441468885,
+                "error_type": null,
+                "error": null
+              },
+              "fense": {
+                "status": "ok",
+                "value": 0.7247468241544014,
+                "error_type": null,
+                "error": null
+              },
+              "bertscore": {
+                "status": "ok",
+                "value": 0.7021806836128235,
+                "error_type": null,
+                "error": null
+              },
+              "clapscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "RuntimeError",
+                "error": "stack expects each tensor to be equal size, but got [77] at entry 0 and [79] at entry 2"
+              }
+            }
+          },
+          "emotion": {
+            "count": 1929,
+            "metrics": {
+              "bleu_4": {
+                "status": "ok",
+                "value": 1.0720946524155343e-14,
+                "error_type": null,
+                "error": null
+              },
+              "rouge_l": {
+                "status": "ok",
+                "value": 0.1359210678953971,
+                "error_type": null,
+                "error": null
+              },
+              "meteor": {
+                "status": "ok",
+                "value": 0.06470765198047224,
+                "error_type": null,
+                "error": null
+              },
+              "spider": {
+                "status": "ok",
+                "value": 0.06473709482961058,
+                "error_type": null,
+                "error": null
+              },
+              "fense": {
+                "status": "ok",
+                "value": 0.7932120663814436,
+                "error_type": null,
+                "error": null
+              },
+              "bertscore": {
+                "status": "ok",
+                "value": 0.5939919948577881,
+                "error_type": null,
+                "error": null
+              },
+              "clapscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "RuntimeError",
+                "error": "stack expects each tensor to be equal size, but got [77] at entry 0 and [105] at entry 2"
+              }
+            }
+          },
+          "overall": {
+            "count": 1929,
+            "metrics": {
+              "bleu_4": {
+                "status": "ok",
+                "value": 1.0139149162946517e-06,
+                "error_type": null,
+                "error": null
+              },
+              "rouge_l": {
+                "status": "ok",
+                "value": 0.2694410097537089,
+                "error_type": null,
+                "error": null
+              },
+              "meteor": {
+                "status": "ok",
+                "value": 0.09397564412301666,
+                "error_type": null,
+                "error": null
+              },
+              "spider": {
+                "status": "ok",
+                "value": 0.05474980643657663,
+                "error_type": null,
+                "error": null
+              },
+              "fense": {
+                "status": "ok",
+                "value": 0.8737491088435092,
+                "error_type": null,
+                "error": null
+              },
+              "bertscore": {
+                "status": "ok",
+                "value": 0.6905962228775024,
+                "error_type": null,
+                "error": null
+              },
+              "clapscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "RuntimeError",
+                "error": "stack expects each tensor to be equal size, but got [77] at entry 0 and [78] at entry 5"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "suite": "stylecap",
+      "complete": true,
+      "detail": "prediction_rows=3112; scored=3112",
+      "result": {
+        "benchmark_questions": 3112,
+        "macro_average_accuracy": 0.4064910025706941,
+        "prediction_rows": 3112,
+        "tasks": {
+          "gender": {
+            "accuracy": 0.62853470437018,
+            "correct": 489,
+            "invalid": 1,
+            "total": 778
+          },
+          "pitch": {
+            "accuracy": 0.35861182519280205,
+            "correct": 279,
+            "invalid": 2,
+            "total": 778
+          },
+          "speaking_speed": {
+            "accuracy": 0.3380462724935733,
+            "correct": 263,
+            "invalid": 1,
+            "total": 778
+          },
+          "volume": {
+            "accuracy": 0.30077120822622105,
+            "correct": 234,
+            "invalid": 1,
+            "total": 778
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "suite": "paraspeechcaps",
+      "complete": true,
+      "detail": "samples=140; fields=840; scored=140",
+      "result": {
+        "protocol": "paraspeechcaps-attr6-content-scheme-a-v1",
+        "candidate_name": "midasheng_v6_r0",
+        "samples": 140,
+        "final_score": 0.23096282625695835,
+        "single_choice_accuracy": {
+          "gender": 0.4714285714285714,
+          "pitch": 0.02857142857142857,
+          "speaking_rate": 0.6071428571428571,
+          "accent": 0.02142857142857143
+        },
+        "multi_choice": {
+          "intrinsic_traits": {
+            "tp": 230,
+            "fp": 1293,
+            "fn": 266,
+            "micro_precision": 0.1510177281680893,
+            "micro_recall": 0.4637096774193548,
+            "micro_f1": 0.2278355621594849,
+            "mean_sample_f1": 0.1445620625968779,
+            "exact_set_accuracy": 0.0,
+            "positive_recall": 0.48428571428571415
+          },
+          "situational_traits": {
+            "tp": 21,
+            "fp": 182,
+            "fn": 118,
+            "micro_precision": 0.10344827586206896,
+            "micro_recall": 0.1510791366906475,
+            "micro_f1": 0.12280701754385964,
+            "mean_sample_f1": 0.11264346637344347,
+            "exact_set_accuracy": 0.05714285714285714,
+            "positive_recall": 0.14903846153846154
+          }
+        },
+        "field_parse_rate": {
+          "gender": 1.0,
+          "pitch": 1.0,
+          "speaking_rate": 1.0,
+          "accent": 1.0,
+          "intrinsic_traits": 1.0,
+          "situational_traits": 1.0
+        },
+        "all_six_fields_parse_rate": 1.0,
+        "field_status_counts": {
+          "gender": {
+            "success": 140
+          },
+          "pitch": {
+            "success": 140
+          },
+          "speaking_rate": {
+            "success": 140
+          },
+          "accent": {
+            "success": 140
+          },
+          "intrinsic_traits": {
+            "success": 140
+          },
+          "situational_traits": {
+            "success": 140
+          }
+        },
+        "bootstrap_rounds": 10000,
+        "bootstrap_seed": 20260826,
+        "bootstrap_95_ci": [
+          0.2109021527602116,
+          0.2512587158449783
+        ],
+        "per_source": {
+          "ears": {
+            "samples": 26,
+            "final_score": 0.2510048753003338,
+            "single_choice_accuracy": {
+              "gender": 0.5769230769230769,
+              "pitch": 0.11538461538461539,
+              "speaking_rate": 0.4230769230769231,
+              "accent": 0.038461538461538464
+            },
+            "multi_choice": {
+              "intrinsic_traits": {
+                "tp": 25,
+                "fp": 153,
+                "fn": 59,
+                "micro_precision": 0.1404494382022472,
+                "micro_recall": 0.2976190476190476,
+                "micro_f1": 0.19083969465648856,
+                "mean_sample_f1": 0.10602925180200308,
+                "exact_set_accuracy": 0.0,
+                "positive_recall": 0.28525641025641024
+              },
+              "situational_traits": {
+                "tp": 9,
+                "fp": 29,
+                "fn": 23,
+                "micro_precision": 0.23684210526315788,
+                "micro_recall": 0.28125,
+                "micro_f1": 0.2571428571428571,
+                "mean_sample_f1": 0.24615384615384617,
+                "exact_set_accuracy": 0.11538461538461539,
+                "positive_recall": 0.2692307692307692
+              }
+            },
+            "field_parse_rate": {
+              "gender": 1.0,
+              "pitch": 1.0,
+              "speaking_rate": 1.0,
+              "accent": 1.0,
+              "intrinsic_traits": 1.0,
+              "situational_traits": 1.0
+            },
+            "all_six_fields_parse_rate": 1.0
+          },
+          "expresso": {
+            "samples": 81,
+            "final_score": 0.2175792267329686,
+            "single_choice_accuracy": {
+              "gender": 0.5061728395061729,
+              "pitch": 0.0,
+              "speaking_rate": 0.5555555555555556,
+              "accent": 0.024691358024691357
+            },
+            "multi_choice": {
+              "intrinsic_traits": {
+                "tp": 120,
+                "fp": 626,
+                "fn": 187,
+                "micro_precision": 0.16085790884718498,
+                "micro_recall": 0.39087947882736157,
+                "micro_f1": 0.22792022792022792,
+                "mean_sample_f1": 0.12806689999926715,
+                "exact_set_accuracy": 0.0,
+                "positive_recall": 0.41419753086419747
+              },
+              "situational_traits": {
+                "tp": 12,
+                "fp": 122,
+                "fn": 95,
+                "micro_precision": 0.08955223880597014,
+                "micro_recall": 0.11214953271028037,
+                "micro_f1": 0.0995850622406639,
+                "mean_sample_f1": 0.09098870731212455,
+                "exact_set_accuracy": 0.037037037037037035,
+                "positive_recall": 0.10897435897435898
+              }
+            },
+            "field_parse_rate": {
+              "gender": 1.0,
+              "pitch": 1.0,
+              "speaking_rate": 1.0,
+              "accent": 1.0,
+              "intrinsic_traits": 1.0,
+              "situational_traits": 1.0
+            },
+            "all_six_fields_parse_rate": 1.0
+          },
+          "voxceleb": {
+            "samples": 33,
+            "final_score": 0.24802277432712205,
+            "single_choice_accuracy": {
+              "gender": 0.30303030303030304,
+              "pitch": 0.030303030303030304,
+              "speaking_rate": 0.8787878787878788,
+              "accent": 0.0
+            },
+            "multi_choice": {
+              "intrinsic_traits": {
+                "tp": 85,
+                "fp": 514,
+                "fn": 20,
+                "micro_precision": 0.1419031719532554,
+                "micro_recall": 0.8095238095238095,
+                "micro_f1": 0.24147727272727273,
+                "mean_sample_f1": 0.2154093732354602,
+                "exact_set_accuracy": 0.0,
+                "positive_recall": 0.8131313131313131
+              },
+              "situational_traits": {
+                "tp": 0,
+                "fp": 31,
+                "fn": 0,
+                "micro_precision": 0.0,
+                "micro_recall": 0.0,
+                "micro_f1": 0.0,
+                "mean_sample_f1": 0.06060606060606061,
+                "exact_set_accuracy": 0.06060606060606061,
+                "positive_recall": 0.0
+              }
+            },
+            "field_parse_rate": {
+              "gender": 1.0,
+              "pitch": 1.0,
+              "speaking_rate": 1.0,
+              "accent": 1.0,
+              "intrinsic_traits": 1.0,
+              "situational_traits": 1.0
+            },
+            "all_six_fields_parse_rate": 1.0
+          }
+        },
+        "manifest_sha256": "260f3fd60b95e2ff4bdb6cf89320179ff5f334a7a878359ec0f05f373a1f0843",
+        "predictions_sha256": "af5b23809746c997fc222bacb89c1299087e55bde0a634d369e8001d08bba048",
+        "schema_sha256": "881cdd06a0f0dd4961febdb86da343a78c9b5c4881d4ca61a11813fa9ab07d20",
+        "manifest_metadata": {
+          "protocol": "paraspeechcaps-attr6-v1",
+          "input_rows": 142,
+          "unique_audio": 140,
+          "sources": {
+            "voxceleb": 33,
+            "expresso": 81,
+            "ears": 26
+          },
+          "duration_seconds": 940.00923,
+          "schema_sha256": "881cdd06a0f0dd4961febdb86da343a78c9b5c4881d4ca61a11813fa9ab07d20",
+          "test_available_csv_sha256": "cf7d71b08eaed28e182c5e8bbcf743c096d775aee1d7982799e26112b3f305f0",
+          "test_full_csv_sha256": "f18609c54182b4f79b36af5d7b25a593624942328d40af45185d393881c32876",
+          "normalization_action_counts": {
+            "move_enunciated": 3,
+            "explicit_gt_repair": 3
+          }
+        },
+        "run_metadata": {
+          "timestamp_utc": "2026-09-11T03:15:45.518107+00:00",
+          "protocol": "paraspeechcaps-attr6-content-scheme-a-v1",
+          "candidate_name": "midasheng_v6_r0",
+          "backend": "midasheng",
+          "model_dir": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+          "adapter": {
+            "path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_000/checkpoints/caption_final",
+            "base_model_name_or_path": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+            "config_path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_000/checkpoints/caption_final/adapter_config.json",
+            "config_sha256": "d712237ed50a4a69f8848db602c5813950a46d15723d6ac43f531f680d23c467",
+            "weights_path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_000/checkpoints/caption_final/adapter_model.safetensors",
+            "weights_sha256": "ec8221915ad52ef9d3587a392c70d12c002c91fc5b221421d36672e2e7f5b818",
+            "weights_bytes": 40699872,
+            "peft_type": "LORA",
+            "task_type": "CAUSAL_LM",
+            "r": 4,
+            "lora_alpha": 8,
+            "lora_dropout": 0.0,
+            "target_modules": "^decoder\\.model\\.layers\\.\\d+\\.(self_attn\\.(q_proj|k_proj|v_proj|o_proj)|mlp\\.(gate_proj|up_proj|down_proj))$|^audio_projector\\.net\\.(0|2)$"
+          },
+          "manifest_sha256": "260f3fd60b95e2ff4bdb6cf89320179ff5f334a7a878359ec0f05f373a1f0843",
+          "selected_manifest_sha256": "260f3fd60b95e2ff4bdb6cf89320179ff5f334a7a878359ec0f05f373a1f0843",
+          "evaluation_identity_sha256": "e82313e2582db7e730de0a84cd66cdf2ff6cf95001ac5ea17b98a903532d4a92",
+          "evaluation_identity": {
+            "protocol": "paraspeechcaps-attr6-content-scheme-a-v1",
+            "candidate_name": "midasheng_v6_r0",
+            "backend": "midasheng",
+            "model_dir": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+            "adapter": {
+              "path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_000/checkpoints/caption_final",
+              "base_model_name_or_path": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+              "config_path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_000/checkpoints/caption_final/adapter_config.json",
+              "config_sha256": "d712237ed50a4a69f8848db602c5813950a46d15723d6ac43f531f680d23c467",
+              "weights_path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_000/checkpoints/caption_final/adapter_model.safetensors",
+              "weights_sha256": "ec8221915ad52ef9d3587a392c70d12c002c91fc5b221421d36672e2e7f5b818",
+              "weights_bytes": 40699872,
+              "peft_type": "LORA",
+              "task_type": "CAUSAL_LM",
+              "r": 4,
+              "lora_alpha": 8,
+              "lora_dropout": 0.0,
+              "target_modules": "^decoder\\.model\\.layers\\.\\d+\\.(self_attn\\.(q_proj|k_proj|v_proj|o_proj)|mlp\\.(gate_proj|up_proj|down_proj))$|^audio_projector\\.net\\.(0|2)$"
+            },
+            "manifest_sha256": "260f3fd60b95e2ff4bdb6cf89320179ff5f334a7a878359ec0f05f373a1f0843",
+            "selected_sample_ids_sha256": "d3c9429a681bab1250f9b23500f35c5e7946765bea27c64aaf5fc9aef1b95f8d",
+            "field_prompt_sha256": {
+              "gender": "fef660401fc446246680482c947a8683f0aae190f11c4a07eccb43e249d9e4cd",
+              "pitch": "144949b53c961c46e047221bf8b8cbd66c58ff8d6b8ddb04dd7d4a9073d1edd1",
+              "speaking_rate": "cf9af0450927e03cc77a08820f42542921a3ec7b3fcd43d493d53e58e3e10ea2",
+              "accent": "06fca2c8236a8255efad0f60ed34ca1989ea72a6d45ad80e281b661f720b3ef1",
+              "intrinsic_traits": "76c4cfea63935c95388f9618c216a8f36adb1d3379c63638f9c862ddc38d6a48",
+              "situational_traits": "0d474f68703d5e72260917fc9491fa7219e5ba8c0bf18261d58e233fbe771bdd"
+            },
+            "max_new_tokens": 96,
+            "attn_backend": "sdpa",
+            "do_sample": false
+          },
+          "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+          "platform": "Linux-5.14.0-284.25.1.el9_2.x86_64-x86_64-with-glibc2.31",
+          "selected_samples": 140,
+          "expected_field_records": 840,
+          "merged_field_records": 840,
+          "field_status_counts": {
+            "success": 840
+          },
+          "wall_seconds": 497.300945
+        }
+      }
+    },
+    {
+      "round": 0,
+      "suite": "DSD",
+      "complete": true,
+      "result": {
+        "benchmark": "InstructTTSEval DSD",
+        "candidate": "midasheng_v6",
+        "round": 0,
+        "complete": true,
+        "dry_run": false,
+        "expected": 2000,
+        "scored": 2000,
+        "checkpoint_sha256": "86b9d193520a3261803892b3aec8918fafa9ce568f7d86aa411b2d251f6bf62f",
+        "judge_model": "models/gemini-2.5-pro",
+        "metrics": {
+          "en": {
+            "expected": 1000,
+            "valid": 1000,
+            "scored": 1000,
+            "true": 776,
+            "percentage": 77.6,
+            "coverage_percentage": 100.0
+          },
+          "zh": {
+            "expected": 1000,
+            "valid": 1000,
+            "scored": 1000,
+            "true": 824,
+            "percentage": 82.4,
+            "coverage_percentage": 100.0
+          }
+        },
+        "bilingual_percentage": 80.0,
+        "base_bilingual_percentage": 80.9,
+        "base_summary_path": "/data/L202500147/Caption/benchmark/InstructTTSEval-public/qwen3_voice_design/runs/base/full_bilingual_seed42/evaluation_gemini_2_5_pro_audio_api/summary.json",
+        "usage": {
+          "input_tokens": 2616942,
+          "output_tokens": 493018,
+          "thinking_tokens": 3824376,
+          "billable_output_tokens": 4317394,
+          "cost_basis": "recorded_successful_responses_including_thinking; excludes unrecorded retries",
+          "input_price_per_million_usd": 1.25,
+          "output_price_per_million_usd": 10.0,
+          "estimated_cost_usd": 46.445118
+        }
+      }
+    },
+    {
+      "round": 1,
+      "suite": "emotiontalk",
+      "complete": true,
+      "detail": "prediction_rows=7716; task_counts={'speaker': 1929, 'style': 1929, 'emotion': 1929, 'overall': 1929}",
+      "result": {
+        "profile": "standard_public",
+        "tasks": {
+          "speaker": {
+            "count": 1929,
+            "metrics": {
+              "bleu_4": {
+                "status": "ok",
+                "value": 2.4984617518073245e-07,
+                "error_type": null,
+                "error": null
+              },
+              "rouge_l": {
+                "status": "ok",
+                "value": 0.3026798346331871,
+                "error_type": null,
+                "error": null
+              },
+              "meteor": {
+                "status": "ok",
+                "value": 0.14237337387725538,
+                "error_type": null,
+                "error": null
+              },
+              "spider": {
+                "status": "ok",
+                "value": 0.1438334727387939,
+                "error_type": null,
+                "error": null
+              },
+              "fense": {
+                "status": "ok",
+                "value": 0.7860778894833544,
+                "error_type": null,
+                "error": null
+              },
+              "bertscore": {
+                "status": "ok",
+                "value": 0.6796522736549377,
+                "error_type": null,
+                "error": null
+              },
+              "clapscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "RuntimeError",
+                "error": "stack expects each tensor to be equal size, but got [77] at entry 0 and [86] at entry 1"
+              }
+            }
+          },
+          "style": {
+            "count": 1929,
+            "metrics": {
+              "bleu_4": {
+                "status": "ok",
+                "value": 2.579759940491047e-06,
+                "error_type": null,
+                "error": null
+              },
+              "rouge_l": {
+                "status": "ok",
+                "value": 0.38328736370237315,
+                "error_type": null,
+                "error": null
+              },
+              "meteor": {
+                "status": "ok",
+                "value": 0.14713171279981827,
+                "error_type": null,
+                "error": null
+              },
+              "spider": {
+                "status": "ok",
+                "value": 0.1623708581916352,
+                "error_type": null,
+                "error": null
+              },
+              "fense": {
+                "status": "ok",
+                "value": 0.7255133350597508,
+                "error_type": null,
+                "error": null
+              },
+              "bertscore": {
+                "status": "ok",
+                "value": 0.7030957341194153,
+                "error_type": null,
+                "error": null
+              },
+              "clapscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "RuntimeError",
+                "error": "stack expects each tensor to be equal size, but got [77] at entry 0 and [79] at entry 2"
+              }
+            }
+          },
+          "emotion": {
+            "count": 1929,
+            "metrics": {
+              "bleu_4": {
+                "status": "ok",
+                "value": 1.0934914109873201e-14,
+                "error_type": null,
+                "error": null
+              },
+              "rouge_l": {
+                "status": "ok",
+                "value": 0.13744882437268346,
+                "error_type": null,
+                "error": null
+              },
+              "meteor": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "ValueError",
+                "error": "could not convert string to float: b'5.0 8.0 0.0 0.0 2.0 2.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 2.0 2.0 2.0'"
+              },
+              "spider": {
+                "status": "ok",
+                "value": 0.06533263939867893,
+                "error_type": null,
+                "error": null
+              },
+              "fense": {
+                "status": "ok",
+                "value": 0.7922074629767315,
+                "error_type": null,
+                "error": null
+              },
+              "bertscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "ValueError",
+                "error": "Unable to create tensor, you should probably activate truncation and/or padding with 'padding=True' 'truncation=True' to have batched tensors with the same length. Perhaps your features (`input_ids` in this case) have excessive nesting (inputs type `list` where type `int` is expected)."
+              },
+              "clapscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "RuntimeError",
+                "error": "stack expects each tensor to be equal size, but got [77] at entry 0 and [383] at entry 3"
+              }
+            }
+          },
+          "overall": {
+            "count": 1929,
+            "metrics": {
+              "bleu_4": {
+                "status": "ok",
+                "value": 1.139003575752485e-06,
+                "error_type": null,
+                "error": null
+              },
+              "rouge_l": {
+                "status": "ok",
+                "value": 0.2671863451779026,
+                "error_type": null,
+                "error": null
+              },
+              "meteor": {
+                "status": "ok",
+                "value": 0.09360840571908405,
+                "error_type": null,
+                "error": null
+              },
+              "spider": {
+                "status": "ok",
+                "value": 0.05400317921558663,
+                "error_type": null,
+                "error": null
+              },
+              "fense": {
+                "status": "ok",
+                "value": 0.8711553137125655,
+                "error_type": null,
+                "error": null
+              },
+              "bertscore": {
+                "status": "ok",
+                "value": 0.6896257400512695,
+                "error_type": null,
+                "error": null
+              },
+              "clapscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "RuntimeError",
+                "error": "stack expects each tensor to be equal size, but got [77] at entry 0 and [79] at entry 5"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "suite": "stylecap",
+      "complete": true,
+      "detail": "prediction_rows=3112; scored=3112",
+      "result": {
+        "benchmark_questions": 3112,
+        "macro_average_accuracy": 0.4045629820051414,
+        "prediction_rows": 3112,
+        "tasks": {
+          "gender": {
+            "accuracy": 0.622107969151671,
+            "correct": 484,
+            "invalid": 1,
+            "total": 778
+          },
+          "pitch": {
+            "accuracy": 0.35732647814910024,
+            "correct": 278,
+            "invalid": 2,
+            "total": 778
+          },
+          "speaking_speed": {
+            "accuracy": 0.3380462724935733,
+            "correct": 263,
+            "invalid": 1,
+            "total": 778
+          },
+          "volume": {
+            "accuracy": 0.30077120822622105,
+            "correct": 234,
+            "invalid": 1,
+            "total": 778
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "suite": "paraspeechcaps",
+      "complete": true,
+      "detail": "samples=140; fields=840; scored=140",
+      "result": {
+        "protocol": "paraspeechcaps-attr6-content-scheme-a-v1",
+        "candidate_name": "midasheng_v6_r1",
+        "samples": 140,
+        "final_score": 0.23128966093717648,
+        "single_choice_accuracy": {
+          "gender": 0.4928571428571429,
+          "pitch": 0.02142857142857143,
+          "speaking_rate": 0.6,
+          "accent": 0.02142857142857143
+        },
+        "multi_choice": {
+          "intrinsic_traits": {
+            "tp": 230,
+            "fp": 1314,
+            "fn": 266,
+            "micro_precision": 0.1489637305699482,
+            "micro_recall": 0.4637096774193548,
+            "micro_f1": 0.22549019607843138,
+            "mean_sample_f1": 0.14489399799648242,
+            "exact_set_accuracy": 0.0,
+            "positive_recall": 0.48928571428571427
+          },
+          "situational_traits": {
+            "tp": 19,
+            "fp": 165,
+            "fn": 120,
+            "micro_precision": 0.10326086956521739,
+            "micro_recall": 0.1366906474820144,
+            "micro_f1": 0.11764705882352941,
+            "mean_sample_f1": 0.1071296819122906,
+            "exact_set_accuracy": 0.05714285714285714,
+            "positive_recall": 0.12980769230769232
+          }
+        },
+        "field_parse_rate": {
+          "gender": 1.0,
+          "pitch": 1.0,
+          "speaking_rate": 1.0,
+          "accent": 1.0,
+          "intrinsic_traits": 1.0,
+          "situational_traits": 1.0
+        },
+        "all_six_fields_parse_rate": 1.0,
+        "field_status_counts": {
+          "gender": {
+            "success": 140
+          },
+          "pitch": {
+            "success": 140
+          },
+          "speaking_rate": {
+            "success": 140
+          },
+          "accent": {
+            "success": 140
+          },
+          "intrinsic_traits": {
+            "success": 140
+          },
+          "situational_traits": {
+            "success": 140
+          }
+        },
+        "bootstrap_rounds": 10000,
+        "bootstrap_seed": 20260826,
+        "bootstrap_95_ci": [
+          0.21073914300560267,
+          0.25205959274890444
+        ],
+        "per_source": {
+          "ears": {
+            "samples": 26,
+            "final_score": 0.2533341534595715,
+            "single_choice_accuracy": {
+              "gender": 0.5769230769230769,
+              "pitch": 0.11538461538461539,
+              "speaking_rate": 0.4230769230769231,
+              "accent": 0.038461538461538464
+            },
+            "multi_choice": {
+              "intrinsic_traits": {
+                "tp": 28,
+                "fp": 168,
+                "fn": 56,
+                "micro_precision": 0.14285714285714285,
+                "micro_recall": 0.3333333333333333,
+                "micro_f1": 0.2,
+                "mean_sample_f1": 0.12000492075742912,
+                "exact_set_accuracy": 0.0,
+                "positive_recall": 0.32051282051282054
+              },
+              "situational_traits": {
+                "tp": 9,
+                "fp": 30,
+                "fn": 23,
+                "micro_precision": 0.23076923076923078,
+                "micro_recall": 0.28125,
+                "micro_f1": 0.2535211267605634,
+                "mean_sample_f1": 0.24615384615384617,
+                "exact_set_accuracy": 0.11538461538461539,
+                "positive_recall": 0.2692307692307692
+              }
+            },
+            "field_parse_rate": {
+              "gender": 1.0,
+              "pitch": 1.0,
+              "speaking_rate": 1.0,
+              "accent": 1.0,
+              "intrinsic_traits": 1.0,
+              "situational_traits": 1.0
+            },
+            "all_six_fields_parse_rate": 1.0
+          },
+          "expresso": {
+            "samples": 81,
+            "final_score": 0.21596886503488755,
+            "single_choice_accuracy": {
+              "gender": 0.5185185185185185,
+              "pitch": 0.0,
+              "speaking_rate": 0.5432098765432098,
+              "accent": 0.024691358024691357
+            },
+            "multi_choice": {
+              "intrinsic_traits": {
+                "tp": 120,
+                "fp": 644,
+                "fn": 187,
+                "micro_precision": 0.15706806282722513,
+                "micro_recall": 0.39087947882736157,
+                "micro_f1": 0.22408963585434175,
+                "mean_sample_f1": 0.1279347276448726,
+                "exact_set_accuracy": 0.0,
+                "positive_recall": 0.4228395061728395
+              },
+              "situational_traits": {
+                "tp": 10,
+                "fp": 104,
+                "fn": 97,
+                "micro_precision": 0.08771929824561403,
+                "micro_recall": 0.09345794392523364,
+                "micro_f1": 0.09049773755656108,
+                "mean_sample_f1": 0.08145870947803314,
+                "exact_set_accuracy": 0.037037037037037035,
+                "positive_recall": 0.08333333333333333
+              }
+            },
+            "field_parse_rate": {
+              "gender": 1.0,
+              "pitch": 1.0,
+              "speaking_rate": 1.0,
+              "accent": 1.0,
+              "intrinsic_traits": 1.0,
+              "situational_traits": 1.0
+            },
+            "all_six_fields_parse_rate": 1.0
+          },
+          "voxceleb": {
+            "samples": 33,
+            "final_score": 0.25152686283121056,
+            "single_choice_accuracy": {
+              "gender": 0.36363636363636365,
+              "pitch": 0.0,
+              "speaking_rate": 0.8787878787878788,
+              "accent": 0.0
+            },
+            "multi_choice": {
+              "intrinsic_traits": {
+                "tp": 82,
+                "fp": 502,
+                "fn": 23,
+                "micro_precision": 0.1404109589041096,
+                "micro_recall": 0.780952380952381,
+                "micro_f1": 0.23802612481857766,
+                "mean_sample_f1": 0.20613087395696092,
+                "exact_set_accuracy": 0.0,
+                "positive_recall": 0.7853535353535352
+              },
+              "situational_traits": {
+                "tp": 0,
+                "fp": 31,
+                "fn": 0,
+                "micro_precision": 0.0,
+                "micro_recall": 0.0,
+                "micro_f1": 0.0,
+                "mean_sample_f1": 0.06060606060606061,
+                "exact_set_accuracy": 0.06060606060606061,
+                "positive_recall": 0.0
+              }
+            },
+            "field_parse_rate": {
+              "gender": 1.0,
+              "pitch": 1.0,
+              "speaking_rate": 1.0,
+              "accent": 1.0,
+              "intrinsic_traits": 1.0,
+              "situational_traits": 1.0
+            },
+            "all_six_fields_parse_rate": 1.0
+          }
+        },
+        "manifest_sha256": "260f3fd60b95e2ff4bdb6cf89320179ff5f334a7a878359ec0f05f373a1f0843",
+        "predictions_sha256": "58eb9b6df9266f1b20453000d2e4664700ffc2db054313c228d4009d26367b0d",
+        "schema_sha256": "881cdd06a0f0dd4961febdb86da343a78c9b5c4881d4ca61a11813fa9ab07d20",
+        "manifest_metadata": {
+          "protocol": "paraspeechcaps-attr6-v1",
+          "input_rows": 142,
+          "unique_audio": 140,
+          "sources": {
+            "voxceleb": 33,
+            "expresso": 81,
+            "ears": 26
+          },
+          "duration_seconds": 940.00923,
+          "schema_sha256": "881cdd06a0f0dd4961febdb86da343a78c9b5c4881d4ca61a11813fa9ab07d20",
+          "test_available_csv_sha256": "cf7d71b08eaed28e182c5e8bbcf743c096d775aee1d7982799e26112b3f305f0",
+          "test_full_csv_sha256": "f18609c54182b4f79b36af5d7b25a593624942328d40af45185d393881c32876",
+          "normalization_action_counts": {
+            "move_enunciated": 3,
+            "explicit_gt_repair": 3
+          }
+        },
+        "run_metadata": {
+          "timestamp_utc": "2026-09-11T03:15:39.385502+00:00",
+          "protocol": "paraspeechcaps-attr6-content-scheme-a-v1",
+          "candidate_name": "midasheng_v6_r1",
+          "backend": "midasheng",
+          "model_dir": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+          "adapter": {
+            "path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_001/checkpoints/caption_final",
+            "base_model_name_or_path": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+            "config_path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_001/checkpoints/caption_final/adapter_config.json",
+            "config_sha256": "d712237ed50a4a69f8848db602c5813950a46d15723d6ac43f531f680d23c467",
+            "weights_path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_001/checkpoints/caption_final/adapter_model.safetensors",
+            "weights_sha256": "786b828496c7841141883d33d23b1ca9eb0ed762f2da554c5b8faffc0ee198cb",
+            "weights_bytes": 40699872,
+            "peft_type": "LORA",
+            "task_type": "CAUSAL_LM",
+            "r": 4,
+            "lora_alpha": 8,
+            "lora_dropout": 0.0,
+            "target_modules": "^decoder\\.model\\.layers\\.\\d+\\.(self_attn\\.(q_proj|k_proj|v_proj|o_proj)|mlp\\.(gate_proj|up_proj|down_proj))$|^audio_projector\\.net\\.(0|2)$"
+          },
+          "manifest_sha256": "260f3fd60b95e2ff4bdb6cf89320179ff5f334a7a878359ec0f05f373a1f0843",
+          "selected_manifest_sha256": "260f3fd60b95e2ff4bdb6cf89320179ff5f334a7a878359ec0f05f373a1f0843",
+          "evaluation_identity_sha256": "4fdb2ac36fd77832a2083cdb0a840428e67361b57b17fa79e8ccac04f424d34f",
+          "evaluation_identity": {
+            "protocol": "paraspeechcaps-attr6-content-scheme-a-v1",
+            "candidate_name": "midasheng_v6_r1",
+            "backend": "midasheng",
+            "model_dir": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+            "adapter": {
+              "path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_001/checkpoints/caption_final",
+              "base_model_name_or_path": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+              "config_path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_001/checkpoints/caption_final/adapter_config.json",
+              "config_sha256": "d712237ed50a4a69f8848db602c5813950a46d15723d6ac43f531f680d23c467",
+              "weights_path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_001/checkpoints/caption_final/adapter_model.safetensors",
+              "weights_sha256": "786b828496c7841141883d33d23b1ca9eb0ed762f2da554c5b8faffc0ee198cb",
+              "weights_bytes": 40699872,
+              "peft_type": "LORA",
+              "task_type": "CAUSAL_LM",
+              "r": 4,
+              "lora_alpha": 8,
+              "lora_dropout": 0.0,
+              "target_modules": "^decoder\\.model\\.layers\\.\\d+\\.(self_attn\\.(q_proj|k_proj|v_proj|o_proj)|mlp\\.(gate_proj|up_proj|down_proj))$|^audio_projector\\.net\\.(0|2)$"
+            },
+            "manifest_sha256": "260f3fd60b95e2ff4bdb6cf89320179ff5f334a7a878359ec0f05f373a1f0843",
+            "selected_sample_ids_sha256": "d3c9429a681bab1250f9b23500f35c5e7946765bea27c64aaf5fc9aef1b95f8d",
+            "field_prompt_sha256": {
+              "gender": "fef660401fc446246680482c947a8683f0aae190f11c4a07eccb43e249d9e4cd",
+              "pitch": "144949b53c961c46e047221bf8b8cbd66c58ff8d6b8ddb04dd7d4a9073d1edd1",
+              "speaking_rate": "cf9af0450927e03cc77a08820f42542921a3ec7b3fcd43d493d53e58e3e10ea2",
+              "accent": "06fca2c8236a8255efad0f60ed34ca1989ea72a6d45ad80e281b661f720b3ef1",
+              "intrinsic_traits": "76c4cfea63935c95388f9618c216a8f36adb1d3379c63638f9c862ddc38d6a48",
+              "situational_traits": "0d474f68703d5e72260917fc9491fa7219e5ba8c0bf18261d58e233fbe771bdd"
+            },
+            "max_new_tokens": 96,
+            "attn_backend": "sdpa",
+            "do_sample": false
+          },
+          "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+          "platform": "Linux-5.14.0-284.25.1.el9_2.x86_64-x86_64-with-glibc2.31",
+          "selected_samples": 140,
+          "expected_field_records": 840,
+          "merged_field_records": 840,
+          "field_status_counts": {
+            "success": 840
+          },
+          "wall_seconds": 491.212796
+        }
+      }
+    },
+    {
+      "round": 1,
+      "suite": "DSD",
+      "complete": true,
+      "result": {
+        "benchmark": "InstructTTSEval DSD",
+        "candidate": "midasheng_v6",
+        "round": 1,
+        "complete": true,
+        "dry_run": false,
+        "expected": 2000,
+        "scored": 2000,
+        "checkpoint_sha256": "b908abb48e98e894748bfd74379371c25f1980a7e777efe4b5c72ecf001ed85d",
+        "judge_model": "models/gemini-2.5-pro",
+        "metrics": {
+          "en": {
+            "expected": 1000,
+            "valid": 1000,
+            "scored": 1000,
+            "true": 787,
+            "percentage": 78.7,
+            "coverage_percentage": 100.0
+          },
+          "zh": {
+            "expected": 1000,
+            "valid": 1000,
+            "scored": 1000,
+            "true": 842,
+            "percentage": 84.2,
+            "coverage_percentage": 100.0
+          }
+        },
+        "bilingual_percentage": 81.45,
+        "base_bilingual_percentage": 80.9,
+        "base_summary_path": "/data/L202500147/Caption/benchmark/InstructTTSEval-public/qwen3_voice_design/runs/base/full_bilingual_seed42/evaluation_gemini_2_5_pro_audio_api/summary.json",
+        "usage": {
+          "input_tokens": 2573117,
+          "output_tokens": 464264,
+          "thinking_tokens": 3128873,
+          "billable_output_tokens": 3593137,
+          "cost_basis": "recorded_successful_responses_including_thinking; excludes unrecorded retries",
+          "input_price_per_million_usd": 1.25,
+          "output_price_per_million_usd": 10.0,
+          "estimated_cost_usd": 39.147766
+        }
+      }
+    },
+    {
+      "round": 2,
+      "suite": "emotiontalk",
+      "complete": true,
+      "detail": "prediction_rows=7716; task_counts={'speaker': 1929, 'style': 1929, 'emotion': 1929, 'overall': 1929}",
+      "result": {
+        "profile": "standard_public",
+        "tasks": {
+          "speaker": {
+            "count": 1929,
+            "metrics": {
+              "bleu_4": {
+                "status": "ok",
+                "value": 6.567489476190707e-15,
+                "error_type": null,
+                "error": null
+              },
+              "rouge_l": {
+                "status": "ok",
+                "value": 0.306188577915319,
+                "error_type": null,
+                "error": null
+              },
+              "meteor": {
+                "status": "ok",
+                "value": 0.144335159180493,
+                "error_type": null,
+                "error": null
+              },
+              "spider": {
+                "status": "ok",
+                "value": 0.14634141108557824,
+                "error_type": null,
+                "error": null
+              },
+              "fense": {
+                "status": "ok",
+                "value": 0.789474970439112,
+                "error_type": null,
+                "error": null
+              },
+              "bertscore": {
+                "status": "ok",
+                "value": 0.6802399754524231,
+                "error_type": null,
+                "error": null
+              },
+              "clapscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "RuntimeError",
+                "error": "stack expects each tensor to be equal size, but got [77] at entry 0 and [86] at entry 1"
+              }
+            }
+          },
+          "style": {
+            "count": 1929,
+            "metrics": {
+              "bleu_4": {
+                "status": "ok",
+                "value": 0.017220832078444232,
+                "error_type": null,
+                "error": null
+              },
+              "rouge_l": {
+                "status": "ok",
+                "value": 0.38215341194478597,
+                "error_type": null,
+                "error": null
+              },
+              "meteor": {
+                "status": "ok",
+                "value": 0.14539371935796996,
+                "error_type": null,
+                "error": null
+              },
+              "spider": {
+                "status": "ok",
+                "value": 0.16159664268977803,
+                "error_type": null,
+                "error": null
+              },
+              "fense": {
+                "status": "ok",
+                "value": 0.723034091917204,
+                "error_type": null,
+                "error": null
+              },
+              "bertscore": {
+                "status": "ok",
+                "value": 0.7014287114143372,
+                "error_type": null,
+                "error": null
+              },
+              "clapscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "RuntimeError",
+                "error": "stack expects each tensor to be equal size, but got [77] at entry 0 and [79] at entry 2"
+              }
+            }
+          },
+          "emotion": {
+            "count": 1929,
+            "metrics": {
+              "bleu_4": {
+                "status": "ok",
+                "value": 1.0726829481126028e-14,
+                "error_type": null,
+                "error": null
+              },
+              "rouge_l": {
+                "status": "ok",
+                "value": 0.13405915990287098,
+                "error_type": null,
+                "error": null
+              },
+              "meteor": {
+                "status": "ok",
+                "value": 0.06430207691953374,
+                "error_type": null,
+                "error": null
+              },
+              "spider": {
+                "status": "ok",
+                "value": 0.06419415109561127,
+                "error_type": null,
+                "error": null
+              },
+              "fense": {
+                "status": "ok",
+                "value": 0.7967839794989509,
+                "error_type": null,
+                "error": null
+              },
+              "bertscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "ValueError",
+                "error": "Unable to create tensor, you should probably activate truncation and/or padding with 'padding=True' 'truncation=True' to have batched tensors with the same length. Perhaps your features (`input_ids` in this case) have excessive nesting (inputs type `list` where type `int` is expected)."
+              },
+              "clapscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "RuntimeError",
+                "error": "stack expects each tensor to be equal size, but got [77] at entry 0 and [265] at entry 3"
+              }
+            }
+          },
+          "overall": {
+            "count": 1929,
+            "metrics": {
+              "bleu_4": {
+                "status": "ok",
+                "value": 1.1746367832494803e-06,
+                "error_type": null,
+                "error": null
+              },
+              "rouge_l": {
+                "status": "ok",
+                "value": 0.26786955488117986,
+                "error_type": null,
+                "error": null
+              },
+              "meteor": {
+                "status": "ok",
+                "value": 0.0941372623233453,
+                "error_type": null,
+                "error": null
+              },
+              "spider": {
+                "status": "ok",
+                "value": 0.05429894623406476,
+                "error_type": null,
+                "error": null
+              },
+              "fense": {
+                "status": "ok",
+                "value": 0.8730569918548708,
+                "error_type": null,
+                "error": null
+              },
+              "bertscore": {
+                "status": "ok",
+                "value": 0.6912951469421387,
+                "error_type": null,
+                "error": null
+              },
+              "clapscore": {
+                "status": "unavailable",
+                "value": null,
+                "error_type": "RuntimeError",
+                "error": "stack expects each tensor to be equal size, but got [77] at entry 0 and [79] at entry 5"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "suite": "stylecap",
+      "complete": true,
+      "detail": "prediction_rows=3112; scored=3112",
+      "result": {
+        "benchmark_questions": 3112,
+        "macro_average_accuracy": 0.40424164524421596,
+        "prediction_rows": 3112,
+        "tasks": {
+          "gender": {
+            "accuracy": 0.6169665809768637,
+            "correct": 480,
+            "invalid": 1,
+            "total": 778
+          },
+          "pitch": {
+            "accuracy": 0.36118251928020567,
+            "correct": 281,
+            "invalid": 2,
+            "total": 778
+          },
+          "speaking_speed": {
+            "accuracy": 0.3380462724935733,
+            "correct": 263,
+            "invalid": 1,
+            "total": 778
+          },
+          "volume": {
+            "accuracy": 0.30077120822622105,
+            "correct": 234,
+            "invalid": 1,
+            "total": 778
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "suite": "paraspeechcaps",
+      "complete": true,
+      "detail": "samples=140; fields=840; scored=140",
+      "result": {
+        "protocol": "paraspeechcaps-attr6-content-scheme-a-v1",
+        "candidate_name": "midasheng_v6_r2",
+        "samples": 140,
+        "final_score": 0.23190441968465839,
+        "single_choice_accuracy": {
+          "gender": 0.4714285714285714,
+          "pitch": 0.02142857142857143,
+          "speaking_rate": 0.6071428571428571,
+          "accent": 0.02857142857142857
+        },
+        "multi_choice": {
+          "intrinsic_traits": {
+            "tp": 241,
+            "fp": 1332,
+            "fn": 255,
+            "micro_precision": 0.15321042593769865,
+            "micro_recall": 0.48588709677419356,
+            "micro_f1": 0.23296278395360076,
+            "mean_sample_f1": 0.15643969333851648,
+            "exact_set_accuracy": 0.0,
+            "positive_recall": 0.5075
+          },
+          "situational_traits": {
+            "tp": 19,
+            "fp": 168,
+            "fn": 120,
+            "micro_precision": 0.10160427807486631,
+            "micro_recall": 0.1366906474820144,
+            "micro_f1": 0.1165644171779141,
+            "mean_sample_f1": 0.10641539619800489,
+            "exact_set_accuracy": 0.05714285714285714,
+            "positive_recall": 0.12980769230769232
+          }
+        },
+        "field_parse_rate": {
+          "gender": 1.0,
+          "pitch": 1.0,
+          "speaking_rate": 1.0,
+          "accent": 1.0,
+          "intrinsic_traits": 1.0,
+          "situational_traits": 1.0
+        },
+        "all_six_fields_parse_rate": 1.0,
+        "field_status_counts": {
+          "gender": {
+            "success": 140
+          },
+          "pitch": {
+            "success": 140
+          },
+          "speaking_rate": {
+            "success": 140
+          },
+          "accent": {
+            "success": 140
+          },
+          "intrinsic_traits": {
+            "success": 140
+          },
+          "situational_traits": {
+            "success": 140
+          }
+        },
+        "bootstrap_rounds": 10000,
+        "bootstrap_seed": 20260826,
+        "bootstrap_95_ci": [
+          0.21133258886767728,
+          0.2522575166879964
+        ],
+        "per_source": {
+          "ears": {
+            "samples": 26,
+            "final_score": 0.2517883510838096,
+            "single_choice_accuracy": {
+              "gender": 0.5769230769230769,
+              "pitch": 0.11538461538461539,
+              "speaking_rate": 0.4230769230769231,
+              "accent": 0.038461538461538464
+            },
+            "multi_choice": {
+              "intrinsic_traits": {
+                "tp": 27,
+                "fp": 170,
+                "fn": 57,
+                "micro_precision": 0.13705583756345177,
+                "micro_recall": 0.32142857142857145,
+                "micro_f1": 0.19217081850533807,
+                "mean_sample_f1": 0.11457626034901162,
+                "exact_set_accuracy": 0.0,
+                "positive_recall": 0.3108974358974359
+              },
+              "situational_traits": {
+                "tp": 9,
+                "fp": 33,
+                "fn": 23,
+                "micro_precision": 0.21428571428571427,
+                "micro_recall": 0.28125,
+                "micro_f1": 0.24324324324324326,
+                "mean_sample_f1": 0.24230769230769234,
+                "exact_set_accuracy": 0.11538461538461539,
+                "positive_recall": 0.2692307692307692
+              }
+            },
+            "field_parse_rate": {
+              "gender": 1.0,
+              "pitch": 1.0,
+              "speaking_rate": 1.0,
+              "accent": 1.0,
+              "intrinsic_traits": 1.0,
+              "situational_traits": 1.0
+            },
+            "all_six_fields_parse_rate": 1.0
+          },
+          "expresso": {
+            "samples": 81,
+            "final_score": 0.2180878983904664,
+            "single_choice_accuracy": {
+              "gender": 0.49382716049382713,
+              "pitch": 0.0,
+              "speaking_rate": 0.5555555555555556,
+              "accent": 0.037037037037037035
+            },
+            "multi_choice": {
+              "intrinsic_traits": {
+                "tp": 123,
+                "fp": 626,
+                "fn": 184,
+                "micro_precision": 0.16421895861148197,
+                "micro_recall": 0.4006514657980456,
+                "micro_f1": 0.23295454545454544,
+                "mean_sample_f1": 0.14064892777834553,
+                "exact_set_accuracy": 0.0,
+                "positive_recall": 0.42345679012345677
+              },
+              "situational_traits": {
+                "tp": 10,
+                "fp": 104,
+                "fn": 97,
+                "micro_precision": 0.08771929824561403,
+                "micro_recall": 0.09345794392523364,
+                "micro_f1": 0.09049773755656108,
+                "mean_sample_f1": 0.08145870947803314,
+                "exact_set_accuracy": 0.037037037037037035,
+                "positive_recall": 0.08333333333333333
+              }
+            },
+            "field_parse_rate": {
+              "gender": 1.0,
+              "pitch": 1.0,
+              "speaking_rate": 1.0,
+              "accent": 1.0,
+              "intrinsic_traits": 1.0,
+              "situational_traits": 1.0
+            },
+            "all_six_fields_parse_rate": 1.0
+          },
+          "voxceleb": {
+            "samples": 33,
+            "final_score": 0.25015157145591926,
+            "single_choice_accuracy": {
+              "gender": 0.3333333333333333,
+              "pitch": 0.0,
+              "speaking_rate": 0.8787878787878788,
+              "accent": 0.0
+            },
+            "multi_choice": {
+              "intrinsic_traits": {
+                "tp": 91,
+                "fp": 536,
+                "fn": 14,
+                "micro_precision": 0.14513556618819776,
+                "micro_recall": 0.8666666666666667,
+                "micro_f1": 0.24863387978142076,
+                "mean_sample_f1": 0.22818215600824296,
+                "exact_set_accuracy": 0.0,
+                "positive_recall": 0.8686868686868686
+              },
+              "situational_traits": {
+                "tp": 0,
+                "fp": 31,
+                "fn": 0,
+                "micro_precision": 0.0,
+                "micro_recall": 0.0,
+                "micro_f1": 0.0,
+                "mean_sample_f1": 0.06060606060606061,
+                "exact_set_accuracy": 0.06060606060606061,
+                "positive_recall": 0.0
+              }
+            },
+            "field_parse_rate": {
+              "gender": 1.0,
+              "pitch": 1.0,
+              "speaking_rate": 1.0,
+              "accent": 1.0,
+              "intrinsic_traits": 1.0,
+              "situational_traits": 1.0
+            },
+            "all_six_fields_parse_rate": 1.0
+          }
+        },
+        "manifest_sha256": "260f3fd60b95e2ff4bdb6cf89320179ff5f334a7a878359ec0f05f373a1f0843",
+        "predictions_sha256": "7fab545fa57e9ea5cbe52628cbe2f71c36fa83e8d83fe1645eeb43e1c235ee82",
+        "schema_sha256": "881cdd06a0f0dd4961febdb86da343a78c9b5c4881d4ca61a11813fa9ab07d20",
+        "manifest_metadata": {
+          "protocol": "paraspeechcaps-attr6-v1",
+          "input_rows": 142,
+          "unique_audio": 140,
+          "sources": {
+            "voxceleb": 33,
+            "expresso": 81,
+            "ears": 26
+          },
+          "duration_seconds": 940.00923,
+          "schema_sha256": "881cdd06a0f0dd4961febdb86da343a78c9b5c4881d4ca61a11813fa9ab07d20",
+          "test_available_csv_sha256": "cf7d71b08eaed28e182c5e8bbcf743c096d775aee1d7982799e26112b3f305f0",
+          "test_full_csv_sha256": "f18609c54182b4f79b36af5d7b25a593624942328d40af45185d393881c32876",
+          "normalization_action_counts": {
+            "move_enunciated": 3,
+            "explicit_gt_repair": 3
+          }
+        },
+        "run_metadata": {
+          "timestamp_utc": "2026-09-11T03:19:30.493166+00:00",
+          "protocol": "paraspeechcaps-attr6-content-scheme-a-v1",
+          "candidate_name": "midasheng_v6_r2",
+          "backend": "midasheng",
+          "model_dir": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+          "adapter": {
+            "path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_002/checkpoints/caption_final",
+            "base_model_name_or_path": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+            "config_path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_002/checkpoints/caption_final/adapter_config.json",
+            "config_sha256": "d712237ed50a4a69f8848db602c5813950a46d15723d6ac43f531f680d23c467",
+            "weights_path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_002/checkpoints/caption_final/adapter_model.safetensors",
+            "weights_sha256": "4a99503b457f78e92d4f656b39ab92f57ef29c789b4044ed025658b29271acb9",
+            "weights_bytes": 40699872,
+            "peft_type": "LORA",
+            "task_type": "CAUSAL_LM",
+            "r": 4,
+            "lora_alpha": 8,
+            "lora_dropout": 0.0,
+            "target_modules": "^decoder\\.model\\.layers\\.\\d+\\.(self_attn\\.(q_proj|k_proj|v_proj|o_proj)|mlp\\.(gate_proj|up_proj|down_proj))$|^audio_projector\\.net\\.(0|2)$"
+          },
+          "manifest_sha256": "260f3fd60b95e2ff4bdb6cf89320179ff5f334a7a878359ec0f05f373a1f0843",
+          "selected_manifest_sha256": "260f3fd60b95e2ff4bdb6cf89320179ff5f334a7a878359ec0f05f373a1f0843",
+          "evaluation_identity_sha256": "7fecda8895e5566fd12536ee972bc1ee0f5d1679648818273f9c29e03c85b1dc",
+          "evaluation_identity": {
+            "protocol": "paraspeechcaps-attr6-content-scheme-a-v1",
+            "candidate_name": "midasheng_v6_r2",
+            "backend": "midasheng",
+            "model_dir": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+            "adapter": {
+              "path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_002/checkpoints/caption_final",
+              "base_model_name_or_path": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+              "config_path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_002/checkpoints/caption_final/adapter_config.json",
+              "config_sha256": "d712237ed50a4a69f8848db602c5813950a46d15723d6ac43f531f680d23c467",
+              "weights_path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_002/checkpoints/caption_final/adapter_model.safetensors",
+              "weights_sha256": "4a99503b457f78e92d4f656b39ab92f57ef29c789b4044ed025658b29271acb9",
+              "weights_bytes": 40699872,
+              "peft_type": "LORA",
+              "task_type": "CAUSAL_LM",
+              "r": 4,
+              "lora_alpha": 8,
+              "lora_dropout": 0.0,
+              "target_modules": "^decoder\\.model\\.layers\\.\\d+\\.(self_attn\\.(q_proj|k_proj|v_proj|o_proj)|mlp\\.(gate_proj|up_proj|down_proj))$|^audio_projector\\.net\\.(0|2)$"
+            },
+            "manifest_sha256": "260f3fd60b95e2ff4bdb6cf89320179ff5f334a7a878359ec0f05f373a1f0843",
+            "selected_sample_ids_sha256": "d3c9429a681bab1250f9b23500f35c5e7946765bea27c64aaf5fc9aef1b95f8d",
+            "field_prompt_sha256": {
+              "gender": "fef660401fc446246680482c947a8683f0aae190f11c4a07eccb43e249d9e4cd",
+              "pitch": "144949b53c961c46e047221bf8b8cbd66c58ff8d6b8ddb04dd7d4a9073d1edd1",
+              "speaking_rate": "cf9af0450927e03cc77a08820f42542921a3ec7b3fcd43d493d53e58e3e10ea2",
+              "accent": "06fca2c8236a8255efad0f60ed34ca1989ea72a6d45ad80e281b661f720b3ef1",
+              "intrinsic_traits": "76c4cfea63935c95388f9618c216a8f36adb1d3379c63638f9c862ddc38d6a48",
+              "situational_traits": "0d474f68703d5e72260917fc9491fa7219e5ba8c0bf18261d58e233fbe771bdd"
+            },
+            "max_new_tokens": 96,
+            "attn_backend": "sdpa",
+            "do_sample": false
+          },
+          "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+          "platform": "Linux-5.14.0-284.25.1.el9_2.x86_64-x86_64-with-glibc2.31",
+          "selected_samples": 140,
+          "expected_field_records": 840,
+          "merged_field_records": 840,
+          "field_status_counts": {
+            "success": 840
+          },
+          "wall_seconds": 454.851057
+        }
+      }
+    },
+    {
+      "round": 2,
+      "suite": "DSD",
+      "complete": true,
+      "result": {
+        "benchmark": "InstructTTSEval DSD",
+        "candidate": "midasheng_v6",
+        "round": 2,
+        "complete": true,
+        "dry_run": false,
+        "expected": 2000,
+        "scored": 2000,
+        "checkpoint_sha256": "9b1a30738fbdf68a1aad4ec96b541c81cb957324100b56da471bb6779a7bfa81",
+        "judge_model": "models/gemini-2.5-pro",
+        "metrics": {
+          "en": {
+            "expected": 1000,
+            "valid": 1000,
+            "scored": 1000,
+            "true": 773,
+            "percentage": 77.3,
+            "coverage_percentage": 100.0
+          },
+          "zh": {
+            "expected": 1000,
+            "valid": 1000,
+            "scored": 1000,
+            "true": 842,
+            "percentage": 84.2,
+            "coverage_percentage": 100.0
+          }
+        },
+        "bilingual_percentage": 80.75,
+        "base_bilingual_percentage": 80.9,
+        "base_summary_path": "/data/L202500147/Caption/benchmark/InstructTTSEval-public/qwen3_voice_design/runs/base/full_bilingual_seed42/evaluation_gemini_2_5_pro_audio_api/summary.json",
+        "usage": {
+          "input_tokens": 2573140,
+          "output_tokens": 468631,
+          "thinking_tokens": 3121689,
+          "billable_output_tokens": 3590320,
+          "cost_basis": "recorded_successful_responses_including_thinking; excludes unrecorded retries",
+          "input_price_per_million_usd": 1.25,
+          "output_price_per_million_usd": 10.0,
+          "estimated_cost_usd": 39.119625
+        }
+      }
+    }
+  ]
+}

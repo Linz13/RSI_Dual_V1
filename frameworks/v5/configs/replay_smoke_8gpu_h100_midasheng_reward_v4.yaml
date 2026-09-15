@@ -1,0 +1,5 @@
+extends: gpu_smoke_8gpu_h100_midasheng_reward_v4.yaml
+run:
+  output_dir: ../runs/replay_smoke_8gpu_h100_midasheng_reward_v4
+training:
+  rounds: 2

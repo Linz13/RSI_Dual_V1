@@ -1,0 +1,9 @@
+extends: gpu_smoke_1gpu.yaml
+
+run:
+  output_dir: ../runs/gpu_smoke_2gpu
+
+distributed:
+  enabled: true
+  world_size: 2
+  backend: nccl

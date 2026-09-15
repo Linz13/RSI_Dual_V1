@@ -1,0 +1,436 @@
+[
+  {
+    "round_index": 1,
+    "branch": "audio",
+    "id": "random440_expressivespeech_266",
+    "selection": "第二轮：差距大（中文）",
+    "span": 0.5,
+    "candidates": [
+      {
+        "candidate_id": "random440_expressivespeech_266::0",
+        "score": 0.43333333333333335,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio_attribute_synthesis/audio/f4257c76baf8fc4d4e500a35.wav",
+        "sha256": "6c912916e3220b8fc45bab67c6b283aa2f407425997db3f28944d080e2620f60",
+        "duration_seconds": 2.48,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_266::1",
+        "score": 0.49333333333333335,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio_attribute_synthesis/audio/0e05a8e21616798a5caf0d0c.wav",
+        "sha256": "04f19bd9e338455494cc19d1c40cba5397c0aef84ee39218ef71149b265a6b75",
+        "duration_seconds": 1.12,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_266::2",
+        "score": 0.7666666666666667,
+        "sft_selected": true,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio_attribute_synthesis/audio/5760a520f1cc4631870558d6.wav",
+        "sha256": "84ab578a9e0eb8d9bb2ed8b56abd8772368712408e265fe8b18282b7fc669329",
+        "duration_seconds": 1.84,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_266::3",
+        "score": 0.26666666666666666,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio_attribute_synthesis/audio/525e6ad5686d73f01c9c6f8e.wav",
+        "sha256": "eb2893203e4f49895a4939a31f4ecf10a1ba7785bc7338f171661445091a77cb",
+        "duration_seconds": 1.04,
+        "sample_rate": 24000,
+        "channels": 1
+      }
+    ],
+    "reference_audio": {
+      "source_path": "/data/L202500147/Caption/training_data_v2/audio/266_8_1_d1582.wav",
+      "sha256": "65b3e7da86931ee58f63fc5d58d415f857e3570fb9ed1f705c5e9c4dd5cd4050",
+      "duration_seconds": 2.2,
+      "sample_rate": 16000,
+      "channels": 1
+    }
+  },
+  {
+    "round_index": 1,
+    "branch": "audio",
+    "id": "random440_expressivespeech_065",
+    "selection": "第二轮：差距最小的完整四候选组",
+    "span": 0.026666666666666727,
+    "candidates": [
+      {
+        "candidate_id": "random440_expressivespeech_065::0",
+        "score": 0.625925925925926,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio_attribute_synthesis/audio/c4e04f218216ce8458b4e608.wav",
+        "sha256": "4e226cdb500cde1b0e09a10e781543fa0a6a8cea1b6ef9ef8b202f0542eb7a1d",
+        "duration_seconds": 10.72,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_065::1",
+        "score": 0.6266666666666667,
+        "sft_selected": true,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio_attribute_synthesis/audio/c6461dd38488857891b24952.wav",
+        "sha256": "fab5a7ad7571a3b6505e510afec8de935b10d320c2e62bed0eb9c81a162fc329",
+        "duration_seconds": 4.16,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_065::2",
+        "score": 0.6238095238095238,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio_attribute_synthesis/audio/fa1282f52ff308371d1e9e15.wav",
+        "sha256": "390f8743b738101bb79f9704abd5ab1747ce9dc6affe6bbbc2828b029fde680a",
+        "duration_seconds": 9.2,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_065::3",
+        "score": 0.6,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio_attribute_synthesis/audio/55e9100f699b1d9694561684.wav",
+        "sha256": "1a0aabd074b461347bbea86caffc06ca611defc3b890599f8737277eb470b97f",
+        "duration_seconds": 10.16,
+        "sample_rate": 24000,
+        "channels": 1
+      }
+    ],
+    "reference_audio": {
+      "source_path": "/data/L202500147/Caption/training_data_v2/audio/065_1_1_d6800.wav",
+      "sha256": "6340237705989db5d347a354bf1f2ea3703e028c42396b645cfe8841c0da989c",
+      "duration_seconds": 7.76,
+      "sample_rate": 44100,
+      "channels": 1
+    }
+  },
+  {
+    "round_index": 1,
+    "branch": "audio",
+    "id": "random440_expressivespeech_321",
+    "selection": "第二轮：差距接近总体中位数",
+    "span": 0.1333333333333333,
+    "candidates": [
+      {
+        "candidate_id": "random440_expressivespeech_321::0",
+        "score": 0.5333333333333333,
+        "sft_selected": true,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio_attribute_synthesis/audio/9e175ab8fa59814548675488.wav",
+        "sha256": "a6d02e85292441cdaf0dd9d068a06c49c378e49ba25c77277ade98fd94adec7d",
+        "duration_seconds": 2.48,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_321::1",
+        "score": 0.4,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio_attribute_synthesis/audio/34e2fd0d6ef1928899b53332.wav",
+        "sha256": "11bfb2ea23d509cc3a55bcfc14b5f968bb2a70560a536b1832407f626f5a6739",
+        "duration_seconds": 2.16,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_321::2",
+        "score": 0.4,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio_attribute_synthesis/audio/76bb15a22017357bb6001551.wav",
+        "sha256": "7afc693403bad3a98ee50da55682f77f7a06c1201ea7b33bdde0b34954f1cf9e",
+        "duration_seconds": 2.64,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_321::3",
+        "score": 0.4666666666666667,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio_attribute_synthesis/audio/a44a5e9ac80e53257fb1fd8e.wav",
+        "sha256": "18aa8f0a438955fa05643680010cc66f62d23944eaafcd711f2df4eaed462864",
+        "duration_seconds": 2.16,
+        "sample_rate": 24000,
+        "channels": 1
+      }
+    ],
+    "reference_audio": {
+      "source_path": "/data/L202500147/Caption/training_data_v2/audio/321_t_26431f22-6518-4e7c-8e0b-910da703e4d9_12j_s1.wav",
+      "sha256": "fb783b138dc75ecd66dc8b99f47cc3a5539ccfca659c98a0ae2f5d473f29d95d",
+      "duration_seconds": 6.6346875,
+      "sample_rate": 16000,
+      "channels": 1
+    }
+  },
+  {
+    "round_index": 0,
+    "branch": "audio",
+    "id": "random440_expressivespeech_004",
+    "selection": "第一轮：差距较小",
+    "span": 0.053333333333333344,
+    "candidates": [
+      {
+        "candidate_id": "random440_expressivespeech_004::0",
+        "score": 0.5666666666666667,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio_attribute_synthesis/audio/ef5021b8cafc8254c1090835.wav",
+        "sha256": "91b7b39befd297421e86048dad7341b991924640da75b463ca5f72a64a374c48",
+        "duration_seconds": 2.8,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_004::1",
+        "score": 0.62,
+        "sft_selected": true,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio_attribute_synthesis/audio/a50477642a09f0fd2f7c4390.wav",
+        "sha256": "2229435d3b24ac158b39d6088b3ccda4aa4c2ac75ce8bcff8bd7f0a2c3bd35d9",
+        "duration_seconds": 3.2,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_004::2",
+        "score": 0.5666666666666667,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio_attribute_synthesis/audio/a722f3a2386c7c41249155d4.wav",
+        "sha256": "c0b20510d25858e56d3c0e7332e5d3880c533311166a3ed3dd58ba767c4de39a",
+        "duration_seconds": 2.56,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_004::3",
+        "score": 0.5866666666666667,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio_attribute_synthesis/audio/6d898482d0bedb32b2827afc.wav",
+        "sha256": "b473611066ab230c64254d581df75913a50b89802f652909633d2a4e1d105bc0",
+        "duration_seconds": 3.76,
+        "sample_rate": 24000,
+        "channels": 1
+      }
+    ],
+    "reference_audio": {
+      "source_path": "/data/L202500147/Caption/training_data_v2/audio/004_017_speaker1_89s_92s.wav",
+      "sha256": "971353099abc604fa6dd6e8097d88b41ea097750aa2ea3d0db288c51d409d99d",
+      "duration_seconds": 2.967,
+      "sample_rate": 48000,
+      "channels": 1
+    }
+  },
+  {
+    "round_index": 0,
+    "branch": "audio",
+    "id": "random440_expressivespeech_183",
+    "selection": "第一轮：差距接近总体中位数",
+    "span": 0.16666666666666669,
+    "candidates": [
+      {
+        "candidate_id": "random440_expressivespeech_183::0",
+        "score": 0.36666666666666664,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio_attribute_synthesis/audio/86d8e9f3302ee216f1fbd5ae.wav",
+        "sha256": "f8e05a32164aee784d5897db3b8f895186674efb2ec778e38e6200f953e08dc8",
+        "duration_seconds": 15.12,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_183::1",
+        "score": 0.3,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio_attribute_synthesis/audio/59bc7b238bf33952aa2cdbd9.wav",
+        "sha256": "a334e7db2751f63dc6bcd40c24223a545e4396116085d49ddadb3f3617b8df13",
+        "duration_seconds": 14.4,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_183::2",
+        "score": 0.3333333333333333,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio_attribute_synthesis/audio/a241cd7910ca41c21b7954b4.wav",
+        "sha256": "abdfef00f0a0fd2844403c79b2c0da8743a479a9a6f192c7e1df7e09bcd9f98a",
+        "duration_seconds": 14.48,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_183::3",
+        "score": 0.4666666666666667,
+        "sft_selected": true,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio_attribute_synthesis/audio/0ab3b9a907c194a1739193c3.wav",
+        "sha256": "e27cd8872c209b50205e732c0619d8bc46371887b3077469c15e22d48fa1561e",
+        "duration_seconds": 18.64,
+        "sample_rate": 24000,
+        "channels": 1
+      }
+    ],
+    "reference_audio": {
+      "source_path": "/data/L202500147/Caption/training_data_v2/audio/183_005_speaker2_90s_106s.wav",
+      "sha256": "66e2e348cc24fed52c0ac9471f143fd6474582d334bcdf3883c9742491f26c45",
+      "duration_seconds": 15.737,
+      "sample_rate": 48000,
+      "channels": 1
+    }
+  },
+  {
+    "round_index": 0,
+    "branch": "audio",
+    "id": "random440_expressivespeech_313",
+    "selection": "第一轮：差距最大",
+    "span": 0.5770114942528735,
+    "candidates": [
+      {
+        "candidate_id": "random440_expressivespeech_313::0",
+        "score": 0.7020408163265306,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio_attribute_synthesis/audio/2b6327b9f388e130eebeda15.wav",
+        "sha256": "947790689e5a2871b5e0f2e4630c42bf951a91cee331ab2472dc929af653b7a7",
+        "duration_seconds": 19.76,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_313::1",
+        "score": 0.2,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio_attribute_synthesis/audio/8194656ff53fb8dde9d4d24a.wav",
+        "sha256": "f8b506053cff405ff6aa9c7c25902e212f54bd4178b0ec0a06c0c066df62d3c8",
+        "duration_seconds": 0.96,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_313::2",
+        "score": 0.7770114942528735,
+        "sft_selected": true,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio_attribute_synthesis/audio/7e137695577f624024025882.wav",
+        "sha256": "a912da1849f8d3f05171e15bcf329783768f5d6b20d090e2351b8d8f9d37d7c0",
+        "duration_seconds": 16.8,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_313::3",
+        "score": 0.5449275362318841,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio_attribute_synthesis/audio/99ef77aef57389def18a84ed.wav",
+        "sha256": "1e8ad58f0e71b7c3ed375e398db6a8791f9ed34f58f9bb0e3ea7eb865f18fa1a",
+        "duration_seconds": 17.2,
+        "sample_rate": 24000,
+        "channels": 1
+      }
+    ],
+    "reference_audio": {
+      "source_path": "/data/L202500147/Caption/training_data_v2/audio/313_C-ZH-5723_0_009_merged.wav",
+      "sha256": "19f39509dd881d69cb57309f3b48217198777f947e73c0e6dc7fe95c6f055c7b",
+      "duration_seconds": 20.51975,
+      "sample_rate": 16000,
+      "channels": 1
+    }
+  },
+  {
+    "round_index": 0,
+    "branch": "caption",
+    "id": "random440_expressivespeech_164",
+    "selection": "第1轮：同一 TTS 输入，四次采样",
+    "span": 0.08274635289853904,
+    "candidates": [
+      {
+        "candidate_id": "random440_expressivespeech_164::0",
+        "score": -1.9088058045163052,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_164_0.wav",
+        "sha256": "e4c1311cbc2cc472dfd95d85c3cd31209a42306afb67792119f3fe814cb2be45",
+        "duration_seconds": 6.48,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_164::1",
+        "score": -1.8979336841439363,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_164_1.wav",
+        "sha256": "89c651668954f7eab9f230e34e8c9587915644f96285a7b51c9d9d6fafe59545",
+        "duration_seconds": 5.44,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_164::2",
+        "score": -1.9806800370424753,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_164_2.wav",
+        "sha256": "65717c22bfcfb30c54c72a27721603cd8ffb7e331f11320468645546f64951f8",
+        "duration_seconds": 7.2,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_164::3",
+        "score": -1.9444041995157022,
+        "sft_selected": true,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_164_3.wav",
+        "sha256": "9672135d3e81baaa7ccd47675322eeb49caa7cb4cbfd7fb2bd248fcc5058afb8",
+        "duration_seconds": 7.84,
+        "sample_rate": 24000,
+        "channels": 1
+      }
+    ]
+  },
+  {
+    "round_index": 1,
+    "branch": "caption",
+    "id": "random440_expressivespeech_164",
+    "selection": "第2轮：同一 TTS 输入，四次采样",
+    "span": 0.0692217715550214,
+    "candidates": [
+      {
+        "candidate_id": "random440_expressivespeech_164::0",
+        "score": -1.8991235079156468,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio/random440_expressivespeech_164_0.wav",
+        "sha256": "4a48fc38466794f21b613cb26ba71f7f8e09c4ce519e19cb3ba451057f572691",
+        "duration_seconds": 6.96,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_164::1",
+        "score": -1.9683452794706682,
+        "sft_selected": true,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio/random440_expressivespeech_164_1.wav",
+        "sha256": "c16c84e5d816b61c843be46d5c522d123fdea2dcecaa3b92f02093ccda2ac476",
+        "duration_seconds": 6.64,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_164::2",
+        "score": -1.9041022923047422,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio/random440_expressivespeech_164_2.wav",
+        "sha256": "36b233dee209c80f9c422504475faafe5c371bce5f9935a1c701889ec5777bdd",
+        "duration_seconds": 8.24,
+        "sample_rate": 24000,
+        "channels": 1
+      },
+      {
+        "candidate_id": "random440_expressivespeech_164::3",
+        "score": -1.924737715467927,
+        "sft_selected": false,
+        "source_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_001/collections/audio/random440_expressivespeech_164_3.wav",
+        "sha256": "4ea26f12908573edb5d5622826000b832572feea5e2249ed2680e6887e509d5f",
+        "duration_seconds": 6.64,
+        "sample_rate": 24000,
+        "channels": 1
+      }
+    ]
+  }
+]

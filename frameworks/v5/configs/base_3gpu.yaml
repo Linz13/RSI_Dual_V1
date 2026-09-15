@@ -1,0 +1,111 @@
+run:
+  output_dir: ../runs/dual_recursive_3gpu
+  seed: 42
+  inline_mock: false
+
+distributed:
+  enabled: true
+  world_size: 3
+  backend: nccl
+  timeout_seconds: 21600
+
+data:
+  paired_path: ../../training_data_v2/paired.jsonl
+  audio_only_path: ../../training_data_v2/audio_only.jsonl
+  caption_only_path: ../../training_data_v2/caption_only.jsonl
+  strict_disjoint: true
+  hash_audio: true
+  duration: {min: 1.2, max: 30.0}
+
+captioner:
+  python: ../../../miniconda3/envs/qwen3-captioner/bin/python
+  worker_module: dual_isl_train.workers.qwen3_captioner
+  model_path: ../../models/Qwen3-Omni-30B-A3B-Captioner
+  adapter_path: ""
+  device: cuda:0
+  dtype: bfloat16
+  attn_implementation: flash_attention_2
+  gradient_checkpointing: true
+  generation:
+    max_new_tokens: 384
+    rollout_batch_size: 4
+    temperature: 1.0
+    top_p: 1.0
+    top_k: 0
+    max_attempts_per_candidate: 1
+    eos_token: <|im_end|>
+  lora: {r: 8, alpha: 16, dropout: 0.0, target_modules: [q_proj, k_proj, v_proj, o_proj, out_proj]}
+  training:
+    lr: 1.0e-6
+    weight_decay: 0.01
+    clip_range: 0.2
+    kl_beta: 0.02
+    grad_clip: 1.0
+    replay_batch_size: 4
+    grpo_backward_chunk_tokens: 16
+    phases:
+      grpo: {epochs: 1, lr: 1.0e-6, shuffle: true}
+      cycle_sft: {epochs: 1, lr: 5.0e-6, shuffle: true}
+
+tts:
+  python: ../../../miniconda3/envs/qwen3-tts/bin/python
+  worker_module: dual_isl_train.workers.qwen_voice_design
+  model_path: ../../models/Qwen3-TTS-12Hz-1.7B-VoiceDesign
+  tokenizer_path: ../../models/Qwen3-TTS-Tokenizer-12Hz
+  codec_cache_dir: ../runs/codec_cache/qwen3tts_12hz
+  adapter_path: ""
+  device: cuda:0
+  dtype: bfloat16
+  attn_implementation: sdpa
+  gradient_checkpointing: true
+  num_codebooks: 16
+  generation:
+    max_new_tokens: 512
+    temperature: 1.0
+    top_p: 1.0
+    top_k: 0
+    subtalker_temperature: 1.0
+    subtalker_top_p: 1.0
+    subtalker_top_k: 0
+    repetition_penalty: 1.0
+  lora: {r: 16, alpha: 32, dropout: 0.05}
+  training:
+    lr: 1.0e-6
+    weight_decay: 0.01
+    sub_talker_weight: 0.3
+    clip_range: 0.2
+    kl_beta: 0.02
+    grad_clip: 1.0
+    phases:
+      grpo: {epochs: 1, lr: 1.0e-6, shuffle: true, schedule: length_bucketed, heartbeat_frames: 32}
+      cycle_sft: {epochs: 1, lr: 2.0e-6, shuffle: true}
+
+critics:
+  python: ../../../miniconda3/envs/dualisl-critic/bin/python
+  worker_module: dual_isl_train.workers.critics
+  device: cuda:0
+  whisper_model: ../../models/whisper/large-v3-turbo.pt
+  whisper_download_root: ../../models/whisper
+
+training:
+  rounds: 3
+  group_size: 4
+  warmstart: false
+  anchor_mode: all_paired_once
+
+reward:
+  calibration: {method: round0_dual_counterfactual_zscore}
+  counterfactuals_per_candidate: 3
+  anchor_penalty_weight: 0.25
+  anchor_tolerance_z: 0.5
+  cycle_sft_selection: semantic_top1
+  # Diagnostic only: never blocks V4 cycle-SFT.
+  sft_gate: {diagnostic_only: true, target_precision: 0.90, min_recall: 0.25}
+  validity:
+    audio_only: {min_asr_score: 0.0}
+    caption_only: {min_audio_health: 0.5, min_asr_score: 0.0}
+  audio_only: {reconstruction_weight: 0.5, counterfactual_weight: 0.5}
+  caption_only: {reconstruction_weight: 0.5, counterfactual_weight: 0.5}
+
+synchronization: {rtol: 1.0e-6, atol: 1.0e-7}
+evaluation: {enabled: false}

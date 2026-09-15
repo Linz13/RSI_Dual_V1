@@ -1,0 +1,1717 @@
+[
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/PORTABLE_LOCAL_RUNS.md",
+    "destination": "source/Experiment/labeling2/PORTABLE_LOCAL_RUNS.md",
+    "original_sha256": "ad171f3ba1ea010172da304e0ea54bc21ed0ce0862ffbd511b1294148815ecea",
+    "bundle_sha256": "ad171f3ba1ea010172da304e0ea54bc21ed0ce0862ffbd511b1294148815ecea",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/README.md",
+    "destination": "source/Experiment/labeling2/README.md",
+    "original_sha256": "037cca4837356ddf0fa74adf3ac1e47212a5988025815a3918b7eb1504f1ac28",
+    "bundle_sha256": "037cca4837356ddf0fa74adf3ac1e47212a5988025815a3918b7eb1504f1ac28",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/__init__.py",
+    "destination": "source/Experiment/labeling2/__init__.py",
+    "original_sha256": "5d3b5011bf4b268d1d825c6e5bbf10de7ccd8569dad3970aff87b4951e530def",
+    "bundle_sha256": "5d3b5011bf4b268d1d825c6e5bbf10de7ccd8569dad3970aff87b4951e530def",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/api_stage.py",
+    "destination": "source/Experiment/labeling2/api_stage.py",
+    "original_sha256": "639da92457a06d9525ed42094f7985e1a4652c3460b1a33cb19cc65ae204a5eb",
+    "bundle_sha256": "639da92457a06d9525ed42094f7985e1a4652c3460b1a33cb19cc65ae204a5eb",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/audit_run.py",
+    "destination": "source/Experiment/labeling2/audit_run.py",
+    "original_sha256": "eb14db61207538c2df180f84aa33199ac870dd75456fc728507f196dfdc91940",
+    "bundle_sha256": "eb14db61207538c2df180f84aa33199ac870dd75456fc728507f196dfdc91940",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/consensus.py",
+    "destination": "source/Experiment/labeling2/consensus.py",
+    "original_sha256": "fa66e1ca0657636acbbffd1de913e6f1240ac1de1185e1fdbf799c7d478d0d01",
+    "bundle_sha256": "fa66e1ca0657636acbbffd1de913e6f1240ac1de1185e1fdbf799c7d478d0d01",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/default_config.json",
+    "destination": "source/Experiment/labeling2/default_config.json",
+    "original_sha256": "d4c6bf278623bbe512c75611305b588f75891568a7b30e1fcab00c9af77b4635",
+    "bundle_sha256": "d4c6bf278623bbe512c75611305b588f75891568a7b30e1fcab00c9af77b4635",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/expert_worker.py",
+    "destination": "source/Experiment/labeling2/expert_worker.py",
+    "original_sha256": "a706cfd08326ed73b120f87a923946eabb75ce6331b4ca1571565ed7100c5b2d",
+    "bundle_sha256": "e93542948db508bb22520a95bacc8263943d550d2cd40c2799d3e6a0dab94e4d",
+    "modified_for_portability": true
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/local_worker.py",
+    "destination": "source/Experiment/labeling2/local_worker.py",
+    "original_sha256": "4deb56a2bfd5376dbcff4bebb62bd81b504c0a7256ba4f97923b9ed8c69f386d",
+    "bundle_sha256": "4deb56a2bfd5376dbcff4bebb62bd81b504c0a7256ba4f97923b9ed8c69f386d",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/manifest.py",
+    "destination": "source/Experiment/labeling2/manifest.py",
+    "original_sha256": "f851e2b241d7206b720060fdcaeda8bd6aba9f69d4ece7f9dedf6615e6898c29",
+    "bundle_sha256": "f851e2b241d7206b720060fdcaeda8bd6aba9f69d4ece7f9dedf6615e6898c29",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/manifest_schema.json",
+    "destination": "source/Experiment/labeling2/manifest_schema.json",
+    "original_sha256": "20268cac0450ae89c2f3088e5ce717d318af310a562503ea0b4ce64bdf620e43",
+    "bundle_sha256": "20268cac0450ae89c2f3088e5ce717d318af310a562503ea0b4ce64bdf620e43",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/open_resolution.py",
+    "destination": "source/Experiment/labeling2/open_resolution.py",
+    "original_sha256": "bf430753087996c785aa19df01370e5eed459c882ddb31ca84a30354924a1378",
+    "bundle_sha256": "8f5e62835b4ccb205a3dfca6562fc5176bbd95572dee82d6e09d0d4dd0208432",
+    "modified_for_portability": true
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/parsing.py",
+    "destination": "source/Experiment/labeling2/parsing.py",
+    "original_sha256": "bc8ea051be2f0b705c73aad833bf04cf4e6d2aff56d99e2e82d57ede0137fbb5",
+    "bundle_sha256": "bc8ea051be2f0b705c73aad833bf04cf4e6d2aff56d99e2e82d57ede0137fbb5",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/pipeline.py",
+    "destination": "source/Experiment/labeling2/pipeline.py",
+    "original_sha256": "a895dd15c10c694c255aec6275919c7195ed67926667efbf797a6fd7f54283d8",
+    "bundle_sha256": "a895dd15c10c694c255aec6275919c7195ed67926667efbf797a6fd7f54283d8",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/prepare_random_audio_manifest.py",
+    "destination": "source/Experiment/labeling2/prepare_random_audio_manifest.py",
+    "original_sha256": "ff60f2acc4c1a0ad9f24b1a9ae5783e318d3c542ffab7e289efe15c47acc2b3c",
+    "bundle_sha256": "ff60f2acc4c1a0ad9f24b1a9ae5783e318d3c542ffab7e289efe15c47acc2b3c",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/prompts.py",
+    "destination": "source/Experiment/labeling2/prompts.py",
+    "original_sha256": "75b950c06786402cbfc024277587db9d8c6a6c1e01fa0440f8fd12cb5a8edf27",
+    "bundle_sha256": "75b950c06786402cbfc024277587db9d8c6a6c1e01fa0440f8fd12cb5a8edf27",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/repair_structured_outputs.py",
+    "destination": "source/Experiment/labeling2/repair_structured_outputs.py",
+    "original_sha256": "fcf26793070058e9d5ee241d93b10553d3eeb6451c721777551653dcacbfde63",
+    "bundle_sha256": "fcf26793070058e9d5ee241d93b10553d3eeb6451c721777551653dcacbfde63",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/requirements.txt",
+    "destination": "source/Experiment/labeling2/requirements.txt",
+    "original_sha256": "92d6e5747e4e5f8f328646f93153492a0ce5d0da22a78139fff8ebb5c83ea5f9",
+    "bundle_sha256": "92d6e5747e4e5f8f328646f93153492a0ce5d0da22a78139fff8ebb5c83ea5f9",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/retry_selected_local.py",
+    "destination": "source/Experiment/labeling2/retry_selected_local.py",
+    "original_sha256": "ad5591c70b22b42bd65010af5f09785290ed780f0d8545d1eaadfeb5b16e9900",
+    "bundle_sha256": "ad5591c70b22b42bd65010af5f09785290ed780f0d8545d1eaadfeb5b16e9900",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/run_labeling.py",
+    "destination": "source/Experiment/labeling2/run_labeling.py",
+    "original_sha256": "3d3da6a3a33a05b8f177cf4cb8ead74683987c6c746296ca6b0f419a117528f4",
+    "bundle_sha256": "3d3da6a3a33a05b8f177cf4cb8ead74683987c6c746296ca6b0f419a117528f4",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/run_with_local_api_key.py",
+    "destination": "source/Experiment/labeling2/run_with_local_api_key.py",
+    "original_sha256": "49d96d82371f77cbcb1d1f369fcebc3cfecd4ff59a0a2eb4166677fcdafe8aba",
+    "bundle_sha256": "49d96d82371f77cbcb1d1f369fcebc3cfecd4ff59a0a2eb4166677fcdafe8aba",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/target_schema.json",
+    "destination": "source/Experiment/labeling2/target_schema.json",
+    "original_sha256": "7df7a54e084346582524ed16adb404d71d298cc7485cb5626814d168e98b8563",
+    "bundle_sha256": "7df7a54e084346582524ed16adb404d71d298cc7485cb5626814d168e98b8563",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/target_schema.py",
+    "destination": "source/Experiment/labeling2/target_schema.py",
+    "original_sha256": "c907ff4dd4310149367dbecbd98910095332fd464f553a7473453669fb82a19b",
+    "bundle_sha256": "c907ff4dd4310149367dbecbd98910095332fd464f553a7473453669fb82a19b",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/tests/test_api_key_wrapper.py",
+    "destination": "source/Experiment/labeling2/tests/test_api_key_wrapper.py",
+    "original_sha256": "dcf3d250cf496375f2065e5cb156b9553a94c35cb12ec53634aa7ed03e65bc91",
+    "bundle_sha256": "dcf3d250cf496375f2065e5cb156b9553a94c35cb12ec53634aa7ed03e65bc91",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/tests/test_api_stage.py",
+    "destination": "source/Experiment/labeling2/tests/test_api_stage.py",
+    "original_sha256": "7bfc69493ef0b12284aa1ae2d6cef3bc1178f19b84da31e30fc336e6b466d9b1",
+    "bundle_sha256": "7bfc69493ef0b12284aa1ae2d6cef3bc1178f19b84da31e30fc336e6b466d9b1",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/tests/test_core.py",
+    "destination": "source/Experiment/labeling2/tests/test_core.py",
+    "original_sha256": "058a5c7bec816646dcbf2e356b86b58a61a9e47c9256ad477b5586ef536ee597",
+    "bundle_sha256": "058a5c7bec816646dcbf2e356b86b58a61a9e47c9256ad477b5586ef536ee597",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/tests/test_open_resolution.py",
+    "destination": "source/Experiment/labeling2/tests/test_open_resolution.py",
+    "original_sha256": "af0a443c0a8eeae56169a77682c0608bb7dd48a4935ab9e2fe4bbf3550b01261",
+    "bundle_sha256": "af0a443c0a8eeae56169a77682c0608bb7dd48a4935ab9e2fe4bbf3550b01261",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/tests/test_pipeline.py",
+    "destination": "source/Experiment/labeling2/tests/test_pipeline.py",
+    "original_sha256": "afdd86461b884f9d1afbaa0aaa691c85cb58b213f5057d4fda93aa04f1b03540",
+    "bundle_sha256": "afdd86461b884f9d1afbaa0aaa691c85cb58b213f5057d4fda93aa04f1b03540",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/AIR-Bench/airbench_utils.py",
+    "destination": "source/Experiment/acc_model_pool/AIR-Bench/airbench_utils.py",
+    "original_sha256": "cae7b0b829194f8928549f15eaec59b31f224a8c7c013ff3b03fe2f643343ed4",
+    "bundle_sha256": "e22071365cc82a69685465f090972af4c0b56b5a90ce05f2b787701da2b68750",
+    "modified_for_portability": true
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/AIR-Bench/run_qwen3_captioner.py",
+    "destination": "source/Experiment/acc_model_pool/AIR-Bench/run_qwen3_captioner.py",
+    "original_sha256": "719eedfc05d876336c03ef8fc4d1673f09677cc6eacb8cf2f7ba6c732e81dba8",
+    "bundle_sha256": "719eedfc05d876336c03ef8fc4d1673f09677cc6eacb8cf2f7ba6c732e81dba8",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/AIR-Bench/run_kimi_audio.py",
+    "destination": "source/Experiment/acc_model_pool/AIR-Bench/run_kimi_audio.py",
+    "original_sha256": "c9f8d70a90e76b4a264b628a820269d29d5abe665ee5d513ff2848d56bce2e36",
+    "bundle_sha256": "8d392d002461c04f41ca531d5c20158df9702e254df00b534651d80640006b4e",
+    "modified_for_portability": true
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/AIR-Bench/run_step_audio_r1_1.py",
+    "destination": "source/Experiment/acc_model_pool/AIR-Bench/run_step_audio_r1_1.py",
+    "original_sha256": "16067cebc17bbf5d0c8a903009dba2815ab0412d23bde497a1699b534b794286",
+    "bundle_sha256": "5ff7c8b8bf4c5b0768253abab322f85daac2d6a416b22e8080f0eb5884416a4d",
+    "modified_for_portability": true
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/Caption_Bench/airbench_utils.py",
+    "destination": "source/Experiment/acc_model_pool/Caption_Bench/airbench_utils.py",
+    "original_sha256": "256f6b36b604a758bbc91095fe1fb07923c4b97d5343a025ec023bf12d6929e3",
+    "bundle_sha256": "256f6b36b604a758bbc91095fe1fb07923c4b97d5343a025ec023bf12d6929e3",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/Caption_Bench/caption_bench_utils.py",
+    "destination": "source/Experiment/acc_model_pool/Caption_Bench/caption_bench_utils.py",
+    "original_sha256": "34eb17543e10c091fcf2dac5b81cb4317a94e045bd5ecfd436d8849ecb428065",
+    "bundle_sha256": "55b02bcf1f367ef263eaef086dad110950eb09e17f349ffc701867d083904c43",
+    "modified_for_portability": true
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/Caption_Bench/run_gemini_3_1_pro_preview.py",
+    "destination": "source/Experiment/acc_model_pool/Caption_Bench/run_gemini_3_1_pro_preview.py",
+    "original_sha256": "ae7a7c856968964cbb06b856f977e067b1470ec0d0205b81bc803e59bc1949e0",
+    "bundle_sha256": "015cc59c68a5c6ce7215720f088d6c8ee9b0fae12b5f608861f2edbd950a3c4f",
+    "modified_for_portability": true
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/Caption_Bench/run_qwen35_omni_plus.py",
+    "destination": "source/Experiment/acc_model_pool/Caption_Bench/run_qwen35_omni_plus.py",
+    "original_sha256": "57a7672676f13124e81ffc0c09bc0c2949750b9a2467aa983be27e42c183326d",
+    "bundle_sha256": "cdf7b7984ed815ba2b4927ff318ef738c6c0e804420559a92b536df77370e35c",
+    "modified_for_portability": true
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/lzy/api/qwen35_omni_audio.py",
+    "destination": "source/lzy/api/qwen35_omni_audio.py",
+    "original_sha256": "034956afc75ea40057fbb50bc28725b1216b39379ff4e60529766e58fe24ab53",
+    "bundle_sha256": "034956afc75ea40057fbb50bc28725b1216b39379ff4e60529766e58fe24ab53",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/lzy/Step-Audio-R1/serve_step_audio_r1_1.py",
+    "destination": "source/lzy/Step-Audio-R1/serve_step_audio_r1_1.py",
+    "original_sha256": "3fe8bef11a6657355b19a931951fbbd1828a5b1f8ead286913d6397faf023e84",
+    "bundle_sha256": "3fe8bef11a6657355b19a931951fbbd1828a5b1f8ead286913d6397faf023e84",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/lzy/Step-Audio-R1/stepaudior1vllm.py",
+    "destination": "source/lzy/Step-Audio-R1/stepaudior1vllm.py",
+    "original_sha256": "0301969d79f814da33bec659ccf4c30a49280fc395ea80321198eaaadbc543a7",
+    "bundle_sha256": "0301969d79f814da33bec659ccf4c30a49280fc395ea80321198eaaadbc543a7",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/lzy/Step-Audio-R1/utils.py",
+    "destination": "source/lzy/Step-Audio-R1/utils.py",
+    "original_sha256": "a7cdd3ab19cb02ed8ec80ab77829c44a591b53d92435d1f94e78750daf89ec58",
+    "bundle_sha256": "a7cdd3ab19cb02ed8ec80ab77829c44a591b53d92435d1f94e78750daf89ec58",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/lzy/Step-Audio-R1/chat_template_step_audio_r1_1.jinja",
+    "destination": "source/lzy/Step-Audio-R1/chat_template_step_audio_r1_1.jinja",
+    "original_sha256": "aae17d55670f643dbe467dace4b2ff1be85fc9605188d6db9aa7c4dfef991694",
+    "bundle_sha256": "aae17d55670f643dbe467dace4b2ff1be85fc9605188d6db9aa7c4dfef991694",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/lzy/Step-Audio-R1/README.md",
+    "destination": "source/lzy/Step-Audio-R1/README.md",
+    "original_sha256": "ed6838ec7b9b55fc3d5c12c9e20ae9717cb90448e5260aaa27bd3de957e29a24",
+    "bundle_sha256": "ed6838ec7b9b55fc3d5c12c9e20ae9717cb90448e5260aaa27bd3de957e29a24",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/lzy/Step-Audio-R1/LICENSE",
+    "destination": "source/lzy/Step-Audio-R1/LICENSE",
+    "original_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "bundle_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/README.md",
+    "destination": "source/third_party/Kimi-Audio/README.md",
+    "original_sha256": "2679e9b0031b45a72b64699d6f8a2080513a19683617f44596c7efcfa5a206fa",
+    "bundle_sha256": "2679e9b0031b45a72b64699d6f8a2080513a19683617f44596c7efcfa5a206fa",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/requirements.txt",
+    "destination": "source/third_party/Kimi-Audio/requirements.txt",
+    "original_sha256": "c172cffa07cac47550d806a043f18b998c07387c2862e716a738b6a08d02b75e",
+    "bundle_sha256": "c172cffa07cac47550d806a043f18b998c07387c2862e716a738b6a08d02b75e",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/pyproject.toml",
+    "destination": "source/third_party/Kimi-Audio/pyproject.toml",
+    "original_sha256": "071af7287b5fbabc70680f42afe1f4d65f1f92bb17d4b83ea2bba458f813c0f1",
+    "bundle_sha256": "071af7287b5fbabc70680f42afe1f4d65f1f92bb17d4b83ea2bba458f813c0f1",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/.gitmodules",
+    "destination": "source/third_party/Kimi-Audio/.gitmodules",
+    "original_sha256": "1c34db74d6454e399a6ff4551b37b87101f532e7315cbe704e9926bf5750f3a3",
+    "bundle_sha256": "1c34db74d6454e399a6ff4551b37b87101f532e7315cbe704e9926bf5750f3a3",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/api/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/api/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/api/kimia.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/api/kimia.py",
+    "original_sha256": "dcb6c21e99ebe8edb45529535d536ed387cb8c374f18f6c4a3a86cd5059e770f",
+    "bundle_sha256": "dcb6c21e99ebe8edb45529535d536ed387cb8c374f18f6c4a3a86cd5059e770f",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/api/prompt_manager.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/api/prompt_manager.py",
+    "original_sha256": "5614b1fddf8f812e7e96f49dd7c3f11a772b36f62e83514dd25ccad7ea27a93e",
+    "bundle_sha256": "5614b1fddf8f812e7e96f49dd7c3f11a772b36f62e83514dd25ccad7ea27a93e",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/__init__.py",
+    "original_sha256": "a3fdcb7e9017173374ad6d112be3cb276b41ae8e319152ae6ef83e6eda65400d",
+    "bundle_sha256": "a3fdcb7e9017173374ad6d112be3cb276b41ae8e319152ae6ef83e6eda65400d",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/bigvgan_wrapper.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/bigvgan_wrapper.py",
+    "original_sha256": "3920de313b9e471a2bdf0e892f900f60c4d3356d71a63c6dfb906726b69c6b1b",
+    "bundle_sha256": "3920de313b9e471a2bdf0e892f900f60c4d3356d71a63c6dfb906726b69c6b1b",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/flow_matching/dit_block.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/flow_matching/dit_block.py",
+    "original_sha256": "ffe01005a0735329e3c94528d576ceeb6d7ba67ba2840b26c63771a670484472",
+    "bundle_sha256": "ffe01005a0735329e3c94528d576ceeb6d7ba67ba2840b26c63771a670484472",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/flow_matching/model.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/flow_matching/model.py",
+    "original_sha256": "f5db52127143a809cc49abef350d3d1e0d60d53a4c188acf0ca0e8c328522b2e",
+    "bundle_sha256": "f5db52127143a809cc49abef350d3d1e0d60d53a4c188acf0ca0e8c328522b2e",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/flow_matching/ode_wrapper.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/flow_matching/ode_wrapper.py",
+    "original_sha256": "2cbdc036d7e3a98175c093a26e873e1f0eae93fe720fb2830ea86aa1902ba99b",
+    "bundle_sha256": "2cbdc036d7e3a98175c093a26e873e1f0eae93fe720fb2830ea86aa1902ba99b",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/flow_matching/scheduler.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/flow_matching/scheduler.py",
+    "original_sha256": "676fed4f7435d55b9984231474747e338fa349d1e8ffcfeaa82c31ed0139d903",
+    "bundle_sha256": "676fed4f7435d55b9984231474747e338fa349d1e8ffcfeaa82c31ed0139d903",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/semantic_fm_prefix_streaming.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/semantic_fm_prefix_streaming.py",
+    "original_sha256": "325f7128a054cba2c2f59fa166eeef105f53232f0c54e29642a18f373e1a053a",
+    "bundle_sha256": "325f7128a054cba2c2f59fa166eeef105f53232f0c54e29642a18f373e1a053a",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/activations.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/activations.py",
+    "original_sha256": "7ce2bb164c7cebc3a201d57f6c3ac5d62c7e4dcd4dcb32fb4e6e75b004187340",
+    "bundle_sha256": "7ce2bb164c7cebc3a201d57f6c3ac5d62c7e4dcd4dcb32fb4e6e75b004187340",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/activation1d.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/activation1d.py",
+    "original_sha256": "cf43e7237dbd2cd07217d3adc93a7c78137084b2d8c96e2aadc9be8bc8054a60",
+    "bundle_sha256": "cf43e7237dbd2cd07217d3adc93a7c78137084b2d8c96e2aadc9be8bc8054a60",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/anti_alias_activation.cpp",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/anti_alias_activation.cpp",
+    "original_sha256": "222ce6cd687fdc1d541a4bedbf5f3578f321bc2649996b2747ebc60ddd2e1d8e",
+    "bundle_sha256": "222ce6cd687fdc1d541a4bedbf5f3578f321bc2649996b2747ebc60ddd2e1d8e",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/anti_alias_activation_cuda.cu",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/anti_alias_activation_cuda.cu",
+    "original_sha256": "e3fa60fbf80fd95cad6f05dd605c85393b6539d6684502a56b64c348c655de7d",
+    "bundle_sha256": "e3fa60fbf80fd95cad6f05dd605c85393b6539d6684502a56b64c348c655de7d",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/compat.h",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/compat.h",
+    "original_sha256": "39e530d6d9cf5eda60c25b899cf0ba87c70cdca3424de7cb1716adad8f212388",
+    "bundle_sha256": "39e530d6d9cf5eda60c25b899cf0ba87c70cdca3424de7cb1716adad8f212388",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/load.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/load.py",
+    "original_sha256": "6ee5cbfaedc6b73cf2bff9677f18bcc5a46c91a088523e853bca12805a909e8a",
+    "bundle_sha256": "6ee5cbfaedc6b73cf2bff9677f18bcc5a46c91a088523e853bca12805a909e8a",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/type_shim.h",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/cuda/type_shim.h",
+    "original_sha256": "3e32f2fec72b2b6749389acd64c336b2932a3764b686634c696af8151df0e38c",
+    "bundle_sha256": "3e32f2fec72b2b6749389acd64c336b2932a3764b686634c696af8151df0e38c",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/torch/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/torch/__init__.py",
+    "original_sha256": "2e3138e1052e377ba2e51ea59c7d5d255a519559001757af21dbec4cb9c22471",
+    "bundle_sha256": "2e3138e1052e377ba2e51ea59c7d5d255a519559001757af21dbec4cb9c22471",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/torch/act.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/torch/act.py",
+    "original_sha256": "0b92766f905251989a160f265f672cf76bce1726f7e1d6df63fa7fc403970219",
+    "bundle_sha256": "0b92766f905251989a160f265f672cf76bce1726f7e1d6df63fa7fc403970219",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/torch/filter.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/torch/filter.py",
+    "original_sha256": "acf2257276e617dd3161e53abc0a1582e586a3d2d618a43235c7f83818b4e179",
+    "bundle_sha256": "acf2257276e617dd3161e53abc0a1582e586a3d2d618a43235c7f83818b4e179",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/torch/resample.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/alias_free_activation/torch/resample.py",
+    "original_sha256": "2c7d4c3e897a0b49d2028dc738145429d3e11871bb3c15e8f610c63728ef1bf2",
+    "bundle_sha256": "2c7d4c3e897a0b49d2028dc738145429d3e11871bb3c15e8f610c63728ef1bf2",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/bigvgan.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/bigvgan.py",
+    "original_sha256": "9813f347721ad776d8c8d3aa91b3da70d17156c43388384c23adccc97b487887",
+    "bundle_sha256": "9813f347721ad776d8c8d3aa91b3da70d17156c43388384c23adccc97b487887",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/utils.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/detokenizer/vocoder/utils.py",
+    "original_sha256": "3915e52d78dec1a278b7e1c137677af8d7f3c2712f573f0c817ec9eaaa897641",
+    "bundle_sha256": "3915e52d78dec1a278b7e1c137677af8d7f3c2712f573f0c817ec9eaaa897641",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/LICENSE",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/LICENSE",
+    "original_sha256": "e70bd1f5aa3e4f5fa316b65fb237b1d921b9b8432fedd64416ca16f739cb11b9",
+    "bundle_sha256": "e70bd1f5aa3e4f5fa316b65fb237b1d921b9b8432fedd64416ca16f739cb11b9",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/audio_process.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/audio_process.py",
+    "original_sha256": "0cf9d5500c06bcf3f32b6aa9b23a30f0de84a869fc8d8c62e40633dc8bd0c2b2",
+    "bundle_sha256": "0cf9d5500c06bcf3f32b6aa9b23a30f0de84a869fc8d8c62e40633dc8bd0c2b2",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/bin/inference.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/bin/inference.py",
+    "original_sha256": "d40e95e4c29a97785b57d19ef9eb99173be7c2b8d0cc9762a9bdbb2eccf94cf8",
+    "bundle_sha256": "d40e95e4c29a97785b57d19ef9eb99173be7c2b8d0cc9762a9bdbb2eccf94cf8",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/bin/train.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/bin/train.py",
+    "original_sha256": "360e0275fa45023af944397cc2cb418a9be99cd72d3d92fc0775bb33c04e827f",
+    "bundle_sha256": "360e0275fa45023af944397cc2cb418a9be99cd72d3d92fc0775bb33c04e827f",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/cli/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/cli/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/cli/cosyvoice.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/cli/cosyvoice.py",
+    "original_sha256": "25970170397ef1eb31bbfe405a58c6ddb50f061b341a2901a45e1c484074ffda",
+    "bundle_sha256": "25970170397ef1eb31bbfe405a58c6ddb50f061b341a2901a45e1c484074ffda",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/cli/frontend.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/cli/frontend.py",
+    "original_sha256": "e5946c6635584921040bb886406eb6cc50b36e18f280d3f129e4743ae81ff3a3",
+    "bundle_sha256": "e5946c6635584921040bb886406eb6cc50b36e18f280d3f129e4743ae81ff3a3",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/cli/model.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/cli/model.py",
+    "original_sha256": "aaa5375243cbc89e2290c4a554a2518e6c78bff8012c0caa035b138ee571c311",
+    "bundle_sha256": "aaa5375243cbc89e2290c4a554a2518e6c78bff8012c0caa035b138ee571c311",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/dataset/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/dataset/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/dataset/dataset.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/dataset/dataset.py",
+    "original_sha256": "63036b8e29c68e190d8f61b5e9f03577513fcb346f2bbd53a7a474c24f466728",
+    "bundle_sha256": "63036b8e29c68e190d8f61b5e9f03577513fcb346f2bbd53a7a474c24f466728",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/dataset/processor.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/dataset/processor.py",
+    "original_sha256": "b6a55775a19eba061b9deca710e70e490506ec165403e8623b7766946b83bb5d",
+    "bundle_sha256": "b6a55775a19eba061b9deca710e70e490506ec165403e8623b7766946b83bb5d",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/decoder.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/decoder.py",
+    "original_sha256": "e115ed459c0481367fdb59ba4dc62d6338c1b4e4791b26927d92818d50756e17",
+    "bundle_sha256": "e115ed459c0481367fdb59ba4dc62d6338c1b4e4791b26927d92818d50756e17",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/flow.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/flow.py",
+    "original_sha256": "4a1013b1f33db4e8d710ff2fb57d002fbfbe4f28b53d802422026fe7fd50e35e",
+    "bundle_sha256": "4a1013b1f33db4e8d710ff2fb57d002fbfbe4f28b53d802422026fe7fd50e35e",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/flow_gradtts.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/flow_gradtts.py",
+    "original_sha256": "58943394af511ce4ce9cb1757ec50fbfd2ea02e8791f22130ca6b31ec8d9edeb",
+    "bundle_sha256": "58943394af511ce4ce9cb1757ec50fbfd2ea02e8791f22130ca6b31ec8d9edeb",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/flow_matching.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/flow_matching.py",
+    "original_sha256": "5b1470000fb674293f463531cc2d2dda33c421cd53087d5fd6b85f2c28669f95",
+    "bundle_sha256": "5b1470000fb674293f463531cc2d2dda33c421cd53087d5fd6b85f2c28669f95",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/flow_matching_dit.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/flow_matching_dit.py",
+    "original_sha256": "5a4a5d237c1031eaf673d84449f58677bf9cb7e2686b8c76d159e10d0f36c465",
+    "bundle_sha256": "5a4a5d237c1031eaf673d84449f58677bf9cb7e2686b8c76d159e10d0f36c465",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/length_regulator.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/length_regulator.py",
+    "original_sha256": "cc6780db2af7a63e55030efab5a4c36bbfdbbb7dd1b994e9172d9ad5565eeb89",
+    "bundle_sha256": "cc6780db2af7a63e55030efab5a4c36bbfdbbb7dd1b994e9172d9ad5565eeb89",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/adp.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/adp.py",
+    "original_sha256": "c09607e8b1bedd4cbe10dbfd8d7d9b37afcaedb2529046b8199dc779d662cfc3",
+    "bundle_sha256": "c09607e8b1bedd4cbe10dbfd8d7d9b37afcaedb2529046b8199dc779d662cfc3",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/blocks.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/blocks.py",
+    "original_sha256": "29c80107970182ae09ee0c824a52970e0352a4b994da1dd03fd475831f1666b5",
+    "bundle_sha256": "29c80107970182ae09ee0c824a52970e0352a4b994da1dd03fd475831f1666b5",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/dit.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/dit.py",
+    "original_sha256": "a766d6a28a2be53d5e09b9b10ca30e3daa98632283e1f4bd4a944dae364ef7c4",
+    "bundle_sha256": "a766d6a28a2be53d5e09b9b10ca30e3daa98632283e1f4bd4a944dae364ef7c4",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/dit_v2.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/dit_v2.py",
+    "original_sha256": "8ff945574fe064b618d0bbd5fdb1386e373f2a0bb71172183560f3a362135736",
+    "bundle_sha256": "8ff945574fe064b618d0bbd5fdb1386e373f2a0bb71172183560f3a362135736",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/sampling.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/sampling.py",
+    "original_sha256": "ebecba64106701292e6af9fa6043f50b56ba6061a28cd8a253c68db7dea2a40e",
+    "bundle_sha256": "ebecba64106701292e6af9fa6043f50b56ba6061a28cd8a253c68db7dea2a40e",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/stable_diffusion.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/stable_diffusion.py",
+    "original_sha256": "237bc026dc432fda80cdd094a6b9f75856491840945273e368e49f855d005ffb",
+    "bundle_sha256": "237bc026dc432fda80cdd094a6b9f75856491840945273e368e49f855d005ffb",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/stable_diffusion_test.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/stable_diffusion_test.py",
+    "original_sha256": "9e860ca56f0799ad6001f967cbb77fe3816e8caf1ed85c3d3236a4e54e13b87f",
+    "bundle_sha256": "9e860ca56f0799ad6001f967cbb77fe3816e8caf1ed85c3d3236a4e54e13b87f",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/transformer.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/transformer.py",
+    "original_sha256": "3e4a2469b4246725298754163e4335af2beace008b8541263e07e8218c29628b",
+    "bundle_sha256": "3e4a2469b4246725298754163e4335af2beace008b8541263e07e8218c29628b",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/transformer_use_mask.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/flow/stable/transformer_use_mask.py",
+    "original_sha256": "6900a8aec54259498b5d9d054133053ea8c94f2ec335330918798855bc15e069",
+    "bundle_sha256": "6900a8aec54259498b5d9d054133053ea8c94f2ec335330918798855bc15e069",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/hifigan/f0_predictor.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/hifigan/f0_predictor.py",
+    "original_sha256": "e137abd569ee49103bc32b7341f12dbbedcfb80f90ae0df2c11e47b3b7ec57be",
+    "bundle_sha256": "e137abd569ee49103bc32b7341f12dbbedcfb80f90ae0df2c11e47b3b7ec57be",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/hifigan/generator.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/hifigan/generator.py",
+    "original_sha256": "5dc8599064845f9aba49da905c8deac53da071400f43c8a2eaf2d3dd7c52a90d",
+    "bundle_sha256": "5dc8599064845f9aba49da905c8deac53da071400f43c8a2eaf2d3dd7c52a90d",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/llm/llm.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/llm/llm.py",
+    "original_sha256": "3d3b7406d0e97d083d213e2c14bb723ecfc4705f66a9259672da8c7c9b03b8ee",
+    "bundle_sha256": "3d3b7406d0e97d083d213e2c14bb723ecfc4705f66a9259672da8c7c9b03b8ee",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/activation.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/activation.py",
+    "original_sha256": "a4a96caea9f7b05111286de5ea760bdfdf9c4e53448f53420857dc04a50440c2",
+    "bundle_sha256": "a4a96caea9f7b05111286de5ea760bdfdf9c4e53448f53420857dc04a50440c2",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/attention.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/attention.py",
+    "original_sha256": "6b3f839bbb23de7af2a55215f267de271efbe547ddc7309d6ddb973a11183a2e",
+    "bundle_sha256": "6b3f839bbb23de7af2a55215f267de271efbe547ddc7309d6ddb973a11183a2e",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/convolution.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/convolution.py",
+    "original_sha256": "eb5f41f324a97225c73b9c430af8bb231bd77386ef18450bb0fd329f469ab4e1",
+    "bundle_sha256": "eb5f41f324a97225c73b9c430af8bb231bd77386ef18450bb0fd329f469ab4e1",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/decoder.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/decoder.py",
+    "original_sha256": "3cea88fe6ea8743fe9ce1288b3503e8b6f35bdb2d25d2bc89fcd01a0f50f17db",
+    "bundle_sha256": "3cea88fe6ea8743fe9ce1288b3503e8b6f35bdb2d25d2bc89fcd01a0f50f17db",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/decoder_layer.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/decoder_layer.py",
+    "original_sha256": "b95662ab72ec6b0b0f50c3a15fbecf16facb786d323b4aca1d063b9c21c0d64e",
+    "bundle_sha256": "b95662ab72ec6b0b0f50c3a15fbecf16facb786d323b4aca1d063b9c21c0d64e",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/embedding.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/embedding.py",
+    "original_sha256": "f3ad7fae6058497b7c046b6513f7d11045e35abe54ecd5d139a2485471e3ce43",
+    "bundle_sha256": "f3ad7fae6058497b7c046b6513f7d11045e35abe54ecd5d139a2485471e3ce43",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/encoder.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/encoder.py",
+    "original_sha256": "89c163673f76f4d60c9509b457be306873b657d4cc3d556ff9483b1e4b7fe698",
+    "bundle_sha256": "89c163673f76f4d60c9509b457be306873b657d4cc3d556ff9483b1e4b7fe698",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/encoder_layer.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/encoder_layer.py",
+    "original_sha256": "f1e3261ab7e73f25e65f0ad62dcc615fe98bf2c8f578768b5c18459c190d0f2f",
+    "bundle_sha256": "f1e3261ab7e73f25e65f0ad62dcc615fe98bf2c8f578768b5c18459c190d0f2f",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/label_smoothing_loss.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/label_smoothing_loss.py",
+    "original_sha256": "db8804cf1c20e1afbf6c33de4836589b1947d881797d02d507c2a8a8d4f40fdd",
+    "bundle_sha256": "db8804cf1c20e1afbf6c33de4836589b1947d881797d02d507c2a8a8d4f40fdd",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/positionwise_feed_forward.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/positionwise_feed_forward.py",
+    "original_sha256": "6e8038e3bcc8ca086ddca508fb9b9d40bf3ab98bebabcf5c94935d032329d0f8",
+    "bundle_sha256": "6e8038e3bcc8ca086ddca508fb9b9d40bf3ab98bebabcf5c94935d032329d0f8",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/subsampling.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/transformer/subsampling.py",
+    "original_sha256": "31fc0347a851abc1205dfd4cf68099c0c416589c3e99a07b250e8630cece19d0",
+    "bundle_sha256": "31fc0347a851abc1205dfd4cf68099c0c416589c3e99a07b250e8630cece19d0",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/block_mask_util.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/block_mask_util.py",
+    "original_sha256": "6995b109a2b5eb7e4a05a372f9e7e5ae439dad47954d151f0776b2d9425e05b0",
+    "bundle_sha256": "6995b109a2b5eb7e4a05a372f9e7e5ae439dad47954d151f0776b2d9425e05b0",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/class_utils.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/class_utils.py",
+    "original_sha256": "62fc8dc4dc7143804f1aaf9e681e1ab91d3c3b00255f9b6d320b2c2a07ea2b7d",
+    "bundle_sha256": "62fc8dc4dc7143804f1aaf9e681e1ab91d3c3b00255f9b6d320b2c2a07ea2b7d",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/common.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/common.py",
+    "original_sha256": "a654f973dcaaaf406c68e525b9bf1451c2130e9db1dbd328617a618e71645786",
+    "bundle_sha256": "a654f973dcaaaf406c68e525b9bf1451c2130e9db1dbd328617a618e71645786",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/executor.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/executor.py",
+    "original_sha256": "363c3823af70b1dd21fcaa2bd6225a5fa5fdb6677a2ff5a3f337397b4101413a",
+    "bundle_sha256": "363c3823af70b1dd21fcaa2bd6225a5fa5fdb6677a2ff5a3f337397b4101413a",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/file_utils.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/file_utils.py",
+    "original_sha256": "8b0587cd944029768d89812a957dba7aa5f2ef950ebaf941a888e904fb2aa4c7",
+    "bundle_sha256": "8b0587cd944029768d89812a957dba7aa5f2ef950ebaf941a888e904fb2aa4c7",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/frontend_utils.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/frontend_utils.py",
+    "original_sha256": "bf908119369e6f04f87b84c57f7dcf9b046d171f5b002ca5a54f3cc9c06eaec5",
+    "bundle_sha256": "bf908119369e6f04f87b84c57f7dcf9b046d171f5b002ca5a54f3cc9c06eaec5",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/mask.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/mask.py",
+    "original_sha256": "9006ae4117658501ab0b4063bd816989c2ce955283a775776429cb6db4cc6875",
+    "bundle_sha256": "9006ae4117658501ab0b4063bd816989c2ce955283a775776429cb6db4cc6875",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/scheduler.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/scheduler.py",
+    "original_sha256": "058cdfd548276db6b6eb09e849fbffcaaf4565a0091cb4e7d6ae908e0bd92506",
+    "bundle_sha256": "058cdfd548276db6b6eb09e849fbffcaaf4565a0091cb4e7d6ae908e0bd92506",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/train_utils.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/cosyvoice/utils/train_utils.py",
+    "original_sha256": "c4c081b5a7258cc5af7b645acad6286746f92b821af72496b6a14b964bacb95c",
+    "bundle_sha256": "c4c081b5a7258cc5af7b645acad6286746f92b821af72496b6a14b964bacb95c",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/flow_inference.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/flow_inference.py",
+    "original_sha256": "c507e241e4d2e61d620e3ad3596c11cb8968ccc7aeeb291bf0a7675e4a48ff2c",
+    "bundle_sha256": "c507e241e4d2e61d620e3ad3596c11cb8968ccc7aeeb291bf0a7675e4a48ff2c",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/model_server.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/model_server.py",
+    "original_sha256": "863bf2b7760c5d7a1269f385917b55abe1c50f62c0245bac8d30ba4ba8a6653b",
+    "bundle_sha256": "863bf2b7760c5d7a1269f385917b55abe1c50f62c0245bac8d30ba4ba8a6653b",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/requirements.txt",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/requirements.txt",
+    "original_sha256": "9eb8bc656679e81404c031e51d4ec1a0af8dcc452ddb086f07f5ba1da2095f1b",
+    "bundle_sha256": "9eb8bc656679e81404c031e51d4ec1a0af8dcc452ddb086f07f5ba1da2095f1b",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/speech_tokenizer/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/speech_tokenizer/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/speech_tokenizer/configuration_whisper.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/speech_tokenizer/configuration_whisper.py",
+    "original_sha256": "edfaddabc51cf7a0c65ee337784bef774dfc531d5b8a4686cfd05c90cc2d87e3",
+    "bundle_sha256": "edfaddabc51cf7a0c65ee337784bef774dfc531d5b8a4686cfd05c90cc2d87e3",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/speech_tokenizer/generation_whisper.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/speech_tokenizer/generation_whisper.py",
+    "original_sha256": "b672eaee9b1048fad5c891dbca2a771f6f8a197f7b52c835b3d75b4e3950cdd7",
+    "bundle_sha256": "b672eaee9b1048fad5c891dbca2a771f6f8a197f7b52c835b3d75b4e3950cdd7",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/speech_tokenizer/modeling_whisper.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/speech_tokenizer/modeling_whisper.py",
+    "original_sha256": "952de28d8c020f7d1ee7c7c0154ffccf0b36ec01d3c4b5e05dfafe1b2028fb59",
+    "bundle_sha256": "952de28d8c020f7d1ee7c7c0154ffccf0b36ec01d3c4b5e05dfafe1b2028fb59",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/speech_tokenizer/utils.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/speech_tokenizer/utils.py",
+    "original_sha256": "b7519de800d401c0beb11bfc1a1a395fab106d134825d396fa70c90ef63f29e2",
+    "bundle_sha256": "b7519de800d401c0beb11bfc1a1a395fab106d134825d396fa70c90ef63f29e2",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/.pre-commit-config.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/.pre-commit-config.yaml",
+    "original_sha256": "58e797691124eaa2c32dd10f63bef3ca7e88e7c07142f59f6fc0021bf2501a40",
+    "bundle_sha256": "58e797691124eaa2c32dd10f63bef3ca7e88e7c07142f59f6fc0021bf2501a40",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/LICENSE",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/LICENSE",
+    "original_sha256": "874d84104bdc7b301f369b2f2e66b31f07826a67495af909655f3699c857620d",
+    "bundle_sha256": "874d84104bdc7b301f369b2f2e66b31f07826a67495af909655f3699c857620d",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/__init__.py",
+    "original_sha256": "40afe33e9461a043b773aa939b3ec32715d0031bc64114839ffc1607af407fa8",
+    "bundle_sha256": "40afe33e9461a043b773aa939b3ec32715d0031bc64114839ffc1607af407fa8",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/callbacks/default.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/callbacks/default.yaml",
+    "original_sha256": "b11971f5f4262a384ec6fc69f84cd73413fb400f2a558b37c6fde338e50b26cd",
+    "bundle_sha256": "b11971f5f4262a384ec6fc69f84cd73413fb400f2a558b37c6fde338e50b26cd",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/callbacks/model_checkpoint.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/callbacks/model_checkpoint.yaml",
+    "original_sha256": "5540ca22d102c216c9dc8ba55f394ac2ceeee71b260c5664a4f930c39857679a",
+    "bundle_sha256": "5540ca22d102c216c9dc8ba55f394ac2ceeee71b260c5664a4f930c39857679a",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/callbacks/model_summary.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/callbacks/model_summary.yaml",
+    "original_sha256": "8277b1268154f29eabfd976ea9783f86876de58def5c63c4789e7086359df11e",
+    "bundle_sha256": "8277b1268154f29eabfd976ea9783f86876de58def5c63c4789e7086359df11e",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/callbacks/none.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/callbacks/none.yaml",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/callbacks/rich_progress_bar.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/callbacks/rich_progress_bar.yaml",
+    "original_sha256": "922ed36015c64efc9442be737a3eeec0f15589a82fa8d3953c4f800fcb5c6d83",
+    "bundle_sha256": "922ed36015c64efc9442be737a3eeec0f15589a82fa8d3953c4f800fcb5c6d83",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/data/hi-fi_en-US_female.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/data/hi-fi_en-US_female.yaml",
+    "original_sha256": "97ed7c7071eb5dd8c384e305fb1fe4fcf58dee6dd97260d86242e2de211905d3",
+    "bundle_sha256": "97ed7c7071eb5dd8c384e305fb1fe4fcf58dee6dd97260d86242e2de211905d3",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/data/ljspeech.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/data/ljspeech.yaml",
+    "original_sha256": "9f7c63c2ff0b64bd53c45926f52b2299dac35f31a0e0e1e0450d0e542c40797e",
+    "bundle_sha256": "9f7c63c2ff0b64bd53c45926f52b2299dac35f31a0e0e1e0450d0e542c40797e",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/data/vctk.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/data/vctk.yaml",
+    "original_sha256": "45e6f76a1fa7fa82f25b8e80ee52d596e54b258b34a5229b713bd43cafb2d01c",
+    "bundle_sha256": "45e6f76a1fa7fa82f25b8e80ee52d596e54b258b34a5229b713bd43cafb2d01c",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/debug/default.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/debug/default.yaml",
+    "original_sha256": "bfa395cb18a7097ecbf8739ab51e9ad18222b3658f9224a4ce87ba9b65657968",
+    "bundle_sha256": "bfa395cb18a7097ecbf8739ab51e9ad18222b3658f9224a4ce87ba9b65657968",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/debug/fdr.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/debug/fdr.yaml",
+    "original_sha256": "a05cf9a9593ca08ffab1b543685cacd463c354f31de60533e5dfd6f520c0cde6",
+    "bundle_sha256": "a05cf9a9593ca08ffab1b543685cacd463c354f31de60533e5dfd6f520c0cde6",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/debug/limit.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/debug/limit.yaml",
+    "original_sha256": "a703da399f7de4d1658b7c3cd353d733bd17bc6003c570c63eb15df189b667ea",
+    "bundle_sha256": "a703da399f7de4d1658b7c3cd353d733bd17bc6003c570c63eb15df189b667ea",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/debug/overfit.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/debug/overfit.yaml",
+    "original_sha256": "5f4028eb494a2b5da577643947e16792fac228fca41e0166e25fbfb35e1446d5",
+    "bundle_sha256": "5f4028eb494a2b5da577643947e16792fac228fca41e0166e25fbfb35e1446d5",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/debug/profiler.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/debug/profiler.yaml",
+    "original_sha256": "eaefaec6ed360ae837ec52af6195dd6f43e03de962524191dd8fc8196d5d55ac",
+    "bundle_sha256": "eaefaec6ed360ae837ec52af6195dd6f43e03de962524191dd8fc8196d5d55ac",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/eval.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/eval.yaml",
+    "original_sha256": "fe7babd5853c859489e05705d830cdfa24376439d5a49b5f1e7e9e4654d14d7e",
+    "bundle_sha256": "fe7babd5853c859489e05705d830cdfa24376439d5a49b5f1e7e9e4654d14d7e",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/experiment/hifi_dataset_piper_phonemizer.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/experiment/hifi_dataset_piper_phonemizer.yaml",
+    "original_sha256": "54fe613ab27bf7f52de8c0e26ad9ae28f6fee18cf6e9e227025d9c6f0192b0da",
+    "bundle_sha256": "54fe613ab27bf7f52de8c0e26ad9ae28f6fee18cf6e9e227025d9c6f0192b0da",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/experiment/ljspeech.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/experiment/ljspeech.yaml",
+    "original_sha256": "4b7b1cfa3b94ed4ed9fdeeb86147eab9bafd7937b831fc2e21985828fe7f14e7",
+    "bundle_sha256": "4b7b1cfa3b94ed4ed9fdeeb86147eab9bafd7937b831fc2e21985828fe7f14e7",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/experiment/ljspeech_min_memory.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/experiment/ljspeech_min_memory.yaml",
+    "original_sha256": "2c8f8442a6d11317658e83b730fb8b3c798bf10c585b810746788e6305527267",
+    "bundle_sha256": "2c8f8442a6d11317658e83b730fb8b3c798bf10c585b810746788e6305527267",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/experiment/multispeaker.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/experiment/multispeaker.yaml",
+    "original_sha256": "2ec4c25fb069fe4a250154e869df442af6487826f78f94df692fee1bc85f0e62",
+    "bundle_sha256": "2ec4c25fb069fe4a250154e869df442af6487826f78f94df692fee1bc85f0e62",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/extras/default.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/extras/default.yaml",
+    "original_sha256": "7bb741898d2bfd2532f120bbf61e64d9edbf2becb4caaa5721a412398b13ab95",
+    "bundle_sha256": "7bb741898d2bfd2532f120bbf61e64d9edbf2becb4caaa5721a412398b13ab95",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/hparams_search/mnist_optuna.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/hparams_search/mnist_optuna.yaml",
+    "original_sha256": "b9f286f9dc473eb71de22c0f295cb793e834e9a3ca910231f0eaad0029b8c451",
+    "bundle_sha256": "b9f286f9dc473eb71de22c0f295cb793e834e9a3ca910231f0eaad0029b8c451",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/hydra/default.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/hydra/default.yaml",
+    "original_sha256": "ba2fa4d16adec82f804096c22760b476ae62772d73713162384397a7b63bdef7",
+    "bundle_sha256": "ba2fa4d16adec82f804096c22760b476ae62772d73713162384397a7b63bdef7",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/aim.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/aim.yaml",
+    "original_sha256": "75aea5c99390eb86eeb05c433ded8ef91a2a7a3e6985a62b9d235645613f1d70",
+    "bundle_sha256": "75aea5c99390eb86eeb05c433ded8ef91a2a7a3e6985a62b9d235645613f1d70",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/comet.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/comet.yaml",
+    "original_sha256": "4e46471685f47b238fcf3454a5a9b4bc735c75723d305e96cfcca2f4c0f75d17",
+    "bundle_sha256": "4e46471685f47b238fcf3454a5a9b4bc735c75723d305e96cfcca2f4c0f75d17",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/csv.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/csv.yaml",
+    "original_sha256": "5b1e2adffa494db168354d211ba0cb120738f7acc8d8d9b718727b98863be9d7",
+    "bundle_sha256": "5b1e2adffa494db168354d211ba0cb120738f7acc8d8d9b718727b98863be9d7",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/many_loggers.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/many_loggers.yaml",
+    "original_sha256": "988ed420737b95b2464ecd03f213349796bc5f914a413249507f3a5425323399",
+    "bundle_sha256": "988ed420737b95b2464ecd03f213349796bc5f914a413249507f3a5425323399",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/mlflow.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/mlflow.yaml",
+    "original_sha256": "d69cb36f98e92d4c5b71032ab45bb5c9b8ab9e7045f35b80a98ac345ef5f2f4b",
+    "bundle_sha256": "d69cb36f98e92d4c5b71032ab45bb5c9b8ab9e7045f35b80a98ac345ef5f2f4b",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/neptune.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/neptune.yaml",
+    "original_sha256": "59a9229d946b3dedb23bfa386ff780cc09f84fd9cc55b35dcda0eff539112dec",
+    "bundle_sha256": "59a9229d946b3dedb23bfa386ff780cc09f84fd9cc55b35dcda0eff539112dec",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/tensorboard.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/tensorboard.yaml",
+    "original_sha256": "132b8babe6a3f25dc12a08c80448425094655b3f7e2e4e4cb4968902e8d5bd08",
+    "bundle_sha256": "132b8babe6a3f25dc12a08c80448425094655b3f7e2e4e4cb4968902e8d5bd08",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/wandb.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/logger/wandb.yaml",
+    "original_sha256": "6d03e94e5e44b76eede9db7ced9e3e449daa27830b3cb608dd340796ae70ce81",
+    "bundle_sha256": "6d03e94e5e44b76eede9db7ced9e3e449daa27830b3cb608dd340796ae70ce81",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/model/cfm/default.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/model/cfm/default.yaml",
+    "original_sha256": "3bb85ef5244eb4dc55d2823539656381b4f1206e2e09082707dffa8e5678233c",
+    "bundle_sha256": "3bb85ef5244eb4dc55d2823539656381b4f1206e2e09082707dffa8e5678233c",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/model/decoder/default.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/model/decoder/default.yaml",
+    "original_sha256": "7dbfe957a081b5c48a52bf2e51fa9fb7071527e2a713732b3d284562ed058f24",
+    "bundle_sha256": "7dbfe957a081b5c48a52bf2e51fa9fb7071527e2a713732b3d284562ed058f24",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/model/encoder/default.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/model/encoder/default.yaml",
+    "original_sha256": "8899b8407f53eda1d67202d07557340bb0d1f0516aa79f342fd0ad40ceb7acee",
+    "bundle_sha256": "8899b8407f53eda1d67202d07557340bb0d1f0516aa79f342fd0ad40ceb7acee",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/model/matcha.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/model/matcha.yaml",
+    "original_sha256": "add0c6d36ec2230cb3ec82453bbab27090439009aa5f741ce853ff0c1facd199",
+    "bundle_sha256": "add0c6d36ec2230cb3ec82453bbab27090439009aa5f741ce853ff0c1facd199",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/model/optimizer/adam.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/model/optimizer/adam.yaml",
+    "original_sha256": "dd394aaeea8f8433a744e313dacc22fa5e87f547d1318a0b527e1f40eee211d4",
+    "bundle_sha256": "dd394aaeea8f8433a744e313dacc22fa5e87f547d1318a0b527e1f40eee211d4",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/paths/default.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/paths/default.yaml",
+    "original_sha256": "ab7fdffe2814b4901e2f7abb685348248806d5736e7833951e153dbb4ae7f5b3",
+    "bundle_sha256": "ab7fdffe2814b4901e2f7abb685348248806d5736e7833951e153dbb4ae7f5b3",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/train.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/train.yaml",
+    "original_sha256": "c82fb2f963fe434106dfb66533bafd45033f512b80af2b67634f14cb25f827a1",
+    "bundle_sha256": "c82fb2f963fe434106dfb66533bafd45033f512b80af2b67634f14cb25f827a1",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/trainer/cpu.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/trainer/cpu.yaml",
+    "original_sha256": "a950dc7be102e3b03b60b0078578c19e17459715d78dd5acb73b15cfa57e1fee",
+    "bundle_sha256": "a950dc7be102e3b03b60b0078578c19e17459715d78dd5acb73b15cfa57e1fee",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/trainer/ddp.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/trainer/ddp.yaml",
+    "original_sha256": "8a7d901cdd3ea1c4c8b4264d866e8d4419c83913063d6c663fe25a0d88716e22",
+    "bundle_sha256": "8a7d901cdd3ea1c4c8b4264d866e8d4419c83913063d6c663fe25a0d88716e22",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/trainer/ddp_sim.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/trainer/ddp_sim.yaml",
+    "original_sha256": "23df9283e6381b2021ad1e5a607e1e30984f7b616a85b1fc8e950e327e5a5962",
+    "bundle_sha256": "23df9283e6381b2021ad1e5a607e1e30984f7b616a85b1fc8e950e327e5a5962",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/trainer/default.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/trainer/default.yaml",
+    "original_sha256": "13a971a18732f0104186693f704977ea6e3fdc1ff32d79ec986cddcf906edc2b",
+    "bundle_sha256": "13a971a18732f0104186693f704977ea6e3fdc1ff32d79ec986cddcf906edc2b",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/trainer/gpu.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/trainer/gpu.yaml",
+    "original_sha256": "e7c2d3192f59a1ad3da4e82e304b95a8cd9862850beb5c2be82c6c0ce688e30a",
+    "bundle_sha256": "e7c2d3192f59a1ad3da4e82e304b95a8cd9862850beb5c2be82c6c0ce688e30a",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/trainer/mps.yaml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/configs/trainer/mps.yaml",
+    "original_sha256": "0e844d85640842e70222a5fcc2c6ea52fc1d9ff0fbb6fa8d64b8c9bf9e730bea",
+    "bundle_sha256": "0e844d85640842e70222a5fcc2c6ea52fc1d9ff0fbb6fa8d64b8c9bf9e730bea",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/VERSION",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/VERSION",
+    "original_sha256": "27e7fd30c04079879e0ed4d57af7dbf557c8f68731c4216a62f2f0259f10f114",
+    "bundle_sha256": "27e7fd30c04079879e0ed4d57af7dbf557c8f68731c4216a62f2f0259f10f114",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/app.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/app.py",
+    "original_sha256": "6c1386d553392fc5fae1a17cac7e2275dbb8e5d8def659a4cabe6e6c0abfe3ee",
+    "bundle_sha256": "6c1386d553392fc5fae1a17cac7e2275dbb8e5d8def659a4cabe6e6c0abfe3ee",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/cli.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/cli.py",
+    "original_sha256": "230fd22138b842b6066ff1d99f104d67f8af9d9ff3bd74892446f243872569df",
+    "bundle_sha256": "230fd22138b842b6066ff1d99f104d67f8af9d9ff3bd74892446f243872569df",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/data/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/data/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/data/components/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/data/components/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/data/text_mel_datamodule.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/data/text_mel_datamodule.py",
+    "original_sha256": "4a271b2ce6112c977b2f9ab10016269c0c6f19c7bea933d721715b3df5469927",
+    "bundle_sha256": "4a271b2ce6112c977b2f9ab10016269c0c6f19c7bea933d721715b3df5469927",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/LICENSE",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/LICENSE",
+    "original_sha256": "3bdaba54bcaa1fb1ab4c167f9a8e456f88f96c6718b8026925e9384b1f2ee6d5",
+    "bundle_sha256": "3bdaba54bcaa1fb1ab4c167f9a8e456f88f96c6718b8026925e9384b1f2ee6d5",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/config.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/config.py",
+    "original_sha256": "7314bf6132bf5283b6ba66bf51ef10445b4d03a95d484b7510bdfabb6f8d8027",
+    "bundle_sha256": "7314bf6132bf5283b6ba66bf51ef10445b4d03a95d484b7510bdfabb6f8d8027",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/denoiser.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/denoiser.py",
+    "original_sha256": "4368ee2366b7413a9c7ba7eebea5909d286857aef59155b626c432a2ac30bcb2",
+    "bundle_sha256": "4368ee2366b7413a9c7ba7eebea5909d286857aef59155b626c432a2ac30bcb2",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/env.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/env.py",
+    "original_sha256": "42d8439aa4d6580228dad488f9aad5b5e455c672949e6f669239505675db9837",
+    "bundle_sha256": "42d8439aa4d6580228dad488f9aad5b5e455c672949e6f669239505675db9837",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/meldataset.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/meldataset.py",
+    "original_sha256": "e0fb3435703762fd285763f209d1dca6d738959e37b69f7bf26dc13363585b17",
+    "bundle_sha256": "e0fb3435703762fd285763f209d1dca6d738959e37b69f7bf26dc13363585b17",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/models.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/models.py",
+    "original_sha256": "2e7ec9ed8cde378877ded04a4078653dca0d7e65feffe9300644d9218258e6af",
+    "bundle_sha256": "2e7ec9ed8cde378877ded04a4078653dca0d7e65feffe9300644d9218258e6af",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/xutils.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/hifigan/xutils.py",
+    "original_sha256": "68db58bb54b241a1ad6cdfcd9d27cb1a14e2fabff2def60a3087fb11819a0ce0",
+    "bundle_sha256": "68db58bb54b241a1ad6cdfcd9d27cb1a14e2fabff2def60a3087fb11819a0ce0",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/baselightningmodule.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/baselightningmodule.py",
+    "original_sha256": "e39683d7157a02e9d9eff3ba454ebe07439a50c30d3bf8052945a9aecdc47c27",
+    "bundle_sha256": "e39683d7157a02e9d9eff3ba454ebe07439a50c30d3bf8052945a9aecdc47c27",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/components/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/components/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/components/decoder.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/components/decoder.py",
+    "original_sha256": "7ea94a61cd3c96703aa107fdcd1b82de2f2f6ade20a3c5f434b6005318176a6b",
+    "bundle_sha256": "7ea94a61cd3c96703aa107fdcd1b82de2f2f6ade20a3c5f434b6005318176a6b",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/components/flow_matching.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/components/flow_matching.py",
+    "original_sha256": "a6f2b2eeca2600749d575dda8624d864d904227e2a9f764a6cb2b89290445e6c",
+    "bundle_sha256": "a6f2b2eeca2600749d575dda8624d864d904227e2a9f764a6cb2b89290445e6c",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/components/text_encoder.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/components/text_encoder.py",
+    "original_sha256": "4044329d407b3da06c76527e7b54d40407bdacbd8b0679a4e5b024affbc24de9",
+    "bundle_sha256": "4044329d407b3da06c76527e7b54d40407bdacbd8b0679a4e5b024affbc24de9",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/components/transformer.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/components/transformer.py",
+    "original_sha256": "66ff2092d974a99b251b9d8e5c08bbcecceaedfaf41e2bd8af2b4bc7a56dcbea",
+    "bundle_sha256": "66ff2092d974a99b251b9d8e5c08bbcecceaedfaf41e2bd8af2b4bc7a56dcbea",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/matcha_tts.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/models/matcha_tts.py",
+    "original_sha256": "cdba70f67a06c11fdf1bdc812b1c6d321987827c52ecf3c4d7f7edf4a2be8cfa",
+    "bundle_sha256": "cdba70f67a06c11fdf1bdc812b1c6d321987827c52ecf3c4d7f7edf4a2be8cfa",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/onnx/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/onnx/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/onnx/export.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/onnx/export.py",
+    "original_sha256": "55402f8916f287d5a15dac4b3d08dd40bc1a54afd964d81a58f30503650a8787",
+    "bundle_sha256": "55402f8916f287d5a15dac4b3d08dd40bc1a54afd964d81a58f30503650a8787",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/onnx/infer.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/onnx/infer.py",
+    "original_sha256": "002823b5f31dbf3b94e1799a94d2eb79b9a4043d96f152dc2e2f1b9579e35265",
+    "bundle_sha256": "002823b5f31dbf3b94e1799a94d2eb79b9a4043d96f152dc2e2f1b9579e35265",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/text/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/text/__init__.py",
+    "original_sha256": "e9dc59b06676e45be4e3f6fbdb27c0ecd55c3489c224b4a3a6f37d31cebab812",
+    "bundle_sha256": "e9dc59b06676e45be4e3f6fbdb27c0ecd55c3489c224b4a3a6f37d31cebab812",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/text/cleaners.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/text/cleaners.py",
+    "original_sha256": "b78fb0b0c0507494fa275da61e25cc136ded9a93a2f29995f8691e8c355c35ff",
+    "bundle_sha256": "b78fb0b0c0507494fa275da61e25cc136ded9a93a2f29995f8691e8c355c35ff",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/text/numbers.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/text/numbers.py",
+    "original_sha256": "370a7e1e6a9aaacb4010b56aaa532effb6e3e2a896433317166c39ea706ad61d",
+    "bundle_sha256": "370a7e1e6a9aaacb4010b56aaa532effb6e3e2a896433317166c39ea706ad61d",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/text/symbols.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/text/symbols.py",
+    "original_sha256": "870efc23c26d06692b8b91e20d4402d398b637d305931589a07ba32312453f57",
+    "bundle_sha256": "870efc23c26d06692b8b91e20d4402d398b637d305931589a07ba32312453f57",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/train.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/train.py",
+    "original_sha256": "78a159164692be675f30d84e01cbe9eb7929f96be3ffd204e3b980a78b071b18",
+    "bundle_sha256": "78a159164692be675f30d84e01cbe9eb7929f96be3ffd204e3b980a78b071b18",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/__init__.py",
+    "original_sha256": "60db3dd6b8f37947154acdda663bfdb6199ae3623cd4992ccbd445de7aaebcea",
+    "bundle_sha256": "60db3dd6b8f37947154acdda663bfdb6199ae3623cd4992ccbd445de7aaebcea",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/audio.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/audio.py",
+    "original_sha256": "2f741064bfcc9485d19a42356496d8ae24dec80c3d6ef5ca7f4e8abfbf9c61ca",
+    "bundle_sha256": "2f741064bfcc9485d19a42356496d8ae24dec80c3d6ef5ca7f4e8abfbf9c61ca",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/generate_data_statistics.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/generate_data_statistics.py",
+    "original_sha256": "13967d4e96ba6455df48b2d0700c2183b618a8180b643908a81a06a0e6611230",
+    "bundle_sha256": "13967d4e96ba6455df48b2d0700c2183b618a8180b643908a81a06a0e6611230",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/instantiators.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/instantiators.py",
+    "original_sha256": "431a8e9d155a6c249ebaba4f3835ea87725267e13b9bc8ca4acc72d56bd35fe2",
+    "bundle_sha256": "431a8e9d155a6c249ebaba4f3835ea87725267e13b9bc8ca4acc72d56bd35fe2",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/logging_utils.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/logging_utils.py",
+    "original_sha256": "825388fc91bcfd804a1d6c03e5144a2a409ecf737b0c9947dbb573e3cc8012d5",
+    "bundle_sha256": "825388fc91bcfd804a1d6c03e5144a2a409ecf737b0c9947dbb573e3cc8012d5",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/model.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/model.py",
+    "original_sha256": "51588a1da57cf7f21e68a245c30d711d5fd14d7aafd18bdf416ab03ad9f343e2",
+    "bundle_sha256": "51588a1da57cf7f21e68a245c30d711d5fd14d7aafd18bdf416ab03ad9f343e2",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/monotonic_align/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/monotonic_align/__init__.py",
+    "original_sha256": "fecfc8355eef2ff37d9a162d6400c0935d42b1218ff24ca49f47c4cb233bdedb",
+    "bundle_sha256": "fecfc8355eef2ff37d9a162d6400c0935d42b1218ff24ca49f47c4cb233bdedb",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/monotonic_align/core.pyx",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/monotonic_align/core.pyx",
+    "original_sha256": "b768c96a6b256831a41599d685d510d2ab384f88239ed30e01748f32d65aab4c",
+    "bundle_sha256": "b768c96a6b256831a41599d685d510d2ab384f88239ed30e01748f32d65aab4c",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/monotonic_align/setup.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/monotonic_align/setup.py",
+    "original_sha256": "6dfd1dd1cbc645a0020b6daaab4b2a819101061cf8ab30e532a0713b24ca0b68",
+    "bundle_sha256": "6dfd1dd1cbc645a0020b6daaab4b2a819101061cf8ab30e532a0713b24ca0b68",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/pylogger.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/pylogger.py",
+    "original_sha256": "61b0bc626e4766b25c0c122c40eea34a7bb263908b650475dc4fe8012f526194",
+    "bundle_sha256": "61b0bc626e4766b25c0c122c40eea34a7bb263908b650475dc4fe8012f526194",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/rich_utils.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/rich_utils.py",
+    "original_sha256": "3a3e63ae4cf9b356f74492fa9bff045e3f392d8d3bf4558294c2337ff1b0bdc7",
+    "bundle_sha256": "3a3e63ae4cf9b356f74492fa9bff045e3f392d8d3bf4558294c2337ff1b0bdc7",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/utils.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/matcha/utils/utils.py",
+    "original_sha256": "f9768a89bbea7fa9970a818f90d705281f189eafdb2bafd2f3e9ed521491d561",
+    "bundle_sha256": "f9768a89bbea7fa9970a818f90d705281f189eafdb2bafd2f3e9ed521491d561",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/pyproject.toml",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/pyproject.toml",
+    "original_sha256": "52ca8cbc1158784a2b2571bfcda26d0b9867f42efdfe1f6dbe75e57f1cf8e096",
+    "bundle_sha256": "52ca8cbc1158784a2b2571bfcda26d0b9867f42efdfe1f6dbe75e57f1cf8e096",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/requirements.txt",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/requirements.txt",
+    "original_sha256": "6e9246a68caf4ac99037c131aba89a2688f66c7faa1615971f6cc72722bef7da",
+    "bundle_sha256": "6e9246a68caf4ac99037c131aba89a2688f66c7faa1615971f6cc72722bef7da",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/setup.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/third_party/Matcha-TTS/setup.py",
+    "original_sha256": "9eaa8bc76d4651b476a491e12f1e70185bdcdb032c23858fe14c34e856f0a762",
+    "bundle_sha256": "9eaa8bc76d4651b476a491e12f1e70185bdcdb032c23858fe14c34e856f0a762",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4/web_demo.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4/web_demo.py",
+    "original_sha256": "d76a5b79b48b43daa6f022f444da548d5474c3bc77be511c601c1f95adaae96e",
+    "bundle_sha256": "d76a5b79b48b43daa6f022f444da548d5474c3bc77be511c601c1f95adaae96e",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4_tokenizer.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4_tokenizer.py",
+    "original_sha256": "ef073b13391f1771e11c6c6854ef9b50fe37b072f9bfd759e1623e31fa471ea9",
+    "bundle_sha256": "ef073b13391f1771e11c6c6854ef9b50fe37b072f9bfd759e1623e31fa471ea9",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/glm4_utils.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/glm4_utils.py",
+    "original_sha256": "1f9f15869a89c1bed9d0b00eef0180b80b6f696638d510f27380f1936fef5b0e",
+    "bundle_sha256": "1f9f15869a89c1bed9d0b00eef0180b80b6f696638d510f27380f1936fef5b0e",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/whisper_Lv3/mel_filters.npz",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/whisper_Lv3/mel_filters.npz",
+    "original_sha256": "7450ae70723a5ef9d341e3cee628c7cb0177f36ce42c44b7ed2bf3325f0f6d4c",
+    "bundle_sha256": "7450ae70723a5ef9d341e3cee628c7cb0177f36ce42c44b7ed2bf3325f0f6d4c",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/whisper_Lv3/modeling_whisper.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/whisper_Lv3/modeling_whisper.py",
+    "original_sha256": "d61739ce97984c26ce05c5213b8e0e149abe07a48c9b21efd14a65833cd4df33",
+    "bundle_sha256": "d61739ce97984c26ce05c5213b8e0e149abe07a48c9b21efd14a65833cd4df33",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/models/tokenizer/whisper_Lv3/whisper.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/models/tokenizer/whisper_Lv3/whisper.py",
+    "original_sha256": "4492e60259593450d52d1611f679c5bd246cbf6673e63253c95aea671abd88ca",
+    "bundle_sha256": "4492e60259593450d52d1611f679c5bd246cbf6673e63253c95aea671abd88ca",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/utils/__init__.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/utils/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bundle_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/utils/data.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/utils/data.py",
+    "original_sha256": "752c255b64e8c47f3acd34366691101229d4dc59f402c73be27600f5e690d1b3",
+    "bundle_sha256": "752c255b64e8c47f3acd34366691101229d4dc59f402c73be27600f5e690d1b3",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/utils/sampler.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/utils/sampler.py",
+    "original_sha256": "7be8cc8b1713049a92a6b398a0a023aca982aab4482e75b7d5882f12e423a3ff",
+    "bundle_sha256": "7be8cc8b1713049a92a6b398a0a023aca982aab4482e75b7d5882f12e423a3ff",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/linzhiyu_share/Kimi-Audio/kimia_infer/utils/special_tokens.py",
+    "destination": "source/third_party/Kimi-Audio/kimia_infer/utils/special_tokens.py",
+    "original_sha256": "ec409998c7ffef696d0870fe24534dcfd7ac617be2ed75787576dbf572a23437",
+    "bundle_sha256": "ec409998c7ffef696d0870fe24534dcfd7ac617be2ed75787576dbf572a23437",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/README.md",
+    "destination": "source/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/README.md",
+    "original_sha256": "69c0ce368253a6b8b492810559971138fbc3f4fd35f782120bfec57b1a861159",
+    "bundle_sha256": "69c0ce368253a6b8b492810559971138fbc3f4fd35f782120bfec57b1a861159",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/requirements.txt",
+    "destination": "source/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/requirements.txt",
+    "original_sha256": "277ec99b2af9c7ca38e846b48f54a86bfe87f9977aab4a4b46ae1a26e886bbd9",
+    "bundle_sha256": "277ec99b2af9c7ca38e846b48f54a86bfe87f9977aab4a4b46ae1a26e886bbd9",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/setup.py",
+    "destination": "source/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/setup.py",
+    "original_sha256": "7d03f73e761bcb91e4d684ac20b90d53a937cb364a92f42e953725959d36fec2",
+    "bundle_sha256": "7d03f73e761bcb91e4d684ac20b90d53a937cb364a92f42e953725959d36fec2",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/LICENSE",
+    "destination": "source/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/LICENSE",
+    "original_sha256": "579638268e9371aba457478b5082407185504ed29a1fdf6584f667c6211b8ba7",
+    "bundle_sha256": "579638268e9371aba457478b5082407185504ed29a1fdf6584f667c6211b8ba7",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/src/model/adapter.py",
+    "destination": "source/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/src/model/adapter.py",
+    "original_sha256": "ca3d86ebe263af5208fe0f7faf30efc9eed07c9044bd07022991e30a2434a81b",
+    "bundle_sha256": "ca3d86ebe263af5208fe0f7faf30efc9eed07c9044bd07022991e30a2434a81b",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/src/model/dialect/mms_dialect.py",
+    "destination": "source/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/src/model/dialect/mms_dialect.py",
+    "original_sha256": "afd36117f4c18fd817821df51321b7e9d66fdebacf23189f6fbd7040eec58024",
+    "bundle_sha256": "afd36117f4c18fd817821df51321b7e9d66fdebacf23189f6fbd7040eec58024",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/src/model/dialect/whisper_dialect.py",
+    "destination": "source/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/src/model/dialect/whisper_dialect.py",
+    "original_sha256": "56e24f530b1d3002d8378ddd6a3a067b286131dcec4dab4ee04e181eb31f8ecb",
+    "bundle_sha256": "56e24f530b1d3002d8378ddd6a3a067b286131dcec4dab4ee04e181eb31f8ecb",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/src/model/revgrad.py",
+    "destination": "source/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/src/model/revgrad.py",
+    "original_sha256": "dd691472243b5b4e9b80f6c6e05c687a43b3c63aa714ceb4b5925c25e635832a",
+    "bundle_sha256": "dd691472243b5b4e9b80f6c6e05c687a43b3c63aa714ceb4b5925c25e635832a",
+    "modified_for_portability": false
+  },
+  {
+    "source": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/src/model/revgrad_func.py",
+    "destination": "source/Experiment/acc_model_pool/Caption_Bench/third_party/voxlect/src/model/revgrad_func.py",
+    "original_sha256": "2d54ea3710a7e02629cb0ec551147b6fb35d6eaba9876a02e7b05ad6687c05b9",
+    "bundle_sha256": "2d54ea3710a7e02629cb0ec551147b6fb35d6eaba9876a02e7b05ad6687c05b9",
+    "modified_for_portability": false
+  }
+]

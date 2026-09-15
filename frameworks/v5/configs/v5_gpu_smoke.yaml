@@ -1,0 +1,5 @@
+extends: v5_midasheng.yaml
+run: {output_dir: ../runs/v5_gpu_smoke}
+distributed: {enabled: false, world_size: 1, backend: nccl}
+data: {max_records_per_role: 2}
+training: {rounds: 1}

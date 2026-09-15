@@ -1,0 +1,180 @@
+run:
+  output_dir: /data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01
+  seed: 42
+  inline_mock: false
+distributed:
+  enabled: true
+  world_size: 8
+  backend: nccl
+  timeout_seconds: 21600
+data:
+  paired_path: /data/L202500147/Caption/training_data_v2/paired.jsonl
+  audio_only_path: /data/L202500147/Caption/training_data_v2/audio_only.jsonl
+  caption_only_path: /data/L202500147/Caption/training_data_v2/caption_only.jsonl
+  strict_disjoint: true
+  hash_audio: true
+  duration:
+    min: 1.2
+    max: 30.0
+captioner:
+  python: /data/L202500147/miniconda3/envs/midasheng-captioner/bin/python3.10
+  worker_module: scripts.midasheng_captioner_candidate
+  model_path: /data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16
+  adapter_path: ''
+  device: cuda:0
+  dtype: bfloat16
+  attn_implementation: sdpa
+  gradient_checkpointing: true
+  generation:
+    max_new_tokens: 384
+    rollout_batch_size: 4
+    temperature: 1.0
+    top_p: 1.0
+    top_k: 0
+    max_attempts_per_candidate: 1
+    eos_token: <|im_end|>
+    batch_fallback: true
+  lora:
+    r: 4
+    alpha: 8
+    dropout: 0.0
+    target_modules: ^decoder\.model\.layers\.\d+\.(self_attn\.(q_proj|k_proj|v_proj|o_proj)|mlp\.(gate_proj|up_proj|down_proj))$|^audio_projector\.net\.(0|2)$
+  training:
+    lr: 1.0e-06
+    weight_decay: 0.01
+    clip_range: 0.2
+    kl_beta: 0.02
+    grad_clip: 1.0
+    replay_batch_size: 1
+    grpo_backward_chunk_tokens: 16
+    phases:
+      grpo:
+        epochs: 1
+        lr: 1.0e-06
+        shuffle: true
+      cycle_sft:
+        epochs: 1
+        lr: 5.0e-06
+        shuffle: true
+tts:
+  python: /data/L202500147/miniconda3/envs/qwen3-tts/bin/python3.12
+  worker_module: dual_isl_train.workers.qwen_voice_design
+  model_path: /data/L202500147/Caption/models/Qwen3-TTS-12Hz-1.7B-VoiceDesign
+  tokenizer_path: /data/L202500147/Caption/models/Qwen3-TTS-Tokenizer-12Hz
+  codec_cache_dir: /data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/codec_cache/qwen3tts_12hz
+  adapter_path: ''
+  device: cuda:0
+  dtype: bfloat16
+  attn_implementation: sdpa
+  gradient_checkpointing: true
+  num_codebooks: 16
+  generation:
+    max_new_tokens: 512
+    temperature: 1.0
+    top_p: 1.0
+    top_k: 0
+    subtalker_temperature: 1.0
+    subtalker_top_p: 1.0
+    subtalker_top_k: 0
+    repetition_penalty: 1.0
+    reference_replay_reuse: true
+    rollout_schedule: previous_round_lpt
+    synthesis_batch_size: 4
+    rollout_batch_size: 1
+    batch_fallback: true
+  lora:
+    r: 16
+    alpha: 32
+    dropout: 0.05
+  training:
+    lr: 1.0e-06
+    weight_decay: 0.01
+    sub_talker_weight: 0.3
+    clip_range: 0.2
+    kl_beta: 0.02
+    grad_clip: 1.0
+    phases:
+      grpo:
+        epochs: 1
+        lr: 1.0e-06
+        shuffle: true
+        schedule: length_bucketed
+        heartbeat_frames: 32
+      cycle_sft:
+        epochs: 1
+        lr: 2.0e-06
+        shuffle: true
+critics:
+  python: /data/L202500147/miniconda3/envs/dualisl-critic/bin/python3.10
+  worker_module: dual_isl_train.workers.critics
+  device: cuda:0
+  whisper_model: /data/L202500147/Caption/models/whisper/large-v3-turbo.pt
+  whisper_download_root: /data/L202500147/Caption/models/whisper
+training:
+  rounds: 10
+  group_size: 4
+  warmstart: false
+  anchor_mode: all_paired_once
+  round_offset: 0
+  paired_anchor_enabled: true
+reward:
+  calibration:
+    method: round0_dual_counterfactual_zscore
+    initial_path: ''
+  counterfactuals_per_candidate: 3
+  anchor_penalty_weight: 0.25
+  anchor_tolerance_z: 0.5
+  cycle_sft_selection: semantic_top1
+  sft_gate:
+    diagnostic_only: true
+    target_precision: 0.9
+    min_recall: 0.25
+  validity:
+    audio_only:
+      min_asr_score: 0.0
+    caption_only:
+      min_audio_health: 0.5
+      min_asr_score: 0.0
+  audio_only:
+    reconstruction_weight: 0.9
+    counterfactual_weight: 0.5
+    format_weight: 0.1
+  caption_only:
+    reconstruction_weight: 0.5
+    counterfactual_weight: 0.5
+synchronization:
+  rtol: 1.0e-06
+  atol: 1.0e-07
+evaluation:
+  enabled: false
+version: 5
+labeling:
+  source_root: /data/L202500147/Caption/labeling2_transfer_20260909/source
+  config_path: /data/L202500147/Caption/labeling2_transfer_20260909/configs/config.target.json
+  cache_dir: /data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/label_cache_fast_resume_v1
+  reference_labels_path: ''
+  api_workers: 4
+  judge_workers: 4
+  attempts: 3
+  local_device: cuda:0
+  accent_base_model_dir: /data/L202500147/Caption/cache/labeling2/huggingface/hub/models--facebook--wav2vec2-large-xlsr-53/snapshots/c3f9d884181a224a6ac87bf8885c84d1cff3384f
+  whisper_cache_dir: /data/L202500147/Caption/models/whisper
+  judge_demo_path: /data/L202500147/api/gpt_text.py
+  judge_timeout: 90
+  asr:
+    python: /data/L202500147/miniconda3/envs/qwen3-asr/bin/python3.12
+    model_path: /data/L202500147/Models/Qwen3-ASR/ckpt/Qwen3-ASR-1.7B
+    batch_size: 4
+  frozen_resources:
+    config_sha256: 2e18f820adfb7c2077e05ed79d02030b847619e5322673b899870471c74987c1
+    code_sha256:
+      /data/L202500147/Caption/labeling2_transfer_20260909/source/Experiment/labeling2/pipeline.py: a895dd15c10c694c255aec6275919c7195ed67926667efbf797a6fd7f54283d8
+      /data/L202500147/Caption/labeling2_transfer_20260909/source/Experiment/labeling2/expert_worker.py: 53b5c4f9b34cdb8f081d5ffb4bbaefe03a6b313979e15f2cc13357f13a933caa
+      ? /data/L202500147/Caption/labeling2_transfer_20260909/source/Experiment/acc_model_pool/Caption_Bench/run_gemini_3_1_pro_preview.py
+      : 87eddc8cc0043528144e291415668342401993eb45154ee9599e3935e2918f3d
+      ? /data/L202500147/Caption/labeling2_transfer_20260909/source/Experiment/acc_model_pool/Caption_Bench/run_qwen35_omni_plus.py
+      : f2464c10b190705c31912469053182ca899dc52bb578361e2ec14a4896a80229
+    audio_models:
+    - gemini-3.1-pro-preview
+    - qwen3.5-omni-plus
+    text_judge: gpt-5.5

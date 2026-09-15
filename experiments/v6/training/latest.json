@@ -1,0 +1,22 @@
+{
+  "captioner": {
+    "path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_009/checkpoints/caption_final",
+    "sha256": "211d750464bc80a988a2f2eec43e5cbfb3fad27b5501771e4597b3383023a972"
+  },
+  "framework_version": "DualRSI-Train-V6-AudioOnly4Attr-0.6",
+  "input_captioner": {
+    "path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_008/checkpoints/caption_final",
+    "sha256": "3b03a226db24f26b8af1b907c105da3d474a0071b52fe66c2a72d079c3ed2674"
+  },
+  "input_tts": {
+    "path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_008/checkpoints/tts_final",
+    "sha256": "7948469314e6d1c39d43e5b9f60642ce0077f727aca388f4647f5117db968c88"
+  },
+  "round": 9,
+  "same_round_start": true,
+  "trajectory_version": "dual_isl_train.trajectory.v1",
+  "tts": {
+    "path": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_009/checkpoints/tts_final",
+    "sha256": "4b61fb50dab9fbcbd02bc7ab602771472762d1d345af1968abef01fcfbd2129e"
+  }
+}

@@ -1,0 +1,3139 @@
+{
+  "created_utc": "2026-09-07T09:01:35.453888+00:00",
+  "rounds": [
+    {
+      "version": "v1",
+      "round": 0,
+      "run": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 274,
+          "anchors": 78,
+          "optimizer_steps": 69,
+          "ranks": 4,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_000/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_000/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_000/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_000/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 123,
+          "anchors": 0,
+          "optimizer_steps": 31,
+          "ranks": 4,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl"
+          ]
+        }
+      }
+    },
+    {
+      "version": "v1",
+      "round": 1,
+      "run": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 274,
+          "anchors": 78,
+          "optimizer_steps": 69,
+          "ranks": 4,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_001/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_001/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_001/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_001/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 122,
+          "anchors": 0,
+          "optimizer_steps": 31,
+          "ranks": 4,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl"
+          ]
+        }
+      }
+    },
+    {
+      "version": "v1",
+      "round": 2,
+      "run": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 274,
+          "anchors": 78,
+          "optimizer_steps": 69,
+          "ranks": 4,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_002/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_002/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_002/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_002/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 87,
+          "anchors": 0,
+          "optimizer_steps": 22,
+          "ranks": 4,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl"
+          ]
+        }
+      }
+    },
+    {
+      "version": "v1",
+      "round": 3,
+      "run": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 274,
+          "anchors": 78,
+          "optimizer_steps": 35,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 127,
+          "anchors": 0,
+          "optimizer_steps": 16,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      }
+    },
+    {
+      "version": "v1",
+      "round": 4,
+      "run": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 274,
+          "anchors": 78,
+          "optimizer_steps": 35,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 143,
+          "anchors": 0,
+          "optimizer_steps": 18,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      }
+    },
+    {
+      "version": "v1",
+      "round": 5,
+      "run": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 274,
+          "anchors": 78,
+          "optimizer_steps": 35,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 158,
+          "anchors": 0,
+          "optimizer_steps": 20,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      }
+    },
+    {
+      "version": "v1",
+      "round": 6,
+      "run": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 274,
+          "anchors": 78,
+          "optimizer_steps": 35,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 161,
+          "anchors": 0,
+          "optimizer_steps": 21,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      }
+    },
+    {
+      "version": "v1",
+      "round": 7,
+      "run": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 274,
+          "anchors": 78,
+          "optimizer_steps": 35,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 167,
+          "anchors": 0,
+          "optimizer_steps": 21,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      }
+    },
+    {
+      "version": "v1",
+      "round": 8,
+      "run": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 274,
+          "anchors": 78,
+          "optimizer_steps": 35,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 171,
+          "anchors": 0,
+          "optimizer_steps": 22,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      }
+    },
+    {
+      "version": "v1",
+      "round": 9,
+      "run": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 274,
+          "anchors": 78,
+          "optimizer_steps": 35,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 173,
+          "anchors": 0,
+          "optimizer_steps": 22,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      }
+    },
+    {
+      "version": "v2",
+      "round": 0,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "schema_curriculum_groups": 184,
+          "semantic_grpo_groups": 0,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 2
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 0,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.5489809335963182,
+          "reconstruction_auc": 0.504930966469428,
+          "counterfactual_auc": 0.5417488494411571,
+          "max_precision_at_recall_ge_025": 0.5641025641025641,
+          "paired_reconstruction_positive_wins": 24,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/rewards/round_000_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7587113740959894,
+          "reconstruction_auc": 0.5857988165680473,
+          "counterfactual_auc": 0.7718606180144642,
+          "max_precision_at_recall_ge_025": 0.8125,
+          "paired_reconstruction_positive_wins": 31,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_000/rewards/round_000_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v2",
+      "round": 1,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "schema_curriculum_groups": 184,
+          "semantic_grpo_groups": 0,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 1
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 1,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.534516765285996,
+          "reconstruction_auc": 0.5016436554898094,
+          "counterfactual_auc": 0.5647600262984879,
+          "max_precision_at_recall_ge_025": 0.5789473684210527,
+          "paired_reconstruction_positive_wins": 23,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/rewards/round_001_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7435897435897436,
+          "reconstruction_auc": 0.5437212360289283,
+          "counterfactual_auc": 0.7882971729125575,
+          "max_precision_at_recall_ge_025": 0.85,
+          "paired_reconstruction_positive_wins": 28,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_001/rewards/round_001_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v2",
+      "round": 2,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "schema_curriculum_groups": 184,
+          "semantic_grpo_groups": 0,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 3
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 2,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.6180144641683103,
+          "reconstruction_auc": 0.5036160420775806,
+          "counterfactual_auc": 0.6390532544378699,
+          "max_precision_at_recall_ge_025": 0.7368421052631579,
+          "paired_reconstruction_positive_wins": 23,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/rewards/round_002_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7738330046022354,
+          "reconstruction_auc": 0.6074950690335306,
+          "counterfactual_auc": 0.7981591058514136,
+          "max_precision_at_recall_ge_025": 0.8333333333333334,
+          "paired_reconstruction_positive_wins": 28,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_002/rewards/round_002_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v2",
+      "round": 3,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "schema_curriculum_groups": 184,
+          "semantic_grpo_groups": 0,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 2
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 3,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.4983563445101907,
+          "reconstruction_auc": 0.4983563445101907,
+          "counterfactual_auc": 0.48586456278763973,
+          "max_precision_at_recall_ge_025": 0.5423728813559322,
+          "paired_reconstruction_positive_wins": 18,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/rewards/round_003_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7192636423405654,
+          "reconstruction_auc": 0.5713346482577252,
+          "counterfactual_auc": 0.7823800131492439,
+          "max_precision_at_recall_ge_025": 0.7368421052631579,
+          "paired_reconstruction_positive_wins": 28,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_003/rewards/round_003_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v2",
+      "round": 4,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "schema_curriculum_groups": 184,
+          "semantic_grpo_groups": 0,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 8
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 4,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.44641683103221563,
+          "reconstruction_auc": 0.4996712689020381,
+          "counterfactual_auc": 0.41420118343195267,
+          "max_precision_at_recall_ge_025": 0.5116279069767442,
+          "paired_reconstruction_positive_wins": 18,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/rewards/round_004_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7758053911900066,
+          "reconstruction_auc": 0.5818540433925049,
+          "counterfactual_auc": 0.8040762656147271,
+          "max_precision_at_recall_ge_025": 0.8823529411764706,
+          "paired_reconstruction_positive_wins": 27,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_004/rewards/round_004_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v2",
+      "round": 5,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "schema_curriculum_groups": 184,
+          "semantic_grpo_groups": 0,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 13
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 5,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.559500328731098,
+          "reconstruction_auc": 0.5029585798816568,
+          "counterfactual_auc": 0.5897435897435898,
+          "max_precision_at_recall_ge_025": 0.5909090909090909,
+          "paired_reconstruction_positive_wins": 20,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/rewards/round_005_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.727810650887574,
+          "reconstruction_auc": 0.5483234714003945,
+          "counterfactual_auc": 0.7613412228796844,
+          "max_precision_at_recall_ge_025": 0.7692307692307693,
+          "paired_reconstruction_positive_wins": 29,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_005/rewards/round_005_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v2",
+      "round": 6,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "schema_curriculum_groups": 183,
+          "semantic_grpo_groups": 1,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 10
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 6,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.5562130177514792,
+          "reconstruction_auc": 0.5029585798816568,
+          "counterfactual_auc": 0.5706771860618014,
+          "max_precision_at_recall_ge_025": 0.6666666666666666,
+          "paired_reconstruction_positive_wins": 22,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/rewards/round_006_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7876397107166337,
+          "reconstruction_auc": 0.571992110453649,
+          "counterfactual_auc": 0.8297172912557528,
+          "max_precision_at_recall_ge_025": 0.8333333333333334,
+          "paired_reconstruction_positive_wins": 29,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_006/rewards/round_006_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v2",
+      "round": 7,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "schema_curriculum_groups": 184,
+          "semantic_grpo_groups": 0,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 10
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 7,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.6252465483234714,
+          "reconstruction_auc": 0.5036160420775806,
+          "counterfactual_auc": 0.6173570019723866,
+          "max_precision_at_recall_ge_025": 0.6956521739130435,
+          "paired_reconstruction_positive_wins": 19,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/rewards/round_007_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7238658777120316,
+          "reconstruction_auc": 0.5496383957922419,
+          "counterfactual_auc": 0.7606837606837606,
+          "max_precision_at_recall_ge_025": 0.8333333333333334,
+          "paired_reconstruction_positive_wins": 27,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_007/rewards/round_007_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v2",
+      "round": 8,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "schema_curriculum_groups": 184,
+          "semantic_grpo_groups": 0,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 16
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 8,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.6140696909927679,
+          "reconstruction_auc": 0.5042735042735043,
+          "counterfactual_auc": 0.6785009861932939,
+          "max_precision_at_recall_ge_025": 0.7058823529411765,
+          "paired_reconstruction_positive_wins": 24,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/rewards/round_008_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7587113740959894,
+          "reconstruction_auc": 0.5864562787639711,
+          "counterfactual_auc": 0.8356344510190664,
+          "max_precision_at_recall_ge_025": 0.8260869565217391,
+          "paired_reconstruction_positive_wins": 30,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_008/rewards/round_008_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v2",
+      "round": 9,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 172,
+          "anchors": 78,
+          "optimizer_steps": 22,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "schema_curriculum_groups": 184,
+          "semantic_grpo_groups": 0,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 21
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "sft_rejected_groups": 102,
+          "sft_selected": 94,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "accepted_negatives": 2,
+              "accepted_positives": 19,
+              "empirical_precision": 0.9047619047619048,
+              "empirical_recall": 0.48717948717948717,
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "calibrated",
+              "target_precision": 0.9,
+              "threshold": 0.883585855450652
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 9,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.5502958579881657,
+          "reconstruction_auc": 0.49769888231426695,
+          "counterfactual_auc": 0.5364891518737672,
+          "max_precision_at_recall_ge_025": 0.6428571428571429,
+          "paired_reconstruction_positive_wins": 15,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/rewards/round_009_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.8573307034845496,
+          "reconstruction_auc": 0.6042077580539119,
+          "counterfactual_auc": 0.9020381328073636,
+          "max_precision_at_recall_ge_025": 1.0,
+          "paired_reconstruction_positive_wins": 32,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/rewards/round_009_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v3",
+      "round": 0,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "raw_schema_valid_candidates": 96,
+          "safely_repaired_candidates": 44,
+          "schema_curriculum_groups": 150,
+          "semantic_grpo_groups": 34,
+          "semantic_input_valid_candidates": 139,
+          "semantic_nonzero_advantage_groups": 34,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 136
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "semantic_nonzero_advantage_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 0,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.5522682445759369,
+          "reconstruction_auc": 0.504930966469428,
+          "counterfactual_auc": 0.5417488494411571,
+          "max_precision_at_recall_ge_025": 0.5652173913043478,
+          "paired_reconstruction_positive_wins": 24,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/rewards/round_000_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7981591058514136,
+          "reconstruction_auc": 0.5844838921761999,
+          "counterfactual_auc": 0.811965811965812,
+          "max_precision_at_recall_ge_025": 0.8260869565217391,
+          "paired_reconstruction_positive_wins": 30,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_000/rewards/round_000_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v3",
+      "round": 1,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "raw_schema_valid_candidates": 82,
+          "safely_repaired_candidates": 57,
+          "schema_curriculum_groups": 152,
+          "semantic_grpo_groups": 32,
+          "semantic_input_valid_candidates": 138,
+          "semantic_nonzero_advantage_groups": 32,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 137
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "semantic_nonzero_advantage_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 1,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.5739644970414202,
+          "reconstruction_auc": 0.5009861932938856,
+          "counterfactual_auc": 0.5851413543721236,
+          "max_precision_at_recall_ge_025": 0.7,
+          "paired_reconstruction_positive_wins": 20,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/rewards/round_001_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7646285338593031,
+          "reconstruction_auc": 0.5535831689677844,
+          "counterfactual_auc": 0.8067061143984221,
+          "max_precision_at_recall_ge_025": 0.7647058823529411,
+          "paired_reconstruction_positive_wins": 29,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_001/rewards/round_001_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v3",
+      "round": 2,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "raw_schema_valid_candidates": 101,
+          "safely_repaired_candidates": 62,
+          "schema_curriculum_groups": 140,
+          "semantic_grpo_groups": 44,
+          "semantic_input_valid_candidates": 161,
+          "semantic_nonzero_advantage_groups": 44,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 158
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "semantic_nonzero_advantage_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 2,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.598948060486522,
+          "reconstruction_auc": 0.502301117685733,
+          "counterfactual_auc": 0.5956607495069034,
+          "max_precision_at_recall_ge_025": 0.6666666666666666,
+          "paired_reconstruction_positive_wins": 21,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/rewards/round_002_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7836949375410914,
+          "reconstruction_auc": 0.6081525312294543,
+          "counterfactual_auc": 0.8007889546351085,
+          "max_precision_at_recall_ge_025": 0.8461538461538461,
+          "paired_reconstruction_positive_wins": 27,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_002/rewards/round_002_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v3",
+      "round": 3,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "raw_schema_valid_candidates": 100,
+          "safely_repaired_candidates": 54,
+          "schema_curriculum_groups": 149,
+          "semantic_grpo_groups": 35,
+          "semantic_input_valid_candidates": 153,
+          "semantic_nonzero_advantage_groups": 35,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 152
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "semantic_nonzero_advantage_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 3,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.5713346482577252,
+          "reconstruction_auc": 0.5062458908612755,
+          "counterfactual_auc": 0.591715976331361,
+          "max_precision_at_recall_ge_025": 0.625,
+          "paired_reconstruction_positive_wins": 22,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/rewards/round_003_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7514792899408284,
+          "reconstruction_auc": 0.5864562787639711,
+          "counterfactual_auc": 0.8086785009861933,
+          "max_precision_at_recall_ge_025": 0.7777777777777778,
+          "paired_reconstruction_positive_wins": 29,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_003/rewards/round_003_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v3",
+      "round": 4,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "raw_schema_valid_candidates": 99,
+          "safely_repaired_candidates": 54,
+          "schema_curriculum_groups": 144,
+          "semantic_grpo_groups": 40,
+          "semantic_input_valid_candidates": 152,
+          "semantic_nonzero_advantage_groups": 40,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 152
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "semantic_nonzero_advantage_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 4,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.46811308349769887,
+          "reconstruction_auc": 0.5009861932938856,
+          "counterfactual_auc": 0.4358974358974359,
+          "max_precision_at_recall_ge_025": 0.5272727272727272,
+          "paired_reconstruction_positive_wins": 20,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/rewards/round_004_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.8139381985535832,
+          "reconstruction_auc": 0.5844838921761999,
+          "counterfactual_auc": 0.8468113083497699,
+          "max_precision_at_recall_ge_025": 0.8666666666666667,
+          "paired_reconstruction_positive_wins": 30,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_004/rewards/round_004_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v3",
+      "round": 5,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "raw_schema_valid_candidates": 119,
+          "safely_repaired_candidates": 57,
+          "schema_curriculum_groups": 141,
+          "semantic_grpo_groups": 43,
+          "semantic_input_valid_candidates": 176,
+          "semantic_nonzero_advantage_groups": 43,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 175
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "semantic_nonzero_advantage_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 5,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.5542406311637081,
+          "reconstruction_auc": 0.5003287310979618,
+          "counterfactual_auc": 0.5950032873109796,
+          "max_precision_at_recall_ge_025": 0.6111111111111112,
+          "paired_reconstruction_positive_wins": 18,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/rewards/round_005_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7619986850756082,
+          "reconstruction_auc": 0.5496383957922419,
+          "counterfactual_auc": 0.8290598290598291,
+          "max_precision_at_recall_ge_025": 0.7777777777777778,
+          "paired_reconstruction_positive_wins": 27,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_005/rewards/round_005_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v3",
+      "round": 6,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "raw_schema_valid_candidates": 109,
+          "safely_repaired_candidates": 71,
+          "schema_curriculum_groups": 133,
+          "semantic_grpo_groups": 51,
+          "semantic_input_valid_candidates": 179,
+          "semantic_nonzero_advantage_groups": 51,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 179
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "semantic_nonzero_advantage_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 6,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.5516107823800132,
+          "reconstruction_auc": 0.5003287310979618,
+          "counterfactual_auc": 0.5358316896778436,
+          "max_precision_at_recall_ge_025": 0.6363636363636364,
+          "paired_reconstruction_positive_wins": 19,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/rewards/round_006_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.8224852071005917,
+          "reconstruction_auc": 0.57922419460881,
+          "counterfactual_auc": 0.8527284681130834,
+          "max_precision_at_recall_ge_025": 0.8666666666666667,
+          "paired_reconstruction_positive_wins": 29,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_006/rewards/round_006_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v3",
+      "round": 7,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "raw_schema_valid_candidates": 107,
+          "safely_repaired_candidates": 63,
+          "schema_curriculum_groups": 136,
+          "semantic_grpo_groups": 48,
+          "semantic_input_valid_candidates": 168,
+          "semantic_nonzero_advantage_groups": 48,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 168
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "semantic_nonzero_advantage_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 7,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.663379355687048,
+          "reconstruction_auc": 0.5082182774490467,
+          "counterfactual_auc": 0.6778435239973701,
+          "max_precision_at_recall_ge_025": 0.75,
+          "paired_reconstruction_positive_wins": 24,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/rewards/round_007_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7271531886916502,
+          "reconstruction_auc": 0.5601577909270217,
+          "counterfactual_auc": 0.7587113740959894,
+          "max_precision_at_recall_ge_025": 0.7692307692307693,
+          "paired_reconstruction_positive_wins": 26,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_007/rewards/round_007_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v3",
+      "round": 8,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 78,
+          "anchors": 78,
+          "optimizer_steps": 10,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "raw_schema_valid_candidates": 133,
+          "safely_repaired_candidates": 57,
+          "schema_curriculum_groups": 135,
+          "semantic_grpo_groups": 49,
+          "semantic_input_valid_candidates": 188,
+          "semantic_nonzero_advantage_groups": 49,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 186
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "semantic_nonzero_advantage_groups": 196,
+          "sft_rejected_groups": 196,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 8,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.6272189349112426,
+          "reconstruction_auc": 0.5042735042735043,
+          "counterfactual_auc": 0.6686390532544378,
+          "max_precision_at_recall_ge_025": 0.7692307692307693,
+          "paired_reconstruction_positive_wins": 23,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/rewards/round_008_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.7744904667981591,
+          "reconstruction_auc": 0.5775805391190006,
+          "counterfactual_auc": 0.8395792241946088,
+          "max_precision_at_recall_ge_025": 0.8260869565217391,
+          "paired_reconstruction_positive_wins": 28,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_008/rewards/round_008_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    },
+    {
+      "version": "v3",
+      "round": 9,
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01",
+      "training_metrics": {
+        "caption_final": {
+          "rows": 187,
+          "anchors": 78,
+          "optimizer_steps": 24,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_final/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_final/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_final/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_final/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_final/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_final/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_final/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_final/training_metrics/rank_007/metrics.jsonl"
+          ]
+        },
+        "caption_after_grpo": {
+          "rows": 184,
+          "anchors": 0,
+          "optimizer_steps": 23,
+          "ranks": 8,
+          "sources": [
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_000/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_001/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_002/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_003/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_004/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_005/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_006/metrics.jsonl",
+            "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/checkpoints/caption_after_grpo/training_metrics/rank_007/metrics.jsonl"
+          ]
+        }
+      },
+      "summary": {
+        "audio_only": {
+          "candidates": 736,
+          "groups": 184,
+          "grpo_usable_groups": 184,
+          "raw_schema_valid_candidates": 147,
+          "safely_repaired_candidates": 57,
+          "schema_curriculum_groups": 129,
+          "semantic_grpo_groups": 55,
+          "semantic_input_valid_candidates": 203,
+          "semantic_nonzero_advantage_groups": 55,
+          "sft_rejected_groups": 184,
+          "sft_selected": 0,
+          "structurally_valid_candidates": 203
+        },
+        "caption_only": {
+          "candidates": 784,
+          "groups": 196,
+          "grpo_usable_groups": 196,
+          "schema_curriculum_groups": 0,
+          "semantic_grpo_groups": 196,
+          "semantic_nonzero_advantage_groups": 196,
+          "sft_rejected_groups": 87,
+          "sft_selected": 109,
+          "structurally_valid_candidates": 784
+        },
+        "sft_thresholds": {
+          "loops": {
+            "audio_only": {
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "no_high_precision_operating_point",
+              "target_precision": 0.9,
+              "threshold": null
+            },
+            "caption_only": {
+              "accepted_negatives": 2,
+              "accepted_positives": 23,
+              "empirical_precision": 0.92,
+              "empirical_recall": 0.5897435897435898,
+              "min_recall": 0.25,
+              "negative_count": 39,
+              "positive_count": 39,
+              "status": "calibrated",
+              "target_precision": 0.9,
+              "threshold": 0.6787279397793103
+            }
+          },
+          "method": "paired_vs_counterfactual_empirical_precision",
+          "round": 9,
+          "version": 1
+        }
+      },
+      "calibration_diagnostics": {
+        "audio_only": {
+          "score_auc": 0.571992110453649,
+          "reconstruction_auc": 0.5029585798816568,
+          "counterfactual_auc": 0.5950032873109796,
+          "max_precision_at_recall_ge_025": 0.64,
+          "paired_reconstruction_positive_wins": 23,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/rewards/round_009_audio_only_sft_confidence_calibration.output.jsonl"
+        },
+        "caption_only": {
+          "score_auc": 0.8974358974358975,
+          "reconstruction_auc": 0.6298487836949376,
+          "counterfactual_auc": 0.9408284023668639,
+          "max_precision_at_recall_ge_025": 1.0,
+          "paired_reconstruction_positive_wins": 33,
+          "source": "/data/L202500147/Caption/DualISL_Train_RewardV3/runs/midasheng_7b_reward_v3_10rounds_20260905_run01/round_009/rewards/round_009_caption_only_sft_confidence_calibration.output.jsonl"
+        }
+      }
+    }
+  ],
+  "permission_limits": [
+    "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_000/summary.json",
+    "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_001/summary.json",
+    "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_002/summary.json",
+    "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_003/summary.json",
+    "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_004/summary.json",
+    "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_005/summary.json",
+    "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_006/summary.json",
+    "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_007/summary.json",
+    "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_008/summary.json",
+    "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_midasheng_from_r2_20260831_run01/round_009/summary.json"
+  ],
+  "totals": {
+    "v1": {
+      "caption_sft_total": 2740,
+      "caption_sft_anchors": 780,
+      "caption_sft_cycle": 1960,
+      "caption_sft_steps": 452,
+      "caption_grpo_groups": 1432
+    },
+    "v2": {
+      "caption_sft_total": 874,
+      "caption_sft_anchors": 780,
+      "caption_sft_cycle": 94,
+      "caption_sft_steps": 112,
+      "caption_grpo_groups": 1840,
+      "semantic_groups": 1,
+      "schema_groups": 1839,
+      "semantic_candidates": 86,
+      "tts_cycle_pairs": 0,
+      "round0_calibration": {
+        "fitted_round": 0,
+        "frozen_across_rounds": true,
+        "loops": {
+          "audio_only": {
+            "counterfactual": {
+              "count": 2,
+              "mean": 0.0002588334374031831,
+              "std": 0.009694535919021696
+            },
+            "reconstruction": {
+              "count": 2,
+              "mean": -4.385483074188232,
+              "std": 0.3352949619293213
+            }
+          },
+          "caption_only": {
+            "counterfactual": {
+              "count": 784,
+              "mean": 0.07006085852501245,
+              "std": 0.1057375648921221
+            },
+            "reconstruction": {
+              "count": 784,
+              "mean": -1.769317482899703,
+              "std": 0.3530017927909292
+            }
+          }
+        },
+        "method": "round0_dual_counterfactual_zscore",
+        "version": 2
+      }
+    },
+    "v3": {
+      "caption_sft_total": 889,
+      "caption_sft_anchors": 780,
+      "caption_sft_cycle": 109,
+      "caption_sft_steps": 114,
+      "caption_grpo_groups": 1840,
+      "semantic_groups": 431,
+      "schema_groups": 1409,
+      "semantic_candidates": 1646,
+      "tts_cycle_pairs": 0,
+      "round0_calibration": {
+        "fitted_round": 0,
+        "frozen_across_rounds": true,
+        "loops": {
+          "audio_only": {
+            "counterfactual": {
+              "count": 136,
+              "mean": 0.0002893165949394868,
+              "std": 0.016728665431743027
+            },
+            "reconstruction": {
+              "count": 136,
+              "mean": -3.4004910702214524,
+              "std": 0.7715699483555101
+            }
+          },
+          "caption_only": {
+            "counterfactual": {
+              "count": 784,
+              "mean": 0.07093202655821584,
+              "std": 0.09661936504518738
+            },
+            "reconstruction": {
+              "count": 784,
+              "mean": -1.5933576930602136,
+              "std": 0.31503111517698995
+            }
+          }
+        },
+        "method": "round0_dual_counterfactual_zscore",
+        "sources": {
+          "audio_only": {
+            "kind": "round0_generated_candidates",
+            "semantic_valid_candidates": 136
+          },
+          "caption_only": {
+            "kind": "round0_generated_candidates",
+            "semantic_valid_candidates": 784
+          }
+        },
+        "version": 2
+      }
+    }
+  },
+  "benchmark_breakdown_r9": {
+    "base": {
+      "para_source": "/data/L202500147/Caption/benchmark/round_completion_eval_runs_20260831/paraspeechcaps_content_scheme_a_v1/eval_midasheng_base_full_20260831_run01",
+      "style_source": "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/runs/midasheng_base_full_20260901_run01",
+      "para_single_fields": {
+        "gender": {
+          "prediction_counts": {
+            "male": 102,
+            "female": 16,
+            "unknown": 22
+          },
+          "label_counts": {
+            "female": 73,
+            "male": 67
+          },
+          "accuracy": 0.4928571428571429
+        },
+        "pitch": {
+          "prediction_counts": {
+            "unknown": 103,
+            "medium-pitched": 30,
+            "low-pitched": 6,
+            "high-pitched": 1
+          },
+          "label_counts": {
+            "medium-pitched": 17,
+            "high-pitched": 112,
+            "low-pitched": 11
+          },
+          "accuracy": 0.02857142857142857
+        },
+        "speaking_rate": {
+          "prediction_counts": {
+            "measured speed": 126,
+            "fast speed": 11,
+            "slow speed": 2,
+            "unknown": 1
+          },
+          "label_counts": {
+            "measured speed": 89,
+            "slow speed": 49,
+            "fast speed": 2
+          },
+          "accuracy": 0.5857142857142857
+        },
+        "accent": {
+          "prediction_counts": {
+            "british": 1,
+            "unknown": 134,
+            "canadian": 1,
+            "american": 4
+          },
+          "label_counts": {
+            "australian": 3,
+            "filipino": 1,
+            "indian": 3,
+            "american": 124,
+            "indian-american": 1,
+            "british": 3,
+            "danish": 1,
+            "jamaican": 1,
+            "irish": 2,
+            "german": 1
+          },
+          "accuracy": 0.02857142857142857
+        }
+      },
+      "style_tasks": {
+        "gender": {
+          "prediction_counts": {
+            "A": 142,
+            "B": 635,
+            "It preserves the cultural context and helps in": 1
+          },
+          "correct": 483.0
+        },
+        "pitch": {
+          "prediction_counts": {
+            "B": 747,
+            "H": 1,
+            "A": 27,
+            "C": 2,
+            "It helps to preserve cultural identity and express": 1
+          },
+          "correct": 279.0
+        },
+        "speaking_speed": {
+          "prediction_counts": {
+            "B": 777,
+            "It preserves the cultural context and helps maintain": 1
+          },
+          "correct": 263.0
+        },
+        "volume": {
+          "prediction_counts": {
+            "B": 777,
+            "It helps to preserve the cultural context of": 1
+          },
+          "correct": 234.0
+        }
+      }
+    },
+    "v1": {
+      "para_source": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_v1_r9",
+      "style_source": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_v1_r9",
+      "para_single_fields": {
+        "gender": {
+          "prediction_counts": {
+            "male": 115,
+            "female": 24,
+            "unknown": 1
+          },
+          "label_counts": {
+            "female": 73,
+            "male": 67
+          },
+          "accuracy": 0.6
+        },
+        "pitch": {
+          "prediction_counts": {
+            "medium-pitched": 91,
+            "unknown": 17,
+            "low-pitched": 30,
+            "high-pitched": 2
+          },
+          "label_counts": {
+            "medium-pitched": 17,
+            "high-pitched": 112,
+            "low-pitched": 11
+          },
+          "accuracy": 0.10714285714285714
+        },
+        "speaking_rate": {
+          "prediction_counts": {
+            "measured speed": 128,
+            "fast speed": 11,
+            "slow speed": 1
+          },
+          "label_counts": {
+            "measured speed": 89,
+            "slow speed": 49,
+            "fast speed": 2
+          },
+          "accuracy": 0.5928571428571429
+        },
+        "accent": {
+          "prediction_counts": {
+            "british": 1,
+            "unknown": 87,
+            "american": 39,
+            "indian": 6,
+            "welsh": 5,
+            "swedish": 1,
+            "canadian": 1
+          },
+          "label_counts": {
+            "australian": 3,
+            "filipino": 1,
+            "indian": 3,
+            "american": 124,
+            "indian-american": 1,
+            "british": 3,
+            "danish": 1,
+            "jamaican": 1,
+            "irish": 2,
+            "german": 1
+          },
+          "accuracy": 0.2714285714285714
+        }
+      },
+      "style_tasks": {
+        "gender": {
+          "prediction_counts": {
+            "B": 752,
+            "A": 26
+          },
+          "correct": 506.0
+        },
+        "pitch": {
+          "prediction_counts": {
+            "B": 452,
+            "A": 319,
+            "H": 1,
+            "C": 5,
+            "It preserves the cultural context and expressions of": 1
+          },
+          "correct": 282.0
+        },
+        "speaking_speed": {
+          "prediction_counts": {
+            "B": 777,
+            "It preserves the cultural context and helps maintain": 1
+          },
+          "correct": 263.0
+        },
+        "volume": {
+          "prediction_counts": {
+            "B": 777,
+            "It preserves the cultural context and helps maintain": 1
+          },
+          "correct": 234.0
+        }
+      }
+    },
+    "v2": {
+      "para_source": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r9",
+      "style_source": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r9",
+      "para_single_fields": {
+        "gender": {
+          "prediction_counts": {
+            "male": 108,
+            "female": 17,
+            "unknown": 15
+          },
+          "label_counts": {
+            "female": 73,
+            "male": 67
+          },
+          "accuracy": 0.5214285714285715
+        },
+        "pitch": {
+          "prediction_counts": {
+            "unknown": 78,
+            "medium-pitched": 48,
+            "low-pitched": 13,
+            "high-pitched": 1
+          },
+          "label_counts": {
+            "medium-pitched": 17,
+            "high-pitched": 112,
+            "low-pitched": 11
+          },
+          "accuracy": 0.02857142857142857
+        },
+        "speaking_rate": {
+          "prediction_counts": {
+            "measured speed": 126,
+            "fast speed": 11,
+            "slow speed": 2,
+            "unknown": 1
+          },
+          "label_counts": {
+            "measured speed": 89,
+            "slow speed": 49,
+            "fast speed": 2
+          },
+          "accuracy": 0.5857142857142857
+        },
+        "accent": {
+          "prediction_counts": {
+            "british": 1,
+            "unknown": 133,
+            "canadian": 1,
+            "american": 5
+          },
+          "label_counts": {
+            "australian": 3,
+            "filipino": 1,
+            "indian": 3,
+            "american": 124,
+            "indian-american": 1,
+            "british": 3,
+            "danish": 1,
+            "jamaican": 1,
+            "irish": 2,
+            "german": 1
+          },
+          "accuracy": 0.03571428571428571
+        }
+      },
+      "style_tasks": {
+        "gender": {
+          "prediction_counts": {
+            "A": 115,
+            "B": 662,
+            "It preserves the cultural context and helps in": 1
+          },
+          "correct": 494.0
+        },
+        "pitch": {
+          "prediction_counts": {
+            "B": 725,
+            "A": 49,
+            "H": 1,
+            "C": 2,
+            "It helps to preserve the cultural context of": 1
+          },
+          "correct": 277.0
+        },
+        "speaking_speed": {
+          "prediction_counts": {
+            "B": 777,
+            "It preserves the cultural context and helps maintain": 1
+          },
+          "correct": 263.0
+        },
+        "volume": {
+          "prediction_counts": {
+            "B": 777,
+            "It preserves the cultural context and helps maintain": 1
+          },
+          "correct": 234.0
+        }
+      }
+    },
+    "v3": {
+      "para_source": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv3_r9",
+      "style_source": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv3_r9",
+      "para_single_fields": {
+        "gender": {
+          "prediction_counts": {
+            "male": 108,
+            "female": 17,
+            "unknown": 15
+          },
+          "label_counts": {
+            "female": 73,
+            "male": 67
+          },
+          "accuracy": 0.5285714285714286
+        },
+        "pitch": {
+          "prediction_counts": {
+            "unknown": 88,
+            "medium-pitched": 39,
+            "low-pitched": 12,
+            "high-pitched": 1
+          },
+          "label_counts": {
+            "medium-pitched": 17,
+            "high-pitched": 112,
+            "low-pitched": 11
+          },
+          "accuracy": 0.02142857142857143
+        },
+        "speaking_rate": {
+          "prediction_counts": {
+            "measured speed": 126,
+            "fast speed": 11,
+            "slow speed": 2,
+            "unknown": 1
+          },
+          "label_counts": {
+            "measured speed": 89,
+            "slow speed": 49,
+            "fast speed": 2
+          },
+          "accuracy": 0.5857142857142857
+        },
+        "accent": {
+          "prediction_counts": {
+            "british": 1,
+            "unknown": 132,
+            "american": 6,
+            "canadian": 1
+          },
+          "label_counts": {
+            "australian": 3,
+            "filipino": 1,
+            "indian": 3,
+            "american": 124,
+            "indian-american": 1,
+            "british": 3,
+            "danish": 1,
+            "jamaican": 1,
+            "irish": 2,
+            "german": 1
+          },
+          "accuracy": 0.04285714285714286
+        }
+      },
+      "style_tasks": {
+        "gender": {
+          "prediction_counts": {
+            "A": 135,
+            "B": 642,
+            "It preserves the cultural context and helps in": 1
+          },
+          "correct": 478.0
+        },
+        "pitch": {
+          "prediction_counts": {
+            "B": 714,
+            "A": 60,
+            "H": 1,
+            "C": 2,
+            "It helps to preserve the cultural context of": 1
+          },
+          "correct": 272.0
+        },
+        "speaking_speed": {
+          "prediction_counts": {
+            "B": 777,
+            "It preserves the cultural context and helps maintain": 1
+          },
+          "correct": 263.0
+        },
+        "volume": {
+          "prediction_counts": {
+            "B": 777,
+            "It preserves the cultural context and helps in": 1
+          },
+          "correct": 234.0
+        }
+      }
+    }
+  },
+  "paired_bootstrap_r9": {
+    "v1_minus_base": {
+      "paraspeechcaps_sample_resampling": {
+        "difference": 0.07853179976630788,
+        "ci95": [
+          0.06192667391153295,
+          0.09564539589567168
+        ],
+        "units": 140,
+        "observations": 140,
+        "replicates": 20000,
+        "seed": 20260907
+      },
+      "stylecap_speaker_cluster_resampling": {
+        "difference": 0.008354755784061696,
+        "ci95": [
+          -0.01652551127608909,
+          0.03284688661922292
+        ],
+        "units": 38,
+        "observations": 3112,
+        "replicates": 20000,
+        "seed": 20260907
+      }
+    },
+    "v2_minus_base": {
+      "paraspeechcaps_sample_resampling": {
+        "difference": 0.0056528244526477,
+        "ci95": [
+          -0.0012531815898267915,
+          0.0129357666160219
+        ],
+        "units": 140,
+        "observations": 140,
+        "replicates": 20000,
+        "seed": 20260907
+      },
+      "stylecap_speaker_cluster_resampling": {
+        "difference": 0.002892030848329049,
+        "ci95": [
+          -0.002854825336822319,
+          0.008421052631578947
+        ],
+        "units": 38,
+        "observations": 3112,
+        "replicates": 20000,
+        "seed": 20260907
+      }
+    },
+    "v3_minus_base": {
+      "paraspeechcaps_sample_resampling": {
+        "difference": 0.0072269162839065865,
+        "ci95": [
+          -0.0014041686774878465,
+          0.016149201452960848
+        ],
+        "units": 140,
+        "observations": 140,
+        "replicates": 20000,
+        "seed": 20260907
+      },
+      "stylecap_speaker_cluster_resampling": {
+        "difference": -0.0038560411311053984,
+        "ci95": [
+          -0.009040937837123796,
+          0.0009767063942779835
+        ],
+        "units": 38,
+        "observations": 3112,
+        "replicates": 20000,
+        "seed": 20260907
+      }
+    },
+    "v1_minus_v2": {
+      "paraspeechcaps_sample_resampling": {
+        "difference": 0.07287897531366018,
+        "ci95": [
+          0.05609594682971624,
+          0.09028975645341471
+        ],
+        "units": 140,
+        "observations": 140,
+        "replicates": 20000,
+        "seed": 20260907
+      },
+      "stylecap_speaker_cluster_resampling": {
+        "difference": 0.005462724935732648,
+        "ci95": [
+          -0.01603518030588859,
+          0.02573095438955347
+        ],
+        "units": 38,
+        "observations": 3112,
+        "replicates": 20000,
+        "seed": 20260907
+      }
+    },
+    "v1_minus_v3": {
+      "paraspeechcaps_sample_resampling": {
+        "difference": 0.07130488348240127,
+        "ci95": [
+          0.05407194878380451,
+          0.08938180694553957
+        ],
+        "units": 140,
+        "observations": 140,
+        "replicates": 20000,
+        "seed": 20260907
+      },
+      "stylecap_speaker_cluster_resampling": {
+        "difference": 0.012210796915167094,
+        "ci95": [
+          -0.009836138889703512,
+          0.03341999570775973
+        ],
+        "units": 38,
+        "observations": 3112,
+        "replicates": 20000,
+        "seed": 20260907
+      }
+    },
+    "v3_minus_v2": {
+      "paraspeechcaps_sample_resampling": {
+        "difference": 0.0015740918312588865,
+        "ci95": [
+          -0.004660282954512733,
+          0.007900103731327568
+        ],
+        "units": 140,
+        "observations": 140,
+        "replicates": 20000,
+        "seed": 20260907
+      },
+      "stylecap_speaker_cluster_resampling": {
+        "difference": -0.006748071979434447,
+        "ci95": [
+          -0.010855693172851127,
+          -0.0022598414434117043
+        ],
+        "units": 38,
+        "observations": 3112,
+        "replicates": 20000,
+        "seed": 20260907
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "benchmark": "InstructTTSEval DSD",
+  "round": 0,
+  "complete": true,
+  "smoke": false,
+  "expected": 2000,
+  "scored": 2000,
+  "metrics": {
+    "en": {
+      "expected": 1000,
+      "valid": 1000,
+      "scored": 1000,
+      "true": 778,
+      "percentage": 77.8,
+      "coverage_percentage": 100.0
+    },
+    "zh": {
+      "expected": 1000,
+      "valid": 1000,
+      "scored": 1000,
+      "true": 820,
+      "percentage": 82.0,
+      "coverage_percentage": 100.0
+    }
+  },
+  "bilingual_percentage": 79.9,
+  "base_bilingual_percentage": 81.65,
+  "judge_model": "models/gemini-2.5-pro",
+  "usage": {
+    "input_tokens": 2577033,
+    "output_tokens": 466675,
+    "thinking_tokens": 3117281,
+    "billable_output_tokens": 3583956,
+    "cost_basis": "recorded_successful_responses_including_thinking; excludes unrecorded retries",
+    "input_price_per_million_usd": 1.25,
+    "output_price_per_million_usd": 10.0,
+    "estimated_cost_usd": 39.060851
+  },
+  "note": "API provider changed; original Gemini-2.5-Pro model and judging prompt/settings retained."
+}

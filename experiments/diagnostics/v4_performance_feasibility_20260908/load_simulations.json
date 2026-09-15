@@ -1,0 +1,737 @@
+{
+  "sources_sha256": {
+    "rollout_group_costs.csv": "2510146d9c022831484841131870addb13a99014a60b577f92d7ee24002f77a3",
+    "evidence.json": "604a6923c1fe4093bf4414b41067bb9a283b275323a874bc492c32d6116c6747"
+  },
+  "simulations": [
+    {
+      "round": 1,
+      "role": "TTS",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        8369,
+        8933,
+        6937,
+        7770,
+        6947,
+        10802,
+        5500,
+        8697
+      ],
+      "simulated_costs": [
+        8092,
+        8051,
+        7812,
+        8044,
+        7945,
+        7827,
+        8022,
+        8162
+      ],
+      "simulated_groups_per_rank": [
+        24,
+        25,
+        25,
+        25,
+        25,
+        24,
+        24,
+        24
+      ],
+      "max_cost_reduction_proxy": 0.24439918533604887,
+      "max_over_mean_simulated": 1.02096786803221
+    },
+    {
+      "round": 1,
+      "role": "Captioner",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        16086,
+        16350,
+        14919,
+        14549,
+        15232,
+        14370,
+        15159,
+        16052
+      ],
+      "simulated_costs": [
+        15145,
+        15899,
+        15371,
+        15798,
+        15270,
+        14607,
+        14522,
+        16105
+      ],
+      "simulated_groups_per_rank": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23
+      ],
+      "max_cost_reduction_proxy": 0.014984709480122316,
+      "max_over_mean_simulated": 1.0498952875314749
+    },
+    {
+      "round": 2,
+      "role": "TTS",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        8311,
+        8672,
+        7144,
+        7876,
+        6923,
+        10861,
+        5434,
+        8880
+      ],
+      "simulated_costs": [
+        7844,
+        8105,
+        8068,
+        7920,
+        8400,
+        7789,
+        8027,
+        7948
+      ],
+      "simulated_groups_per_rank": [
+        24,
+        25,
+        24,
+        25,
+        24,
+        25,
+        25,
+        24
+      ],
+      "max_cost_reduction_proxy": 0.2265905533560446,
+      "max_over_mean_simulated": 1.048345579632143
+    },
+    {
+      "round": 2,
+      "role": "Captioner",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        16218,
+        14825,
+        15514,
+        15844,
+        16011,
+        16764,
+        15147,
+        16421
+      ],
+      "simulated_costs": [
+        15554,
+        15829,
+        16270,
+        15449,
+        16678,
+        16425,
+        15629,
+        14910
+      ],
+      "simulated_groups_per_rank": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23
+      ],
+      "max_cost_reduction_proxy": 0.005130040563111393,
+      "max_over_mean_simulated": 1.0527046645206084
+    },
+    {
+      "round": 3,
+      "role": "TTS",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        8317,
+        8902,
+        7131,
+        7680,
+        6819,
+        10985,
+        5527,
+        8622
+      ],
+      "simulated_costs": [
+        8216,
+        7739,
+        8037,
+        7926,
+        7950,
+        8308,
+        7658,
+        8149
+      ],
+      "simulated_groups_per_rank": [
+        23,
+        25,
+        25,
+        25,
+        24,
+        25,
+        25,
+        24
+      ],
+      "max_cost_reduction_proxy": 0.2436959490213928,
+      "max_over_mean_simulated": 1.0387759248550397
+    },
+    {
+      "round": 3,
+      "role": "Captioner",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        16177,
+        16250,
+        14885,
+        15556,
+        15108,
+        16302,
+        15028,
+        15643
+      ],
+      "simulated_costs": [
+        15941,
+        15934,
+        15446,
+        16084,
+        15184,
+        15452,
+        15396,
+        15512
+      ],
+      "simulated_groups_per_rank": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23
+      ],
+      "max_cost_reduction_proxy": 0.013372592319960686,
+      "max_over_mean_simulated": 1.0297961568319876
+    },
+    {
+      "round": 4,
+      "role": "TTS",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        8428,
+        8910,
+        7062,
+        7818,
+        6925,
+        11019,
+        5459,
+        8712
+      ],
+      "simulated_costs": [
+        8021,
+        7808,
+        7997,
+        8162,
+        8049,
+        8266,
+        7939,
+        8091
+      ],
+      "simulated_groups_per_rank": [
+        24,
+        25,
+        24,
+        24,
+        25,
+        25,
+        25,
+        24
+      ],
+      "max_cost_reduction_proxy": 0.2498411834104728,
+      "max_over_mean_simulated": 1.0279016989725336
+    },
+    {
+      "round": 4,
+      "role": "Captioner",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        15995,
+        16407,
+        15654,
+        15908,
+        15278,
+        16719,
+        15025,
+        16438
+      ],
+      "simulated_costs": [
+        16054,
+        16201,
+        16912,
+        15889,
+        16232,
+        15309,
+        15150,
+        15677
+      ],
+      "simulated_groups_per_rank": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23
+      ],
+      "max_cost_reduction_proxy": -0.011543752616783198,
+      "max_over_mean_simulated": 1.0617780010045204
+    },
+    {
+      "round": 5,
+      "role": "TTS",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        8295,
+        8971,
+        7189,
+        7888,
+        6820,
+        11060,
+        5518,
+        8876
+      ],
+      "simulated_costs": [
+        8110,
+        7911,
+        7937,
+        8066,
+        8068,
+        8306,
+        7975,
+        8244
+      ],
+      "simulated_groups_per_rank": [
+        24,
+        25,
+        24,
+        25,
+        25,
+        25,
+        24,
+        24
+      ],
+      "max_cost_reduction_proxy": 0.24900542495479205,
+      "max_over_mean_simulated": 1.028336196356996
+    },
+    {
+      "round": 5,
+      "role": "Captioner",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        16719,
+        15518,
+        15541,
+        15469,
+        15563,
+        16280,
+        16326,
+        16884
+      ],
+      "simulated_costs": [
+        15952,
+        16296,
+        16277,
+        16850,
+        14962,
+        16567,
+        15688,
+        15708
+      ],
+      "simulated_groups_per_rank": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23
+      ],
+      "max_cost_reduction_proxy": 0.002013740819710952,
+      "max_over_mean_simulated": 1.0506625097427904
+    },
+    {
+      "round": 6,
+      "role": "TTS",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        8460,
+        8879,
+        7145,
+        7905,
+        6724,
+        11309,
+        5491,
+        8815
+      ],
+      "simulated_costs": [
+        8363,
+        8032,
+        7782,
+        8125,
+        7794,
+        8295,
+        8204,
+        8133
+      ],
+      "simulated_groups_per_rank": [
+        24,
+        25,
+        24,
+        24,
+        25,
+        25,
+        24,
+        25
+      ],
+      "max_cost_reduction_proxy": 0.2605004863383146,
+      "max_over_mean_simulated": 1.0336175998022494
+    },
+    {
+      "round": 6,
+      "role": "Captioner",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        15774,
+        16216,
+        15590,
+        15426,
+        15128,
+        15212,
+        14992,
+        15827
+      ],
+      "simulated_costs": [
+        15640,
+        15422,
+        15195,
+        14793,
+        16477,
+        16326,
+        15190,
+        15122
+      ],
+      "simulated_groups_per_rank": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23
+      ],
+      "max_cost_reduction_proxy": -0.016095214602861452,
+      "max_over_mean_simulated": 1.0616196190552893
+    },
+    {
+      "round": 7,
+      "role": "TTS",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        8155,
+        8974,
+        7234,
+        7981,
+        7057,
+        10838,
+        5508,
+        8906
+      ],
+      "simulated_costs": [
+        7977,
+        7912,
+        7838,
+        8128,
+        8064,
+        8249,
+        8203,
+        8282
+      ],
+      "simulated_groups_per_rank": [
+        23,
+        24,
+        25,
+        25,
+        25,
+        25,
+        25,
+        24
+      ],
+      "max_cost_reduction_proxy": 0.23583687027126776,
+      "max_over_mean_simulated": 1.0247938997416979
+    },
+    {
+      "round": 7,
+      "role": "Captioner",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        17268,
+        16001,
+        16024,
+        15112,
+        15994,
+        15958,
+        15825,
+        16866
+      ],
+      "simulated_costs": [
+        15734,
+        16407,
+        15648,
+        16785,
+        15495,
+        16246,
+        17074,
+        15659
+      ],
+      "simulated_groups_per_rank": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23
+      ],
+      "max_cost_reduction_proxy": 0.01123465369469534,
+      "max_over_mean_simulated": 1.0584588680181017
+    },
+    {
+      "round": 8,
+      "role": "TTS",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        8550,
+        9019,
+        7095,
+        8194,
+        6913,
+        11349,
+        5624,
+        8953
+      ],
+      "simulated_costs": [
+        8228,
+        8040,
+        8248,
+        8273,
+        8465,
+        7673,
+        8352,
+        8418
+      ],
+      "simulated_groups_per_rank": [
+        24,
+        24,
+        25,
+        25,
+        24,
+        25,
+        25,
+        24
+      ],
+      "max_cost_reduction_proxy": 0.2541193056656974,
+      "max_over_mean_simulated": 1.0307928824756076
+    },
+    {
+      "round": 8,
+      "role": "Captioner",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        15554,
+        15954,
+        15635,
+        15415,
+        15827,
+        15994,
+        15783,
+        17150
+      ],
+      "simulated_costs": [
+        14950,
+        16066,
+        16455,
+        16775,
+        15915,
+        15982,
+        15248,
+        15921
+      ],
+      "simulated_groups_per_rank": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23
+      ],
+      "max_cost_reduction_proxy": 0.02186588921282795,
+      "max_over_mean_simulated": 1.0541033052658038
+    },
+    {
+      "round": 9,
+      "role": "TTS",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        8394,
+        8921,
+        7137,
+        7990,
+        7022,
+        11108,
+        5518,
+        8876
+      ],
+      "simulated_costs": [
+        8021,
+        8212,
+        7849,
+        8171,
+        8015,
+        8062,
+        8497,
+        8139
+      ],
+      "simulated_groups_per_rank": [
+        24,
+        25,
+        24,
+        24,
+        25,
+        24,
+        25,
+        25
+      ],
+      "max_cost_reduction_proxy": 0.23505581562837596,
+      "max_over_mean_simulated": 1.0463319274697533
+    },
+    {
+      "round": 9,
+      "role": "Captioner",
+      "method": "LPT whole-group placement estimated only from preceding round lengths",
+      "baseline_costs": [
+        16398,
+        15360,
+        16008,
+        15259,
+        16125,
+        15643,
+        16339,
+        16754
+      ],
+      "simulated_costs": [
+        16827,
+        15819,
+        15682,
+        16062,
+        16239,
+        15727,
+        15631,
+        15899
+      ],
+      "simulated_groups_per_rank": [
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23,
+        23
+      ],
+      "max_cost_reduction_proxy": -0.0043571684373879815,
+      "max_over_mean_simulated": 1.0526249941354018
+    }
+  ],
+  "tts_grpo_existing_bucket_balance": [
+    {
+      "round": 0,
+      "sum_step_max_frames": 8925,
+      "sum_step_mean_frames": 8081.75,
+      "step_cost_max_mean_proxy": 1.1043400253657933
+    },
+    {
+      "round": 1,
+      "sum_step_max_frames": 8793,
+      "sum_step_mean_frames": 8012.375,
+      "step_cost_max_mean_proxy": 1.0974274169643832
+    },
+    {
+      "round": 2,
+      "sum_step_max_frames": 8914,
+      "sum_step_mean_frames": 8027.125,
+      "step_cost_max_mean_proxy": 1.1104847626018033
+    },
+    {
+      "round": 3,
+      "sum_step_max_frames": 8916,
+      "sum_step_mean_frames": 8017.375,
+      "step_cost_max_mean_proxy": 1.1120846910616007
+    },
+    {
+      "round": 4,
+      "sum_step_max_frames": 8963,
+      "sum_step_mean_frames": 8056.625,
+      "step_cost_max_mean_proxy": 1.11250058181931
+    },
+    {
+      "round": 5,
+      "sum_step_max_frames": 8951,
+      "sum_step_mean_frames": 8093.125,
+      "step_cost_max_mean_proxy": 1.1060004633562437
+    },
+    {
+      "round": 6,
+      "sum_step_max_frames": 9077,
+      "sum_step_mean_frames": 8107.0,
+      "step_cost_max_mean_proxy": 1.1196496854570124
+    },
+    {
+      "round": 7,
+      "sum_step_max_frames": 9093,
+      "sum_step_mean_frames": 8097.125,
+      "step_cost_max_mean_proxy": 1.1229911851428749
+    },
+    {
+      "round": 8,
+      "sum_step_max_frames": 9289,
+      "sum_step_mean_frames": 8228.625,
+      "step_cost_max_mean_proxy": 1.1288641784016162
+    },
+    {
+      "round": 9,
+      "sum_step_max_frames": 8999,
+      "sum_step_mean_frames": 8137.25,
+      "step_cost_max_mean_proxy": 1.1059018710252235
+    }
+  ],
+  "limitation": "Fixed historical lengths only; excludes prefix cost, hardware/I/O variation and changed outputs after scheduling. Not a timing measurement or speedup claim."
+}

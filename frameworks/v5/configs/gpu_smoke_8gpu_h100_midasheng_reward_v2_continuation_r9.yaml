@@ -1,0 +1,24 @@
+extends: gpu_smoke_8gpu_h100_midasheng_reward_v2.yaml
+
+run:
+  output_dir: ../runs/gpu_smoke_8gpu_h100_midasheng_reward_v2_from_r9
+
+captioner:
+  adapter_path: ../runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_final
+
+tts:
+  adapter_path: ../runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/tts_final
+
+training:
+  rounds: 1
+  round_offset: 10
+
+reward:
+  calibration:
+    method: round0_dual_counterfactual_zscore
+    initial_path: ../runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/reward_calibration.json
+  # The source RewardV2 run started from both base models. Keep those original
+  # C_0/T_0 models frozen as reward anchors instead of silently rebasing at r9.
+  anchor:
+    captioner_adapter_path: ""
+    tts_adapter_path: ""

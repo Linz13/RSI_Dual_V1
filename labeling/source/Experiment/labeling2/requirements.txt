@@ -1,0 +1,6 @@
+# The orchestrator itself uses only the Python standard library plus librosa
+# in the TextrolSpeech expert. Existing model environments keep their own
+# pinned dependencies. Install this in the configured rate environment for
+# the Chinese pinyin phone-rate fallback.
+pypinyin>=0.50
+requests>=2.31

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "files": 626,
+  "bytes": 12132511,
+  "python": 301,
+  "json": 121,
+  "jsonl": 10,
+  "shell": 51,
+  "provenance_verified": 605,
+  "generated_doc_links": 79,
+  "errors": [],
+  "scope": "UTF-8, Python AST, JSON/JSONL, bash -n, secret patterns, size, provenance hashes and authored navigation; no GPU/API/training"
+}

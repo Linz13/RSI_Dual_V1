@@ -1,0 +1,15 @@
+extends: base_3gpu.yaml
+
+run:
+  output_dir: ../runs/dual_recursive_8gpu_h100
+
+distributed:
+  enabled: true
+  world_size: 8
+  backend: nccl
+
+captioner:
+  generation:
+    rollout_batch_size: 1
+  training:
+    replay_batch_size: 1

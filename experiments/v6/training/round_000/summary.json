@@ -1,0 +1,76 @@
+{
+  "api_usage": {
+    "currency_cost": null,
+    "event_counts": {
+      "gemini.cache_hit": 3166,
+      "gemini.request_start": 994,
+      "gemini.response": 991,
+      "local.runtime_api_concurrency": 4,
+      "qwen35.cache_hit": 2036,
+      "qwen35.paced_request_start": 22,
+      "qwen35.request_error": 2472,
+      "qwen35.request_start": 3464,
+      "qwen35.response": 991
+    },
+    "note": "Token usage from returned responses; transport failures may lack usage. Actual billing depends on provider.",
+    "reported_tokens": {
+      "gemini.candidatesTokenCount": 14847,
+      "gemini.promptTokenCount": 279594,
+      "gemini.thoughtsTokenCount": 425990,
+      "qwen35.completion_tokens": 13901,
+      "qwen35.prompt_tokens": 127264
+    }
+  },
+  "attribute_unknown_counts": {
+    "emotion": 91,
+    "emotion_intensity": 0,
+    "gender": 0,
+    "pitch_level": 259
+  },
+  "candidates": 3288,
+  "caption_actual_batch_counts": {
+    "1": 3288
+  },
+  "caption_batch_fallback_count": 3288,
+  "content_checks": {
+    "count": 2476,
+    "max_error_rate": 21.0,
+    "mean_error_rate": 0.3183303860291584
+  },
+  "content_failed": 1485,
+  "content_passed": 991,
+  "elapsed_seconds_this_invocation": 4016.523423228413,
+  "empty_acoustic_conditions": 841,
+  "format_mean": 0.7461070559610705,
+  "format_only_groups": 159,
+  "groups": 411,
+  "grpo_usable_groups": 388,
+  "json_parseable": 2480,
+  "mean_group_reconstruction_span": 0.4053122465531225,
+  "per_attribute": {
+    "emotion": {
+      "count": 919,
+      "mean": 0.4015233949945593
+    },
+    "emotion_intensity": {
+      "count": 991,
+      "mean": 0.6165489404641776
+    },
+    "gender": {
+      "count": 991,
+      "mean": 0.8365287588294652
+    },
+    "pitch_level": {
+      "count": 932,
+      "mean": 0.4281115879828326
+    }
+  },
+  "raw_schema_valid": 2256,
+  "reconstruction_mean": 0.17404197080291972,
+  "reward_mean": 0.2312484793187348,
+  "sft_selected": 229,
+  "tts_actual_batch_counts": {
+    "4": 4,
+    "8": 2472
+  }
+}

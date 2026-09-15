@@ -1,0 +1,22 @@
+name: emotiontalk-metrics
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.10
+  - openjdk=11
+  - pip
+  - pip:
+      # Keep the PyTorch audio stack on one CUDA ABI. Without these pins pip
+      # can combine the Captioner environment's cu124 torch with a CUDA 13
+      # torchaudio wheel, which makes `import aac_metrics` fail.
+      - --extra-index-url https://download.pytorch.org/whl/cu124
+      - numpy<2
+      - torch==2.6.0+cu124
+      - torchaudio==2.6.0+cu124
+      - torchvision==0.21.0+cu124
+      # pythonwrench 0.3.0 is required by aac-metrics 0.6.0 and is yanked
+      # from the simple index; pin its immutable PyPI source archive.
+      - https://files.pythonhosted.org/packages/c3/96/26880ea96d593e7d592f6304ca76dc77c5cf4a9bb1afd52af76b5b42ce0b/pythonwrench-0.3.0.tar.gz
+      - aac-metrics==0.6.0
+      - soundfile

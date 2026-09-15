@@ -1,0 +1,32 @@
+[
+  {
+    "group_id": "random440_deear_082",
+    "loss_weight": 0.3,
+    "baseline_winners": [
+      "random440_deear_082::1"
+    ],
+    "new_winners": [
+      "random440_deear_082::2"
+    ]
+  },
+  {
+    "group_id": "random440_expressivespeech_073",
+    "loss_weight": 0.3,
+    "baseline_winners": [
+      "random440_expressivespeech_073::0"
+    ],
+    "new_winners": [
+      "random440_expressivespeech_073::2"
+    ]
+  },
+  {
+    "group_id": "random440_expressivespeech_200",
+    "loss_weight": 0.3,
+    "baseline_winners": [
+      "random440_expressivespeech_200::0"
+    ],
+    "new_winners": [
+      "random440_expressivespeech_200::2"
+    ]
+  }
+]

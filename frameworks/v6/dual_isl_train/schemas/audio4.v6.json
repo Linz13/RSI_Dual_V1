@@ -1,0 +1,54 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "emotion": {
+      "enum": [
+        "neutral",
+        "happy",
+        "sad",
+        "angry",
+        "fearful",
+        "surprised",
+        "disgusted",
+        "other",
+        "unknown"
+      ]
+    },
+    "emotion_intensity": {
+      "enum": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "unknown"
+      ]
+    },
+    "gender": {
+      "enum": [
+        "male",
+        "female",
+        "unknown"
+      ]
+    },
+    "pitch_level": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "unknown"
+      ]
+    },
+    "transcript": {
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "transcript",
+    "gender",
+    "pitch_level",
+    "emotion",
+    "emotion_intensity"
+  ],
+  "type": "object"
+}

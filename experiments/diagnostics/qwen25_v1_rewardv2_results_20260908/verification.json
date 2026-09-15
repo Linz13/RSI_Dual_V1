@@ -1,0 +1,360 @@
+{
+  "source": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01",
+  "source_created_utc": "2026-09-07T11:04:38.060112+00:00",
+  "checked_tasks": [
+    {
+      "checkpoint": "qwen25_rewardv2_r0",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_rewardv2_r0",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_000/checkpoints/caption_final",
+      "recorded_weights_sha256": "e6bf26cdddd32b191e03fa4f41600cad593e65c3e7cb2477091d03740ec9e361"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r0",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_rewardv2_r0",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_000/checkpoints/caption_final",
+      "recorded_weights_sha256": "e6bf26cdddd32b191e03fa4f41600cad593e65c3e7cb2477091d03740ec9e361"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r0",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_rewardv2_r0",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_000/checkpoints/caption_final",
+      "recorded_weights_sha256": "e6bf26cdddd32b191e03fa4f41600cad593e65c3e7cb2477091d03740ec9e361"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r1",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_rewardv2_r1",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_001/checkpoints/caption_final",
+      "recorded_weights_sha256": "055195c014b108cfab88c64c6446855a892096d3804df018e3952cb2aa363a9e"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r1",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_rewardv2_r1",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_001/checkpoints/caption_final",
+      "recorded_weights_sha256": "055195c014b108cfab88c64c6446855a892096d3804df018e3952cb2aa363a9e"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r1",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_rewardv2_r1",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_001/checkpoints/caption_final",
+      "recorded_weights_sha256": "055195c014b108cfab88c64c6446855a892096d3804df018e3952cb2aa363a9e"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r2",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_rewardv2_r2",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_002/checkpoints/caption_final",
+      "recorded_weights_sha256": "f551ee1c605ff6769a6ba6bc59250c8173916e7af6315f125d6b030671769990"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r2",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_rewardv2_r2",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_002/checkpoints/caption_final",
+      "recorded_weights_sha256": "f551ee1c605ff6769a6ba6bc59250c8173916e7af6315f125d6b030671769990"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r2",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_rewardv2_r2",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_002/checkpoints/caption_final",
+      "recorded_weights_sha256": "f551ee1c605ff6769a6ba6bc59250c8173916e7af6315f125d6b030671769990"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r3",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_rewardv2_r3",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_003/checkpoints/caption_final",
+      "recorded_weights_sha256": "5a2861c408efead5e872b37ee519c958e5cbdf2660d14b4542753970d640023f"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r3",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_rewardv2_r3",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_003/checkpoints/caption_final",
+      "recorded_weights_sha256": "5a2861c408efead5e872b37ee519c958e5cbdf2660d14b4542753970d640023f"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r3",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_rewardv2_r3",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_003/checkpoints/caption_final",
+      "recorded_weights_sha256": "5a2861c408efead5e872b37ee519c958e5cbdf2660d14b4542753970d640023f"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r4",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_rewardv2_r4",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_004/checkpoints/caption_final",
+      "recorded_weights_sha256": "78b4da7fd6dcbe7360c869e32fe1f46284b00ec0462ec3513fe1b7ec05bf1c60"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r4",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_rewardv2_r4",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_004/checkpoints/caption_final",
+      "recorded_weights_sha256": "78b4da7fd6dcbe7360c869e32fe1f46284b00ec0462ec3513fe1b7ec05bf1c60"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r4",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_rewardv2_r4",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_004/checkpoints/caption_final",
+      "recorded_weights_sha256": "78b4da7fd6dcbe7360c869e32fe1f46284b00ec0462ec3513fe1b7ec05bf1c60"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r5",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_rewardv2_r5",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_005/checkpoints/caption_final",
+      "recorded_weights_sha256": "0a6480d3127d95f81a81d9a60c82a6e0d0c18cbcc9ea1592c4709b14b86094d6"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r5",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_rewardv2_r5",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_005/checkpoints/caption_final",
+      "recorded_weights_sha256": "0a6480d3127d95f81a81d9a60c82a6e0d0c18cbcc9ea1592c4709b14b86094d6"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r5",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_rewardv2_r5",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_005/checkpoints/caption_final",
+      "recorded_weights_sha256": "0a6480d3127d95f81a81d9a60c82a6e0d0c18cbcc9ea1592c4709b14b86094d6"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r6",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_rewardv2_r6",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_006/checkpoints/caption_final",
+      "recorded_weights_sha256": "f5d5cb5666a0f052b3e5f09faae1c7e31cb5043005249e32de56a7421ad19f81"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r6",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_rewardv2_r6",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_006/checkpoints/caption_final",
+      "recorded_weights_sha256": "f5d5cb5666a0f052b3e5f09faae1c7e31cb5043005249e32de56a7421ad19f81"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r6",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_rewardv2_r6",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_006/checkpoints/caption_final",
+      "recorded_weights_sha256": "f5d5cb5666a0f052b3e5f09faae1c7e31cb5043005249e32de56a7421ad19f81"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r7",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_rewardv2_r7",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_007/checkpoints/caption_final",
+      "recorded_weights_sha256": "e12d2320ed6b5d54eb9344cd69f00f40ba6b1e4de9806baefd59455fa04d5c01"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r7",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_rewardv2_r7",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_007/checkpoints/caption_final",
+      "recorded_weights_sha256": "e12d2320ed6b5d54eb9344cd69f00f40ba6b1e4de9806baefd59455fa04d5c01"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r7",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_rewardv2_r7",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_007/checkpoints/caption_final",
+      "recorded_weights_sha256": "e12d2320ed6b5d54eb9344cd69f00f40ba6b1e4de9806baefd59455fa04d5c01"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r8",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_rewardv2_r8",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_008/checkpoints/caption_final",
+      "recorded_weights_sha256": "a4aebc7dd0df8492b0a37211272a10f779c388eaba7f11f82285e5fa8f98b1e2"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r8",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_rewardv2_r8",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_008/checkpoints/caption_final",
+      "recorded_weights_sha256": "a4aebc7dd0df8492b0a37211272a10f779c388eaba7f11f82285e5fa8f98b1e2"
+    },
+    {
+      "checkpoint": "qwen25_rewardv2_r8",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_rewardv2_r8",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train_RewardV2/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_reward_v2_20260903_run02/round_008/checkpoints/caption_final",
+      "recorded_weights_sha256": "a4aebc7dd0df8492b0a37211272a10f779c388eaba7f11f82285e5fa8f98b1e2"
+    },
+    {
+      "checkpoint": "qwen25_v1_r0",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_v1_r0",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_000/checkpoints/caption_final",
+      "recorded_weights_sha256": "2f58822299d1f6737ac12af35813d77eb143338d5aa237f79e0e360ec433ee1b"
+    },
+    {
+      "checkpoint": "qwen25_v1_r0",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_v1_r0",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_000/checkpoints/caption_final",
+      "recorded_weights_sha256": "2f58822299d1f6737ac12af35813d77eb143338d5aa237f79e0e360ec433ee1b"
+    },
+    {
+      "checkpoint": "qwen25_v1_r0",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_v1_r0",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_000/checkpoints/caption_final",
+      "recorded_weights_sha256": "2f58822299d1f6737ac12af35813d77eb143338d5aa237f79e0e360ec433ee1b"
+    },
+    {
+      "checkpoint": "qwen25_v1_r1",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_v1_r1",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_001/checkpoints/caption_final",
+      "recorded_weights_sha256": "2f25fd957a6969f3365ac774441896f5df9eada3a5f8c5265bc1783c83dc0cb2"
+    },
+    {
+      "checkpoint": "qwen25_v1_r1",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_v1_r1",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_001/checkpoints/caption_final",
+      "recorded_weights_sha256": "2f25fd957a6969f3365ac774441896f5df9eada3a5f8c5265bc1783c83dc0cb2"
+    },
+    {
+      "checkpoint": "qwen25_v1_r1",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_v1_r1",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_001/checkpoints/caption_final",
+      "recorded_weights_sha256": "2f25fd957a6969f3365ac774441896f5df9eada3a5f8c5265bc1783c83dc0cb2"
+    },
+    {
+      "checkpoint": "qwen25_v1_r2",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_v1_r2",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_002/checkpoints/caption_final",
+      "recorded_weights_sha256": "c2c8dc792ae08c42e88cd9ddc27b4a4b43ac66e09fc83e0fcb29b522b0ac3440"
+    },
+    {
+      "checkpoint": "qwen25_v1_r2",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_v1_r2",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_002/checkpoints/caption_final",
+      "recorded_weights_sha256": "c2c8dc792ae08c42e88cd9ddc27b4a4b43ac66e09fc83e0fcb29b522b0ac3440"
+    },
+    {
+      "checkpoint": "qwen25_v1_r2",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_v1_r2",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_002/checkpoints/caption_final",
+      "recorded_weights_sha256": "c2c8dc792ae08c42e88cd9ddc27b4a4b43ac66e09fc83e0fcb29b522b0ac3440"
+    },
+    {
+      "checkpoint": "qwen25_v1_r3",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_v1_r3",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_003/checkpoints/caption_final",
+      "recorded_weights_sha256": "9f160f73c53f0c85ef52b75f3ff523fa01513a66faab25f4355ad46b25bbe757"
+    },
+    {
+      "checkpoint": "qwen25_v1_r3",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_v1_r3",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_003/checkpoints/caption_final",
+      "recorded_weights_sha256": "9f160f73c53f0c85ef52b75f3ff523fa01513a66faab25f4355ad46b25bbe757"
+    },
+    {
+      "checkpoint": "qwen25_v1_r3",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_v1_r3",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_003/checkpoints/caption_final",
+      "recorded_weights_sha256": "9f160f73c53f0c85ef52b75f3ff523fa01513a66faab25f4355ad46b25bbe757"
+    },
+    {
+      "checkpoint": "qwen25_v1_r4",
+      "suite": "emotiontalk",
+      "rows": 7716,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/emotiontalk/full/qwen25_v1_r4",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_004/checkpoints/caption_final",
+      "recorded_weights_sha256": "7711076c1ffdc9802d8cbf37f260b3afc05e5cc1e2b6f6ac2fc4dae52ed7bee2"
+    },
+    {
+      "checkpoint": "qwen25_v1_r4",
+      "suite": "paraspeechcaps",
+      "rows": 840,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/paraspeechcaps/full/qwen25_v1_r4",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_004/checkpoints/caption_final",
+      "recorded_weights_sha256": "7711076c1ffdc9802d8cbf37f260b3afc05e5cc1e2b6f6ac2fc4dae52ed7bee2"
+    },
+    {
+      "checkpoint": "qwen25_v1_r4",
+      "suite": "stylecap",
+      "rows": 3112,
+      "result_path": "/data/L202500147/Caption/benchmark/qwen25_v1_v2_caption_eval_runs_20260907_run01/stylecap/full/qwen25_v1_r4",
+      "adapter_path": "/data/L202500147/Caption/DualISL_Train/runs/dual_recursive_8gpu_h100_qwen2_5_omni_3b_20260903_run01/round_004/checkpoints/caption_final",
+      "recorded_weights_sha256": "7711076c1ffdc9802d8cbf37f260b3afc05e5cc1e2b6f6ac2fc4dae52ed7bee2"
+    }
+  ],
+  "unavailable_metrics": [
+    "qwen25_rewardv2_r0: style/clapscore",
+    "qwen25_rewardv2_r1: style/clapscore",
+    "qwen25_rewardv2_r2: style/clapscore",
+    "qwen25_rewardv2_r3: style/clapscore",
+    "qwen25_rewardv2_r4: style/clapscore",
+    "qwen25_rewardv2_r5: style/clapscore",
+    "qwen25_rewardv2_r6: style/clapscore",
+    "qwen25_rewardv2_r7: style/clapscore",
+    "qwen25_rewardv2_r8: speaker/clapscore",
+    "qwen25_rewardv2_r8: style/clapscore",
+    "qwen25_v1_r0: style/clapscore",
+    "qwen25_v1_r1: style/clapscore",
+    "qwen25_v1_r2: style/clapscore",
+    "qwen25_v1_r3: style/clapscore",
+    "qwen25_v1_r4: style/clapscore"
+  ],
+  "note": "Checked raw scores, line counts and recorded adapter identities across suites; did not rehash training weights or rerun inference."
+}

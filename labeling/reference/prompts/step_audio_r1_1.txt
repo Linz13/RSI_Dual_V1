@@ -1,0 +1,47 @@
+Listen to the audio and annotate only the requested fields.
+
+Return one valid JSON object and nothing else. Do not return markdown or explanations.
+
+The output must contain exactly the requested nested paths and no Target_JSON_Schema wrapper is required.
+
+Use the main/most prominent speaker when more than one speaker is present.
+
+Closed-vocabulary fields must use exactly one listed string.
+
+For event-list fields, return a non-empty list; use ["none"] or ["unknown"] exclusively.
+
+Do not use metadata or a supplied transcript; judge the audio itself.
+
+Model backend: step_audio_r1_1.
+
+Requested field descriptions:
+{
+  "paralinguistic": {
+    "nonverbal_vocalization": "all salient nonverbal vocal events as a list"
+  },
+  "environment": {
+    "background_sound_events": "all salient background sound events as a concise string list"
+  }
+}
+
+Allowed closed values:
+{
+  "paralinguistic.nonverbal_vocalization": [
+    "agreement sound",
+    "audible breath",
+    "cough",
+    "crying",
+    "filled pause",
+    "laughter",
+    "none",
+    "other",
+    "scream",
+    "sigh",
+    "sneeze",
+    "sniff",
+    "sobbing",
+    "throat clearing",
+    "unknown",
+    "yawn"
+  ]
+}

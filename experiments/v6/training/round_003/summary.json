@@ -1,0 +1,77 @@
+{
+  "api_usage": {
+    "currency_cost": null,
+    "event_counts": {
+      "gemini.api_task_retry_wait": 2,
+      "gemini.paced_request_start": 1137,
+      "gemini.request_error": 118,
+      "gemini.request_start": 1137,
+      "gemini.response": 1019,
+      "gemini.transport_failure": 118,
+      "local.runtime_api_concurrency": 1,
+      "qwen35.paced_request_start": 1019,
+      "qwen35.request_start": 1019,
+      "qwen35.response": 1019
+    },
+    "note": "Token usage from returned responses; transport failures may lack usage. Actual billing depends on provider.",
+    "reported_tokens": {
+      "gemini.candidatesTokenCount": 14356,
+      "gemini.promptTokenCount": 451141,
+      "gemini.thoughtsTokenCount": 520008,
+      "qwen35.completion_tokens": 14312,
+      "qwen35.prompt_tokens": 132780
+    }
+  },
+  "attribute_unknown_counts": {
+    "emotion": 108,
+    "emotion_intensity": 0,
+    "gender": 0,
+    "pitch_level": 600
+  },
+  "candidates": 3288,
+  "caption_actual_batch_counts": {
+    "1": 3288
+  },
+  "caption_batch_fallback_count": 3288,
+  "content_checks": {
+    "count": 2755,
+    "max_error_rate": 14.8,
+    "mean_error_rate": 0.3429934628270346
+  },
+  "content_failed": 1736,
+  "content_passed": 1019,
+  "elapsed_seconds_this_invocation": 10559.054449984804,
+  "empty_acoustic_conditions": 581,
+  "format_mean": 0.8277676399026763,
+  "format_only_groups": 142,
+  "groups": 411,
+  "grpo_usable_groups": 370,
+  "json_parseable": 2757,
+  "mean_group_reconstruction_span": 0.37064071370640717,
+  "per_attribute": {
+    "emotion": {
+      "count": 941,
+      "mean": 0.3645058448459086
+    },
+    "emotion_intensity": {
+      "count": 1019,
+      "mean": 0.6005888125613347
+    },
+    "gender": {
+      "count": 1019,
+      "mean": 0.8410206084396468
+    },
+    "pitch_level": {
+      "count": 960,
+      "mean": 0.25
+    }
+  },
+  "raw_schema_valid": 2469,
+  "reconstruction_mean": 0.16167376317923765,
+  "reward_mean": 0.22828315085158152,
+  "sft_selected": 231,
+  "tts_actual_batch_counts": {
+    "3": 3,
+    "8": 2752
+  }
+}

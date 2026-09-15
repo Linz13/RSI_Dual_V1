@@ -1,0 +1,34 @@
+% Current preferred table: original MiDasheng branch, every three completed rounds.
+% Requires booktabs and graphicx, already loaded by the supplied manuscript.
+% Code checkpoints: Base, r2, r5, r8 correspond to 0, 3, 6, 9 rounds.
+\begin{table}[t]
+\centering
+\caption{Captioner and TTS performance of original DualISL after 0, 3, 6, and 9 completed training rounds. Each row reports paired checkpoints from the same round.}
+\label{tab:midasheng-joint-every3}
+\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\toprule
+& \multicolumn{4}{c}{Captioner} & \multicolumn{3}{c}{TTS: EmergentTTS-Eval} \\
+\cmidrule(lr){2-5}\cmidrule(lr){6-8}
+Rounds & ParaSpeechCaps & StyleCap & \multicolumn{2}{c}{EmotionTalk$^{\dagger}$} & WER & WVMOS & Win Rate \\
+\cmidrule(lr){4-5}
+& Composite $\uparrow$ & Acc. (\%) $\uparrow$ & SPIDEr $\uparrow$ & FENSE $\uparrow$ & (\%) $\downarrow$ & $\uparrow$ & (\%) $\uparrow$ \\
+\midrule
+Base (0) & 0.2338 & 40.46 & 0.0533 & 0.8716 & 12.68 & 4.303 & 45.87 \\
+3 & 0.2656 & 40.55 & 0.0562 & 0.8744 & 14.09 & 4.278 & -- \\
+6 & 0.2933 & 40.94 & 0.0578 & 0.8789 & -- & -- & -- \\
+9 & 0.3010 & 41.32 & 0.0591 & 0.8836 & -- & -- & -- \\
+\bottomrule
+\end{tabular}%
+}
+\par\smallskip
+\begin{minipage}{\linewidth}
+\footnotesize
+Base denotes the pretrained models before dual training; -- indicates unavailable results.
+WER is averaged over utterances; WVMOS estimates perceptual speech quality.
+Win Rate is judged by Gemini-2.5-Pro against GPT-4o-mini-TTS-Alloy, with ties counted as half a win.
+$^{\dagger}$EmotionTalk scores are auxiliary: the default SPIDEr/FENSE components have not been validated for this Chinese-language task.
+\end{minipage}
+\end{table}

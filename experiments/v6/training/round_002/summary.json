@@ -1,0 +1,74 @@
+{
+  "api_usage": {
+    "currency_cost": null,
+    "event_counts": {
+      "gemini.paced_request_start": 1041,
+      "gemini.request_start": 1041,
+      "gemini.response": 1041,
+      "local.runtime_api_concurrency": 1,
+      "qwen35.paced_request_start": 1041,
+      "qwen35.request_start": 1041,
+      "qwen35.response": 1041
+    },
+    "note": "Token usage from returned responses; transport failures may lack usage. Actual billing depends on provider.",
+    "reported_tokens": {
+      "gemini.candidatesTokenCount": 14800,
+      "gemini.promptTokenCount": 430522,
+      "gemini.thoughtsTokenCount": 500179,
+      "qwen35.completion_tokens": 14591,
+      "qwen35.prompt_tokens": 135574
+    }
+  },
+  "attribute_unknown_counts": {
+    "emotion": 119,
+    "emotion_intensity": 0,
+    "gender": 0,
+    "pitch_level": 562
+  },
+  "candidates": 3288,
+  "caption_actual_batch_counts": {
+    "1": 3288
+  },
+  "caption_batch_fallback_count": 3288,
+  "content_checks": {
+    "count": 2628,
+    "max_error_rate": 16.833333333333332,
+    "mean_error_rate": 0.3138862998369947
+  },
+  "content_failed": 1587,
+  "content_passed": 1041,
+  "elapsed_seconds_this_invocation": 10675.553699968383,
+  "empty_acoustic_conditions": 696,
+  "format_mean": 0.7904197080291971,
+  "format_only_groups": 150,
+  "groups": 411,
+  "grpo_usable_groups": 386,
+  "json_parseable": 2630,
+  "mean_group_reconstruction_span": 0.3961881589618816,
+  "per_attribute": {
+    "emotion": {
+      "count": 963,
+      "mean": 0.3862928348909657
+    },
+    "emotion_intensity": {
+      "count": 1041,
+      "mean": 0.6061479346781941
+    },
+    "gender": {
+      "count": 1041,
+      "mean": 0.8338136407300673
+    },
+    "pitch_level": {
+      "count": 983,
+      "mean": 0.2787385554425229
+    }
+  },
+  "raw_schema_valid": 2382,
+  "reconstruction_mean": 0.16877027575020276,
+  "reward_mean": 0.2309352189781022,
+  "sft_selected": 236,
+  "tts_actual_batch_counts": {
+    "4": 4,
+    "8": 2624
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "labeling2.manifest.v1",
+  "type": "object",
+  "required": ["sample_id", "audio_path"],
+  "additionalProperties": true,
+  "properties": {
+    "sample_id": {"type": "string", "minLength": 1},
+    "audio_path": {"type": "string", "minLength": 1},
+    "dataset": {"type": "string"},
+    "metadata": {"type": "object"},
+    "transcript": {"type": ["string", "null"]},
+    "language_hint": {"type": ["string", "null"]}
+  }
+}

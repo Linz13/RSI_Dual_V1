@@ -1,0 +1,2 @@
+extends: v5_midasheng.yaml
+distributed: {enabled: true, world_size: 4, backend: nccl}

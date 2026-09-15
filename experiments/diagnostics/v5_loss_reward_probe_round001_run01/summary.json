@@ -1,0 +1,148 @@
+{
+  "complete": true,
+  "scored_jobs": 704,
+  "candidate_count": 432,
+  "plan_hash": "ce3b89f2b9ffa89f581b40b8b7d4c9abe625b7e9d1edbd9d355a80b18f59b662",
+  "checkpoint": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/checkpoints/tts_final",
+  "calibration": {
+    "groups": 44,
+    "candidate_losses": {
+      "count": 105,
+      "mean": 3.326778576657886,
+      "median": 3.1490095376968386,
+      "p10": 2.8837524318695067,
+      "p90": 4.000993795394898
+    },
+    "m": 3.442373113632202,
+    "s": 0.2542392286727163,
+    "method": "P10->0.9, P90->0.1, fixed across disjoint analysis groups"
+  },
+  "analysis_candidate_loss": {
+    "count": 327,
+    "mean": 3.461310161071451,
+    "median": 3.387808847427368,
+    "p10": 2.574853157997131,
+    "p90": 4.567191514968874
+  },
+  "analysis_group_loss_span": {
+    "count": 116,
+    "mean": 0.042539333988880275,
+    "median": 0.02511267662048322,
+    "p10": 0.00527369976043679,
+    "p90": 0.10213874578475934
+  },
+  "analysis_group_loss_reward_span": {
+    "count": 116,
+    "mean": 0.020201304163422067,
+    "median": 0.011545324060848017,
+    "p10": 0.00039004722367363964,
+    "p90": 0.04598237379320269
+  },
+  "text_only_minus_candidate_loss": {
+    "count": 327,
+    "mean": -0.02974625370188957,
+    "median": -0.017680931091309304,
+    "p10": -0.1368546962738039,
+    "p90": 0.060154733657837085
+  },
+  "controls": {
+    "wrong_gender": {
+      "wrong_minus_reference_loss": {
+        "count": 32,
+        "mean": 0.004020442068576852,
+        "median": 0.0006624460220336914,
+        "p10": -0.02821198940277094,
+        "p90": 0.04086581707000769
+      },
+      "reference_lower_loss": 16,
+      "tie_within_1e-5": 0,
+      "wrong_lower_loss": 16
+    },
+    "wrong_emotion": {
+      "wrong_minus_reference_loss": {
+        "count": 32,
+        "mean": 0.007644697651267129,
+        "median": 0.004451227188110529,
+        "p10": -0.016331243515014294,
+        "p90": 0.031710863113403015
+      },
+      "reference_lower_loss": 20,
+      "tie_within_1e-5": 0,
+      "wrong_lower_loss": 12
+    }
+  },
+  "weights": {
+    "0.1": {
+      "groups": 116,
+      "winner_changes": 0,
+      "winner_change_fraction": 0.0,
+      "weighted_reconstruction_span": {
+        "count": 116,
+        "mean": 0.13092993168749287,
+        "median": 0.10666666666666666,
+        "p10": 0.02666666666666666,
+        "p90": 0.26151111111111114
+      },
+      "weighted_loss_span": {
+        "count": 116,
+        "mean": 0.002020130416342207,
+        "median": 0.0011545324060848019,
+        "p10": 3.9004722367363966e-05,
+        "p90": 0.0045982373793202694
+      },
+      "ratio_of_mean_spans": 0.015429095473477443
+    },
+    "0.2": {
+      "groups": 116,
+      "winner_changes": 0,
+      "winner_change_fraction": 0.0,
+      "weighted_reconstruction_span": {
+        "count": 116,
+        "mean": 0.11456369022655624,
+        "median": 0.09333333333333332,
+        "p10": 0.023333333333333327,
+        "p90": 0.2288222222222222
+      },
+      "weighted_loss_span": {
+        "count": 116,
+        "mean": 0.004040260832684414,
+        "median": 0.0023090648121696037,
+        "p10": 7.800944473472793e-05,
+        "p90": 0.009196474758640539
+      },
+      "ratio_of_mean_spans": 0.03526650393937702
+    },
+    "0.3": {
+      "groups": 116,
+      "winner_changes": 3,
+      "winner_change_fraction": 0.02586206896551724,
+      "weighted_reconstruction_span": {
+        "count": 116,
+        "mean": 0.09819744876561966,
+        "median": 0.08000000000000002,
+        "p10": 0.019999999999999997,
+        "p90": 0.19613333333333333
+      },
+      "weighted_loss_span": {
+        "count": 116,
+        "mean": 0.0060603912490266205,
+        "median": 0.0034635972182544047,
+        "p10": 0.00011701416710209189,
+        "p90": 0.013794712137960807
+      },
+      "ratio_of_mean_spans": 0.06171638189390976
+    }
+  },
+  "notes": [
+    "Reference transcript/attributes are cached model labels, not human-verified GT.",
+    "Reconstruction rewards reuse historical audio generated from original candidate transcripts.",
+    "This is a diagnostic weight simulation, not evaluation of the proposed complete new loop.",
+    "Calibration and analysis groups are disjoint; neither uses benchmark labels.",
+    "Attribute-replacement controls use only schema-valid cached references; candidates are not excluded on this basis.",
+    "Uses the round-start TTS checkpoint, not the model trained on these second-round samples.",
+    "Changed winners are not automatically improvements; inspect the saved candidate instructions.",
+    "All historical valid candidates are analyzed; a new transcript gate is not imposed in this probe.",
+    "Existing attribute rewards were not recomputed with the corrected transcript; no extra synthesis/API calls.",
+    "Group span ratios are descriptive, not exact per-pair contributions or GRPO gradient ratios."
+  ]
+}

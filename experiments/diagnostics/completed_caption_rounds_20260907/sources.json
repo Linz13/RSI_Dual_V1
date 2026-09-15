@@ -1,0 +1,985 @@
+{
+  "created_utc": "2026-09-07T08:46:34.623569+00:00",
+  "excluded": [],
+  "entries": [
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "base",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/runs/eight_models_20260901_run01/full/midasheng_base"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "base",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/round_completion_eval_runs_20260831/paraspeechcaps_content_scheme_a_v1/eval_midasheng_base_full_20260831_run01"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "base",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/runs/midasheng_base_full_20260901_run01"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r0",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv2_r0"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r0",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r0"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r0",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r0"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r1",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv2_r1"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r1",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r1"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r1",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r1"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r2",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv2_r2"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r2",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r2"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r2",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r2"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r3",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv2_r3"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r3",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r3"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r3",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r3"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r4",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv2_r4"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r4",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r4"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r4",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r4"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r5",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv2_r5"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r5",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r5"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r5",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r5"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r6",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv2_r6"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r6",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r6"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r6",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r6"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r7",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv2_r7"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r7",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r7"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r7",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r7"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r8",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv2_r8"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r8",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r8"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r8",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r8"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r9",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv2_r9"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r9",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r9"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r9",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r9"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "base",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/runs/eight_models_20260901_run01/full/midasheng_base"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "base",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/round_completion_eval_runs_20260831/paraspeechcaps_content_scheme_a_v1/eval_midasheng_base_full_20260831_run01"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "base",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/runs/midasheng_base_full_20260901_run01"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r0",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/runs/eight_models_20260901_run01/full/midasheng4_round0"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r0",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/round_completion_eval_runs_20260831/paraspeechcaps_content_scheme_a_v1/eval_midasheng4_r0_full_20260831_run01"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r0",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/runs/midasheng4_round0_full_20260901_run01"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r1",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/runs/eight_models_20260901_run01/full/midasheng4_round1"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r1",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/round_completion_eval_runs_20260831/paraspeechcaps_content_scheme_a_v1/eval_midasheng4_r1_full_20260831_run01"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r1",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/runs/midasheng4_round1_full_20260901_run01"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r2",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/runs/eight_models_20260901_run01/full/midasheng4_round2"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r2",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/round_completion_eval_runs_20260831/paraspeechcaps_content_scheme_a_v1/eval_midasheng4_r2_full_20260831_run01"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r2",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/runs/midasheng4_round2_full_20260831_run01"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r3",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_v1_r3"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r3",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_v1_r3"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r3",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_v1_r3"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r4",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_v1_r4"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r4",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_v1_r4"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r4",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_v1_r4"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r5",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_v1_r5"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r5",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_v1_r5"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r5",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_v1_r5"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r6",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_v1_r6"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r6",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_v1_r6"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r6",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_v1_r6"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r7",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_v1_r7"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r7",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_v1_r7"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r7",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_v1_r7"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r8",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_v1_r8"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r8",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_v1_r8"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r8",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_v1_r8"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r9",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_v1_r9"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r9",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_v1_r9"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r9",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_v1_r9"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r10",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_v1_r10"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r10",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_v1_r10"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r10",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_v1_r10"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r11",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_v1_r11"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r11",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_v1_r11"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r11",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_v1_r11"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r12",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_v1_r12"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r12",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_v1_r12"
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "label": "r12",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_v1_r12"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "base",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/runs/eight_models_20260901_run01/full/qwen_base"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "base",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/round_completion_eval_runs_20260831/paraspeechcaps_content_scheme_a_v1/eval_qwen_base_full_20260831_run01"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "base",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/runs/qwen_base_full_20260901_run01"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r0",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/runs/eight_models_20260901_run01/full/qwen8_round0"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r0",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/round_completion_eval_runs_20260831/paraspeechcaps_content_scheme_a_v1/eval_qwen8_r0_full_20260831_run01"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r0",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/runs/qwen8_round0_full_20260901_run01"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r1",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/runs/eight_models_20260901_run01/full/qwen8_round1"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r1",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/round_completion_eval_runs_20260831/paraspeechcaps_content_scheme_a_v1/eval_qwen8_r1_full_20260831_run01"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r1",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/runs/qwen8_round1_full_20260901_run01"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r2",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/runs/eight_models_20260901_run01/full/qwen8_round2"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r2",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/round_completion_eval_runs_20260831/paraspeechcaps_content_scheme_a_v1/eval_qwen8_r2_full_20260831_run01"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r2",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/runs/qwen8_round2_full_20260901_run01"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r3",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/qwen_v1_r3"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r3",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/qwen_v1_r3"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r3",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/qwen_v1_r3"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r4",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/qwen_v1_r4"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r4",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/qwen_v1_r4"
+    },
+    {
+      "trajectory": "qwen_v1",
+      "label": "r4",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/qwen_v1_r4"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r10",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv2_r10"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r10",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r10"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r10",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r10"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r11",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv2_r11"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r11",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r11"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r11",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r11"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r12",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv2_r12"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r12",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv2_r12"
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "label": "r12",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv2_r12"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r0",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv3_r0"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r0",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv3_r0"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r0",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv3_r0"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r1",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv3_r1"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r1",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv3_r1"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r1",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv3_r1"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r2",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv3_r2"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r2",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv3_r2"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r2",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv3_r2"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r3",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv3_r3"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r3",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv3_r3"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r3",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv3_r3"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r4",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv3_r4"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r4",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv3_r4"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r4",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv3_r4"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r5",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv3_r5"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r5",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv3_r5"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r5",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv3_r5"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r6",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv3_r6"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r6",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv3_r6"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r6",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv3_r6"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r7",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv3_r7"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r7",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv3_r7"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r7",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv3_r7"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r8",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv3_r8"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r8",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv3_r8"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r8",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv3_r8"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r9",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/emotiontalk/full/midasheng_rewardv3_r9"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r9",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/paraspeechcaps/full/midasheng_rewardv3_r9"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "r9",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/later_caption_eval_runs_20260902_run01/stylecap/full/midasheng_rewardv3_r9"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "base",
+      "suite": "emotiontalk",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/runs/eight_models_20260901_run01/full/midasheng_base"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "base",
+      "suite": "stylecap",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/runs/midasheng_base_full_20260901_run01"
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "label": "base",
+      "suite": "paraspeechcaps",
+      "state": "complete",
+      "result_path": "/data/L202500147/Caption/benchmark/round_completion_eval_runs_20260831/paraspeechcaps_content_scheme_a_v1/eval_midasheng_base_full_20260831_run01"
+    }
+  ],
+  "last_minus_base": [
+    {
+      "trajectory": "qwen_v1",
+      "last": "r4",
+      "spider": -0.00040927908346127806,
+      "fense": -0.0014130781233279155,
+      "paraspeechcaps": -0.0029307531093250017,
+      "stylecap": -0.0006426735218508783
+    },
+    {
+      "trajectory": "midasheng_v1",
+      "last": "r12",
+      "spider": 0.006061396827931428,
+      "fense": 0.013366113294895121,
+      "paraspeechcaps": 0.07609722115372977,
+      "stylecap": 0.010604113110539826
+    },
+    {
+      "trajectory": "midasheng_rewardv2",
+      "last": "r12",
+      "spider": 0.0036608482165118167,
+      "fense": 0.004561942420270304,
+      "paraspeechcaps": 0.020610696940611434,
+      "stylecap": 0.0016066838046272514
+    },
+    {
+      "trajectory": "midasheng_rewardv3",
+      "last": "r9",
+      "spider": 0.0010037678646234657,
+      "fense": 0.0007228822860154693,
+      "paraspeechcaps": 0.007226916283906565,
+      "stylecap": -0.0038560411311054366
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "gpu_execution": "not_performed",
+  "scope": "two-second cropped inputs for implementation check only",
+  "checks": {
+    "wavlm": {
+      "reference_shape": [
+        99,
+        1024
+      ],
+      "generated_shape": [
+        99,
+        1024
+      ],
+      "scores": {
+        "sbs": 0.7614719121143071,
+        "recall": 0.688624918460846,
+        "cosine": 0.9121462106704712
+      },
+      "formula_matches_upstream": true
+    },
+    "xlsr": {
+      "reference_shape": [
+        99,
+        1024
+      ],
+      "generated_shape": [
+        99,
+        1024
+      ],
+      "scores": {
+        "sbs": 0.7474914704910433,
+        "recall": 0.7046354413032532,
+        "cosine": 0.930791974067688
+      },
+      "formula_matches_upstream": true
+    }
+  }
+}

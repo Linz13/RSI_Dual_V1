@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dual-isl-train-reward-v5"
+version = "0.5.0"
+description = "Recursive dual learning with safe semantic admission and independent attribute reconstruction rewards"
+requires-python = ">=3.10"
+dependencies = ["PyYAML>=6.0", "jsonschema>=4.20", "requests>=2.31"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+dual-isl-train = "dual_isl_train.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["dual_isl_train*"]
+
+[tool.setuptools.package-data]
+dual_isl_train = ["schemas/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests_v5"]

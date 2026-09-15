@@ -1,0 +1,39 @@
+{
+  "protocol": "paraspeechcaps-attr6-v1",
+  "single_choice": {
+    "gender": ["female", "male"],
+    "pitch": ["low-pitched", "medium-pitched", "high-pitched"],
+    "speaking_rate": ["slow speed", "measured speed", "fast speed"],
+    "accent": [
+      "american", "australian", "british", "canadian", "danish",
+      "english", "filipino", "finnish", "german", "indian",
+      "indian-american", "irish", "jamaican", "polish", "scottish",
+      "swedish", "thai", "uruguayan", "welsh"
+    ]
+  },
+  "multi_choice": {
+    "intrinsic_traits": [
+      "authoritative", "booming", "crisp", "deep", "enunciated",
+      "flowing", "guttural", "hesitant", "husky", "lisp", "loud",
+      "monotonous", "nasal", "punctuated", "raspy", "shrill", "silky",
+      "singsong", "slurred", "soft", "staccato", "stammering", "vocal-fry"
+    ],
+    "situational_traits": [
+      "admiring", "angry", "animated", "anxious", "awed", "bored", "calm",
+      "confused", "desirous", "disgusted", "guilt", "happy", "laughing",
+      "pained", "passive", "saddened", "sarcastic", "scared", "sleepy",
+      "sympathetic", "whispered"
+    ]
+  },
+  "unknown_allowed_for_single_choice": true,
+  "normalization": {
+    "remove_accent_from_intrinsic": true,
+    "move_enunciated_from_situational_to_intrinsic": true,
+    "explicit_gt_repairs": {
+      "65": ["guttural"],
+      "68": ["guttural"],
+      "69": ["guttural"]
+    }
+  },
+  "excluded_fields": ["noise"]
+}

@@ -1,0 +1,18 @@
+{
+  "protocol": "paraspeechcaps-attr6-v1",
+  "input_rows": 142,
+  "unique_audio": 140,
+  "sources": {
+    "voxceleb": 33,
+    "expresso": 81,
+    "ears": 26
+  },
+  "duration_seconds": 940.00923,
+  "schema_sha256": "881cdd06a0f0dd4961febdb86da343a78c9b5c4881d4ca61a11813fa9ab07d20",
+  "test_available_csv_sha256": "cf7d71b08eaed28e182c5e8bbcf743c096d775aee1d7982799e26112b3f305f0",
+  "test_full_csv_sha256": "f18609c54182b4f79b36af5d7b25a593624942328d40af45185d393881c32876",
+  "normalization_action_counts": {
+    "move_enunciated": 3,
+    "explicit_gt_repair": 3
+  }
+}

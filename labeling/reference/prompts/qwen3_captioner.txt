@@ -1,0 +1,90 @@
+Listen to the audio and annotate only the requested fields.
+
+Return one valid JSON object and nothing else. Do not return markdown or explanations.
+
+The output must contain exactly the requested nested paths and no Target_JSON_Schema wrapper is required.
+
+Use the main/most prominent speaker when more than one speaker is present.
+
+Closed-vocabulary fields must use exactly one listed string.
+
+For event-list fields, return a non-empty list; use ["none"] or ["unknown"] exclusively.
+
+Do not use metadata or a supplied transcript; judge the audio itself.
+
+Model backend: qwen3_captioner.
+
+Requested field descriptions:
+{
+  "speaker_profile": {
+    "gender": "perceived gender of the main speaker",
+    "age": "perceived age group of the main speaker"
+  },
+  "paralinguistic": {
+    "emotion_intensity": "intensity of the expressed emotion",
+    "emphasis": {
+      "level": "strength of prosodic emphasis",
+      "emphasized_text": "up to 5 distinct exact emphasized words or phrases; never repeat an item; use [] if none or unknown"
+    },
+    "prosody": "concise rhythm, intonation and phrasing description, without repeating rate, pitch, volume, emphasis or pause",
+    "nonverbal_vocalization": "all salient nonverbal vocal events as a list"
+  },
+  "environment": {
+    "recording_quality": "overall recording quality"
+  }
+}
+
+Allowed closed values:
+{
+  "speaker_profile.gender": [
+    "female",
+    "male",
+    "unknown"
+  ],
+  "speaker_profile.age": [
+    "adult",
+    "child",
+    "elderly",
+    "teenager",
+    "unknown"
+  ],
+  "paralinguistic.emotion_intensity": [
+    "high",
+    "low",
+    "medium",
+    "none",
+    "unknown"
+  ],
+  "paralinguistic.emphasis.level": [
+    "emphasized",
+    "heavily emphasized",
+    "none",
+    "unknown"
+  ],
+  "environment.recording_quality": [
+    "bad",
+    "excellent",
+    "fair",
+    "good",
+    "poor",
+    "unknown"
+  ],
+  "paralinguistic.nonverbal_vocalization": [
+    "agreement sound",
+    "audible breath",
+    "cough",
+    "crying",
+    "filled pause",
+    "laughter",
+    "none",
+    "other",
+    "scream",
+    "sigh",
+    "sneeze",
+    "sniff",
+    "sobbing",
+    "throat clearing",
+    "unknown",
+    "yawn"
+  ]
+}

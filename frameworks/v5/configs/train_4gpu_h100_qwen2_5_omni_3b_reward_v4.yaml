@@ -1,0 +1,9 @@
+extends: train_8gpu_h100_qwen2_5_omni_3b_reward_v4.yaml
+
+run:
+  output_dir: ../runs/qwen25_omni_3b_reward_v4_10rounds_4gpu_run01
+
+distributed:
+  enabled: true
+  world_size: 4
+  backend: nccl

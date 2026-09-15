@@ -1,0 +1,23 @@
+extends: train_8gpu_h100_midasheng_reward_v2.yaml
+
+run:
+  output_dir: ../runs/dual_recursive_8gpu_h100_midasheng_reward_v2_from_r9
+
+captioner:
+  adapter_path: ../runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/caption_final
+
+tts:
+  adapter_path: ../runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/round_009/checkpoints/tts_final
+
+training:
+  rounds: 10
+  round_offset: 10
+
+reward:
+  calibration:
+    method: round0_dual_counterfactual_zscore
+    initial_path: ../runs/dual_recursive_8gpu_h100_midasheng_reward_v2_20260901_run01/reward_calibration.json
+  # Preserve the original base-model C_0/T_0 reward anchors across the new run.
+  anchor:
+    captioner_adapter_path: ""
+    tts_adapter_path: ""

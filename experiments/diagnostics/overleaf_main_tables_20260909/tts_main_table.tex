@@ -1,0 +1,40 @@
+% Paste this table into the manuscript body.
+% Required packages: booktabs, graphicx.
+% Verified sources: tts_sources.md in this directory.
+\begin{table}[t]
+\centering
+\caption{Preliminary TTS results on EmergentTTS-Eval. All evaluated systems use Qwen3-TTS-12Hz-1.7B-VoiceDesign as the TTS backbone.}
+\label{tab:preliminary-tts-main}
+\small
+\setlength{\tabcolsep}{5pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrrrr}
+\toprule
+Captioner partner & Method & Rounds & WER (\%) $\downarrow$ & WVMOS $\uparrow$ & Win rate (\%) $\uparrow$ \\
+\midrule
+Shared TTS base & Untrained & 0 & 12.68 & 4.303 & 45.87 \\
+\midrule
+MiDashengLM-7B & DualISL (original) & 1 & 13.80 & 4.316 & 46.29 \\
+& DualISL (original) & 2 & 12.82 & 4.282 & 44.13 \\
+& DualISL (original) & 3 & 14.09 & 4.278 & -- \\
+& DualISL (original) & 5 & -- & -- & -- \\
+& DualISL (original) & 10 & -- & -- & -- \\
+& DualISL (original) & 13 & -- & -- & -- \\
+\midrule
+Qwen3-Omni & DualISL (original) & 1 & 12.56 & 4.321 & 45.96 \\
+& DualISL (original) & 2 & 12.33 & 4.321 & 48.18 \\
+& DualISL (original) & 3 & 14.89 & 4.314 & 46.23 \\
+& DualISL (original) & 5 & -- & -- & -- \\
+\midrule
+Qwen2.5-Omni-3B & DualISL (original) & 5 & -- & -- & -- \\
+& DualISL (RewardV2) & 5 & -- & -- & -- \\
+& DualISL (RewardV2) & 9 & -- & -- & -- \\
+\bottomrule
+\end{tabular}%
+}
+\par\smallskip
+\begin{minipage}{\linewidth}
+\footnotesize
+Rounds count completed training rounds; the captioner partner identifies the joint-training branch, not the model being scored. -- denotes a missing or incomplete evaluation. WER is the mean utterance-level percentage. All reported WER/WVMOS values cover 1,645 samples. Win rate is judged by Gemini-2.5-Pro against the benchmark's GPT-4o-mini-TTS-Alloy reference system, with ties counted as half a win; reported win rates cover all 1,645 samples. MiDasheng round 3 has complete local metrics but only 1,643 successful judge records, so its win rate is left blank. Blank rows reserve evaluations for the corresponding trained checkpoints; they do not indicate zero performance.
+\end{minipage}
+\end{table}

@@ -1,0 +1,290 @@
+{
+  "identity": {
+    "version": "v6-caption-only-all-rounds-v1",
+    "train_run": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01",
+    "candidates": [
+      {
+        "candidate_id": "midasheng_v6_r0",
+        "trajectory": "midasheng_v6",
+        "label": "r0",
+        "family": "midasheng",
+        "round": 0,
+        "model": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+        "adapter": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_000/checkpoints/caption_final",
+        "python": "/data/L202500147/miniconda3/envs/midasheng-captioner/bin/python3.10",
+        "attn": "sdpa",
+        "status": "ready",
+        "detail": "6ed3f5ee8a3ac2e5ff7c3871ab3f34a6d9b4c2733f58234af84fe69935845064"
+      },
+      {
+        "candidate_id": "midasheng_v6_r1",
+        "trajectory": "midasheng_v6",
+        "label": "r1",
+        "family": "midasheng",
+        "round": 1,
+        "model": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+        "adapter": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_001/checkpoints/caption_final",
+        "python": "/data/L202500147/miniconda3/envs/midasheng-captioner/bin/python3.10",
+        "attn": "sdpa",
+        "status": "ready",
+        "detail": "1f1f7f65e0e653bd7e11f4c2994e5f28384e2763cd85f08606c2277a58950fb1"
+      },
+      {
+        "candidate_id": "midasheng_v6_r2",
+        "trajectory": "midasheng_v6",
+        "label": "r2",
+        "family": "midasheng",
+        "round": 2,
+        "model": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+        "adapter": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_002/checkpoints/caption_final",
+        "python": "/data/L202500147/miniconda3/envs/midasheng-captioner/bin/python3.10",
+        "attn": "sdpa",
+        "status": "ready",
+        "detail": "f198d45de85229b6391d9c7463d251d6944f551facfe129919e3f8e9e478f4b0"
+      },
+      {
+        "candidate_id": "midasheng_v6_r3",
+        "trajectory": "midasheng_v6",
+        "label": "r3",
+        "family": "midasheng",
+        "round": 3,
+        "model": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+        "adapter": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_003/checkpoints/caption_final",
+        "python": "/data/L202500147/miniconda3/envs/midasheng-captioner/bin/python3.10",
+        "attn": "sdpa",
+        "status": "ready",
+        "detail": "2201234fd9b362eb7501d9805596caadd22733f456f43da4aaffb505e89a2919"
+      },
+      {
+        "candidate_id": "midasheng_v6_r4",
+        "trajectory": "midasheng_v6",
+        "label": "r4",
+        "family": "midasheng",
+        "round": 4,
+        "model": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+        "adapter": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_004/checkpoints/caption_final",
+        "python": "/data/L202500147/miniconda3/envs/midasheng-captioner/bin/python3.10",
+        "attn": "sdpa",
+        "status": "ready",
+        "detail": "83833d5b764f7fb0d0e1035057fb39bd2e3f8d214aa96e562a538bc7a59b7220"
+      },
+      {
+        "candidate_id": "midasheng_v6_r5",
+        "trajectory": "midasheng_v6",
+        "label": "r5",
+        "family": "midasheng",
+        "round": 5,
+        "model": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+        "adapter": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_005/checkpoints/caption_final",
+        "python": "/data/L202500147/miniconda3/envs/midasheng-captioner/bin/python3.10",
+        "attn": "sdpa",
+        "status": "ready",
+        "detail": "5cb0f8a374f590ce8ed74046062719f57c59e70a3229e49e4838cfbfedd6de48"
+      },
+      {
+        "candidate_id": "midasheng_v6_r6",
+        "trajectory": "midasheng_v6",
+        "label": "r6",
+        "family": "midasheng",
+        "round": 6,
+        "model": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+        "adapter": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_006/checkpoints/caption_final",
+        "python": "/data/L202500147/miniconda3/envs/midasheng-captioner/bin/python3.10",
+        "attn": "sdpa",
+        "status": "ready",
+        "detail": "81ed88dd6a31fd17aeeebc0f96f89196298a8b128626037120ce76b358e83230"
+      },
+      {
+        "candidate_id": "midasheng_v6_r7",
+        "trajectory": "midasheng_v6",
+        "label": "r7",
+        "family": "midasheng",
+        "round": 7,
+        "model": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+        "adapter": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_007/checkpoints/caption_final",
+        "python": "/data/L202500147/miniconda3/envs/midasheng-captioner/bin/python3.10",
+        "attn": "sdpa",
+        "status": "ready",
+        "detail": "b54cdbcce72027dd9310926d19d464f2a4d942a7997bb8e528df1a4f80319a7e"
+      },
+      {
+        "candidate_id": "midasheng_v6_r8",
+        "trajectory": "midasheng_v6",
+        "label": "r8",
+        "family": "midasheng",
+        "round": 8,
+        "model": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+        "adapter": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_008/checkpoints/caption_final",
+        "python": "/data/L202500147/miniconda3/envs/midasheng-captioner/bin/python3.10",
+        "attn": "sdpa",
+        "status": "ready",
+        "detail": "3b03a226db24f26b8af1b907c105da3d474a0071b52fe66c2a72d079c3ed2674"
+      },
+      {
+        "candidate_id": "midasheng_v6_r9",
+        "trajectory": "midasheng_v6",
+        "label": "r9",
+        "family": "midasheng",
+        "round": 9,
+        "model": "/data/L202500147/Caption/models/MiDashengLM-7B-1021-BF16",
+        "adapter": "/data/L202500147/Caption/DualRSI_Train_V6_AudioOnly4Attr/runs/midasheng_v6_8gpu_run01/round_009/checkpoints/caption_final",
+        "python": "/data/L202500147/miniconda3/envs/midasheng-captioner/bin/python3.10",
+        "attn": "sdpa",
+        "status": "ready",
+        "detail": "211d750464bc80a988a2f2eec43e5cbfb3fad27b5501771e4597b3383023a972"
+      }
+    ],
+    "resources": {
+      "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/backends/__init__.py": "762716a89e51f9b10f11383a5910822cac3c26f379cd2202a9d434a7bab96a1c",
+      "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/backends/base.py": "0d4de703429f9bf228d087da0c319edda09055d126f70107e3eb36403fb11961",
+      "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/backends/midasheng.py": "ceeef1a0050bda1ec4c5373cc58f18f2cd6a606f63f223674d335fe713458c99",
+      "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/backends/mock.py": "d6d29ff8060f7d4ebd42631dffe4fe8ee3d5e36ef27ad902b9e44ff70ca9ddca",
+      "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/backends/qwen25_omni.py": "9cd5fc630fe247185587c631acd3431f1e56b6fd7bf2c1aa0d720c51ba62ae14",
+      "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/backends/qwen3_omni.py": "edacc3715e004b4ce83ef4972c9dbccbbdacd8cea33ed425db19a3c90c95729d",
+      "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/common.py": "1d6bb0dd16741ec2ae0a7c41a6b4b748016a8185523d7ec248fe159ebeb893c8",
+      "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/data/test_inference.jsonl": "ccdc0ab22cd8487cb04889d807c765c1e04795a9290c95d6d9c34021686aab94",
+      "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/data/test_references.jsonl": "e81cfb9520027c923021c0dbd675a5ce87270919345efb5a8ff532fb254230f0",
+      "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/evaluate.py": "20c290c84ca36d203d4c0b9da3ff37777c313dd2001864cb59bb786c3b2da1c5",
+      "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/run_inference.py": "91226d09598b7413bb181a162867de1f318a3b03190dacc5ebf18f1cbd95813c",
+      "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/summarize_eight_models.py": "cc04bdf68e88014726a76f38e4732373958380d8cd85ede49467bcafb62c0b62",
+      "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/validate_benchmark.py": "3540fd8dbdf219a21bf0d6adefeb39eb78e82c46946d0a6d3b3e585e5f2bf2f2",
+      "/data/L202500147/Caption/benchmark/later_caption_eval.py": "bccdb1c436bb0e017a517ce2bfc730d67f5f4b5a8377ae1b48134ec473d99c38",
+      "/data/L202500147/Caption/benchmark/midasheng_v4_v5_eval.py": "f17dc034832cb3507ba2e5e33f31e97e2cd5c3ce9ef9fa8c2bf256a7416985c3",
+      "/data/L202500147/Caption/benchmark/model_adapter_utils.py": "0764d610d560535dd436b81ce89119bc2e826deca238f25b55389bfa1054576d",
+      "/data/L202500147/Caption/benchmark/paraspeechcaps/evaluations/qwen3_captioner_attr6/common.py": "49c87d4e757fe59a3641f816caaedd0a33658d612d5f939629b95fbb194007e5",
+      "/data/L202500147/Caption/benchmark/paraspeechcaps/evaluations/qwen3_captioner_attr6/content_scheme_a.py": "6358035ebc22e94729a8680796c4514f7c2bbbf658ec43bdda788cda329cb219",
+      "/data/L202500147/Caption/benchmark/paraspeechcaps/evaluations/qwen3_captioner_attr6/prepare_manifest.py": "9d5c87171784a59d90f77e857700af5ac87b7334e784e0d2ae09459e89e892b1",
+      "/data/L202500147/Caption/benchmark/paraspeechcaps/evaluations/qwen3_captioner_attr6/run_content_scheme_a.py": "dd8a30bec737481b4d757fc5345844213ef18a092f7591a708f73f507a21156a",
+      "/data/L202500147/Caption/benchmark/paraspeechcaps/evaluations/qwen3_captioner_attr6/run_full.py": "dcd9f31a92a5b7827cd1eda8f5ef0af959ff386217ae4d24a31e259c234c9c2c",
+      "/data/L202500147/Caption/benchmark/paraspeechcaps/evaluations/qwen3_captioner_attr6/run_midasheng_captioner.py": "232240e8eb7b1949e76d486a6e29707ba22047c5e622c44b320e3da6456bf1c9",
+      "/data/L202500147/Caption/benchmark/paraspeechcaps/evaluations/qwen3_captioner_attr6/run_qwen3_captioner.py": "98e682c255931f5e97e692c8f3be53b16b60b0dadd25092d4b31f7e4ed6537a1",
+      "/data/L202500147/Caption/benchmark/paraspeechcaps/evaluations/qwen3_captioner_attr6/runs/new_cluster_default/manifest.jsonl": "260f3fd60b95e2ff4bdb6cf89320179ff5f334a7a878359ec0f05f373a1f0843",
+      "/data/L202500147/Caption/benchmark/paraspeechcaps/evaluations/qwen3_captioner_attr6/score.py": "e5195a34a40e481980bb1c67943944e7bdf12fa4a72c968ddf9b8f3da8d056aa",
+      "/data/L202500147/Caption/benchmark/paraspeechcaps/evaluations/qwen3_captioner_attr6/score_content_scheme_a.py": "0684462a97bf251866b54bc9f53a7a1fe9319b649aa60593079d8089d70e7183",
+      "/data/L202500147/Caption/benchmark/paraspeechcaps/evaluations/qwen3_captioner_attr6/score_smoke.py": "f60d13150789430dbe8edeb0f1002c31308785a9e1e8708c2d28c57846104620",
+      "/data/L202500147/Caption/benchmark/run_midasheng_v4_v5_benchmarks_4gpu.sh": "c9df66ddf2d81370b14032bceea84f67ceaadc420dec3d178e82af4697dcdcf4",
+      "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/build_benchmark.py": "4935bfc4600b6de4cab91160e934c0557c48c10a821a4b725d367ba6f0f1c45d",
+      "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/common.py": "5f7e88e643362e82012ce418fcd6cd7309d2c38bd7a04260a284bc3bf85667b6",
+      "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/data/benchmark.jsonl": "28236bd3d5b3d9d0fc49a57eb079da80e302f18bd5b169000de9927c25be52bf",
+      "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/evaluate.py": "e15e9c9b9a15e761a87314bd31d05638c13c0d47f97f3dac9be4da3b9125a005",
+      "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/run_midasheng.py": "4830bcb73ac80a0edc80351480bc1496933d967db9b9b94518f820f5caade471",
+      "/data/L202500147/Caption/benchmark/stylecap_promptspeech_mcq/validate_benchmark.py": "d92505c6094f291decea65ebf9a034c9f42e03eb36306a9f2d22e6f3408ad49c",
+      "/data/L202500147/Caption/benchmark/v6_caption_all_rounds.py": "247be3b9cee04030734c6e658f36823dc0ea7ce8782c55e536652ad83d8063a3",
+      "/data/L202500147/Caption/benchmark/run_v6_caption_all_rounds.sh": "2c39cd725243ffc2f0dc0f354805fff6d4fc495895da189e370a3f0b75767b5e",
+      "/data/L202500147/Caption/benchmark/gpu_budget_exec.py": "55506507c330608480e41559401680e21c227182ff0158ddf5b2936f1696fca4"
+    },
+    "batch_size": 4,
+    "suites": [
+      "emotiontalk",
+      "paraspeechcaps",
+      "stylecap"
+    ],
+    "reuse_roots": [
+      "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01",
+      "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01"
+    ]
+  },
+  "reused": {
+    "midasheng_v6_r0/emotiontalk": {
+      "root": "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner",
+      "artifacts": {
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/emotiontalk/full/midasheng_v6_r0/run_metadata.json": "e64d22ed7968da6352bce5170c83c12f7bfe41f3aec9ec098935b2da62cda33f",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/emotiontalk/full/midasheng_v6_r0/predictions.jsonl": "50a2c765fbcdd77e46afe9e5533c214284a9436eff648cc47fd5c275ba2750f4",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/emotiontalk/full/midasheng_v6_r0/metrics_standard_public/scores.json": "9149f71a0b124fd2b72844a1b692096455306938b7ee019d33c7891521667ae7"
+      }
+    },
+    "midasheng_v6_r0/paraspeechcaps": {
+      "root": "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner",
+      "artifacts": {
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r0/outputs/run_metadata.json": "30efb0768b4251172802c3d4f741a9a6a1559e8fd9707ca07c3bb4971379923a",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r0/outputs/predictions.jsonl": "af5b23809746c997fc222bacb89c1299087e55bde0a634d369e8001d08bba048",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r0/outputs/field_records.jsonl": "310083d3bf7ca1bd08eca4c68fafc4d6e668cec5142d9f2b28e6a993b005cfbb",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r0/reports/summary.json": "395c2529a1dd5b6d679f6439e33dc9fd09aa95873b4771deb1e19c41a7553163"
+      }
+    },
+    "midasheng_v6_r0/stylecap": {
+      "root": "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner",
+      "artifacts": {
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/stylecap/full/midasheng_v6_r0/run_metadata.json": "f05e62085251e5a6b07b21c27562ea58fae29d15512d60185b01d17319f276a4",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/stylecap/full/midasheng_v6_r0/predictions.jsonl": "b1f90d1ccfd5f598ab8f43fa338c9e05816da3b7074c2a4835498e9b392ef65a",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/stylecap/full/midasheng_v6_r0/evaluation_summary.json": "ff3cbf81d28a560b3fc21efec5808e6adb15fc98cd02335a8178b3bf0ac7a767"
+      }
+    },
+    "midasheng_v6_r1/emotiontalk": {
+      "root": "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner",
+      "artifacts": {
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/emotiontalk/full/midasheng_v6_r1/run_metadata.json": "d721bf7b3db1a1a6ffd967486bb63bb38fd10805228d5dfa6dd836256d6b4a4a",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/emotiontalk/full/midasheng_v6_r1/predictions.jsonl": "14cbff9546d98592c3ee70c038c7f545503ede951185f1aab698ae764f47474d",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/emotiontalk/full/midasheng_v6_r1/metrics_standard_public/scores.json": "2911beffb793010bb173652d290d37372b9d82c83c14402a1116cec8399517e1"
+      }
+    },
+    "midasheng_v6_r1/paraspeechcaps": {
+      "root": "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner",
+      "artifacts": {
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r1/outputs/run_metadata.json": "cc9d6dca9f3d7a2cc8246f4ead5d1f9d4f3f69dc76c90177589ec61701c0fbcc",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r1/outputs/predictions.jsonl": "58eb9b6df9266f1b20453000d2e4664700ffc2db054313c228d4009d26367b0d",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r1/outputs/field_records.jsonl": "cdb004204ddfcea755eec3a30ee24a4886171c4e6ee032778117fb1276ac01af",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r1/reports/summary.json": "1772d14657bdfac0394b205d9a7ea145e8e3f48facf9008b0cb25f2f25d6ba19"
+      }
+    },
+    "midasheng_v6_r1/stylecap": {
+      "root": "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner",
+      "artifacts": {
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/stylecap/full/midasheng_v6_r1/run_metadata.json": "8b255c8cf149c4d253f859232793c64cb62120aa75d946dea79bce6a90a54577",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/stylecap/full/midasheng_v6_r1/predictions.jsonl": "6725d70370c4a3526953f80f6711f59c45bb5643b729cf3710a4def38c8a5aea",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/stylecap/full/midasheng_v6_r1/evaluation_summary.json": "7c07564333381eb0d6f0f2d6ce15388611cb4f8dc7d7df70468ae27b5c7a7343"
+      }
+    },
+    "midasheng_v6_r2/emotiontalk": {
+      "root": "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner",
+      "artifacts": {
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/emotiontalk/full/midasheng_v6_r2/run_metadata.json": "9014aba1bea52d5b7afe220c3b3ac3a702824a5ae862a9f71293f531c35d2a94",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/emotiontalk/full/midasheng_v6_r2/predictions.jsonl": "84beca25c8757023e4c01ebdd031ec7e32aa24eb133eda13358c1b92d921efe0",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/emotiontalk/full/midasheng_v6_r2/metrics_standard_public/scores.json": "5e5f06677c20f295e0e6ff61bae0b5479541775317f3fe12bd9a576e64f3946e"
+      }
+    },
+    "midasheng_v6_r2/paraspeechcaps": {
+      "root": "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner",
+      "artifacts": {
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r2/outputs/run_metadata.json": "bfc76fc616cf70bc4effda84f3997d6e63784cc278508e9489aac6dfc192d391",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r2/outputs/predictions.jsonl": "7fab545fa57e9ea5cbe52628cbe2f71c36fa83e8d83fe1645eeb43e1c235ee82",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r2/outputs/field_records.jsonl": "519e7a1def325134c41b5421484bbc40c523d444b91fb23aa01283fd0668d1d6",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r2/reports/summary.json": "9b28ade0e859a390d6d0e68622466bbf81fc47d87b2269beb31a59ad1469e950"
+      }
+    },
+    "midasheng_v6_r2/stylecap": {
+      "root": "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner",
+      "artifacts": {
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/stylecap/full/midasheng_v6_r2/run_metadata.json": "6fd4e44abfcbd4b4a41fc8c8c4403c4a6c58a27e62770aaf3edc69d3f9c93006",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/stylecap/full/midasheng_v6_r2/predictions.jsonl": "f868b6da226adaf21dc6eabc8b2ac428ed3a8c4f87b67db78f87f53a5ad13f94",
+        "/data/L202500147/Caption/benchmark/v6_round000_002_benchmarks_run01/captioner/stylecap/full/midasheng_v6_r2/evaluation_summary.json": "1b79ad93ff46f98882cecd61a5941a85df254e3bbdb5373488cc1cf77719189d"
+      }
+    },
+    "midasheng_v6_r3/emotiontalk": {
+      "root": "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01/captioner",
+      "artifacts": {
+        "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01/captioner/emotiontalk/full/midasheng_v6_r3/run_metadata.json": "f58ee55307924c7432b35967af62944f0387ed548b1dbe7f5519d3990967b66e",
+        "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01/captioner/emotiontalk/full/midasheng_v6_r3/predictions.jsonl": "238b7ff87dcec8e394ed442f23289f30681ce734058b8b96ecdbf56948f0ed92",
+        "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01/captioner/emotiontalk/full/midasheng_v6_r3/metrics_standard_public/scores.json": "52339ada57941fff60cd9ce203c6f34c72904888fa53b1a06fc9996706dae628"
+      }
+    },
+    "midasheng_v6_r3/paraspeechcaps": {
+      "root": "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01/captioner",
+      "artifacts": {
+        "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r3/outputs/run_metadata.json": "2d4f33b2be070a8a6f05e31b8789fd445e499a340477c71a5ea475a6282205f9",
+        "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r3/outputs/predictions.jsonl": "8b8503ff184957046be2041eae58c6901f1a68a334c3b82a7d470f206f64c0c7",
+        "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r3/outputs/field_records.jsonl": "fb3989fb5e890b64d5352637024685ae9d08e497208ac369cea41c2d98e7f013",
+        "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01/captioner/paraspeechcaps/full/midasheng_v6_r3/reports/summary.json": "54c1b29be5cb61ddfd273a4f9fbf34daa2ed7d1171a1f009ec399103e863e55e"
+      }
+    },
+    "midasheng_v6_r3/stylecap": {
+      "root": "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01/captioner",
+      "artifacts": {
+        "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01/captioner/stylecap/full/midasheng_v6_r3/run_metadata.json": "967f48376e2c2859f1c0d2efac1ff086279d0ab5c4bb372b4baf91fadc3f7a38",
+        "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01/captioner/stylecap/full/midasheng_v6_r3/predictions.jsonl": "890de5072d388f8bf2d57754971a2e8ebb41aab938fc70612386693b37e76414",
+        "/data/L202500147/Caption/benchmark/v6_round003_benchmarks_run01/captioner/stylecap/full/midasheng_v6_r3/evaluation_summary.json": "4079bf90c8c063a5cd703dd7fb20553493652f6315e5254017c831110c53897e"
+      }
+    }
+  },
+  "reuse_rejections": []
+}

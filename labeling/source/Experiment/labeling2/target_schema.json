@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "labeling2.v1",
+  "type": "object",
+  "required": ["Target_JSON_Schema"],
+  "properties": {
+    "Target_JSON_Schema": {
+      "type": "object",
+      "required": ["semantic_content", "speaker_profile", "paralinguistic", "environment"],
+      "properties": {
+        "semantic_content": {
+          "type": "object", "required": ["language", "topic", "transcript", "intent"],
+          "properties": {
+            "language": {"enum": ["English", "Chinese", "other", "unknown"]},
+            "topic": {"type": "string"},
+            "transcript": {"type": "string"},
+            "intent": {"$ref": "#/$defs/intent"}
+          }
+        },
+        "speaker_profile": {
+          "type": "object", "required": ["gender", "age", "timbre", "accent"],
+          "properties": {
+            "gender": {"enum": ["male", "female", "unknown"]},
+            "age": {"enum": ["child", "teenager", "adult", "elderly", "unknown"]},
+            "timbre": {"enum": ["neutral", "breathy", "rough", "creaky", "strained", "nasal", "bright", "dark", "other", "unknown"]},
+            "accent": {"enum": ["US English", "England English", "Australian English", "Indian English", "Canadian English", "Bermudian English", "Scottish English", "African English", "Irish English", "New Zealand English", "Welsh English", "Malaysian English", "Philippine English", "Singapore English", "Hong Kong English", "South Atlantic English", "Mandarin", "Jiang-Huai Mandarin", "Jiao-Liao Mandarin", "Ji-Lu Mandarin", "Lan-Yin Mandarin", "Southwestern Mandarin", "Zhongyuan Mandarin", "Cantonese", "other", "unknown"]}
+          }
+        },
+        "paralinguistic": {
+          "type": "object", "required": ["speaking_rate", "pitch_level", "volume_level", "emotion", "emotion_intensity", "emphasis", "prosody", "pause", "nonverbal_vocalization"],
+          "properties": {
+            "speaking_rate": {"enum": ["slow", "moderate", "fast", "unknown"]},
+            "pitch_level": {"enum": ["low", "medium", "high", "unknown"]},
+            "volume_level": {"enum": ["low", "medium", "high", "unknown"]},
+            "emotion": {"enum": ["neutral", "happy", "sad", "angry", "fearful", "surprised", "disgusted", "other", "unknown"]},
+            "emotion_intensity": {"enum": ["none", "low", "medium", "high", "unknown"]},
+            "emphasis": {
+              "type": "object", "required": ["level", "emphasized_text"],
+              "properties": {
+                "level": {"enum": ["none", "emphasized", "heavily emphasized", "unknown"]},
+                "emphasized_text": {"type": "array", "items": {"type": "string"}}
+              }
+            },
+            "prosody": {"type": "string"},
+            "pause": {"type": "string"},
+            "nonverbal_vocalization": {"$ref": "#/$defs/eventList"}
+          }
+        },
+        "environment": {
+          "type": "object", "required": ["background_sound_events", "recording_quality", "acoustic_scene"],
+          "properties": {
+            "background_sound_events": {"$ref": "#/$defs/backgroundEventList"},
+            "recording_quality": {"enum": ["bad", "poor", "fair", "good", "excellent", "unknown"]},
+            "acoustic_scene": {"type": "string"}
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "intent": {"enum": ["statement", "question", "request", "command", "suggestion", "greeting", "thanks", "apology", "acknowledgment", "refusal", "other", "unknown"]},
+    "eventList": {
+      "oneOf": [
+        {"const": ["none"]},
+        {"const": ["unknown"]},
+        {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["laughter", "sigh", "crying", "sobbing", "cough", "throat clearing", "audible breath", "sneeze", "sniff", "yawn", "scream", "filled pause", "agreement sound", "other"]}}
+      ]
+    },
+    "backgroundEventList": {
+      "oneOf": [
+        {"const": ["none"]},
+        {"const": ["unknown"]},
+        {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}, "not": {"contains": {"enum": ["none", "unknown"]}}}
+      ]
+    }
+  }
+}

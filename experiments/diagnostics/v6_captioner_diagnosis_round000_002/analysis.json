@@ -1,0 +1,1618 @@
+{
+  "note": "Offline diagnostic only; intermediate caption agreement uses frozen judge labels, not independent human GT. Rollout of round i uses checkpoint i-1. No training or API calls.",
+  "rounds": [
+    {
+      "round": 0,
+      "statuses": {
+        "unrenderable": 812,
+        "complete": 991,
+        "content_failed": 1485
+      },
+      "format_mean": 0.7461070559610705,
+      "reconstruction_mean": 0.17404197080291972,
+      "format_only_groups": 159,
+      "usable_groups": 388,
+      "optimizer_steps": 49,
+      "kl": [
+        0.00028131736138134526
+      ],
+      "param_sync_ok": true,
+      "attrs": {
+        "gender": {
+          "groups_any_correct": {
+            "n": 411,
+            "mean": 0.9464720194647201
+          },
+          "groups_all_correct": {
+            "n": 411,
+            "mean": 0.6326034063260341
+          },
+          "groups_all_same": {
+            "n": 411,
+            "mean": 0.681265206812652
+          },
+          "groups_can_contrast_correct_wrong": {
+            "n": 411,
+            "mean": 0.31386861313868614
+          },
+          "caption_correct": {
+            "n": 2476,
+            "mean": 0.8497576736672051
+          },
+          "caption_unknown": {
+            "n": 2476,
+            "mean": 0.033117932148626815
+          },
+          "adv_correct": {
+            "n": 2104,
+            "mean": 0.36649875807810683
+          },
+          "positive_adv_caption_correct": {
+            "n": 1665,
+            "mean": 0.8588588588588588
+          },
+          "sft_caption_correct": {
+            "n": 229,
+            "mean": 0.9126637554585153
+          },
+          "final_audio_correct": {
+            "n": 991,
+            "mean": 0.8365287588294652
+          },
+          "judge_unknown": {
+            "n": 991,
+            "mean": 0.0
+          },
+          "tts_follows_known_instruction": {
+            "n": 960,
+            "mean": 0.9760416666666667
+          },
+          "audio_correct_caption_correct": {
+            "n": 829,
+            "mean": 0.9782870928829915
+          },
+          "caption_correct_but_final_wrong": {
+            "n": 833,
+            "mean": 0.026410564225690276
+          },
+          "adv_incorrect": {
+            "n": 372,
+            "mean": 0.14363877215920276
+          }
+        },
+        "pitch_level": {
+          "groups_any_correct": {
+            "n": 376,
+            "mean": 0.6063829787234043
+          },
+          "groups_all_correct": {
+            "n": 376,
+            "mean": 0.010638297872340425
+          },
+          "groups_all_same": {
+            "n": 376,
+            "mean": 0.0851063829787234
+          },
+          "groups_can_contrast_correct_wrong": {
+            "n": 376,
+            "mean": 0.5957446808510638
+          },
+          "caption_correct": {
+            "n": 2264,
+            "mean": 0.17800353356890458
+          },
+          "caption_unknown": {
+            "n": 2264,
+            "mean": 0.45141342756183744
+          },
+          "adv_incorrect": {
+            "n": 1861,
+            "mean": 0.29903478157067104
+          },
+          "positive_adv_caption_correct": {
+            "n": 1519,
+            "mean": 0.19223173140223832
+          },
+          "sft_caption_correct": {
+            "n": 213,
+            "mean": 0.2535211267605634
+          },
+          "final_audio_correct": {
+            "n": 932,
+            "mean": 0.4281115879828326
+          },
+          "judge_unknown": {
+            "n": 932,
+            "mean": 0.2575107296137339
+          },
+          "tts_follows_known_instruction": {
+            "n": 526,
+            "mean": 0.2946768060836502
+          },
+          "audio_correct_caption_correct": {
+            "n": 399,
+            "mean": 0.21303258145363407
+          },
+          "adv_correct": {
+            "n": 403,
+            "mean": 0.48350387293291364
+          },
+          "caption_correct_but_final_wrong": {
+            "n": 157,
+            "mean": 0.4585987261146497
+          }
+        },
+        "emotion": {
+          "groups_any_correct": {
+            "n": 375,
+            "mean": 0.368
+          },
+          "groups_all_correct": {
+            "n": 375,
+            "mean": 0.15733333333333333
+          },
+          "groups_all_same": {
+            "n": 375,
+            "mean": 0.504
+          },
+          "groups_can_contrast_correct_wrong": {
+            "n": 375,
+            "mean": 0.21066666666666667
+          },
+          "caption_correct": {
+            "n": 2267,
+            "mean": 0.27657697397441555
+          },
+          "caption_unknown": {
+            "n": 2267,
+            "mean": 0.11204234671371857
+          },
+          "adv_incorrect": {
+            "n": 1640,
+            "mean": 0.3484170374574762
+          },
+          "positive_adv_caption_correct": {
+            "n": 1533,
+            "mean": 0.2511415525114155
+          },
+          "sft_caption_correct": {
+            "n": 207,
+            "mean": 0.36231884057971014
+          },
+          "final_audio_correct": {
+            "n": 919,
+            "mean": 0.4015233949945593
+          },
+          "judge_unknown": {
+            "n": 919,
+            "mean": 0.07834602829162132
+          },
+          "tts_follows_known_instruction": {
+            "n": 853,
+            "mean": 0.37397420867526376
+          },
+          "audio_correct_caption_correct": {
+            "n": 369,
+            "mean": 0.5203252032520326
+          },
+          "adv_correct": {
+            "n": 627,
+            "mean": 0.29381232147989206
+          },
+          "caption_correct_but_final_wrong": {
+            "n": 337,
+            "mean": 0.43026706231454004
+          }
+        },
+        "emotion_intensity": {
+          "groups_any_correct": {
+            "n": 411,
+            "mean": 0.36982968369829683
+          },
+          "groups_all_correct": {
+            "n": 411,
+            "mean": 0.012165450121654502
+          },
+          "groups_all_same": {
+            "n": 411,
+            "mean": 0.10948905109489052
+          },
+          "groups_can_contrast_correct_wrong": {
+            "n": 411,
+            "mean": 0.35766423357664234
+          },
+          "caption_correct": {
+            "n": 2476,
+            "mean": 0.1264135702746365
+          },
+          "caption_unknown": {
+            "n": 2476,
+            "mean": 0.5492730210016155
+          },
+          "adv_incorrect": {
+            "n": 2163,
+            "mean": 0.32916213664008337
+          },
+          "positive_adv_caption_correct": {
+            "n": 1665,
+            "mean": 0.13033033033033034
+          },
+          "sft_caption_correct": {
+            "n": 229,
+            "mean": 0.11790393013100436
+          },
+          "final_audio_correct": {
+            "n": 991,
+            "mean": 0.6165489404641776
+          },
+          "judge_unknown": {
+            "n": 991,
+            "mean": 0.0
+          },
+          "tts_follows_known_instruction": {
+            "n": 481,
+            "mean": 0.3575883575883576
+          },
+          "audio_correct_caption_correct": {
+            "n": 611,
+            "mean": 0.16366612111292964
+          },
+          "adv_correct": {
+            "n": 313,
+            "mean": 0.35964635363277936
+          },
+          "caption_correct_but_final_wrong": {
+            "n": 139,
+            "mean": 0.2805755395683453
+          }
+        }
+      },
+      "groups": {
+        "passed_2": 198,
+        "passed_distinct_rec": 173,
+        "passed_0": 182,
+        "passed_1": 31
+      },
+      "content": {
+        "inter_pass_final_pass": 925,
+        "inter_fail_final_fail": 1408,
+        "inter_pass_final_fail": 77,
+        "inter_fail_final_pass": 66
+      },
+      "caption_agreement_mean": 0.36537425955842756,
+      "top_reward_caption_agreement": 0.384742951907131,
+      "within_group_correlation": 0.12070477596089511,
+      "pairwise_order": {
+        "concordant": 947,
+        "discordant": 561
+      },
+      "sft_rec_distribution": {
+        "0.75": 97,
+        "0.5": 33,
+        "1.0": 70,
+        "0.25": 13,
+        "0.3333333333333333": 5,
+        "0.6666666666666666": 11
+      },
+      "sft_caption_agreement_mean": 0.4181222707423581,
+      "same_condition_sets": 73,
+      "same_condition_nonzero_span": 35,
+      "same_condition_max_span": 0.75
+    },
+    {
+      "round": 1,
+      "statuses": {
+        "unrenderable": 762,
+        "complete": 980,
+        "content_failed": 1545,
+        "invalid_trajectory": 1
+      },
+      "format_mean": 0.7590936739659367,
+      "reconstruction_mean": 0.15951946472019465,
+      "format_only_groups": 164,
+      "usable_groups": 386,
+      "optimizer_steps": 49,
+      "kl": [
+        0.00033557012524837454
+      ],
+      "param_sync_ok": true,
+      "attrs": {
+        "gender": {
+          "groups_any_correct": {
+            "n": 411,
+            "mean": 0.9416058394160584
+          },
+          "groups_all_correct": {
+            "n": 411,
+            "mean": 0.6763990267639902
+          },
+          "groups_all_same": {
+            "n": 411,
+            "mean": 0.7128953771289538
+          },
+          "groups_can_contrast_correct_wrong": {
+            "n": 411,
+            "mean": 0.26520681265206814
+          },
+          "caption_correct": {
+            "n": 2525,
+            "mean": 0.8522772277227723
+          },
+          "caption_unknown": {
+            "n": 2525,
+            "mean": 0.034851485148514855
+          },
+          "adv_correct": {
+            "n": 2152,
+            "mean": 0.3553684218662951
+          },
+          "positive_adv_caption_correct": {
+            "n": 1679,
+            "mean": 0.8677784395473496
+          },
+          "final_audio_correct": {
+            "n": 980,
+            "mean": 0.8377551020408164
+          },
+          "judge_unknown": {
+            "n": 980,
+            "mean": 0.0
+          },
+          "tts_follows_known_instruction": {
+            "n": 948,
+            "mean": 0.9746835443037974
+          },
+          "audio_correct_caption_correct": {
+            "n": 821,
+            "mean": 0.976857490864799
+          },
+          "caption_correct_but_final_wrong": {
+            "n": 825,
+            "mean": 0.027878787878787878
+          },
+          "sft_caption_correct": {
+            "n": 224,
+            "mean": 0.9330357142857143
+          },
+          "adv_incorrect": {
+            "n": 373,
+            "mean": 0.13175390174662538
+          }
+        },
+        "pitch_level": {
+          "groups_any_correct": {
+            "n": 376,
+            "mean": 0.625
+          },
+          "groups_all_correct": {
+            "n": 376,
+            "mean": 0.007978723404255319
+          },
+          "groups_all_same": {
+            "n": 376,
+            "mean": 0.07446808510638298
+          },
+          "groups_can_contrast_correct_wrong": {
+            "n": 376,
+            "mean": 0.6170212765957447
+          },
+          "caption_correct": {
+            "n": 2305,
+            "mean": 0.1822125813449024
+          },
+          "caption_unknown": {
+            "n": 2305,
+            "mean": 0.4503253796095445
+          },
+          "adv_incorrect": {
+            "n": 1885,
+            "mean": 0.3000260638240853
+          },
+          "positive_adv_caption_correct": {
+            "n": 1528,
+            "mean": 0.19240837696335078
+          },
+          "final_audio_correct": {
+            "n": 916,
+            "mean": 0.3089519650655022
+          },
+          "judge_unknown": {
+            "n": 916,
+            "mean": 0.4836244541484716
+          },
+          "tts_follows_known_instruction": {
+            "n": 508,
+            "mean": 0.21456692913385828
+          },
+          "sft_caption_correct": {
+            "n": 208,
+            "mean": 0.22115384615384615
+          },
+          "adv_correct": {
+            "n": 420,
+            "mean": 0.4272894763453327
+          },
+          "audio_correct_caption_correct": {
+            "n": 283,
+            "mean": 0.2226148409893993
+          },
+          "caption_correct_but_final_wrong": {
+            "n": 161,
+            "mean": 0.6086956521739131
+          }
+        },
+        "emotion": {
+          "groups_any_correct": {
+            "n": 375,
+            "mean": 0.38133333333333336
+          },
+          "groups_all_correct": {
+            "n": 375,
+            "mean": 0.13333333333333333
+          },
+          "groups_all_same": {
+            "n": 375,
+            "mean": 0.424
+          },
+          "groups_can_contrast_correct_wrong": {
+            "n": 375,
+            "mean": 0.248
+          },
+          "caption_correct": {
+            "n": 2305,
+            "mean": 0.27939262472885035
+          },
+          "caption_unknown": {
+            "n": 2305,
+            "mean": 0.11973969631236442
+          },
+          "adv_incorrect": {
+            "n": 1661,
+            "mean": 0.3506723492167414
+          },
+          "positive_adv_caption_correct": {
+            "n": 1519,
+            "mean": 0.2554312047399605
+          },
+          "final_audio_correct": {
+            "n": 910,
+            "mean": 0.3373626373626374
+          },
+          "judge_unknown": {
+            "n": 910,
+            "mean": 0.08901098901098901
+          },
+          "tts_follows_known_instruction": {
+            "n": 831,
+            "mean": 0.34657039711191334
+          },
+          "adv_correct": {
+            "n": 644,
+            "mean": 0.2360804087168249
+          },
+          "sft_caption_correct": {
+            "n": 206,
+            "mean": 0.3155339805825243
+          },
+          "audio_correct_caption_correct": {
+            "n": 307,
+            "mean": 0.4788273615635179
+          },
+          "caption_correct_but_final_wrong": {
+            "n": 304,
+            "mean": 0.5164473684210527
+          }
+        },
+        "emotion_intensity": {
+          "groups_any_correct": {
+            "n": 411,
+            "mean": 0.38686131386861317
+          },
+          "groups_all_correct": {
+            "n": 411,
+            "mean": 0.004866180048661801
+          },
+          "groups_all_same": {
+            "n": 411,
+            "mean": 0.09245742092457421
+          },
+          "groups_can_contrast_correct_wrong": {
+            "n": 411,
+            "mean": 0.3819951338199513
+          },
+          "caption_correct": {
+            "n": 2525,
+            "mean": 0.13742574257425744
+          },
+          "caption_unknown": {
+            "n": 2525,
+            "mean": 0.5405940594059406
+          },
+          "adv_incorrect": {
+            "n": 2178,
+            "mean": 0.3131403563905271
+          },
+          "positive_adv_caption_correct": {
+            "n": 1679,
+            "mean": 0.14592019058963668
+          },
+          "final_audio_correct": {
+            "n": 980,
+            "mean": 0.6224489795918368
+          },
+          "judge_unknown": {
+            "n": 980,
+            "mean": 0.0
+          },
+          "tts_follows_known_instruction": {
+            "n": 480,
+            "mean": 0.3541666666666667
+          },
+          "adv_correct": {
+            "n": 347,
+            "mean": 0.38005000861438104
+          },
+          "sft_caption_correct": {
+            "n": 224,
+            "mean": 0.16517857142857142
+          },
+          "caption_correct_but_final_wrong": {
+            "n": 142,
+            "mean": 0.1619718309859155
+          },
+          "audio_correct_caption_correct": {
+            "n": 610,
+            "mean": 0.19508196721311474
+          }
+        }
+      },
+      "groups": {
+        "passed_0": 187,
+        "passed_distinct_rec": 169,
+        "passed_2": 200,
+        "passed_1": 24
+      },
+      "content": {
+        "inter_pass_final_pass": 923,
+        "inter_fail_final_fail": 1434,
+        "inter_pass_final_fail": 111,
+        "inter_fail_final_pass": 57
+      },
+      "caption_agreement_mean": 0.3703630363036303,
+      "top_reward_caption_agreement": 0.39388341543513955,
+      "within_group_correlation": 0.09280140439063173,
+      "pairwise_order": {
+        "concordant": 974,
+        "discordant": 569
+      },
+      "sft_rec_distribution": {
+        "0.5": 54,
+        "0.75": 85,
+        "1.0": 55,
+        "0.6666666666666666": 15,
+        "0.3333333333333333": 2,
+        "0.25": 11,
+        "0.0": 2
+      },
+      "sft_caption_agreement_mean": 0.41629464285714285,
+      "same_condition_sets": 89,
+      "same_condition_nonzero_span": 43,
+      "same_condition_max_span": 0.75
+    },
+    {
+      "round": 2,
+      "statuses": {
+        "unrenderable": 660,
+        "complete": 1041,
+        "content_failed": 1587
+      },
+      "format_mean": 0.7904197080291971,
+      "reconstruction_mean": 0.16877027575020276,
+      "format_only_groups": 150,
+      "usable_groups": 386,
+      "optimizer_steps": 49,
+      "kl": [
+        0.0003636108880341853
+      ],
+      "param_sync_ok": true,
+      "attrs": {
+        "gender": {
+          "groups_any_correct": {
+            "n": 411,
+            "mean": 0.9513381995133819
+          },
+          "groups_all_correct": {
+            "n": 411,
+            "mean": 0.5888077858880778
+          },
+          "groups_all_same": {
+            "n": 411,
+            "mean": 0.6253041362530414
+          },
+          "groups_can_contrast_correct_wrong": {
+            "n": 411,
+            "mean": 0.36253041362530414
+          },
+          "caption_correct": {
+            "n": 2628,
+            "mean": 0.8394216133942162
+          },
+          "caption_unknown": {
+            "n": 2628,
+            "mean": 0.03881278538812785
+          },
+          "adv_correct": {
+            "n": 2206,
+            "mean": 0.30435417986493524
+          },
+          "positive_adv_caption_correct": {
+            "n": 1647,
+            "mean": 0.856709168184578
+          },
+          "sft_caption_correct": {
+            "n": 236,
+            "mean": 0.9067796610169492
+          },
+          "final_audio_correct": {
+            "n": 1041,
+            "mean": 0.8338136407300673
+          },
+          "judge_unknown": {
+            "n": 1041,
+            "mean": 0.0
+          },
+          "tts_follows_known_instruction": {
+            "n": 1001,
+            "mean": 0.975024975024975
+          },
+          "audio_correct_caption_correct": {
+            "n": 868,
+            "mean": 0.9735023041474654
+          },
+          "caption_correct_but_final_wrong": {
+            "n": 868,
+            "mean": 0.026497695852534562
+          },
+          "adv_incorrect": {
+            "n": 422,
+            "mean": 0.10801550131915544
+          }
+        },
+        "pitch_level": {
+          "groups_any_correct": {
+            "n": 376,
+            "mean": 0.6196808510638298
+          },
+          "groups_all_correct": {
+            "n": 376,
+            "mean": 0.005319148936170213
+          },
+          "groups_all_same": {
+            "n": 376,
+            "mean": 0.061170212765957445
+          },
+          "groups_can_contrast_correct_wrong": {
+            "n": 376,
+            "mean": 0.6143617021276596
+          },
+          "caption_correct": {
+            "n": 2403,
+            "mean": 0.19017894298793175
+          },
+          "caption_unknown": {
+            "n": 2403,
+            "mean": 0.449438202247191
+          },
+          "adv_incorrect": {
+            "n": 1946,
+            "mean": 0.2560539416473876
+          },
+          "positive_adv_caption_correct": {
+            "n": 1500,
+            "mean": 0.20733333333333334
+          },
+          "sft_caption_correct": {
+            "n": 219,
+            "mean": 0.1917808219178082
+          },
+          "final_audio_correct": {
+            "n": 983,
+            "mean": 0.2787385554425229
+          },
+          "judge_unknown": {
+            "n": 983,
+            "mean": 0.5340793489318413
+          },
+          "tts_follows_known_instruction": {
+            "n": 543,
+            "mean": 0.17679558011049723
+          },
+          "audio_correct_caption_correct": {
+            "n": 274,
+            "mean": 0.21532846715328466
+          },
+          "adv_correct": {
+            "n": 457,
+            "mean": 0.34199363331788374
+          },
+          "caption_correct_but_final_wrong": {
+            "n": 167,
+            "mean": 0.6467065868263473
+          }
+        },
+        "emotion": {
+          "groups_any_correct": {
+            "n": 375,
+            "mean": 0.3626666666666667
+          },
+          "groups_all_correct": {
+            "n": 375,
+            "mean": 0.13866666666666666
+          },
+          "groups_all_same": {
+            "n": 375,
+            "mean": 0.4266666666666667
+          },
+          "groups_can_contrast_correct_wrong": {
+            "n": 375,
+            "mean": 0.224
+          },
+          "caption_correct": {
+            "n": 2391,
+            "mean": 0.27478042659974905
+          },
+          "caption_unknown": {
+            "n": 2391,
+            "mean": 0.1288163948138854
+          },
+          "adv_incorrect": {
+            "n": 1734,
+            "mean": 0.27712940261733304
+          },
+          "positive_adv_caption_correct": {
+            "n": 1488,
+            "mean": 0.2903225806451613
+          },
+          "sft_caption_correct": {
+            "n": 216,
+            "mean": 0.33796296296296297
+          },
+          "final_audio_correct": {
+            "n": 963,
+            "mean": 0.3862928348909657
+          },
+          "judge_unknown": {
+            "n": 963,
+            "mean": 0.09553478712357218
+          },
+          "tts_follows_known_instruction": {
+            "n": 873,
+            "mean": 0.3631156930126002
+          },
+          "audio_correct_caption_correct": {
+            "n": 372,
+            "mean": 0.5026881720430108
+          },
+          "adv_correct": {
+            "n": 657,
+            "mean": 0.2659242565830551
+          },
+          "caption_correct_but_final_wrong": {
+            "n": 340,
+            "mean": 0.45
+          }
+        },
+        "emotion_intensity": {
+          "groups_any_correct": {
+            "n": 411,
+            "mean": 0.3746958637469586
+          },
+          "groups_all_correct": {
+            "n": 411,
+            "mean": 0.0072992700729927005
+          },
+          "groups_all_same": {
+            "n": 411,
+            "mean": 0.1192214111922141
+          },
+          "groups_can_contrast_correct_wrong": {
+            "n": 411,
+            "mean": 0.36739659367396593
+          },
+          "caption_correct": {
+            "n": 2628,
+            "mean": 0.1354642313546423
+          },
+          "caption_unknown": {
+            "n": 2628,
+            "mean": 0.5654490106544902
+          },
+          "adv_incorrect": {
+            "n": 2272,
+            "mean": 0.2655301954492967
+          },
+          "positive_adv_caption_correct": {
+            "n": 1647,
+            "mean": 0.1469338190649666
+          },
+          "sft_caption_correct": {
+            "n": 236,
+            "mean": 0.13983050847457626
+          },
+          "final_audio_correct": {
+            "n": 1041,
+            "mean": 0.6061479346781941
+          },
+          "judge_unknown": {
+            "n": 1041,
+            "mean": 0.0
+          },
+          "tts_follows_known_instruction": {
+            "n": 486,
+            "mean": 0.36419753086419754
+          },
+          "adv_correct": {
+            "n": 356,
+            "mean": 0.3193911749380019
+          },
+          "audio_correct_caption_correct": {
+            "n": 631,
+            "mean": 0.1901743264659271
+          },
+          "caption_correct_but_final_wrong": {
+            "n": 161,
+            "mean": 0.2546583850931677
+          }
+        }
+      },
+      "groups": {
+        "passed_1": 41,
+        "passed_distinct_rec": 171,
+        "passed_0": 175,
+        "passed_2": 195
+      },
+      "content": {
+        "inter_pass_final_pass": 979,
+        "inter_fail_final_fail": 1474,
+        "inter_pass_final_fail": 113,
+        "inter_fail_final_pass": 62
+      },
+      "caption_agreement_mean": 0.367865296803653,
+      "top_reward_caption_agreement": 0.38427057864710673,
+      "within_group_correlation": 0.10092474655601985,
+      "pairwise_order": {
+        "concordant": 1098,
+        "discordant": 680
+      },
+      "sft_rec_distribution": {
+        "0.75": 87,
+        "0.5": 51,
+        "0.6666666666666666": 20,
+        "1.0": 60,
+        "0.25": 12,
+        "0.3333333333333333": 6
+      },
+      "sft_caption_agreement_mean": 0.399364406779661,
+      "same_condition_sets": 82,
+      "same_condition_nonzero_span": 41,
+      "same_condition_max_span": 0.75
+    }
+  ],
+  "examples": [
+    {
+      "round": 0,
+      "id": "random440_deear_008::2",
+      "field": "pitch_level",
+      "reference": "high",
+      "caption": "unknown",
+      "final_audio_label": "high",
+      "reward": 0.765,
+      "advantage": 1.7170064315911802,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "female",
+        "pitch_level": "unknown",
+        "transcript": "After the thunder, you'd probably hear the crackling of a fire. It's that satisfying sound of logs burning, creating a cozy ambiance around the campsite. It's perfect for roasting marshmallows and telling stories."
+      },
+      "reference_attributes": {
+        "emotion": "happy",
+        "emotion_intensity": "medium",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_deear_008::2",
+      "field": "emotion",
+      "reference": "happy",
+      "caption": "neutral",
+      "final_audio_label": "happy",
+      "reward": 0.765,
+      "advantage": 1.7170064315911802,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "female",
+        "pitch_level": "unknown",
+        "transcript": "After the thunder, you'd probably hear the crackling of a fire. It's that satisfying sound of logs burning, creating a cozy ambiance around the campsite. It's perfect for roasting marshmallows and telling stories."
+      },
+      "reference_attributes": {
+        "emotion": "happy",
+        "emotion_intensity": "medium",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_deear_008::5",
+      "field": "emotion",
+      "reference": "happy",
+      "caption": "neutral",
+      "final_audio_label": "happy",
+      "reward": 0.775,
+      "advantage": 1.74699781030893,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "none",
+        "gender": "female",
+        "pitch_level": "unknown",
+        "transcript": "After the thunder, you'd probably hear the crackling of a fire. It's that satisfying sound of logs burning, creating a cozy ambience around the campsite. It's perfect for roasting marshmallows and telling stories."
+      },
+      "reference_attributes": {
+        "emotion": "happy",
+        "emotion_intensity": "medium",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_deear_008::5",
+      "field": "emotion_intensity",
+      "reference": "medium",
+      "caption": "none",
+      "final_audio_label": "medium",
+      "reward": 0.775,
+      "advantage": 1.74699781030893,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "none",
+        "gender": "female",
+        "pitch_level": "unknown",
+        "transcript": "After the thunder, you'd probably hear the crackling of a fire. It's that satisfying sound of logs burning, creating a cozy ambience around the campsite. It's perfect for roasting marshmallows and telling stories."
+      },
+      "reference_attributes": {
+        "emotion": "happy",
+        "emotion_intensity": "medium",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_deear_069::1",
+      "field": "pitch_level",
+      "reference": "high",
+      "caption": "medium",
+      "final_audio_label": "high",
+      "reward": 0.775,
+      "advantage": 1.7305761724416948,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "female",
+        "pitch_level": "medium",
+        "transcript": "I'm really sorry, but I can't assist with that. If you need help with something else, feel free to ask."
+      },
+      "reference_attributes": {
+        "emotion": "neutral",
+        "emotion_intensity": "low",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_deear_069::1",
+      "field": "emotion_intensity",
+      "reference": "low",
+      "caption": "unknown",
+      "final_audio_label": "low",
+      "reward": 0.775,
+      "advantage": 1.7305761724416948,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "female",
+        "pitch_level": "medium",
+        "transcript": "I'm really sorry, but I can't assist with that. If you need help with something else, feel free to ask."
+      },
+      "reference_attributes": {
+        "emotion": "neutral",
+        "emotion_intensity": "low",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_123::0",
+      "field": "emotion_intensity",
+      "reference": "low",
+      "caption": "none",
+      "final_audio_label": "low",
+      "reward": 0.55,
+      "advantage": 0.9295107973363956,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "none",
+        "gender": "male",
+        "pitch_level": "low",
+        "transcript": "I totally get that you need to pay for your daughter’s education."
+      },
+      "reference_attributes": {
+        "emotion": "sad",
+        "emotion_intensity": "low",
+        "gender": "male",
+        "pitch_level": "low"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_123::2",
+      "field": "emotion_intensity",
+      "reference": "low",
+      "caption": "unknown",
+      "final_audio_label": "low",
+      "reward": 0.54,
+      "advantage": 0.8900620632319332,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "male",
+        "pitch_level": "low",
+        "transcript": "I totally get that you need to pay for your daughter’s education."
+      },
+      "reference_attributes": {
+        "emotion": "sad",
+        "emotion_intensity": "low",
+        "gender": "male",
+        "pitch_level": "low"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_123::5",
+      "field": "emotion_intensity",
+      "reference": "low",
+      "caption": "unknown",
+      "final_audio_label": "low",
+      "reward": 0.55,
+      "advantage": 0.9295107973363956,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "male",
+        "pitch_level": "low",
+        "transcript": "I totally get that you need to pay for your daughter's education."
+      },
+      "reference_attributes": {
+        "emotion": "sad",
+        "emotion_intensity": "low",
+        "gender": "male",
+        "pitch_level": "low"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_078::3",
+      "field": "emotion",
+      "reference": "sad",
+      "caption": "neutral",
+      "final_audio_label": "sad",
+      "reward": 1.0,
+      "advantage": 1.787645631990445,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "female",
+        "pitch_level": "unknown",
+        "transcript": "老公你妈真厉害原来这午饭都是四菜一汤的标准现在就剩这个了"
+      },
+      "reference_attributes": {
+        "emotion": "sad",
+        "emotion_intensity": "medium",
+        "gender": "female",
+        "pitch_level": "unknown"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_078::1",
+      "field": "emotion_intensity",
+      "reference": "medium",
+      "caption": "low",
+      "final_audio_label": "medium",
+      "reward": 0.7,
+      "advantage": 0.978145723164583,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "low",
+        "gender": "female",
+        "pitch_level": "medium",
+        "transcript": "老公你妈真厉害原来这午饭都是四菜一汤的标准现在就剩这狗了"
+      },
+      "reference_attributes": {
+        "emotion": "sad",
+        "emotion_intensity": "medium",
+        "gender": "female",
+        "pitch_level": "unknown"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_078::3",
+      "field": "emotion_intensity",
+      "reference": "medium",
+      "caption": "unknown",
+      "final_audio_label": "medium",
+      "reward": 1.0,
+      "advantage": 1.787645631990445,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "female",
+        "pitch_level": "unknown",
+        "transcript": "老公你妈真厉害原来这午饭都是四菜一汤的标准现在就剩这个了"
+      },
+      "reference_attributes": {
+        "emotion": "sad",
+        "emotion_intensity": "medium",
+        "gender": "female",
+        "pitch_level": "unknown"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_078::4",
+      "field": "emotion_intensity",
+      "reference": "medium",
+      "caption": "unknown",
+      "final_audio_label": "medium",
+      "reward": 0.7,
+      "advantage": 0.978145723164583,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "female",
+        "pitch_level": "unknown",
+        "transcript": "老公你妈真厉害原来这午饭都是四菜一汤的标准现在就剩这个了"
+      },
+      "reference_attributes": {
+        "emotion": "sad",
+        "emotion_intensity": "medium",
+        "gender": "female",
+        "pitch_level": "unknown"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_067::3",
+      "field": "pitch_level",
+      "reference": "high",
+      "caption": "unknown",
+      "final_audio_label": "high",
+      "reward": 0.775,
+      "advantage": 0.7745966692414833,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "low",
+        "gender": "female",
+        "pitch_level": "unknown",
+        "transcript": "那你把单子准备一下我开始给你走付款流程"
+      },
+      "reference_attributes": {
+        "emotion": "neutral",
+        "emotion_intensity": "none",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_067::1",
+      "field": "emotion_intensity",
+      "reference": "none",
+      "caption": "low",
+      "final_audio_label": "none",
+      "reward": 0.775,
+      "advantage": 0.7745966692414833,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "low",
+        "gender": "female",
+        "pitch_level": "unknown",
+        "transcript": "那你把单子准备一下,我开始给你走付款流程。"
+      },
+      "reference_attributes": {
+        "emotion": "neutral",
+        "emotion_intensity": "none",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_067::2",
+      "field": "emotion_intensity",
+      "reference": "none",
+      "caption": "unknown",
+      "final_audio_label": "none",
+      "reward": 0.775,
+      "advantage": 0.7745966692414833,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "female",
+        "pitch_level": "unknown",
+        "transcript": "那你把单子准备一下,我开始给你走付款流程。"
+      },
+      "reference_attributes": {
+        "emotion": "neutral",
+        "emotion_intensity": "none",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_067::3",
+      "field": "emotion_intensity",
+      "reference": "none",
+      "caption": "low",
+      "final_audio_label": "none",
+      "reward": 0.775,
+      "advantage": 0.7745966692414833,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "low",
+        "gender": "female",
+        "pitch_level": "unknown",
+        "transcript": "那你把单子准备一下我开始给你走付款流程"
+      },
+      "reference_attributes": {
+        "emotion": "neutral",
+        "emotion_intensity": "none",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_067::5",
+      "field": "emotion_intensity",
+      "reference": "none",
+      "caption": "low",
+      "final_audio_label": "none",
+      "reward": 0.775,
+      "advantage": 0.7745966692414833,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "low",
+        "gender": "female",
+        "pitch_level": "medium",
+        "transcript": "那你把单子准备一下我开始给你走付款流程"
+      },
+      "reference_attributes": {
+        "emotion": "neutral",
+        "emotion_intensity": "none",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_deear_033::5",
+      "field": "emotion_intensity",
+      "reference": "none",
+      "caption": "unknown",
+      "final_audio_label": "none",
+      "reward": 0.325,
+      "advantage": 2.6457513110645907,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "male",
+        "pitch_level": "high",
+        "transcript": "好的。你可以告诉他到Mac明天会来我家带一个星期。"
+      },
+      "reference_attributes": {
+        "emotion": "neutral",
+        "emotion_intensity": "none",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_301::3",
+      "field": "pitch_level",
+      "reference": "high",
+      "caption": "unknown",
+      "final_audio_label": "high",
+      "reward": 0.55,
+      "advantage": 0.5257109484445729,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "female",
+        "pitch_level": "unknown",
+        "transcript": "Yeah it's because I left again to test my luck to see if I could get further up and I ended up in second row second row and no I'm not kidding"
+      },
+      "reference_attributes": {
+        "emotion": "happy",
+        "emotion_intensity": "high",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_301::2",
+      "field": "emotion",
+      "reference": "happy",
+      "caption": "neutral",
+      "final_audio_label": "happy",
+      "reward": 1.0,
+      "advantage": 1.830924337686271,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "low",
+        "gender": "female",
+        "pitch_level": "high",
+        "transcript": "it's because I left again to test my luck to see if I could get further up and I ended up in second row, second row, and no I'm not kidding"
+      },
+      "reference_attributes": {
+        "emotion": "happy",
+        "emotion_intensity": "high",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_301::7",
+      "field": "emotion",
+      "reference": "happy",
+      "caption": "neutral",
+      "final_audio_label": "happy",
+      "reward": 0.775,
+      "advantage": 1.1783176430654219,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "female",
+        "pitch_level": "high",
+        "transcript": "yeah it's because I left again to test my luck to see if I could get further up and I ended up in second row second row and no I'm not kidding."
+      },
+      "reference_attributes": {
+        "emotion": "happy",
+        "emotion_intensity": "high",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_301::2",
+      "field": "emotion_intensity",
+      "reference": "high",
+      "caption": "low",
+      "final_audio_label": "high",
+      "reward": 1.0,
+      "advantage": 1.830924337686271,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "low",
+        "gender": "female",
+        "pitch_level": "high",
+        "transcript": "it's because I left again to test my luck to see if I could get further up and I ended up in second row, second row, and no I'm not kidding"
+      },
+      "reference_attributes": {
+        "emotion": "happy",
+        "emotion_intensity": "high",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_301::7",
+      "field": "emotion_intensity",
+      "reference": "high",
+      "caption": "unknown",
+      "final_audio_label": "high",
+      "reward": 0.775,
+      "advantage": 1.1783176430654219,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "female",
+        "pitch_level": "high",
+        "transcript": "yeah it's because I left again to test my luck to see if I could get further up and I ended up in second row second row and no I'm not kidding."
+      },
+      "reference_attributes": {
+        "emotion": "happy",
+        "emotion_intensity": "high",
+        "gender": "female",
+        "pitch_level": "high"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_255::4",
+      "field": "pitch_level",
+      "reference": "medium",
+      "caption": "unknown",
+      "final_audio_label": "medium",
+      "reward": 0.775,
+      "advantage": 1.2155624102628986,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "male",
+        "pitch_level": "unknown",
+        "transcript": "我们俩就是陪孩子吃个饭你何必小题大做搞得那么复杂呢"
+      },
+      "reference_attributes": {
+        "emotion": "surprised",
+        "emotion_intensity": "medium",
+        "gender": "male",
+        "pitch_level": "medium"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_255::0",
+      "field": "emotion",
+      "reference": "surprised",
+      "caption": "unknown",
+      "final_audio_label": "surprised",
+      "reward": 0.775,
+      "advantage": 1.2155624102628986,
+      "other_caption": {
+        "emotion": "unknown",
+        "emotion_intensity": "unknown",
+        "gender": "male",
+        "pitch_level": "unknown",
+        "transcript": "我们俩就是陪孩子吃个饭你何必小题大做搞得那么复杂呐"
+      },
+      "reference_attributes": {
+        "emotion": "surprised",
+        "emotion_intensity": "medium",
+        "gender": "male",
+        "pitch_level": "medium"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_255::0",
+      "field": "emotion_intensity",
+      "reference": "medium",
+      "caption": "unknown",
+      "final_audio_label": "medium",
+      "reward": 0.775,
+      "advantage": 1.2155624102628986,
+      "other_caption": {
+        "emotion": "unknown",
+        "emotion_intensity": "unknown",
+        "gender": "male",
+        "pitch_level": "unknown",
+        "transcript": "我们俩就是陪孩子吃个饭你何必小题大做搞得那么复杂呐"
+      },
+      "reference_attributes": {
+        "emotion": "surprised",
+        "emotion_intensity": "medium",
+        "gender": "male",
+        "pitch_level": "medium"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_255::1",
+      "field": "emotion_intensity",
+      "reference": "medium",
+      "caption": "low",
+      "final_audio_label": "medium",
+      "reward": 0.55,
+      "advantage": 0.2844933300615296,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "low",
+        "gender": "male",
+        "pitch_level": "high",
+        "transcript": "我们俩就是陪孩子吃个饭你何必小题大做搞得那么复杂了"
+      },
+      "reference_attributes": {
+        "emotion": "surprised",
+        "emotion_intensity": "medium",
+        "gender": "male",
+        "pitch_level": "medium"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_255::3",
+      "field": "emotion_intensity",
+      "reference": "medium",
+      "caption": "unknown",
+      "final_audio_label": "medium",
+      "reward": 0.55,
+      "advantage": 0.2844933300615296,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "male",
+        "pitch_level": "low",
+        "transcript": "我们俩就是陪孩子吃个饭,你何必小题大做搞得那么复杂嘛?"
+      },
+      "reference_attributes": {
+        "emotion": "surprised",
+        "emotion_intensity": "medium",
+        "gender": "male",
+        "pitch_level": "medium"
+      }
+    },
+    {
+      "round": 0,
+      "id": "random440_expressivespeech_255::4",
+      "field": "emotion_intensity",
+      "reference": "medium",
+      "caption": "unknown",
+      "final_audio_label": "medium",
+      "reward": 0.775,
+      "advantage": 1.2155624102628986,
+      "other_caption": {
+        "emotion": "neutral",
+        "emotion_intensity": "unknown",
+        "gender": "male",
+        "pitch_level": "unknown",
+        "transcript": "我们俩就是陪孩子吃个饭你何必小题大做搞得那么复杂呢"
+      },
+      "reference_attributes": {
+        "emotion": "surprised",
+        "emotion_intensity": "medium",
+        "gender": "male",
+        "pitch_level": "medium"
+      }
+    }
+  ],
+  "gemini_cache_all_scopes": {
+    "stats": {
+      "files": 4442,
+      "unknown": 1935,
+      "unknown_with_field_error": 0
+    },
+    "common_unknown_raw": [
+      [
+        "{\n  \"pitch_level\": \"unknown\"\n}",
+        1678
+      ],
+      [
+        "{\"pitch_level\": \"unknown\"}",
+        159
+      ],
+      [
+        "```json\n{\n  \"pitch_level\": \"unknown\"\n}\n```",
+        94
+      ],
+      [
+        "```json\n{\"pitch_level\": \"unknown\"}\n```",
+        4
+      ]
+    ]
+  }
+}

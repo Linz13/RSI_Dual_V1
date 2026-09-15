@@ -1,0 +1,184 @@
+{
+  "note": "Historical 300-sample run, not rerun during migration; current source contains later changes including transcript export.",
+  "label_sha256": "902834faca01e564dad2b0ab34c5849ff671a60fa75e31c79b59dac3a441979a",
+  "run_summary": {
+    "schema_version": "labeling2.v1",
+    "run_started_utc": "2026-08-03T18:36:12.767816+00:00",
+    "samples": 300,
+    "review_samples": 300,
+    "pending_review_count": 300,
+    "coverage": {
+      "environment.acoustic_scene": {
+        "resolved": 0,
+        "total": 300,
+        "rate": 0.0
+      },
+      "environment.background_sound_events": {
+        "resolved": 0,
+        "total": 300,
+        "rate": 0.0
+      },
+      "environment.recording_quality": {
+        "resolved": 202,
+        "total": 300,
+        "rate": 0.6733333333333333
+      },
+      "paralinguistic.emotion": {
+        "resolved": 300,
+        "total": 300,
+        "rate": 1.0
+      },
+      "paralinguistic.emotion_intensity": {
+        "resolved": 178,
+        "total": 300,
+        "rate": 0.5933333333333334
+      },
+      "paralinguistic.emphasis.emphasized_text": {
+        "resolved": 153,
+        "total": 300,
+        "rate": 0.51
+      },
+      "paralinguistic.emphasis.level": {
+        "resolved": 272,
+        "total": 300,
+        "rate": 0.9066666666666666
+      },
+      "paralinguistic.nonverbal_vocalization": {
+        "resolved": 166,
+        "total": 300,
+        "rate": 0.5533333333333333
+      },
+      "paralinguistic.pause": {
+        "resolved": 300,
+        "total": 300,
+        "rate": 1.0
+      },
+      "paralinguistic.pitch_level": {
+        "resolved": 300,
+        "total": 300,
+        "rate": 1.0
+      },
+      "paralinguistic.prosody": {
+        "resolved": 0,
+        "total": 300,
+        "rate": 0.0
+      },
+      "paralinguistic.speaking_rate": {
+        "resolved": 298,
+        "total": 300,
+        "rate": 0.9933333333333333
+      },
+      "paralinguistic.volume_level": {
+        "resolved": 300,
+        "total": 300,
+        "rate": 1.0
+      },
+      "semantic_content.intent": {
+        "resolved": 299,
+        "total": 300,
+        "rate": 0.9966666666666667
+      },
+      "semantic_content.language": {
+        "resolved": 300,
+        "total": 300,
+        "rate": 1.0
+      },
+      "semantic_content.topic": {
+        "resolved": 300,
+        "total": 300,
+        "rate": 1.0
+      },
+      "speaker_profile.accent": {
+        "resolved": 300,
+        "total": 300,
+        "rate": 1.0
+      },
+      "speaker_profile.age": {
+        "resolved": 289,
+        "total": 300,
+        "rate": 0.9633333333333334
+      },
+      "speaker_profile.gender": {
+        "resolved": 294,
+        "total": 300,
+        "rate": 0.98
+      },
+      "speaker_profile.timbre": {
+        "resolved": 299,
+        "total": 300,
+        "rate": 0.9966666666666667
+      }
+    },
+    "consensus_pass_rate": {
+      "passed": 1401,
+      "total": 1800,
+      "rate": 0.7783333333333333
+    },
+    "issue_counts": {
+      "open_resolution_pending": 1047,
+      "consensus_conflict": 399,
+      "expert_failed_or_language_unknown": 2,
+      "missing_or_invalid_single_source": 2
+    },
+    "error_types": {
+      "open_resolution_pending": 1047,
+      "consensus_conflict": 399,
+      "expert_failed_or_language_unknown": 2,
+      "missing_or_invalid_single_source": 2
+    },
+    "labels": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/runs/test_labeling_v1/full/final/labels.jsonl",
+    "provenance": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/runs/test_labeling_v1/full/final/provenance.jsonl",
+    "open_candidates": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/runs/test_labeling_v1/full/final/open_candidates.jsonl",
+    "review_queue": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/runs/test_labeling_v1/full/final/review_queue.jsonl"
+  },
+  "open_resolution_summary": {
+    "decisions": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/runs/test_labeling_v1/full/open_resolution/decisions.jsonl",
+    "fields": {
+      "environment.acoustic_scene": {
+        "resolution_rate": 0.6033333333333334,
+        "resolved": 181,
+        "statuses": {
+          "conflict": 119,
+          "resolved": 181
+        },
+        "total": 300
+      },
+      "environment.background_sound_events": {
+        "resolution_rate": 0.8833333333333333,
+        "resolved": 265,
+        "statuses": {
+          "conflict": 35,
+          "resolved": 265
+        },
+        "total": 300
+      },
+      "paralinguistic.emphasis.emphasized_text": {
+        "resolution_rate": 0.98,
+        "resolved": 294,
+        "statuses": {
+          "conflict": 6,
+          "resolved": 122,
+          "resolved_empty": 172
+        },
+        "total": 300
+      },
+      "paralinguistic.prosody": {
+        "resolution_rate": 0.9266666666666666,
+        "resolved": 278,
+        "statuses": {
+          "conflict": 22,
+          "resolved": 278
+        },
+        "total": 300
+      }
+    },
+    "fully_open_resolved_samples": 144,
+    "labels": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/runs/test_labeling_v1/full/final/labels_open_resolved.jsonl",
+    "provenance": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/runs/test_labeling_v1/full/final/provenance_open_resolved.jsonl",
+    "raw_predictions": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/runs/test_labeling_v1/full/open_resolution/raw_predictions.jsonl",
+    "review_queue": "/F00120250029/lixiang_share/Audio_caption_share/Experiment/labeling2/runs/test_labeling_v1/full/final/review_queue_open_resolved.jsonl",
+    "review_samples": 259,
+    "samples": 300,
+    "schema_version": "open_resolution.v1"
+  }
+}

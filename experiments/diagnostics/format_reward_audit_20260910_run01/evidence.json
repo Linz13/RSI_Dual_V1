@@ -1,0 +1,120 @@
+{
+  "checked_at": "2026-09-09T17:32:10.962646+00:00",
+  "scope": "Saved completed-round audio-only reward outputs; CPU only. No new model calls or training. Counts are saved flags, not reparsed with the proposed partial-field admission.",
+  "rounds": [
+    {
+      "round": 0,
+      "source": "/data/L202500147/Caption/DualISL_Train_RewardV4/runs/midasheng_7b_reward_v4_10rounds_optimized_run01/round_000/rewards/round_000_audio_rewards.output.jsonl",
+      "source_sha256": "b66b953c1db3b52d2665f6ce4c13a9570375b2742e611b7317787787a4bdde73",
+      "groups": 184,
+      "candidates": 736,
+      "raw_schema_valid": 96,
+      "safe_input_valid": 139,
+      "semantic_valid": 136,
+      "candidate_invalid_json": 264,
+      "grpo_groups": {
+        "schema_curriculum": 150,
+        "dual_semantic": 34
+      },
+      "nonzero_advantage_groups": {
+        "schema_curriculum": 141,
+        "dual_semantic": 34
+      }
+    },
+    {
+      "round": 1,
+      "source": "/data/L202500147/Caption/DualISL_Train_RewardV4/runs/midasheng_7b_reward_v4_10rounds_optimized_run01/round_001/rewards/round_001_audio_rewards.output.jsonl",
+      "source_sha256": "93293d23040c1320623b05d0bfe513df21c5eae0f2c052dc1d4054a445cd7df3",
+      "groups": 184,
+      "candidates": 736,
+      "raw_schema_valid": 89,
+      "safe_input_valid": 140,
+      "semantic_valid": 138,
+      "candidate_invalid_json": 281,
+      "grpo_groups": {
+        "schema_curriculum": 156,
+        "dual_semantic": 28
+      },
+      "nonzero_advantage_groups": {
+        "schema_curriculum": 150,
+        "dual_semantic": 28
+      }
+    },
+    {
+      "round": 2,
+      "source": "/data/L202500147/Caption/DualISL_Train_RewardV4/runs/midasheng_7b_reward_v4_10rounds_optimized_run01/round_002/rewards/round_002_audio_rewards.output.jsonl",
+      "source_sha256": "04899129a1bc061c7cf5f709927c553266bf5d9313fd9f2f1c17cb0551419dec",
+      "groups": 184,
+      "candidates": 736,
+      "raw_schema_valid": 116,
+      "safe_input_valid": 150,
+      "semantic_valid": 148,
+      "candidate_invalid_json": 248,
+      "grpo_groups": {
+        "dual_semantic": 32,
+        "schema_curriculum": 152
+      },
+      "nonzero_advantage_groups": {
+        "dual_semantic": 32,
+        "schema_curriculum": 146
+      }
+    },
+    {
+      "round": 3,
+      "source": "/data/L202500147/Caption/DualISL_Train_RewardV4/runs/midasheng_7b_reward_v4_10rounds_optimized_run01/round_003/rewards/round_003_audio_rewards.output.jsonl",
+      "source_sha256": "20598063adedbcb10183ec8669e813fca0c3cec57ce251265bdf9ba88fe29319",
+      "groups": 184,
+      "candidates": 736,
+      "raw_schema_valid": 134,
+      "safe_input_valid": 155,
+      "semantic_valid": 155,
+      "candidate_invalid_json": 234,
+      "grpo_groups": {
+        "dual_semantic": 43,
+        "schema_curriculum": 141
+      },
+      "nonzero_advantage_groups": {
+        "dual_semantic": 43,
+        "schema_curriculum": 138
+      }
+    },
+    {
+      "round": 4,
+      "source": "/data/L202500147/Caption/DualISL_Train_RewardV4/runs/midasheng_7b_reward_v4_10rounds_optimized_run01/round_004/rewards/round_004_audio_rewards.output.jsonl",
+      "source_sha256": "4f73e1fafc539f501e0eca6a980a884385e56e21689228be2ebc856b88e20af8",
+      "groups": 184,
+      "candidates": 736,
+      "raw_schema_valid": 33,
+      "safe_input_valid": 36,
+      "semantic_valid": 36,
+      "candidate_invalid_json": 381,
+      "grpo_groups": {
+        "schema_curriculum": 180,
+        "dual_semantic": 4
+      },
+      "nonzero_advantage_groups": {
+        "schema_curriculum": 163,
+        "dual_semantic": 4
+      }
+    },
+    {
+      "round": 5,
+      "source": "/data/L202500147/Caption/DualISL_Train_RewardV4/runs/midasheng_7b_reward_v4_10rounds_optimized_run01/round_005/rewards/round_005_audio_rewards.output.jsonl",
+      "source_sha256": "4b67b6ecdb8824759115c5543dd63116284e5478aa2aa678ecec4fe075fd5e94",
+      "groups": 184,
+      "candidates": 736,
+      "raw_schema_valid": 60,
+      "safe_input_valid": 58,
+      "semantic_valid": 58,
+      "candidate_invalid_json": 358,
+      "grpo_groups": {
+        "schema_curriculum": 178,
+        "dual_semantic": 6
+      },
+      "nonzero_advantage_groups": {
+        "schema_curriculum": 165,
+        "dual_semantic": 6
+      }
+    }
+  ]
+}

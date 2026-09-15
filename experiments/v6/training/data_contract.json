@@ -1,0 +1,108 @@
+{
+  "audio_records": 411,
+  "duration_seconds": 2669.3147114512453,
+  "excluded": [
+    {
+      "duration": 0.9,
+      "id": "random440_deear_053",
+      "reason": "duration"
+    },
+    {
+      "duration": 1.08,
+      "id": "random440_expressivespeech_149",
+      "reason": "duration"
+    },
+    {
+      "duration": 1.06,
+      "id": "random440_expressivespeech_316",
+      "reason": "duration"
+    },
+    {
+      "duration": 30.959625,
+      "id": "random440_expressivespeech_229",
+      "reason": "duration"
+    },
+    {
+      "duration": 1.04,
+      "id": "random440_deear_067",
+      "reason": "duration"
+    },
+    {
+      "duration": 38.743,
+      "id": "random440_expressivespeech_018",
+      "reason": "duration"
+    },
+    {
+      "duration": 1.14,
+      "id": "random440_expressivespeech_173",
+      "reason": "duration"
+    },
+    {
+      "duration": 1.06,
+      "id": "random440_expressivespeech_048",
+      "reason": "duration"
+    }
+  ],
+  "external_overlap_manifests": [],
+  "records_sha256": "c316ae6b0b18d960c96ce0d4e26485f5863fe523821fe5ba254348d71de79d39",
+  "source_records": {
+    "audio_only": 184,
+    "caption_only": 196,
+    "paired": 39
+  },
+  "transcript_conflicts_with_old_manifest": [
+    "random440_expressivespeech_070",
+    "random440_expressivespeech_129",
+    "random440_expressivespeech_123",
+    "random440_expressivespeech_054",
+    "random440_expressivespeech_291",
+    "random440_expressivespeech_112",
+    "random440_expressivespeech_085",
+    "random440_expressivespeech_082",
+    "random440_expressivespeech_022",
+    "random440_expressivespeech_044",
+    "random440_expressivespeech_206",
+    "random440_expressivespeech_133",
+    "random440_expressivespeech_244",
+    "random440_deear_025",
+    "random440_expressivespeech_207",
+    "random440_expressivespeech_012",
+    "random440_expressivespeech_239",
+    "random440_expressivespeech_081",
+    "random440_expressivespeech_191",
+    "random440_expressivespeech_242",
+    "random440_expressivespeech_243",
+    "random440_expressivespeech_184",
+    "random440_expressivespeech_015",
+    "random440_expressivespeech_052",
+    "random440_expressivespeech_339",
+    "random440_expressivespeech_051",
+    "random440_expressivespeech_300",
+    "random440_expressivespeech_302",
+    "random440_deear_060",
+    "random440_expressivespeech_331",
+    "random440_expressivespeech_058",
+    "random440_expressivespeech_049",
+    "random440_expressivespeech_332",
+    "random440_expressivespeech_172",
+    "random440_expressivespeech_232",
+    "random440_expressivespeech_030",
+    "random440_expressivespeech_061",
+    "random440_expressivespeech_097",
+    "random440_expressivespeech_060",
+    "random440_expressivespeech_114",
+    "random440_expressivespeech_297",
+    "random440_expressivespeech_221",
+    "random440_expressivespeech_213",
+    "random440_expressivespeech_131",
+    "random440_expressivespeech_330",
+    "random440_expressivespeech_032",
+    "random440_expressivespeech_324",
+    "random440_expressivespeech_034",
+    "random440_expressivespeech_328",
+    "random440_expressivespeech_226",
+    "random440_expressivespeech_241",
+    "random440_expressivespeech_036"
+  ],
+  "transcript_policy": "prefer_qwen_asr_completed_original_labels; missing references use ASR"
+}

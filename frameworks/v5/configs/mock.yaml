@@ -1,0 +1,54 @@
+run:
+  output_dir: ../runs/mock
+  seed: 42
+  inline_mock: true
+distributed: {enabled: false, world_size: 1, backend: gloo}
+data:
+  paired_path: ../tests/fixtures/paired.jsonl
+  audio_only_path: ../tests/fixtures/audio_only.jsonl
+  caption_only_path: ../tests/fixtures/caption_only.jsonl
+  strict_disjoint: true
+  hash_audio: false
+  duration: {min: 0.0, max: 20.0}
+captioner:
+  python: /usr/bin/python3
+  worker_module: dual_isl_train.workers.mock
+  model_path: mock-captioner
+  adapter_path: ""
+  generation: {max_attempts_per_candidate: 1, rollout_batch_size: 4, temperature: 1.0, top_p: 1.0, top_k: 0}
+  training:
+    replay_batch_size: 4
+    phases:
+      grpo: {epochs: 1, shuffle: false}
+      cycle_sft: {epochs: 1, shuffle: false}
+tts:
+  python: /usr/bin/python3
+  worker_module: dual_isl_train.workers.mock
+  model_path: mock-tts
+  tokenizer_path: mock-tokenizer
+  codec_cache_dir: ../runs/mock_codec_cache
+  adapter_path: ""
+  num_codebooks: 16
+  training:
+    phases:
+      grpo: {epochs: 1, shuffle: false}
+      cycle_sft: {epochs: 1, shuffle: false}
+critics:
+  python: /usr/bin/python3
+  worker_module: dual_isl_train.workers.mock
+training: {rounds: 3, group_size: 4, warmstart: false, anchor_mode: all_paired_once}
+reward:
+  calibration: {method: round0_dual_counterfactual_zscore}
+  counterfactuals_per_candidate: 3
+  anchor_penalty_weight: 0.25
+  anchor_tolerance_z: 0.5
+  cycle_sft_selection: semantic_top1
+  # Diagnostic only: never blocks V4 cycle-SFT.
+  sft_gate: {diagnostic_only: true, target_precision: 0.90, min_recall: 0.25}
+  validity:
+    audio_only: {min_asr_score: 0.0}
+    caption_only: {min_audio_health: 0.5, min_asr_score: 0.0}
+  audio_only: {reconstruction_weight: 0.5, counterfactual_weight: 0.5}
+  caption_only: {reconstruction_weight: 0.5, counterfactual_weight: 0.5}
+synchronization: {rtol: 1.0e-6, atol: 1.0e-7}
+evaluation: {enabled: false}

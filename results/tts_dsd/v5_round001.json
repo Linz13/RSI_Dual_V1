@@ -1,0 +1,42 @@
+{
+  "benchmark": "InstructTTSEval DSD",
+  "candidate": "v5",
+  "round": 1,
+  "complete": true,
+  "smoke": false,
+  "expected": 2000,
+  "scored": 2000,
+  "metrics": {
+    "en": {
+      "expected": 1000,
+      "valid": 1000,
+      "scored": 1000,
+      "true": 791,
+      "percentage": 79.1,
+      "coverage_percentage": 100.0
+    },
+    "zh": {
+      "expected": 1000,
+      "valid": 1000,
+      "scored": 1000,
+      "true": 816,
+      "percentage": 81.6,
+      "coverage_percentage": 100.0
+    }
+  },
+  "bilingual_percentage": 80.35,
+  "base_bilingual_percentage": 80.9,
+  "base_summary_path": "/data/L202500147/Caption/benchmark/InstructTTSEval-public/qwen3_voice_design/runs/base/full_bilingual_seed42/evaluation_gemini_2_5_pro_audio_api/summary.json",
+  "judge_model": "models/gemini-2.5-pro",
+  "usage": {
+    "input_tokens": 2574555,
+    "output_tokens": 465782,
+    "thinking_tokens": 3157090,
+    "billable_output_tokens": 3622872,
+    "cost_basis": "recorded_successful_responses_including_thinking; excludes unrecorded retries",
+    "input_price_per_million_usd": 1.25,
+    "output_price_per_million_usd": 10.0,
+    "estimated_cost_usd": 39.446914
+  },
+  "note": "API provider changed; original Gemini-2.5-Pro model and judging prompt/settings retained."
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "dual_isl_train.v3",
+  "type": "object",
+  "required": ["Target_JSON_Schema"],
+  "additionalProperties": false,
+  "properties": {
+    "Target_JSON_Schema": {
+      "type": "object",
+      "required": ["semantic_content", "speaker_profile", "paralinguistic", "environment"],
+      "additionalProperties": false,
+      "properties": {
+        "semantic_content": {
+          "type": "object",
+          "required": ["language", "transcript", "topic", "intent"],
+          "additionalProperties": false,
+          "properties": {
+            "language": {"enum": ["English", "Chinese", "other", "unknown"]},
+            "transcript": {"type": "string", "minLength": 1},
+            "topic": {"type": "string", "minLength": 1},
+            "intent": {"$ref": "#/$defs/intent"}
+          }
+        },
+        "speaker_profile": {
+          "type": "object",
+          "required": ["gender", "age", "timbre", "accent"],
+          "additionalProperties": false,
+          "properties": {
+            "gender": {"enum": ["male", "female", "unknown"]},
+            "age": {"enum": ["child", "teenager", "adult", "elderly", "unknown"]},
+            "timbre": {"enum": ["neutral", "breathy", "rough", "creaky", "strained", "nasal", "bright", "dark", "other", "unknown"]},
+            "accent": {"$ref": "#/$defs/accent"}
+          }
+        },
+        "paralinguistic": {
+          "type": "object",
+          "required": ["speaking_rate", "pitch_level", "volume_level", "emotion", "emotion_intensity", "emphasis", "prosody", "pause", "nonverbal_vocalization"],
+          "additionalProperties": false,
+          "properties": {
+            "speaking_rate": {"enum": ["slow", "moderate", "fast", "unknown"]},
+            "pitch_level": {"enum": ["low", "medium", "high", "unknown"]},
+            "volume_level": {"enum": ["low", "medium", "high", "unknown"]},
+            "emotion": {"enum": ["neutral", "happy", "sad", "angry", "fearful", "surprised", "disgusted", "other", "unknown"]},
+            "emotion_intensity": {"enum": ["none", "low", "medium", "high", "unknown"]},
+            "emphasis": {
+              "type": "object",
+              "required": ["level", "emphasized_text"],
+              "additionalProperties": false,
+              "properties": {
+                "level": {"enum": ["none", "emphasized", "heavily emphasized", "unknown"]},
+                "emphasized_text": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+              }
+            },
+            "prosody": {"type": "string", "minLength": 1},
+            "pause": {"type": "string", "minLength": 1},
+            "nonverbal_vocalization": {"$ref": "#/$defs/nonverbalList"}
+          }
+        },
+        "environment": {
+          "type": "object",
+          "required": ["background_sound_events", "recording_quality", "acoustic_scene"],
+          "additionalProperties": false,
+          "properties": {
+            "background_sound_events": {"$ref": "#/$defs/backgroundList"},
+            "recording_quality": {"enum": ["bad", "poor", "fair", "good", "excellent", "unknown"]},
+            "acoustic_scene": {"type": "string", "minLength": 1}
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "intent": {"enum": ["statement", "question", "request", "command", "suggestion", "greeting", "thanks", "apology", "acknowledgment", "refusal", "other", "unknown"]},
+    "accent": {"enum": ["US English", "England English", "Australian English", "Indian English", "Canadian English", "Bermudian English", "Scottish English", "African English", "Irish English", "New Zealand English", "Welsh English", "Malaysian English", "Philippine English", "Singapore English", "Hong Kong English", "South Atlantic English", "Mandarin", "Jiang-Huai Mandarin", "Jiao-Liao Mandarin", "Ji-Lu Mandarin", "Lan-Yin Mandarin", "Southwestern Mandarin", "Zhongyuan Mandarin", "Cantonese", "other", "unknown"]},
+    "nonverbalList": {
+      "oneOf": [
+        {"const": ["none"]}, {"const": ["unknown"]},
+        {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["laughter", "sigh", "crying", "sobbing", "cough", "throat clearing", "audible breath", "sneeze", "sniff", "yawn", "scream", "filled pause", "agreement sound", "other"]}}
+      ]
+    },
+    "backgroundList": {
+      "oneOf": [
+        {"const": ["none"]}, {"const": ["unknown"]},
+        {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}, "not": {"contains": {"enum": ["none", "unknown"]}}}
+      ]
+    }
+  }
+}
+

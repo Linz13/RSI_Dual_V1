@@ -1,0 +1,20 @@
+extends: train_8gpu_h100.yaml
+
+run:
+  output_dir: ../runs/dual_recursive_8gpu_h100_qwen_from_r2
+
+captioner:
+  adapter_path: ../runs/dual_recursive_8gpu_h100_20260829_run01/round_002/checkpoints/caption_final
+
+tts:
+  adapter_path: ../runs/dual_recursive_8gpu_h100_20260829_run01/round_002/checkpoints/tts_final
+  codec_cache_dir: $DUALISL_RUN_DIR/codec_cache/qwen3tts_12hz
+
+training:
+  rounds: 2
+  round_offset: 3
+
+reward:
+  calibration:
+    method: round0_global_zscore
+    initial_path: ../runs/dual_recursive_8gpu_h100_20260829_run01/reward_calibration.json

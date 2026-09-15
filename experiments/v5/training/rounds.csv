@@ -1,0 +1,4 @@
+round_index,training_round,caption_anchor_rows,collections_complete_before_update,evaluation,frozen_anchor_captioner,frozen_anchor_tts,input_captioner,input_tts,reward_calibration,round,same_round_start,tts_anchor_rows
+0,1,39,True,disabled; checkpoints are benchmark-ready,,,,,/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/reward_calibration.json,0,True,39
+1,2,39,True,disabled; checkpoints are benchmark-ready,,,,,/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/reward_calibration.json,1,True,39
+2,3,39,True,disabled; checkpoints are benchmark-ready,,,,,/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/reward_calibration.json,2,True,39

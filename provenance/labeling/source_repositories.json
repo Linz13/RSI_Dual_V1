@@ -1,0 +1,27 @@
+{
+  "Kimi-Audio": {
+    "upstream": "https://github.com/MoonshotAI/Kimi-Audio",
+    "commit": "349251e1d8f4f98d58fda59246381faecd7392e0",
+    "tracked_changes": "kimia_infer/api/kimia.py                           |  4 +-\n kimia_infer/api/prompt_manager.py                  | 10 +++-\n kimia_infer/models/tokenizer/glm4_tokenizer.py     | 20 +++++++-\n .../tokenizer/whisper_Lv3/modeling_whisper.py      | 60 +++++++++++++++++++---\n .../models/tokenizer/whisper_Lv3/whisper.py        |  6 ++-\n 5 files changed, 85 insertions(+), 15 deletions(-)"
+  },
+  "Kimi-GLM4": {
+    "upstream": "https://github.com/THUDM/GLM-4-Voice",
+    "commit": "eb00ce9142e8d98b0ed7c57cd47e0d6d5dce9a1a",
+    "tracked_changes": ""
+  },
+  "Step-Audio-R1": {
+    "upstream": "https://github.com/stepfun-ai/Step-Audio-R1",
+    "commit": "bb5a3b4678ff3ea971360a64dc9d1cec033535be",
+    "tracked_changes": "__pycache__/stepaudior1vllm.cpython-310.pyc | Bin 6123 -> 8472 bytes\n examples-vllm_r1.py                         |   9 +--\n stepaudior1vllm.py                          | 105 ++++++++++++++++++----------\n 3 files changed, 73 insertions(+), 41 deletions(-)"
+  },
+  "step-vllm": {
+    "upstream": "https://github.com/stepfun-ai/vllm",
+    "commit": "9ecabf22f542a2dd2962527a7eb9359021b3cc9f",
+    "tracked_changes": ""
+  },
+  "voxlect": {
+    "upstream": "https://github.com/tiantiaf0627/voxlect",
+    "commit": "271ae21e8d54947941874a172d32ed2ea2ebf479",
+    "tracked_changes": ""
+  }
+}

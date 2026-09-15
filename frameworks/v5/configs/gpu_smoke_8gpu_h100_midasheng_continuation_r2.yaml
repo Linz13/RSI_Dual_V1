@@ -1,0 +1,41 @@
+extends: gpu_smoke_8gpu_h100.yaml
+
+run:
+  output_dir: ../runs/gpu_smoke_8gpu_h100_midasheng_from_r2
+
+captioner:
+  python: ../../../miniconda3/envs/midasheng-captioner/bin/python
+  worker_module: scripts.midasheng_captioner_candidate
+  model_path: ../../models/MiDashengLM-7B-1021-BF16
+  adapter_path: ../runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_002/checkpoints/caption_final
+  dtype: bfloat16
+  attn_implementation: sdpa
+  gradient_checkpointing: true
+  generation:
+    max_new_tokens: 384
+    rollout_batch_size: 1
+    temperature: 1.0
+    top_p: 1.0
+    top_k: 0
+    max_attempts_per_candidate: 1
+  lora:
+    r: 4
+    alpha: 8
+    dropout: 0.0
+    target_modules: "^decoder\\.model\\.layers\\.\\d+\\.(self_attn\\.(q_proj|k_proj|v_proj|o_proj)|mlp\\.(gate_proj|up_proj|down_proj))$|^audio_projector\\.net\\.(0|2)$"
+  training:
+    replay_batch_size: 1
+    grpo_backward_chunk_tokens: 16
+
+tts:
+  adapter_path: ../runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/round_002/checkpoints/tts_final
+  codec_cache_dir: $DUALISL_RUN_DIR/codec_cache/qwen3tts_12hz
+
+training:
+  rounds: 1
+  round_offset: 3
+
+reward:
+  calibration:
+    method: round0_global_zscore
+    initial_path: ../runs/dual_recursive_4gpu_h100_midasheng_20260830_run01/reward_calibration.json

@@ -1,0 +1,315 @@
+{
+  "complete": true,
+  "plan_hash": "0dd5e2a91599b844463ccddc914961ef559c1bcd2083f1e4f58f71a3f6679f68",
+  "all": {
+    "candidates": 432,
+    "comparable_groups": 153,
+    "metrics": {
+      "wavlm_sbs": {
+        "scores": {
+          "count": 432,
+          "mean": 0.6929191549982332,
+          "median": 0.6979535774562671,
+          "p10": 0.5983827976030794,
+          "p90": 0.7867165327004418
+        },
+        "group_spans": {
+          "count": 153,
+          "mean": 0.05293871049937241,
+          "median": 0.04365890103048331,
+          "p10": 0.009190242298948093,
+          "p90": 0.10435614221536056
+        },
+        "reference_reward_top_overlap_groups": 86
+      },
+      "xlsr_cosine": {
+        "scores": {
+          "count": 432,
+          "mean": 0.9243352869870486,
+          "median": 0.9295592904090881,
+          "p10": 0.8772807061672211,
+          "p90": 0.962774270772934
+        },
+        "group_spans": {
+          "count": 153,
+          "mean": 0.03006813261244032,
+          "median": 0.024139761924743652,
+          "p10": 0.00533062219619751,
+          "p90": 0.06304113864898683
+        },
+        "reference_reward_top_overlap_groups": 91
+      },
+      "wavlm_cosine": {
+        "scores": {
+          "count": 432,
+          "mean": 0.9238057365572011,
+          "median": 0.9365234076976776,
+          "p10": 0.8597838044166565,
+          "p90": 0.9710556626319885
+        },
+        "group_spans": {
+          "count": 153,
+          "mean": 0.036495807903264864,
+          "median": 0.022311866283416748,
+          "p10": 0.004782497882843018,
+          "p90": 0.08486903905868545
+        },
+        "reference_reward_top_overlap_groups": 98
+      },
+      "xlsr_sbs": {
+        "scores": {
+          "count": 432,
+          "mean": 0.6813124157776089,
+          "median": 0.6787207773080457,
+          "p10": 0.6112428215007057,
+          "p90": 0.7562894668001706
+        },
+        "group_spans": {
+          "count": 153,
+          "mean": 0.0471265973727265,
+          "median": 0.04019494865301809,
+          "p10": 0.008361788719954345,
+          "p90": 0.09492816154888874
+        },
+        "reference_reward_top_overlap_groups": 89
+      }
+    },
+    "main_metrics_disagree_groups": 73
+  },
+  "transcript_matched": {
+    "candidates": 171,
+    "comparable_groups": 51,
+    "metrics": {
+      "wavlm_sbs": {
+        "scores": {
+          "count": 171,
+          "mean": 0.7383161540639747,
+          "median": 0.734568203196806,
+          "p10": 0.6743539623356083,
+          "p90": 0.8101459521252962
+        },
+        "group_spans": {
+          "count": 51,
+          "mean": 0.041148303219281285,
+          "median": 0.03255755454967735,
+          "p10": 0.012880450671971522,
+          "p90": 0.07342028525805377
+        },
+        "reference_reward_top_overlap_groups": 32
+      },
+      "xlsr_cosine": {
+        "scores": {
+          "count": 171,
+          "mean": 0.9417053959523028,
+          "median": 0.9484284520149231,
+          "p10": 0.9065822958946228,
+          "p90": 0.9664283990859985
+        },
+        "group_spans": {
+          "count": 51,
+          "mean": 0.018863647591833975,
+          "median": 0.015275835990905762,
+          "p10": 0.0038800835609436035,
+          "p90": 0.03426253795623779
+        },
+        "reference_reward_top_overlap_groups": 28
+      },
+      "wavlm_cosine": {
+        "scores": {
+          "count": 171,
+          "mean": 0.949278866338451,
+          "median": 0.9557536244392395,
+          "p10": 0.9117909073829651,
+          "p90": 0.9780464172363281
+        },
+        "group_spans": {
+          "count": 51,
+          "mean": 0.019132085874968886,
+          "median": 0.010715603828430176,
+          "p10": 0.003861725330352783,
+          "p90": 0.04021334648132324
+        },
+        "reference_reward_top_overlap_groups": 32
+      },
+      "xlsr_sbs": {
+        "scores": {
+          "count": 171,
+          "mean": 0.7123898476450296,
+          "median": 0.7124112553957129,
+          "p10": 0.6488900793604104,
+          "p90": 0.7749336438301282
+        },
+        "group_spans": {
+          "count": 51,
+          "mean": 0.04014596004837043,
+          "median": 0.04054814799303108,
+          "p10": 0.009940104971735808,
+          "p90": 0.06513701818252449
+        },
+        "reference_reward_top_overlap_groups": 31
+      }
+    },
+    "main_metrics_disagree_groups": 18
+  },
+  "by_language": {
+    "Chinese": {
+      "candidates": 68,
+      "comparable_groups": 19,
+      "metrics": {
+        "wavlm_sbs": {
+          "scores": {
+            "count": 68,
+            "mean": 0.7059387141129605,
+            "median": 0.7126571936931002,
+            "p10": 0.6584507020763126,
+            "p90": 0.7480360883203977
+          },
+          "group_spans": {
+            "count": 19,
+            "mean": 0.03795433846987712,
+            "median": 0.03255755454967735,
+            "p10": 0.014675453535987959,
+            "p90": 0.07130057546989521
+          },
+          "reference_reward_top_overlap_groups": 10
+        },
+        "xlsr_cosine": {
+          "scores": {
+            "count": 68,
+            "mean": 0.9348897627171349,
+            "median": 0.9448218941688538,
+            "p10": 0.8947555959224701,
+            "p90": 0.9613591134548187
+          },
+          "group_spans": {
+            "count": 19,
+            "mean": 0.02162603955519827,
+            "median": 0.01877129077911377,
+            "p10": 0.005790746212005616,
+            "p90": 0.04028042554855347
+          },
+          "reference_reward_top_overlap_groups": 10
+        },
+        "wavlm_cosine": {
+          "scores": {
+            "count": 68,
+            "mean": 0.9322250722085729,
+            "median": 0.9422654807567596,
+            "p10": 0.9009601950645447,
+            "p90": 0.9561724185943603
+          },
+          "group_spans": {
+            "count": 19,
+            "mean": 0.02776720021900378,
+            "median": 0.02141249179840088,
+            "p10": 0.006886541843414307,
+            "p90": 0.06303910017013549
+          },
+          "reference_reward_top_overlap_groups": 12
+        },
+        "xlsr_sbs": {
+          "scores": {
+            "count": 68,
+            "mean": 0.7055570624962354,
+            "median": 0.7099348647747752,
+            "p10": 0.6504192570130227,
+            "p90": 0.7628271645127696
+          },
+          "group_spans": {
+            "count": 19,
+            "mean": 0.0398102419778666,
+            "median": 0.04153552143724215,
+            "p10": 0.0180848328491632,
+            "p90": 0.06150467560326478
+          },
+          "reference_reward_top_overlap_groups": 11
+        }
+      },
+      "main_metrics_disagree_groups": 6
+    },
+    "English": {
+      "candidates": 103,
+      "comparable_groups": 32,
+      "metrics": {
+        "wavlm_sbs": {
+          "scores": {
+            "count": 103,
+            "mean": 0.7596915513131879,
+            "median": 0.7676152938451523,
+            "p10": 0.6996305377604951,
+            "p90": 0.8230770954400359
+          },
+          "group_spans": {
+            "count": 32,
+            "mean": 0.04304471978924,
+            "median": 0.03355228889796397,
+            "p10": 0.012995143762994942,
+            "p90": 0.07686093776440579
+          },
+          "reference_reward_top_overlap_groups": 22
+        },
+        "xlsr_cosine": {
+          "scores": {
+            "count": 103,
+            "mean": 0.9462050373114429,
+            "median": 0.951567530632019,
+            "p10": 0.9176842451095581,
+            "p90": 0.9688060402870178
+          },
+          "group_spans": {
+            "count": 32,
+            "mean": 0.017223477363586426,
+            "median": 0.013634145259857178,
+            "p10": 0.0022078037261962892,
+            "p90": 0.03386309742927551
+          },
+          "reference_reward_top_overlap_groups": 18
+        },
+        "wavlm_cosine": {
+          "scores": {
+            "count": 103,
+            "mean": 0.9605376818805065,
+            "median": 0.9668743014335632,
+            "p10": 0.942329216003418,
+            "p90": 0.9803378582000732
+          },
+          "group_spans": {
+            "count": 32,
+            "mean": 0.014004986733198166,
+            "median": 0.009322017431259155,
+            "p10": 0.0032721221446990966,
+            "p90": 0.0249070167541504
+          },
+          "reference_reward_top_overlap_groups": 20
+        },
+        "xlsr_sbs": {
+          "scores": {
+            "count": 103,
+            "mean": 0.7169008125976314,
+            "median": 0.71544189453125,
+            "p10": 0.6498630911129198,
+            "p90": 0.7807246441612768
+          },
+          "group_spans": {
+            "count": 32,
+            "mean": 0.04034529265273207,
+            "median": 0.04023622312009606,
+            "p10": 0.010043760831335102,
+            "p90": 0.07280902465273817
+          },
+          "reference_reward_top_overlap_groups": 20
+        }
+      },
+      "main_metrics_disagree_groups": 12
+    }
+  },
+  "notes": [
+    "Scores are raw cosine-based values in [-1,1]; reward mapping would be (1+score)/2.",
+    "Transcript filter uses cached model labels, normalized character edit distance <=0.1, not a fresh ASR evaluation.",
+    "Agreement with the existing reconstruction reward is not human correctness.",
+    "Both encoders use hidden_states[14], float32, eager attention, checkpoint waveform normalization.",
+    "SpeechBERTScore precision formula follows upstream; normalized input differs from upstream raw-wave demo.",
+    "No training, synthesis or API calls. Single-rollout comparisons do not establish training gains."
+  ],
+  "listening_groups": 20
+}
