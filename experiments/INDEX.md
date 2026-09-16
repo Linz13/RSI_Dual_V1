@@ -4,6 +4,7 @@
 
 | 实验 | 要回答的问题 | 结果与证据 |
 |---|---|---|
+| 独立双向评分 pilot（无训练） | TTS 能否排序真实语音的描述，Captioner 能否排序同条件生成语音？ | [实验与运行入口](bidirectional_scoring/README.md)、[pilot30 结果分析](bidirectional_scoring/results/pilot30/reports/v1_review/analysis.md)、[完整汇总](bidirectional_scoring/results/pilot30/reports/v1/summary.json) |
 | V5 双循环训练 | 属性重建奖励下，两模型能否随迭代改善？ | [实验设置](v5/README.md)、[Captioner](../results/CAPTIONER.md)、[TTS](../results/TTS_DSD.md) |
 | V6 四属性 audio-only | 缩小属性空间、移除另一个循环和 anchor 后如何？ | [实验设置](v6/README.md)、[十轮统计](v6/training/rounds.csv) |
 | V6 前三轮机制诊断 | 强裁判为何不保证 Captioner 属性能力提升？ | [分析](diagnostics/v6_captioner_diagnosis_round000_002/README.md)、[结构化证据](diagnostics/v6_captioner_diagnosis_round000_002/analysis.json) |
@@ -17,6 +18,7 @@
 
 ## 已有结果支持到什么程度
 
+- 双向评分 pilot 只检验情绪：A 正确描述严格第一 9/25（36%），B 命中人工最佳 13/23（56.5%，随机 33.7%）。B 有初步正向信号，A 尚未支持可靠选优；不能推断互相训练必然提升。人工无法判断／全部不合格不进入主指标，A 非语言转写标记作为尚未验证影响的干扰单列。
 - V6 十轮 Captioner 的 EmotionTalk 指标有小幅变化，ParaSpeechCaps 并未相应改善；不支持“多轮训练必然全面提升”的结论。完整数字见总表。
 - V5 loss 探测完成 704 次评分、其中 432 条候选。loss 权重 0.1 / 0.2 时，116 个可比较组没有改变第一名；0.3 时改变 3 组。参考指令与错误性别指令比较为 16:16，不足以仅通过提高权重就确认该信号有效。
 - 音频相似度实验比较 432 对音频。不同指标确实产生不同排序；分差更大或与属性 reward 一致，不等于更接近人的听感。该实验没有证明某个指标已改善正式训练。

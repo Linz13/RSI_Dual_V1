@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "provenance_files_verified": 146,
+  "results": [
+    {
+      "run": "smoke01",
+      "a_valid": 4,
+      "a_strict_first": 4,
+      "a_pairwise": {
+        "win": 12,
+        "loss": 0,
+        "tie": 0
+      },
+      "b_scored": 4,
+      "b_comparable": 4,
+      "b_agreement": 0.5,
+      "b_random_baseline": 0.625,
+      "recomputed_scores_including_controls": 40,
+      "max_mean_error": 0.0
+    },
+    {
+      "run": "pilot30",
+      "a_valid": 25,
+      "a_strict_first": 9,
+      "a_pairwise": {
+        "win": 51,
+        "loss": 24,
+        "tie": 0
+      },
+      "b_scored": 30,
+      "b_comparable": 23,
+      "b_agreement": 0.5652173913043478,
+      "b_random_baseline": 0.33695652173913043,
+      "recomputed_scores_including_controls": 228,
+      "max_mean_error": 0.0
+    }
+  ],
+  "scope": "saved text artifacts only; no audio verification, model loading, GPU, training or API",
+  "verified_utc": "2026-09-16T03:19:21.606739+00:00",
+  "lightweight_tests": {
+    "unittest_count": 20,
+    "unittest_status": "passed",
+    "ui_status": "passed",
+    "models_loaded": false
+  }
+}

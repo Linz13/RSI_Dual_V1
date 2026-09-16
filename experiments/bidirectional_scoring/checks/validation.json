@@ -1,0 +1,83 @@
+{
+  "passed": true,
+  "unit_tests": 12,
+  "ui_harness_passed": true,
+  "audio_files_verified": 20,
+  "annotation_zip_valid": true,
+  "model_runs": 0,
+  "gpu_initialized": false,
+  "smoke_manifest_id": "f57ba8f601006f22803e87d74bf612935123caf4b4d3d1854c3f98c08bf3c32c",
+  "source_files_sha256": {
+    "common.py": "9984816b9594695ea600a0fbc9f2358ec549a710c645a06f9a684099cd0c7016",
+    "generate_b.py": "c472b1a50ffb7205f570ec86393beb12c56e0788477dc034e942a85cf1fa27e3",
+    "model_interfaces.py": "18d4af790221d1038f97f7e20b6240de636b69991d8b5a6c58c61f88fa456433",
+    "pilot.py": "6e873aa70c28fea0cb8078263ac6afc6d6483335cd70f8f90d8759ae79701e22",
+    "prepare_pilot.py": "725d1880dbefded466a09290e2f74af12ca957d6e9ff9fdbc5ffe8bb981a9f27",
+    "qwen_conditioning.py": "19b8f90a03395f6c2adbeb428123246334d88d6d6b4b3b9c2c05924d6bff595d",
+    "score_a.py": "0f768707504a9ffbcbf824d61229f2303e39572d607c3cee18cc21a891a21c79",
+    "score_b.py": "77ac8e1798e5e8a1d0e5c86cebe6540f9decf6099d28456ac6182ff51293dafa",
+    "scoring.py": "731ff362a70e744d4c5b89cb5e6437d56afb64a7df6ec52277d1ae6f84f61975",
+    "serve.py": "94d829dee3810eb1629957ba269d3d82da4014d2fa008cca3f341af7da5fdd2f",
+    "summarize.py": "554f9fdf0dd2a3dcfaf12b001e4b789e0cccf17daca78193b6ea4e8a04a03f35"
+  },
+  "processor_contract": {
+    "passed": true,
+    "model_loaded": false,
+    "cuda_initialized": false,
+    "all16_token_mean_fixture": true,
+    "records": [
+      {
+        "emotion": "happy",
+        "target_tokens": 6,
+        "prefix_tokens": 120,
+        "suffix_ids": [
+          151645,
+          198
+        ],
+        "audio_shape": [
+          1,
+          138240
+        ]
+      },
+      {
+        "emotion": "sad",
+        "target_tokens": 6,
+        "prefix_tokens": 120,
+        "suffix_ids": [
+          151645,
+          198
+        ],
+        "audio_shape": [
+          1,
+          138240
+        ]
+      },
+      {
+        "emotion": "angry",
+        "target_tokens": 6,
+        "prefix_tokens": 120,
+        "suffix_ids": [
+          151645,
+          198
+        ],
+        "audio_shape": [
+          1,
+          138240
+        ]
+      },
+      {
+        "emotion": "neutral",
+        "target_tokens": 6,
+        "prefix_tokens": 120,
+        "suffix_ids": [
+          151645,
+          198
+        ],
+        "audio_shape": [
+          1,
+          138240
+        ]
+      }
+    ]
+  }
+}

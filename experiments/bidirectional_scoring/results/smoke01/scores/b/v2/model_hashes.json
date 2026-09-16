@@ -1,0 +1,9 @@
+{
+  "stat_identity": "bd4971d1de1e3edaf2a2bbf743586b40dcf15aedca578a082037c2c55a15aace",
+  "sha256": {
+    "model-00001-of-00004.safetensors": "336889bdb065f6cd135f00c41ab3cc248f3b848623b792ba2e5657ef9ab58bf7",
+    "model-00002-of-00004.safetensors": "d8cc5f4b81da2c8f57d0d0b6ca3d0a7e30919fcb1f3b71fcba213685618387eb",
+    "model-00003-of-00004.safetensors": "2c980183a2e8f017a8ab1069fe93909f23127c0cb0d0c360ecde0429c71e031c",
+    "model-00004-of-00004.safetensors": "923c4c6c81d39385fd0057f7b7d22961e401d269351fb9488c61882a8e6bada4"
+  }
+}

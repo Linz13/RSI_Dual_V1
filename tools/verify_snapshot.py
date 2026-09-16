@@ -63,17 +63,22 @@ def main():
                 if result.returncode:errors.append([rel,'shell_syntax'])
                 counts['shell']+=1
         except (SyntaxError,ValueError) as exc:errors.append([rel,type(exc).__name__])
-    manifest=json.loads((ROOT/'provenance/files.json').read_text())
-    for e in manifest['files']:
-        p=ROOT/e['path']
-        if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest()!=e['export_sha256']:
-            errors.append([e['path'],'export_hash_mismatch'])
-        else:counts['provenance_verified']+=1
+    for manifest_path in [ROOT/'provenance/files.json', ROOT/'provenance/bidirectional_scoring.json']:
+        if not manifest_path.exists():
+            errors.append([str(manifest_path.relative_to(ROOT)),'missing_provenance'])
+            continue
+        manifest=json.loads(manifest_path.read_text())
+        for e in manifest['files']:
+            p=ROOT/e['path']
+            if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest()!=e['export_sha256']:
+                errors.append([e['path'],'export_hash_mismatch'])
+            else:counts['provenance_verified']+=1
     # Check authored navigation, not immutable old reports with server-local paths.
     doc_paths=['README.md','docs/TRAINING.md','docs/CODE_MAP.md','docs/DEPENDENCIES.md',
                'experiments/INDEX.md','experiments/v5/README.md','experiments/v6/README.md',
                'frameworks/v5/README.md','frameworks/v6/README.md','labeling/README.md',
-               'results/CAPTIONER.md','results/TTS_DSD.md']
+               'results/CAPTIONER.md','results/TTS_DSD.md','experiments/bidirectional_scoring/README.md',
+               'provenance/README.md']
     for rel in doc_paths:
         p=ROOT/rel
         for link in re.findall(r'\]\(([^)]+)\)',p.read_text()):

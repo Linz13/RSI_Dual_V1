@@ -1,0 +1,6 @@
+{
+  "id": "B001",
+  "status": "invalid",
+  "error": "Captioner 数值核验失败：{'repeat_max_abs': 0.0, 'padding_max_abs': 0.08232876658439636, 'prefix_only_max_abs': 0.0, 'target_tokens': 6, 'repeat_tolerance': 1e-05, 'alternate_kernel_tolerance': 0.05, 'passed': False}",
+  "traceback": "Traceback (most recent call last):\n  File \"/data/L202500147/Caption/BidirectionalScoringPilot/scoring.py\", line 194, in execute\n    if kind==\"a\" else score_b_job(model,run,r,rows,directory,position<args.controls))\n  File \"/data/L202500147/Caption/BidirectionalScoringPilot/scoring.py\", line 120, in score_b_job\n    atomic_json(audit_path,{\"sample_id\":row[\"id\"],\"blind_id\":c[\"blind_id\"],**model.audit(audio,target)})\n  File \"/data/L202500147/Caption/BidirectionalScoringPilot/model_interfaces.py\", line 212, in audit\n    raise ValueError(\"Captioner 数值核验失败：\"+str(result))\nValueError: Captioner 数值核验失败：{'repeat_max_abs': 0.0, 'padding_max_abs': 0.08232876658439636, 'prefix_only_max_abs': 0.0, 'target_tokens': 6, 'repeat_tolerance': 1e-05, 'alternate_kernel_tolerance': 0.05, 'passed': False}\n"
+}

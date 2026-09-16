@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "files": 779,
+  "bytes": 19648278,
+  "python": 317,
+  "json": 236,
+  "jsonl": 10,
+  "shell": 54,
+  "provenance_verified": 751,
+  "generated_doc_links": 92,
+  "errors": [],
+  "scope": "UTF-8, Python AST, JSON/JSONL, bash -n, secret patterns, size, provenance hashes and authored navigation; no GPU/API/training",
+  "verified_utc": "2026-09-16T03:19:27.487710+00:00"
+}

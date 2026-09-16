@@ -1,0 +1,82 @@
+{
+  "source_tags": {
+    "a": "v3_fp32",
+    "b": "v2"
+  },
+  "source_summary_sha256": "49e36cc178148b41aa06da47bd7d1ec5eb993b3f3f4d6b034d932ea82ce04211",
+  "annotation_revision": 30,
+  "annotation_sha256": "c84fed9f126a531dd8b009ce040fa7647135f334f21154ca11244ddb8a471c22",
+  "a_primary_condition_means_recomputed": 16,
+  "a_control_means_recomputed": 4,
+  "a_audio_hashes_checked": 4,
+  "a16_codebook_weighting_checked": true,
+  "a_first_audit_codec_hashes": {
+    "v2": "63750075051441d5893acaa725372f13ab4dfc16fc0eb413d212451d0e1f4f2f",
+    "v3_fp32": "63750075051441d5893acaa725372f13ab4dfc16fc0eb413d212451d0e1f4f2f"
+  },
+  "codec_unchanged": true,
+  "checkpoint_hashes_unchanged": true,
+  "b_summary_reused_unchanged": true,
+  "a_rows": [
+    {
+      "id": "A001",
+      "human_emotion": "neutral",
+      "positive_score": -5.9154069812696735,
+      "best_negative": "happy",
+      "margin_to_best_negative": 0.019856356124364538
+    },
+    {
+      "id": "A002",
+      "human_emotion": "sad",
+      "positive_score": -5.477731091184161,
+      "best_negative": "neutral",
+      "margin_to_best_negative": 0.004318159933639265
+    },
+    {
+      "id": "A003",
+      "human_emotion": "angry",
+      "positive_score": -5.474833259721391,
+      "best_negative": "neutral",
+      "margin_to_best_negative": 3.457794176231488e-05
+    },
+    {
+      "id": "A004",
+      "human_emotion": "neutral",
+      "positive_score": -5.9696605193183885,
+      "best_negative": "happy",
+      "margin_to_best_negative": 0.023684094202025996
+    }
+  ],
+  "a_controls": [
+    {
+      "id": "A001",
+      "control": "no_description",
+      "control_score": -5.902120140263934,
+      "positive_minus_control": -0.013286841005739625
+    },
+    {
+      "id": "A001",
+      "control": "wrong_transcript",
+      "control_score": -6.130688782645545,
+      "positive_minus_control": 0.2152818013758715
+    },
+    {
+      "id": "A002",
+      "control": "no_description",
+      "control_score": -5.465318006520369,
+      "positive_minus_control": -0.012413084663791984
+    },
+    {
+      "id": "A002",
+      "control": "wrong_transcript",
+      "control_score": -5.640173398880098,
+      "positive_minus_control": 0.1624423076959367
+    }
+  ],
+  "audit_passed": {
+    "a": true,
+    "b": true
+  },
+  "assistant_loaded_models": false,
+  "assistant_used_gpu": false
+}

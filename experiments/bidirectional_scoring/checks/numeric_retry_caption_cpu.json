@@ -1,0 +1,1 @@
+{"torch": "2.6.0+cu124", "cuda_initialized": false, "models_loaded": false, "fixture_only": true, "cpu_attention_padding_max_abs": 0.0, "caption_adapter_audit_context_passed": true, "tts_adapter_arrays_context_passed": true, "backend_context_restored": true}

@@ -25,7 +25,13 @@
 4. 通过环境变量提供密钥。训练打标使用 `QWEN_API_KEY` / `GEMINI_API_KEY`；V5 文本 judge 支持 `V5_JUDGE_URL` / `V5_JUDGE_KEY`。DSD 旧评分脚本还会读取服务器上的私有 `api/gemini_audio.py`：仓库没有复制该含密钥文件，需要提供本地私有配置或适配为环境变量读取。
 5. 先对新目录执行 CPU check，再在 GPU 节点做小规模验证。不要从导出目录直接 `resume` 原历史训练路径；身份校验涉及源码、外部依赖、路径和缓存，不是只拷贝 adapter 就能恢复。
 
-服务器原路径仍出现在代码、配置、历史报告和 provenance 中，用于追溯；它们不是 GitHub 下载链接。源目录和导出目录之间的映射见 `provenance/files.json`。本次没有初始化远程仓库、上传数据或执行任何付费请求。
+服务器原路径仍出现在代码、配置、历史报告和 provenance 中，用于追溯；它们不是 GitHub 下载链接。源目录和导出目录之间的映射见 `provenance/files.json`，独立评分实验另见 `provenance/bidirectional_scoring.json`。
+
+## 独立双向评分实验
+
+新增 [双向评分 pilot](../experiments/bidirectional_scoring/README.md) 只使用 MiDashengLM 和 Qwen3-TTS 基础模型，没有训练或付费 judge。`tools/verify_bidirectional_results.py` 在克隆内只用标准库复算已保存分数；不要求上述模型或音频。
+
+`experiments/bidirectional_scoring/src/` 保留运行时原源码及相对目录假设，未为导出修改评分逻辑。真实评分需恢复原外部资源布局，或显式配置源码中的数据、模型、Python 环境路径；不能把仓库中的结果目录直接当作完整可播放的 run。该 pilot 的最终人工标签、小规模转写及候选条件已收录，完整音频和数据集未收录。
 
 ## 不包含的内容
 

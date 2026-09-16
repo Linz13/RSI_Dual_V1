@@ -1,0 +1,60 @@
+{
+  "passed": true,
+  "model_loaded": false,
+  "cuda_initialized": false,
+  "all16_token_mean_fixture": true,
+  "records": [
+    {
+      "emotion": "happy",
+      "target_tokens": 6,
+      "prefix_tokens": 120,
+      "suffix_ids": [
+        151645,
+        198
+      ],
+      "audio_shape": [
+        1,
+        138240
+      ]
+    },
+    {
+      "emotion": "sad",
+      "target_tokens": 6,
+      "prefix_tokens": 120,
+      "suffix_ids": [
+        151645,
+        198
+      ],
+      "audio_shape": [
+        1,
+        138240
+      ]
+    },
+    {
+      "emotion": "angry",
+      "target_tokens": 6,
+      "prefix_tokens": 120,
+      "suffix_ids": [
+        151645,
+        198
+      ],
+      "audio_shape": [
+        1,
+        138240
+      ]
+    },
+    {
+      "emotion": "neutral",
+      "target_tokens": 6,
+      "prefix_tokens": 120,
+      "suffix_ids": [
+        151645,
+        198
+      ],
+      "audio_shape": [
+        1,
+        138240
+      ]
+    }
+  ]
+}

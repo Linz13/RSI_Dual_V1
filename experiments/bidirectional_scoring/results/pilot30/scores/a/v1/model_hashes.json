@@ -1,0 +1,7 @@
+{
+  "stat_identity": "6b59d180cf4338724346f496d55cca8913a179439a8d1d0ad4f8a150cceecb56",
+  "sha256": {
+    "model.safetensors": "391e8db219f292c515297cdceeb43e4eae67cdde35fa57e79a6a8a532fca0522",
+    "speech_tokenizer/model.safetensors": "836b7b357f5ea43e889936a3709af68dfe3751881acefe4ecf0dbd30ba571258"
+  }
+}

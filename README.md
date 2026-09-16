@@ -2,12 +2,13 @@
 
 研究目标：通过语音描述模型（Captioner）与语音合成模型（TTS）之间的循环重建，让两个模型在迭代训练中改善。主要训练模型为 MiDashengLM-7B 与 Qwen3-TTS VoiceDesign。
 
-本仓库包含训练实现、评测脚本、实验配置、结果和诊断记录。当前收录 V5 完整双循环框架及 V6 四属性 audio-only 框架；早期版本保留实验报告和对照成绩。快照日期：2026-09-16。
+本仓库包含训练实现、评测脚本、实验配置、结果和诊断记录。当前收录 V5 完整双循环框架、V6 四属性 audio-only 框架，以及独立的 **Captioner–TTS 双向评分能力测试**；早期版本保留实验报告和对照成绩。快照日期：2026-09-16。
 
 ## 阅读入口
 
 | 想了解什么 | 入口 |
 |---|---|
+| 新实验：模型能否为对方提供有用的排序反馈 | [双向评分能力测试与 pilot 结果](experiments/bidirectional_scoring/README.md) |
 | V5 / V6 的训练思路和区别 | [训练框架](docs/TRAINING.md) |
 | 从哪些函数开始读 | [代码索引](docs/CODE_MAP.md) |
 | 做过哪些实验、结论是什么 | [实验索引](experiments/INDEX.md) |
@@ -34,6 +35,8 @@ V5 仅保留一套源码。LabelRobust 和 FastResume 是这条实现线上的�
 
 V6 已提交 10 轮、Captioner 三个 benchmark 共 30 项评测；V6 DSD 收录前 4 轮。V5 这里收录的主 run 有 3 个已提交轮次，其中前 2 轮有完整 Captioner / DSD 评测。训练统计与外部 benchmark 分开保存，不能把训练奖励上涨当作泛化能力提升。
 
+独立双向评分 pilot 不训练：A 有效 25 条，正确情绪描述严格第一 36%；B 有人工参照 23 组，命中 56.5%，对应随机基线 33.7%。当前 B 有初步正向信号，A 尚未验证可靠选优；双向评分有效性及互相训练收益均未被同时证明。人工排除、原始分数和数据限制完整保留。
+
 ## 使用范围
 
 代码和结果以便于检查、讨论和追溯的形式保存。模型权重、原始数据集、全量音频、环境、完整缓存和训练日志不在仓库中。少量 JSONL 样例仅展示数据结构，不代表整体分布。
@@ -45,6 +48,7 @@ V6 已提交 10 轮、Captioner 三个 benchmark 共 30 项评测；V6 DSD 收�
 ```bash
 python3 tools/summarize_results.py
 python3 tools/verify_snapshot.py
+python3 -B tools/verify_bidirectional_results.py
 ```
 
 在聊天中讨论时，先指定版本和实验，例如：“结合 `frameworks/v6/dual_isl_train/reward_v6.py`、V6 训练统计和 Captioner 总表，分析奖励与 benchmark 的差异。”

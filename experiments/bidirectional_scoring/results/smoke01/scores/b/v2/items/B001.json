@@ -1,0 +1,234 @@
+{
+  "id": "B001",
+  "status": "ok",
+  "emotion": "happy",
+  "target": "说话者的情绪是开心。",
+  "candidates": [
+    {
+      "blind_id": "A",
+      "audio": "audio/b_001_1.wav",
+      "audio_sha256": "7a2b1dbffb373b63bc825ffcea2993d81e86a3cccec8cb2aed4b61b7ee29e1a3",
+      "score": -2.625695016235113,
+      "target": "说话者的情绪是开心。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        102313,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "å¼Ģå¿ĥ",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -1.5729725360870361,
+        -0.05048520117998123,
+        -4.0786638259887695,
+        -0.38420161604881287,
+        -7.3702392578125,
+        -2.297607660293579
+      ],
+      "prefix_tokens": 120,
+      "target_end": 126,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    },
+    {
+      "blind_id": "B",
+      "audio": "audio/b_001_2.wav",
+      "audio_sha256": "f58665a2571d7e31130e092c71d0024ae2f7576e83940bde831f6270d144e048",
+      "score": -2.863391991083821,
+      "target": "说话者的情绪是开心。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        102313,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "å¼Ģå¿ĥ",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -0.6656125783920288,
+        -0.01718616858124733,
+        -3.7877707481384277,
+        -0.4243410527706146,
+        -9.445964813232422,
+        -2.8394765853881836
+      ],
+      "prefix_tokens": 125,
+      "target_end": 131,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    },
+    {
+      "blind_id": "C",
+      "audio": "audio/b_001_3.wav",
+      "audio_sha256": "a47a953e8ed5428c958961ada006dee610e78fc2485547ca8520296c63c08a21",
+      "score": -2.5476946588605642,
+      "target": "说话者的情绪是开心。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        102313,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "å¼Ģå¿ĥ",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -1.2030706405639648,
+        -0.027719292789697647,
+        -3.056398391723633,
+        -0.3676016926765442,
+        -8.047264099121094,
+        -2.584113836288452
+      ],
+      "prefix_tokens": 138,
+      "target_end": 144,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    },
+    {
+      "blind_id": "D",
+      "audio": "audio/b_001_4.wav",
+      "audio_sha256": "386bebb58c7f4e8797c7b6c0fe6ae7ad3407c679a0dfdc409ec8e0916c7399f6",
+      "score": -2.220247986416022,
+      "target": "说话者的情绪是开心。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        102313,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "å¼Ģå¿ĥ",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -1.5454320907592773,
+        -0.019135281443595886,
+        -3.2247698307037354,
+        -0.23061034083366394,
+        -6.066220760345459,
+        -2.2353196144104004
+      ],
+      "prefix_tokens": 135,
+      "target_end": 141,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    }
+  ],
+  "controls": {
+    "wrong_description": {
+      "emotion": "sad",
+      "score": -2.1759432616333165,
+      "target": "说话者的情绪是悲伤。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        110597,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "æĤ²ä¼¤",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -1.5729725360870361,
+        -0.05048520117998123,
+        -4.0786638259887695,
+        -0.38420161604881287,
+        -5.8077392578125,
+        -1.1615971326828003
+      ],
+      "prefix_tokens": 120,
+      "target_end": 126,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    },
+    "swapped_audio": {
+      "donor_group": "B002",
+      "score": -3.9066925801647208,
+      "target": "说话者的情绪是开心。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        102313,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "å¼Ģå¿ĥ",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -1.3532088994979858,
+        -0.010316734202206135,
+        -4.153127670288086,
+        -0.4171287715435028,
+        -15.00076675415039,
+        -2.5056066513061523
+      ],
+      "prefix_tokens": 110,
+      "target_end": 116,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    }
+  }
+}

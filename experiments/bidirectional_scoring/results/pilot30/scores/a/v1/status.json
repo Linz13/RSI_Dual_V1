@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "completed_at": "2026-09-15T16:23:21.967932+00:00",
+  "scored": 25,
+  "skipped": [
+    {
+      "id": "A017",
+      "reason": "uncertain"
+    },
+    {
+      "id": "A019",
+      "reason": "uncertain"
+    },
+    {
+      "id": "A025",
+      "reason": "uncertain"
+    },
+    {
+      "id": "A026",
+      "reason": "uncertain"
+    },
+    {
+      "id": "A027",
+      "reason": "uncertain"
+    }
+  ],
+  "gpu": "1"
+}

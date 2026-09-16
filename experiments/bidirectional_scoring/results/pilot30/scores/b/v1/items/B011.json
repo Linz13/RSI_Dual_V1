@@ -1,0 +1,161 @@
+{
+  "id": "B011",
+  "status": "ok",
+  "emotion": "angry",
+  "target": "说话者的情绪是愤怒。",
+  "candidates": [
+    {
+      "blind_id": "A",
+      "audio": "audio/b_011_1.wav",
+      "audio_sha256": "6637f38009513640e10c2f55e04c512ebfa52fa75a0bc7ede4b4bef251b2fb27",
+      "score": -1.4440493257716298,
+      "target": "说话者的情绪是愤怒。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        108299,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "æĦ¤æĢĴ",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -0.8051967620849609,
+        -0.02410299889743328,
+        -3.7166714668273926,
+        -0.2358834445476532,
+        -3.1616320610046387,
+        -0.7208092212677002
+      ],
+      "prefix_tokens": 120,
+      "target_end": 126,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    },
+    {
+      "blind_id": "B",
+      "audio": "audio/b_011_2.wav",
+      "audio_sha256": "de0664e8b1775692090dcd48def748831730c4996b653ce906f7c4affef7de7a",
+      "score": -1.8019607905298471,
+      "target": "说话者的情绪是愤怒。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        108299,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "æĦ¤æĢĴ",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -0.5660988688468933,
+        -0.020001854747533798,
+        -3.494354486465454,
+        -0.31794416904449463,
+        -5.711705684661865,
+        -0.7016596794128418
+      ],
+      "prefix_tokens": 130,
+      "target_end": 136,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    },
+    {
+      "blind_id": "C",
+      "audio": "audio/b_011_3.wav",
+      "audio_sha256": "025b43b80d16f22498984a72373d6c42706fe7c130f93fb46aefaf1263e21839",
+      "score": -1.5620654476806521,
+      "target": "说话者的情绪是愤怒。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        108299,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "æĦ¤æĢĴ",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -0.8260950446128845,
+        -0.026663588359951973,
+        -3.7368452548980713,
+        -0.2243088334798813,
+        -3.8857412338256836,
+        -0.6727387309074402
+      ],
+      "prefix_tokens": 122,
+      "target_end": 128,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    },
+    {
+      "blind_id": "D",
+      "audio": "audio/b_011_4.wav",
+      "audio_sha256": "4419c3914f96519758506683f08ffd155bf95f60bcad5ee5a05285ae22e34329",
+      "score": -1.3277568366999428,
+      "target": "说话者的情绪是愤怒。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        108299,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "æĦ¤æĢĴ",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -1.4926981925964355,
+        -0.013173921033740044,
+        -4.3051300048828125,
+        -0.23995350301265717,
+        -1.047212839126587,
+        -0.8683725595474243
+      ],
+      "prefix_tokens": 122,
+      "target_end": 128,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    }
+  ],
+  "controls": {}
+}

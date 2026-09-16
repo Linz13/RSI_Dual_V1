@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>双向评分 · 听音核验</title><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><div><span class="eyebrow">CAPTIONER × TTS</span><h1>听音核验</h1><p id="package"></p></div><div class="actions"><button id="export">导出标注</button><label class="button">导入标注<input id="import" type="file" accept="application/json,.json" hidden></label><a id="bundle" class="button" href="/bundle.zip">下载离线听音包</a></div></header>
+<div id="connection" class="notice" role="status">正在打开样本…</div>
+<div class="workspace"><aside><nav aria-label="实验方向"><button class="tab" data-kind="a">A · 情绪与转写</button><button class="tab" data-kind="b">B · 盲听选择</button></nav><div id="progress"></div><div id="samples" aria-label="样本列表"></div><p class="help">听完并填好后点“下一条”，本条自动保存为已完成。可返回修改。无法判断也是有效的标注结论，无需勉强选择。</p></aside>
+<main><div class="titleline"><h2 id="sample-title"></h2><span id="state" class="badge"></span></div><div id="content"></div><div class="footer"><button id="previous">上一条</button><button id="next" class="primary">下一条</button></div><p id="message" role="status"></p></main></div>
+<script src="data.js"></script><script src="app.js"></script></body></html>

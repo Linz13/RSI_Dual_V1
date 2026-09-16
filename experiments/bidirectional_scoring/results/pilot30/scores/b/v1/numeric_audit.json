@@ -1,0 +1,81 @@
+{
+  "sample_id": "B001",
+  "blind_id": "A",
+  "repeat_max_abs": 0.0,
+  "padding_max_abs": 0.0,
+  "prefix_only_max_abs": 0.0,
+  "masked_padding_content_max_abs": 0.0,
+  "target_tokens": 6,
+  "repeat_tolerance": 1e-05,
+  "alternate_kernel_tolerance": 0.05,
+  "environment": {
+    "sdpa_backend": "math",
+    "model_dtype": "bfloat16",
+    "torch": "2.6.0+cu124",
+    "cuda_runtime": "12.4",
+    "gpu_name": "NVIDIA H100 80GB HBM3",
+    "tf32_matmul": false,
+    "tf32_cudnn": false,
+    "bf16_reduced_precision_reduction": false,
+    "math_sdp_low_precision_reduction": false
+  },
+  "differences": {
+    "padding": {
+      "target_tokens": 6,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "score_delta": 0.0,
+      "worst_flat_index": 0
+    },
+    "prefix_only": {
+      "target_tokens": 6,
+      "max_abs": 0.0,
+      "mean_abs": 0.0,
+      "score_delta": 0.0,
+      "worst_flat_index": 0
+    }
+  },
+  "target_logprobs": {
+    "bulk": [
+      -1.8321330547332764,
+      -0.022865798324346542,
+      -4.246866226196289,
+      -0.44774767756462097,
+      -4.993805885314941,
+      -1.0893553495407104
+    ],
+    "repeat": [
+      -1.8321330547332764,
+      -0.022865798324346542,
+      -4.246866226196289,
+      -0.44774767756462097,
+      -4.993805885314941,
+      -1.0893553495407104
+    ],
+    "padded": [
+      -1.8321330547332764,
+      -0.022865798324346542,
+      -4.246866226196289,
+      -0.44774767756462097,
+      -4.993805885314941,
+      -1.0893553495407104
+    ],
+    "padded_changed": [
+      -1.8321330547332764,
+      -0.022865798324346542,
+      -4.246866226196289,
+      -0.44774767756462097,
+      -4.993805885314941,
+      -1.0893553495407104
+    ],
+    "prefix_only": [
+      -1.8321330547332764,
+      -0.022865798324346542,
+      -4.246866226196289,
+      -0.44774767756462097,
+      -4.993805885314941,
+      -1.0893553495407104
+    ]
+  },
+  "passed": true
+}

@@ -1,0 +1,340 @@
+{
+  "identity_key": "2949549127b92e5d1a07ea08a6b731e1c39e1ed9d64d68706d2b1b6f2768b602",
+  "identity": {
+    "manifest_id": "cc529b1af5b0842aa052199ffcd93b9cc5151a10af63bd7709ec78b3483fd6e1",
+    "kind": "a",
+    "rows": [
+      {
+        "id": "A001",
+        "emotion": "angry",
+        "transcript": "[over/]你说我干啥[/over]？我是操作员，我是都按流程做的，放心吧，没事儿。",
+        "audio": "audio/a_001.wav",
+        "audio_sha256": "9dd841b4a191174d50ba6a8ef0fe78e78e16ca486eafa071659f6ef7fa29c218",
+        "speaker_id": "13"
+      },
+      {
+        "id": "A002",
+        "emotion": "neutral",
+        "transcript": "我第一天吃完晚上就开始晕。我吃完之后我就，我那个晚上睡觉的时候就天旋地转，我感觉像喝酒了。",
+        "audio": "audio/a_002.wav",
+        "audio_sha256": "a2f6479360ef777325e69a04222b7ce7f470ec491e668f8091b03aacde903c82",
+        "speaker_id": "21"
+      },
+      {
+        "id": "A003",
+        "emotion": "angry",
+        "transcript": "我是你爸我不能看吗？我问你是不是谈恋爱了？",
+        "audio": "audio/a_003.wav",
+        "audio_sha256": "748a1216aa01f17ef08d195f912beaa9781cc79cceeee43eb50a4bb4f14c275c",
+        "speaker_id": "13"
+      },
+      {
+        "id": "A004",
+        "emotion": "angry",
+        "transcript": "你去告，哎，我公司开十年我还怕人告，你去告，你去告吧！",
+        "audio": "audio/a_004.wav",
+        "audio_sha256": "00bec6a48be6af5a0ff3d3b9a5034698eccba7f9e10c9459f4cb57c19f45655e",
+        "speaker_id": "21"
+      },
+      {
+        "id": "A005",
+        "emotion": "sad",
+        "transcript": "哎女儿，你是爸爸的掌心的宝贝，[over/]其实[/over]，唉，不说了。",
+        "audio": "audio/a_005.wav",
+        "audio_sha256": "b0b6d6e9e8ce8d015e221fb405745e76f1157770cd98f926e0e4c92362355975",
+        "speaker_id": "13"
+      },
+      {
+        "id": "A006",
+        "emotion": "angry",
+        "transcript": "凭什么百分之五十，那这样，那你别干了，好吧，我有权利让你别干了，咱也不争了，就这样。",
+        "audio": "audio/a_006.wav",
+        "audio_sha256": "f01019f868a2c19bdcca9b21532c5f89b810787a455847eda4500446802fd329",
+        "speaker_id": "21"
+      },
+      {
+        "id": "A007",
+        "emotion": "sad",
+        "transcript": "傻丫头，刚结婚，等你有时间了，好不好？有时间回来看看爸。",
+        "audio": "audio/a_007.wav",
+        "audio_sha256": "78a3573cd9d61afda09bbda1e332d1d2e5c10ebedab13e2c3cc9b1dbef9c6dda",
+        "speaker_id": "13"
+      },
+      {
+        "id": "A008",
+        "emotion": "neutral",
+        "transcript": "那是留给你的钱，密码是你的生日，不要再给我花钱了，这个病也治不好。",
+        "audio": "audio/a_008.wav",
+        "audio_sha256": "688a29c4d8648348827afcfad5d891e0dcfc6d03e7872737a7f6eac626634ee7",
+        "speaker_id": "21"
+      },
+      {
+        "id": "A009",
+        "emotion": "neutral",
+        "transcript": "嗯，没有人可以说啊。我给家里说吧，家里只能说调整状态，你可以的。",
+        "audio": "audio/a_009.wav",
+        "audio_sha256": "f2fa59c1da3b06eb2fc0044709d1084f815742071b688484764f5028c94a4ef2",
+        "speaker_id": "21"
+      },
+      {
+        "id": "A010",
+        "emotion": "happy",
+        "transcript": "哦，习惯了，[laughing]不好意思。我那个什么，我有三个上市公司的，平时这个见很多年轻人，主要就是在面试的情况下。没关系，你也不用有太大的压力啊。",
+        "audio": "audio/a_010.wav",
+        "audio_sha256": "6442c126386d6712a207f336c6d984d1f97780ee0def83b88136e41c32a88870",
+        "speaker_id": "21"
+      },
+      {
+        "id": "A011",
+        "emotion": "angry",
+        "transcript": "你那狗刚，你那狗刚刚差点就咬到我了，你装看不见是吧？",
+        "audio": "audio/a_011.wav",
+        "audio_sha256": "670a86f843b2b8226e23ed841946b9d091308450f7f8a8b8ccbe88ecb199b32c",
+        "speaker_id": "20"
+      },
+      {
+        "id": "A012",
+        "emotion": "happy",
+        "transcript": "还得咱俩配合啊！就你那手艺，你手艺活儿多好啊！人家客户直接看上了。我这一谈，哎没跑儿了，就咱俩啦。就咱俩这生意爆。",
+        "audio": "audio/a_012.wav",
+        "audio_sha256": "7d940c443ccdc3d9801e2e0e7644ea1eb22085df07cdb14cff60e30e81457b2e",
+        "speaker_id": "02"
+      },
+      {
+        "id": "A013",
+        "emotion": "happy",
+        "transcript": "行，到时候帮我多推荐几个其他的朋友啊。[over/]到[/over]时候推荐我还能，给您再送点其他的服务。",
+        "audio": "audio/a_013.wav",
+        "audio_sha256": "3cafcc235f4b36c2f917061e7986f8c84b84451ddb6897d114487c14d1a689aa",
+        "speaker_id": "02"
+      },
+      {
+        "id": "A014",
+        "emotion": "happy",
+        "transcript": "他们改抽改投别的赛道了，他们觉得在这个赛道里面[laughing]，他们找不到油水，你说说我们现在没有竞争对手啦！",
+        "audio": "audio/a_014.wav",
+        "audio_sha256": "8bf0183966129f3d9a10f35362fb70c6b6c6c090a05d98225c435d2397fb9a0c",
+        "speaker_id": "21"
+      },
+      {
+        "id": "A015",
+        "emotion": "angry",
+        "transcript": "那我，我跟你兰兰，兰兰阿姨你以后叫阿姨，啊，叫[over]阿姨[over]。",
+        "audio": "audio/a_015.wav",
+        "audio_sha256": "ea10cc1337deab38a9ae020935312f434c5c96af87a2e9eee37901f8a9f3c7ef",
+        "speaker_id": "13"
+      },
+      {
+        "id": "A016",
+        "emotion": "angry",
+        "transcript": "不是，厂长我们不能这样，我们真的不能这样。他是建厂元老，所有的事情都是他一把手，一手做起来的，怎么可以现在我们好起来，就忘了他了呢？",
+        "audio": "audio/a_016.wav",
+        "audio_sha256": "0cb72cc0dacea86806cd617e1ec4992f347af0451bca9b46b8cee5bb161cf8ea",
+        "speaker_id": "20"
+      },
+      {
+        "id": "A018",
+        "emotion": "happy",
+        "transcript": "交给我。那这样的话，明天呢，我们就嗯中午先去吃烤鱼，然后下午去逛街，对吗？那晚上我们去干什么呀？",
+        "audio": "audio/a_018.wav",
+        "audio_sha256": "ea52a8b30211939adf9542f5150f3a8d4993613aec498c752517276db4db6ff9",
+        "speaker_id": "20"
+      },
+      {
+        "id": "A020",
+        "emotion": "angry",
+        "transcript": "哎，你，你觉得行吗？你你你自己能受得了吗？我跟小红一样大，然后我叫她妈，你不难受吗？",
+        "audio": "audio/a_020.wav",
+        "audio_sha256": "604cb33d55db7f8db94324a60569a7f8c7f58056fee8237007365e479f54fa19",
+        "speaker_id": "02"
+      },
+      {
+        "id": "A021",
+        "emotion": "sad",
+        "transcript": "我很小时候妈妈就走了，就剩你一个了，没有人再陪我过生日了，为什么你就不能陪陪我呢？[over/]每[/over]一年都[over/]这样[/over]。",
+        "audio": "audio/a_021.wav",
+        "audio_sha256": "7307bd34c0cdc5761e6e2f3ce86422303a18dc568cf57287221b4ef3f2106238",
+        "speaker_id": "02"
+      },
+      {
+        "id": "A022",
+        "emotion": "sad",
+        "transcript": "你们为什么之前不跟我说这些呢？为什么不跟我说这些呢？我不想跟你，我也不想跟我妈，我现在只想跟你们俩一起过日子，我想要我们一家三口，我不想少一个爸爸或者少一个妈妈。",
+        "audio": "audio/a_022.wav",
+        "audio_sha256": "aa69a511c838f91db2c0c8a8776b4f2d09e3e220ac7ee3f9ee19666a29533689",
+        "speaker_id": "02"
+      },
+      {
+        "id": "A023",
+        "emotion": "sad",
+        "transcript": "[crying]她不肯见我，[crying]她让我出去。",
+        "audio": "audio/a_023.wav",
+        "audio_sha256": "d23805279c5ffebae72a5f67137c42a35bd5d581f531bed7204618a0e26f57a5",
+        "speaker_id": "20"
+      },
+      {
+        "id": "A024",
+        "emotion": "happy",
+        "transcript": "[over/]哎呀[over/]，可不，不枉我们小组日日夜夜的，哎，呕心沥血呀！",
+        "audio": "audio/a_024.wav",
+        "audio_sha256": "f18bc479532395a758d603f893d7b66061d68ace0bfe310c08f372f2c4697717",
+        "speaker_id": "20"
+      },
+      {
+        "id": "A028",
+        "emotion": "sad",
+        "transcript": "我小时候总盼着长大，现在真的长大了，总觉得又不是那么回事儿。我感觉这好像不是我想要的长大的样子。",
+        "audio": "audio/a_028.wav",
+        "audio_sha256": "d828945a316041836be5957169a258941ff880ee9b277765d0cda0be66f6714c",
+        "speaker_id": "20"
+      },
+      {
+        "id": "A029",
+        "emotion": "happy",
+        "transcript": "哎，如如直接啊现在安全绳都给你准备好了。在这儿闭上眼睛直接往下跳，特别刺激我都玩了好[over/]多次了啊[/over]。",
+        "audio": "audio/a_029.wav",
+        "audio_sha256": "23cb6426d6230fcaf2c703337b328972341e6dc51165d476f7ff1757bb39f334",
+        "speaker_id": "13"
+      },
+      {
+        "id": "A030",
+        "emotion": "happy",
+        "transcript": "爸先在客厅等你们，你们先好好化化妆。一会儿，我们的女婿就来接你了好不好？",
+        "audio": "audio/a_030.wav",
+        "audio_sha256": "3a842a733a6b25f3daf0e122120a65ebd61350deff07f14d79e7e2ffa3920b0d",
+        "speaker_id": "13"
+      }
+    ],
+    "skipped": [
+      {
+        "id": "A017",
+        "reason": "uncertain"
+      },
+      {
+        "id": "A019",
+        "reason": "uncertain"
+      },
+      {
+        "id": "A025",
+        "reason": "uncertain"
+      },
+      {
+        "id": "A026",
+        "reason": "uncertain"
+      },
+      {
+        "id": "A027",
+        "reason": "uncertain"
+      }
+    ],
+    "score_protocol": "all16_mean_raw_no_eos",
+    "prompt": null,
+    "attention": "sdpa",
+    "controls": 2,
+    "sdpa_backend": "math",
+    "numeric_policy": "tf32_off_bf16_reduction_off_math_upcast",
+    "model": {
+      "path": "/data/L202500147/Caption/models/Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "files": [
+        {
+          "path": ".download_provenance.json",
+          "size": 379,
+          "mtime_ns": 1787847154611233583,
+          "sha256": "f205195ef0f31b41deb71e8d42deb3969532334a7d94a7002400f0922518051b"
+        },
+        {
+          "path": "config.json",
+          "size": 4421,
+          "mtime_ns": 1787847155054845166,
+          "sha256": "aecd2cc4c1fe9edef1cb7ca7c401685a43879ad43f3f9e883f1c6760b61731e0"
+        },
+        {
+          "path": "configuration.json",
+          "size": 47,
+          "mtime_ns": 1787847155099362735,
+          "sha256": "c502b6328c67638b401df8dd05de89e9e8d1cff9cd0ada10dfbdbe13556c20de"
+        },
+        {
+          "path": "generation_config.json",
+          "size": 245,
+          "mtime_ns": 1787847155251535014,
+          "sha256": "f1b90b4513f3b34c62851049e2492d7b4c5940daf1276f89c82b8ef04127f3aa"
+        },
+        {
+          "path": "merges.txt",
+          "size": 1671839,
+          "mtime_ns": 1787847155387357775,
+          "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3"
+        },
+        {
+          "path": "model.safetensors",
+          "size": 3833402552,
+          "mtime_ns": 1787847454495627821,
+          "sha256": null
+        },
+        {
+          "path": "preprocessor_config.json",
+          "size": 127,
+          "mtime_ns": 1787847155435536390,
+          "sha256": "efdde1022ea9d76928bf7a9cd53139138f5ba2e466e837f08f6105ab1af1c119"
+        },
+        {
+          "path": "speech_tokenizer/config.json",
+          "size": 2336,
+          "mtime_ns": 1787847155080762191,
+          "sha256": "ee65bb901c876664ab8707c487157aa1a6ee57c65969b28fb5ec9dc211e68167"
+        },
+        {
+          "path": "speech_tokenizer/configuration.json",
+          "size": 76,
+          "mtime_ns": 1787847155141452490,
+          "sha256": "6bc26d64eb5024b4d1dab5a52371958b429256d6c9d59787f1f5294a54e0cebd"
+        },
+        {
+          "path": "speech_tokenizer/model.safetensors",
+          "size": 682293092,
+          "mtime_ns": 1787847207877776691,
+          "sha256": null
+        },
+        {
+          "path": "speech_tokenizer/preprocessor_config.json",
+          "size": 234,
+          "mtime_ns": 1787847155557970259,
+          "sha256": "fcb3805e597e786d4067706e602f6688524640f8d3396790e2e09b5942fcbdfb"
+        },
+        {
+          "path": "tokenizer_config.json",
+          "size": 7344,
+          "mtime_ns": 1787847155779805366,
+          "sha256": "dc3c31c3bdaedd5016382bb3cbe07323026775ad51f5a4fb564505992ae4a670"
+        },
+        {
+          "path": "vocab.json",
+          "size": 2776833,
+          "mtime_ns": 1787847156020772291,
+          "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        }
+      ]
+    },
+    "versions": {
+      "torch": "2.11.0+cu126",
+      "transformers": "4.57.3",
+      "qwen-tts": "0.1.1",
+      "soundfile": "0.14.0",
+      "librosa": "1.0.0",
+      "numpy": "2.5.2"
+    },
+    "installed_source_sha256": {
+      "qwen_tts/core/models/modeling_qwen3_tts.py": "25c42656bcf810f06ef6bc1839bd7083f3c8cfedac3a147c4060b4262b1c96a0",
+      "qwen_tts/inference/qwen3_tts_model.py": "e1da450732857c1f5fe3e36ebab85db2f6dc6a48caaff6973f463384e30275e4",
+      "qwen_tts/inference/qwen3_tts_tokenizer.py": "ac2d855022a1bd21d33ab7b267ec952eef71f81d3f8d969a306139ff1a929515"
+    },
+    "implementation": {
+      "common.py": "da4f5b7e6d100a95f3f703e7a42a1c2c60b293561c70769e21db1d1410a08b2e",
+      "scoring.py": "a17209ae9b74d552b701961e96071737f7f5fd1cf51e17ec2a0afee45901d9c0",
+      "model_interfaces.py": "b58a8b75bf1f5904f7543297772852d0365ee1165bb32fa411284f06cf5b667f",
+      "qwen_conditioning.py": "19b8f90a03395f6c2adbeb428123246334d88d6d6b4b3b9c2c05924d6bff595d"
+    },
+    "score_dtype": "float32"
+  }
+}

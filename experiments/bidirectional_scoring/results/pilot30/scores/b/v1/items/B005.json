@@ -1,0 +1,161 @@
+{
+  "id": "B005",
+  "status": "ok",
+  "emotion": "neutral",
+  "target": "说话者的情绪是平静。",
+  "candidates": [
+    {
+      "blind_id": "A",
+      "audio": "audio/b_005_1.wav",
+      "audio_sha256": "9ad8e480f7269ab05466bfc821c75e8a0399dc2f6868033aaf9bbf6cd05ec623",
+      "score": -1.4801563907725115,
+      "target": "说话者的情绪是平静。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        106837,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "å¹³éĿĻ",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -0.3663645088672638,
+        -0.012520872987806797,
+        -4.123672008514404,
+        -0.4433097243309021,
+        -1.0566518306732178,
+        -2.8784193992614746
+      ],
+      "prefix_tokens": 83,
+      "target_end": 89,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    },
+    {
+      "blind_id": "B",
+      "audio": "audio/b_005_2.wav",
+      "audio_sha256": "22261b206c7332763e5a621c0fc95a971e2b039ccd97805675e491bb6b0b412f",
+      "score": -1.3104328081632655,
+      "target": "说话者的情绪是平静。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        106837,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "å¹³éĿĻ",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -0.5191037654876709,
+        -0.010382214561104774,
+        -3.8869619369506836,
+        -0.35769373178482056,
+        -0.6931514739990234,
+        -2.395303726196289
+      ],
+      "prefix_tokens": 83,
+      "target_end": 89,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    },
+    {
+      "blind_id": "C",
+      "audio": "audio/b_005_3.wav",
+      "audio_sha256": "a80b45f3448f94392ab02068523d0c5260e619b8b1a132ef2d81e59158125d9f",
+      "score": -1.3519472014158964,
+      "target": "说话者的情绪是平静。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        106837,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "å¹³éĿĻ",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -0.5585367679595947,
+        -0.020426977425813675,
+        -4.010984897613525,
+        -0.3549695312976837,
+        -0.820723831653595,
+        -2.346041202545166
+      ],
+      "prefix_tokens": 83,
+      "target_end": 89,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    },
+    {
+      "blind_id": "D",
+      "audio": "audio/b_005_4.wav",
+      "audio_sha256": "1175aacb58581a8703e5413daff0f280455bf7f9cae92b2de436213e75fa54dd",
+      "score": -1.3949634201514225,
+      "target": "说话者的情绪是平静。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        106837,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "å¹³éĿĻ",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -0.4701133072376251,
+        -0.011094312183558941,
+        -4.175814628601074,
+        -0.3728838860988617,
+        -1.0663856267929077,
+        -2.273488759994507
+      ],
+      "prefix_tokens": 82,
+      "target_end": 88,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    }
+  ],
+  "controls": {}
+}

@@ -1,0 +1,161 @@
+{
+  "id": "B007",
+  "status": "ok",
+  "emotion": "sad",
+  "target": "说话者的情绪是悲伤。",
+  "candidates": [
+    {
+      "blind_id": "A",
+      "audio": "audio/b_007_1.wav",
+      "audio_sha256": "be33cf51f680700fe61360a0311fa3ba12b49f39cbdd8332567ed1ac7292da03",
+      "score": -1.8423820308720071,
+      "target": "说话者的情绪是悲伤。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        110597,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "æĤ²ä¼¤",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -0.6402251124382019,
+        -0.013758702203631401,
+        -4.433106899261475,
+        -0.3941868543624878,
+        -4.488885879516602,
+        -1.084128737449646
+      ],
+      "prefix_tokens": 83,
+      "target_end": 89,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    },
+    {
+      "blind_id": "B",
+      "audio": "audio/b_007_2.wav",
+      "audio_sha256": "5c1e0b9f1c401b2676973612ac7cec0ba825cc09364b6aee8a2ba94c21e10590",
+      "score": -2.4754644952093563,
+      "target": "说话者的情绪是悲伤。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        110597,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "æĤ²ä¼¤",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -1.447364330291748,
+        -0.02171887271106243,
+        -5.633697032928467,
+        -0.3184003233909607,
+        -6.825643062591553,
+        -0.6059633493423462
+      ],
+      "prefix_tokens": 85,
+      "target_end": 91,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    },
+    {
+      "blind_id": "C",
+      "audio": "audio/b_007_3.wav",
+      "audio_sha256": "c7419b3a305363c3830e771613120a2ab2760668d5eb3859df41bfe4c52fb199",
+      "score": -1.6888706457490723,
+      "target": "说话者的情绪是悲伤。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        110597,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "æĤ²ä¼¤",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -0.4279603362083435,
+        -0.017407609149813652,
+        -4.390425205230713,
+        -0.394354909658432,
+        -3.9243927001953125,
+        -0.9786831140518188
+      ],
+      "prefix_tokens": 83,
+      "target_end": 89,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    },
+    {
+      "blind_id": "D",
+      "audio": "audio/b_007_4.wav",
+      "audio_sha256": "156373e96d80d1586c3b3e14cb05b15e26ba06ac4857d6d9904b4f7e45df07a6",
+      "score": -2.0880097059222558,
+      "target": "说话者的情绪是悲伤。",
+      "target_tokens": 6,
+      "target_token_ids": [
+        104283,
+        28946,
+        108876,
+        20412,
+        110597,
+        1773
+      ],
+      "target_token_pieces": [
+        "è¯´è¯Ŀ",
+        "èĢħ",
+        "çļĦæĥħç»ª",
+        "æĺ¯",
+        "æĤ²ä¼¤",
+        "ãĢĤ"
+      ],
+      "token_logprobs": [
+        -0.5895159244537354,
+        -0.011288111098110676,
+        -4.802733898162842,
+        -0.3954554796218872,
+        -5.468222141265869,
+        -1.2608426809310913
+      ],
+      "prefix_tokens": 83,
+      "target_end": 89,
+      "excluded_suffix_tokens": 2,
+      "prompt": "请只用一句简短中文描述这段语音中说话者声音表达的情绪。依据声音判断，不复述说话内容。",
+      "raw_logits": true,
+      "target_in_user_prompt": false
+    }
+  ],
+  "controls": {}
+}

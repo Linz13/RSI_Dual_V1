@@ -1,0 +1,13 @@
+id,speaker_id,emotion,rank,strict_top1,negative_emotion,delta,outcome
+A001,02,neutral,1,True,happy,0.019856356124364538,win
+A001,02,neutral,1,True,sad,0.02479093491395723,win
+A001,02,neutral,1,True,angry,0.027152312702836134,win
+A002,02,sad,1,True,happy,0.008116258270278287,win
+A002,02,sad,1,True,angry,0.01732217890628629,win
+A002,02,sad,1,True,neutral,0.004318159933639265,win
+A003,20,angry,1,True,happy,0.0009588419024142425,win
+A003,20,angry,1,True,sad,0.013709325210056633,win
+A003,20,angry,1,True,neutral,3.457794176231488e-05,win
+A004,13,neutral,1,True,happy,0.023684094202025996,win
+A004,13,neutral,1,True,sad,0.025792236497235166,win
+A004,13,neutral,1,True,angry,0.07485985783740201,win

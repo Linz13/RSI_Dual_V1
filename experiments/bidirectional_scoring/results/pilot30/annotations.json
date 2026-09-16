@@ -1,0 +1,572 @@
+{
+  "schema": "pilot-annotations-v1",
+  "manifest_id": "cc529b1af5b0842aa052199ffcd93b9cc5151a10af63bd7709ec78b3483fd6e1",
+  "revision": 164,
+  "a": {
+    "A001": {
+      "emotion": "angry",
+      "final": true,
+      "updated_at": "2026-09-15T15:43:11.109Z",
+      "status": "verified",
+      "transcript": "[over/]你说我干啥[/over]？我是操作员，我是都按流程做的，放心吧，没事儿。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A002": {
+      "emotion": "neutral",
+      "final": true,
+      "updated_at": "2026-09-15T15:43:29.940Z",
+      "status": "verified",
+      "transcript": "我第一天吃完晚上就开始晕。我吃完之后我就，我那个晚上睡觉的时候就天旋地转，我感觉像喝酒了。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A003": {
+      "emotion": "angry",
+      "final": true,
+      "updated_at": "2026-09-15T15:43:36.858Z",
+      "status": "verified",
+      "transcript": "我是你爸我不能看吗？我问你是不是谈恋爱了？",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A004": {
+      "emotion": "angry",
+      "final": true,
+      "updated_at": "2026-09-15T15:43:47.374Z",
+      "status": "verified",
+      "transcript": "你去告，哎，我公司开十年我还怕人告，你去告，你去告吧！",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A005": {
+      "emotion": "sad",
+      "final": true,
+      "updated_at": "2026-09-15T15:44:02.725Z",
+      "status": "verified",
+      "transcript": "哎女儿，你是爸爸的掌心的宝贝，[over/]其实[/over]，唉，不说了。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A006": {
+      "emotion": "angry",
+      "final": true,
+      "updated_at": "2026-09-15T15:44:15.274Z",
+      "status": "verified",
+      "transcript": "凭什么百分之五十，那这样，那你别干了，好吧，我有权利让你别干了，咱也不争了，就这样。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A007": {
+      "emotion": "sad",
+      "final": true,
+      "updated_at": "2026-09-15T15:44:32.241Z",
+      "status": "verified",
+      "transcript": "傻丫头，刚结婚，等你有时间了，好不好？有时间回来看看爸。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A008": {
+      "emotion": "neutral",
+      "final": true,
+      "updated_at": "2026-09-15T15:45:00.090Z",
+      "status": "verified",
+      "transcript": "那是留给你的钱，密码是你的生日，不要再给我花钱了，这个病也治不好。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A009": {
+      "emotion": "neutral",
+      "final": true,
+      "updated_at": "2026-09-15T15:45:13.040Z",
+      "status": "verified",
+      "transcript": "嗯，没有人可以说啊。我给家里说吧，家里只能说调整状态，你可以的。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A010": {
+      "emotion": "happy",
+      "final": true,
+      "updated_at": "2026-09-15T15:45:24.791Z",
+      "status": "verified",
+      "transcript": "哦，习惯了，[laughing]不好意思。我那个什么，我有三个上市公司的，平时这个见很多年轻人，主要就是在面试的情况下。没关系，你也不用有太大的压力啊。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A011": {
+      "emotion": "angry",
+      "final": true,
+      "updated_at": "2026-09-15T15:45:32.690Z",
+      "status": "verified",
+      "transcript": "你那狗刚，你那狗刚刚差点就咬到我了，你装看不见是吧？",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A012": {
+      "emotion": "happy",
+      "final": true,
+      "updated_at": "2026-09-15T15:45:44.808Z",
+      "status": "verified",
+      "transcript": "还得咱俩配合啊！就你那手艺，你手艺活儿多好啊！人家客户直接看上了。我这一谈，哎没跑儿了，就咱俩啦。就咱俩这生意爆。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A013": {
+      "emotion": "happy",
+      "final": true,
+      "updated_at": "2026-09-15T15:45:53.074Z",
+      "status": "verified",
+      "transcript": "行，到时候帮我多推荐几个其他的朋友啊。[over/]到[/over]时候推荐我还能，给您再送点其他的服务。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A014": {
+      "emotion": "happy",
+      "final": true,
+      "updated_at": "2026-09-15T15:46:03.207Z",
+      "status": "verified",
+      "transcript": "他们改抽改投别的赛道了，他们觉得在这个赛道里面[laughing]，他们找不到油水，你说说我们现在没有竞争对手啦！",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A015": {
+      "emotion": "angry",
+      "final": true,
+      "updated_at": "2026-09-15T15:46:14.757Z",
+      "status": "verified",
+      "transcript": "那我，我跟你兰兰，兰兰阿姨你以后叫阿姨，啊，叫[over]阿姨[over]。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A016": {
+      "emotion": "angry",
+      "final": true,
+      "updated_at": "2026-09-15T15:46:20.591Z",
+      "status": "verified",
+      "transcript": "不是，厂长我们不能这样，我们真的不能这样。他是建厂元老，所有的事情都是他一把手，一手做起来的，怎么可以现在我们好起来，就忘了他了呢？",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A017": {
+      "status": "uncertain",
+      "final": true,
+      "updated_at": "2026-09-15T15:46:35.241Z",
+      "transcript": "女儿，爸真有有任务在身，好吗？听话，乖，等爸出完任务回来，爸给你捎个蛋糕回来好吗？",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A018": {
+      "emotion": "happy",
+      "final": true,
+      "updated_at": "2026-09-15T15:46:53.658Z",
+      "status": "verified",
+      "transcript": "交给我。那这样的话，明天呢，我们就嗯中午先去吃烤鱼，然后下午去逛街，对吗？那晚上我们去干什么呀？",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A019": {
+      "emotion": "happy",
+      "final": true,
+      "updated_at": "2026-09-15T15:47:14.274Z",
+      "status": "uncertain",
+      "transcript": "没事儿爸，我我现在的工资能养活了你，咱俩父女俩一起过多好呀。啊，就一起啊，没没问题呀。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A020": {
+      "emotion": "angry",
+      "final": true,
+      "updated_at": "2026-09-15T15:47:31.174Z",
+      "status": "verified",
+      "transcript": "哎，你，你觉得行吗？你你你自己能受得了吗？我跟小红一样大，然后我叫她妈，你不难受吗？",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A021": {
+      "emotion": "sad",
+      "final": true,
+      "updated_at": "2026-09-15T15:47:38.007Z",
+      "status": "verified",
+      "transcript": "我很小时候妈妈就走了，就剩你一个了，没有人再陪我过生日了，为什么你就不能陪陪我呢？[over/]每[/over]一年都[over/]这样[/over]。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A022": {
+      "emotion": "sad",
+      "final": true,
+      "updated_at": "2026-09-15T15:47:47.757Z",
+      "status": "verified",
+      "transcript": "你们为什么之前不跟我说这些呢？为什么不跟我说这些呢？我不想跟你，我也不想跟我妈，我现在只想跟你们俩一起过日子，我想要我们一家三口，我不想少一个爸爸或者少一个妈妈。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A023": {
+      "emotion": "sad",
+      "final": true,
+      "updated_at": "2026-09-15T15:47:52.806Z",
+      "status": "verified",
+      "transcript": "[crying]她不肯见我，[crying]她让我出去。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A024": {
+      "emotion": "happy",
+      "final": true,
+      "updated_at": "2026-09-15T15:48:02.556Z",
+      "status": "verified",
+      "transcript": "[over/]哎呀[over/]，可不，不枉我们小组日日夜夜的，哎，呕心沥血呀！",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A025": {
+      "emotion": "neutral",
+      "final": true,
+      "updated_at": "2026-09-15T15:48:20.357Z",
+      "status": "uncertain",
+      "transcript": "你要知道，生老病死，这是很正常的事情。我们是医生但不是神，也不是谁都能救的。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A026": {
+      "status": "uncertain",
+      "final": true,
+      "updated_at": "2026-09-15T15:48:29.307Z",
+      "transcript": "那，如果是交给我们来做的话，那我们一定不负重任。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A027": {
+      "emotion": "neutral",
+      "final": true,
+      "updated_at": "2026-09-15T15:48:40.590Z",
+      "status": "uncertain",
+      "transcript": "对，嗯，医生说他的情况其实不是太好嗯。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A028": {
+      "emotion": "sad",
+      "final": true,
+      "updated_at": "2026-09-15T15:48:55.457Z",
+      "status": "verified",
+      "transcript": "我小时候总盼着长大，现在真的长大了，总觉得又不是那么回事儿。我感觉这好像不是我想要的长大的样子。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A029": {
+      "emotion": "happy",
+      "final": true,
+      "updated_at": "2026-09-15T15:49:08.123Z",
+      "status": "verified",
+      "transcript": "哎，如如直接啊现在安全绳都给你准备好了。在这儿闭上眼睛直接往下跳，特别刺激我都玩了好[over/]多次了啊[/over]。",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "A030": {
+      "emotion": "happy",
+      "final": true,
+      "updated_at": "2026-09-15T15:49:21.972Z",
+      "status": "verified",
+      "transcript": "爸先在客厅等你们，你们先好好化化妆。一会儿，我们的女婿就来接你了好不好？",
+      "heard": true,
+      "completion_method": "navigation_save"
+    }
+  },
+  "b": {
+    "B001": {
+      "best": [
+        "C"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T15:53:45.120Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B002": {
+      "best": [
+        "C"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T15:54:03.820Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B003": {
+      "best": [
+        "B"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T15:54:55.371Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B004": {
+      "status": "uncertain",
+      "best": [],
+      "final": true,
+      "updated_at": "2026-09-15T15:55:55.503Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B005": {
+      "status": "uncertain",
+      "best": [],
+      "final": true,
+      "updated_at": "2026-09-15T15:56:07.436Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B006": {
+      "best": [
+        "D"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T15:56:46.054Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B007": {
+      "best": [
+        "A",
+        "C"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T15:57:07.319Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B008": {
+      "best": [
+        "D"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T15:57:41.770Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B009": {
+      "best": [
+        "D"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T15:58:08.387Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B010": {
+      "best": [
+        "C",
+        "D"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T15:58:27.853Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B011": {
+      "best": [
+        "D"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T15:59:12.820Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B012": {
+      "best": [
+        "D"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T15:59:39.520Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B013": {
+      "best": [
+        "B",
+        "C"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T15:59:54.385Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B014": {
+      "best": [
+        "B",
+        "D"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T16:00:29.886Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B015": {
+      "best": [
+        "C"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T16:00:51.486Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B016": {
+      "best": [
+        "D"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T16:01:13.686Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B017": {
+      "best": [
+        "D"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T16:01:29.353Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B018": {
+      "status": "preferred",
+      "best": [
+        "A"
+      ],
+      "final": true,
+      "updated_at": "2026-09-15T16:02:13.302Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B019": {
+      "status": "uncertain",
+      "best": [],
+      "final": true,
+      "updated_at": "2026-09-15T16:03:09.636Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B020": {
+      "best": [
+        "C",
+        "D"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T16:03:44.003Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B021": {
+      "status": "uncertain",
+      "best": [],
+      "final": true,
+      "updated_at": "2026-09-15T16:04:18.486Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B022": {
+      "best": [
+        "B"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T16:04:38.119Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B023": {
+      "best": [
+        "A",
+        "C",
+        "D"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T16:05:17.119Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B024": {
+      "status": "all_bad",
+      "best": [],
+      "final": true,
+      "updated_at": "2026-09-15T16:05:39.135Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B025": {
+      "best": [
+        "C"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T16:06:19.901Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B026": {
+      "best": [
+        "B"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T16:07:16.285Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B027": {
+      "best": [
+        "D"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T16:07:35.719Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B028": {
+      "status": "all_bad",
+      "best": [],
+      "final": true,
+      "updated_at": "2026-09-15T16:07:52.402Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B029": {
+      "best": [
+        "C",
+        "D"
+      ],
+      "status": "preferred",
+      "final": true,
+      "updated_at": "2026-09-15T16:08:08.136Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    },
+    "B030": {
+      "status": "all_bad",
+      "best": [],
+      "final": true,
+      "updated_at": "2026-09-15T16:08:29.268Z",
+      "heard": true,
+      "completion_method": "navigation_save"
+    }
+  },
+  "updated_at": "2026-09-15T16:08:29.890097+00:00"
+}

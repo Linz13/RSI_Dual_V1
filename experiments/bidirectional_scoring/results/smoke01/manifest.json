@@ -1,0 +1,330 @@
+{
+  "protocol": "bidirectional-emotion-v1",
+  "created_at": "2026-09-15T08:26:31.951552+00:00",
+  "manifest_id": "f57ba8f601006f22803e87d74bf612935123caf4b4d3d1854c3f98c08bf3c32c",
+  "identity": {
+    "name": "smoke01",
+    "protocol": "bidirectional-emotion-v1",
+    "seed": 20260915,
+    "attribute": "emotion",
+    "a": [
+      {
+        "id": "A001",
+        "audio": "audio/a_001.wav",
+        "audio_sha256": "ef865d68d2e98371bd18f1a5073a170b496e5c1b6d7b0379230b890f1a263fb1",
+        "duration": 1.4122675736961452,
+        "source_id": "G00003_25_02_004",
+        "speaker_id": "02",
+        "session_id": "G00003",
+        "source_audio": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/audio/test/G00003/G00003_25/G00003_25_02/G00003_25_02_004.wav",
+        "source_emotion": "happy",
+        "source_transcript": "挺好呀，那是厂的嘛。",
+        "legacy_train_byte_overlap": null
+      },
+      {
+        "id": "A002",
+        "audio": "audio/a_002.wav",
+        "audio_sha256": "458bb407f158df36ae8f48ae9e82035ca2fa78964f477fe1a8ef08779e1ea4de",
+        "duration": 3.877891156462585,
+        "source_id": "G00003_54_02_013",
+        "speaker_id": "02",
+        "session_id": "G00003",
+        "source_audio": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/audio/test/G00003/G00003_54/G00003_54_02/G00003_54_02_013.wav",
+        "source_emotion": "sad",
+        "source_transcript": "你还是不记得，你都不知道什么日子。",
+        "legacy_train_byte_overlap": null
+      },
+      {
+        "id": "A003",
+        "audio": "audio/a_003.wav",
+        "audio_sha256": "2ca738acab7a2c279f409e050e14013fce13afc48ba7897faba270199fd3c2f5",
+        "duration": 4.904240362811791,
+        "source_id": "G00015_29_20_005",
+        "speaker_id": "20",
+        "session_id": "G00015",
+        "source_audio": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/audio/test/G00015/G00015_29/G00015_29_20/G00015_29_20_005.wav",
+        "source_emotion": "angry",
+        "source_transcript": "可那公司那么远，你把他调走，不就是明升暗降吗？他还有什么事情可以做呀？",
+        "legacy_train_byte_overlap": null
+      },
+      {
+        "id": "A004",
+        "audio": "audio/a_004.wav",
+        "audio_sha256": "857dee6734172c720cc5aec86d1101ac33ac52fc7a2e13489e2f8de0a701a61a",
+        "duration": 1.3020408163265307,
+        "source_id": "G00003_42_13_006",
+        "speaker_id": "13",
+        "session_id": "G00003",
+        "source_audio": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/audio/test/G00003/G00003_42/G00003_42_13/G00003_42_13_006.wav",
+        "source_emotion": "neutral",
+        "source_transcript": "我八四年。",
+        "legacy_train_byte_overlap": null
+      }
+    ],
+    "b": [
+      {
+        "id": "B001",
+        "source_id": "random440_expressivespeech_212",
+        "request": {
+          "instruct": "gender: female; age: adult; accent: Mandarin; voice timbre: bright; emotion: happy; emotion intensity: high; speaking rate: fast; pitch: high; volume: low; emphasis: emphasized; emphasized words: 起码还得一星期; prosody: Conversational rhythm with intonation shifting from reassuring and gentle to firm and authoritative.; pauses: brief natural pauses between conversational turns and clauses; nonverbal vocalizations: laughter",
+          "language": "Chinese",
+          "text": "根本算是病，没关系，你你得早点找我。 早就好了，但是我跟你说啊啊，就今天这一次不行，起码还得一星期啊。"
+        },
+        "emotion": "happy",
+        "candidates": [
+          {
+            "blind_id": "A",
+            "audio": "audio/b_001_1.wav",
+            "audio_sha256": "7a2b1dbffb373b63bc825ffcea2993d81e86a3cccec8cb2aed4b61b7ee29e1a3",
+            "duration": 8.64,
+            "source_candidate_id": "random440_expressivespeech_212::0",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_212_0.wav",
+            "generation_seed": 477691590
+          },
+          {
+            "blind_id": "B",
+            "audio": "audio/b_001_2.wav",
+            "audio_sha256": "f58665a2571d7e31130e092c71d0024ae2f7576e83940bde831f6270d144e048",
+            "duration": 9.68,
+            "source_candidate_id": "random440_expressivespeech_212::3",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_212_3.wav",
+            "generation_seed": 593873894
+          },
+          {
+            "blind_id": "C",
+            "audio": "audio/b_001_3.wav",
+            "audio_sha256": "a47a953e8ed5428c958961ada006dee610e78fc2485547ca8520296c63c08a21",
+            "duration": 12.32,
+            "source_candidate_id": "random440_expressivespeech_212::2",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_212_2.wav",
+            "generation_seed": 671130395
+          },
+          {
+            "blind_id": "D",
+            "audio": "audio/b_001_4.wav",
+            "audio_sha256": "386bebb58c7f4e8797c7b6c0fe6ae7ad3407c679a0dfdc409ec8e0916c7399f6",
+            "duration": 11.76,
+            "source_candidate_id": "random440_expressivespeech_212::1",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_212_1.wav",
+            "generation_seed": 1145508015
+          }
+        ],
+        "duplicate_audio_count": 0
+      },
+      {
+        "id": "B002",
+        "source_id": "random440_expressivespeech_209",
+        "request": {
+          "instruct": "gender: female; age: adult; accent: Mandarin; voice timbre: strained; emotion: sad; emotion intensity: high; speaking rate: moderate; pitch: high; volume: high; emphasis: heavily emphasized; emphasized words: 对不起, 都是我的; prosody: Fragmented phrasing with an uneven rhythm and falling intonation.; pauses: frequent irregular breaks filled with gasping and crying; nonverbal vocalizations: crying, sobbing",
+          "language": "Chinese",
+          "text": "对不起，对不起，是我连累了你，都是我的错。"
+        },
+        "emotion": "sad",
+        "candidates": [
+          {
+            "blind_id": "A",
+            "audio": "audio/b_002_1.wav",
+            "audio_sha256": "1de7a73a9597c3b2d5401a423538b79e03aa9a990c13b161d905f92e91cb7ac6",
+            "duration": 6.72,
+            "source_candidate_id": "random440_expressivespeech_209::1",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_209_1.wav",
+            "generation_seed": 1881841816
+          },
+          {
+            "blind_id": "B",
+            "audio": "audio/b_002_2.wav",
+            "audio_sha256": "188950da3822ee7c8856151c51d7cf736b8e7924ce904de5893b97da135c7fca",
+            "duration": 7.44,
+            "source_candidate_id": "random440_expressivespeech_209::0",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_209_0.wav",
+            "generation_seed": 919471072
+          },
+          {
+            "blind_id": "C",
+            "audio": "audio/b_002_3.wav",
+            "audio_sha256": "1cdf4fbbc63a79a1d97ba62d1d37ca4d5d5900a026fe8e2e6e8e1203a7bc764e",
+            "duration": 5.92,
+            "source_candidate_id": "random440_expressivespeech_209::3",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_209_3.wav",
+            "generation_seed": 886517023
+          },
+          {
+            "blind_id": "D",
+            "audio": "audio/b_002_4.wav",
+            "audio_sha256": "1dd56652ebee6ac28cada94d62cc8e040ea2b877309f2aab793d62a11aea5193",
+            "duration": 6.72,
+            "source_candidate_id": "random440_expressivespeech_209::2",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_209_2.wav",
+            "generation_seed": 745526453
+          }
+        ],
+        "duplicate_audio_count": 0
+      },
+      {
+        "id": "B003",
+        "source_id": "random440_expressivespeech_196",
+        "request": {
+          "instruct": "gender: male; age: adult; accent: Mandarin; voice timbre: strained; emotion: angry; emotion intensity: high; speaking rate: fast; pitch: high; volume: high; emphasis: heavily emphasized; emphasized words: 差点摔地上, 好心, 反咬我一口; prosody: Sharply rising intonation toward the end.; pauses: minimal to no pauses between clauses",
+          "language": "Chinese",
+          "text": "你刚刚睡着，你差点摔地上, 我好心救你, 你怎么反咬我一口呢？"
+        },
+        "emotion": "angry",
+        "candidates": [
+          {
+            "blind_id": "A",
+            "audio": "audio/b_003_1.wav",
+            "audio_sha256": "ec4e6a819689193ccddc8cbf3d9a16307beda6e389e1c930d5acc8c8fb32163b",
+            "duration": 6.56,
+            "source_candidate_id": "random440_expressivespeech_196::2",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_196_2.wav",
+            "generation_seed": 1665846660
+          },
+          {
+            "blind_id": "B",
+            "audio": "audio/b_003_2.wav",
+            "audio_sha256": "c239dd7500fd22afb65f44641d93fa98a76159caa5484a7d1946eedd05f0e3e5",
+            "duration": 6.24,
+            "source_candidate_id": "random440_expressivespeech_196::1",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_196_1.wav",
+            "generation_seed": 1765439806
+          },
+          {
+            "blind_id": "C",
+            "audio": "audio/b_003_3.wav",
+            "audio_sha256": "e94c84f2ca054798f25196f71b26de7e3f35516936c420dcec9f1a48461f08db",
+            "duration": 4.88,
+            "source_candidate_id": "random440_expressivespeech_196::3",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_196_3.wav",
+            "generation_seed": 921875606
+          },
+          {
+            "blind_id": "D",
+            "audio": "audio/b_003_4.wav",
+            "audio_sha256": "c0cdd0cd1804390638cbbc4d2072ec30da50b531d5818a82554e2fa5d6fd65ce",
+            "duration": 4.88,
+            "source_candidate_id": "random440_expressivespeech_196::0",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_196_0.wav",
+            "generation_seed": 315032094
+          }
+        ],
+        "duplicate_audio_count": 0
+      },
+      {
+        "id": "B004",
+        "source_id": "random440_expressivespeech_335",
+        "request": {
+          "instruct": "gender: female; age: adult; accent: Mandarin; voice timbre: neutral; emotion: neutral; emotion intensity: low; speaking rate: moderate; pitch: medium; volume: high; emphasis: emphasized; emphasized words: 吃什么饭呢; prosody: Conversational prosody with rising final intonation forming a rhetorical question.; pauses: short pauses between clauses denoting syntactic boundaries",
+          "language": "Chinese",
+          "text": "我们家的情况他都知道，他要嫌弃的话，还请您吃什么饭呢？"
+        },
+        "emotion": "neutral",
+        "candidates": [
+          {
+            "blind_id": "A",
+            "audio": "audio/b_004_1.wav",
+            "audio_sha256": "04fd14c6a69c4e72a2259764dc76b587961224a797cb290c9ee6808fe0b85f40",
+            "duration": 5.04,
+            "source_candidate_id": "random440_expressivespeech_335::1",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_335_1.wav",
+            "generation_seed": 353423018
+          },
+          {
+            "blind_id": "B",
+            "audio": "audio/b_004_2.wav",
+            "audio_sha256": "e16846cb4a4b1f1eac52512debe877b80d0006b5bb7d1b66a31a955bd6ee4c34",
+            "duration": 7.04,
+            "source_candidate_id": "random440_expressivespeech_335::0",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_335_0.wav",
+            "generation_seed": 1504520659
+          },
+          {
+            "blind_id": "C",
+            "audio": "audio/b_004_3.wav",
+            "audio_sha256": "291b8e6d33b024970482739d9acfc9558a5a67f7bf498b129c21b085f69598ec",
+            "duration": 5.6,
+            "source_candidate_id": "random440_expressivespeech_335::3",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_335_3.wav",
+            "generation_seed": 774842750
+          },
+          {
+            "blind_id": "D",
+            "audio": "audio/b_004_4.wav",
+            "audio_sha256": "54f5cbcf5767b9ec0d185fa93edfbb56fb170545518cc567b903806274e3699d",
+            "duration": 4.64,
+            "source_candidate_id": "random440_expressivespeech_335::2",
+            "source_audio": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/audio/random440_expressivespeech_335_2.wav",
+            "generation_seed": 2067780249
+          }
+        ],
+        "duplicate_audio_count": 0
+      }
+    ],
+    "b_pending_generation": [],
+    "sampling": {
+      "a_n": 4,
+      "b_groups": 4,
+      "b_source": "existing",
+      "a_duration_seconds": [
+        1,
+        15
+      ],
+      "b_duration_seconds": [
+        1,
+        20
+      ],
+      "selection": "label-balanced, A speaker-interleaved; shuffled before model scores; Chinese only",
+      "excluded_counts": {
+        "a_duration_or_empty_transcript": 130,
+        "b_language_text_metadata": 80,
+        "b_duration": 12
+      }
+    },
+    "a_source": {
+      "path": "/data/L202500147/Caption/benchmark/emotiontalk_speech_captioning/data/test_references.jsonl",
+      "sha256": "e81cfb9520027c923021c0dbd675a5ce87270919345efb5a8ff532fb254230f0",
+      "split": "official speaker-independent test",
+      "exposure": "repeated legacy evaluation",
+      "labels": "official labels; audible emotion and transcript require human verification"
+    },
+    "b_source": {
+      "run": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01",
+      "round": 0,
+      "model": "Qwen3-TTS-12Hz-1.7B-VoiceDesign",
+      "checkpoint": "base; no checkpoint-in/target-checkpoint; adapter_path empty",
+      "config_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/resolved_config.yaml",
+      "config_sha256": "45014b5545fca86fff141f8113edeb5bd23edd09f3b92838410981a2d9fb3c88",
+      "generation_command": [
+        "/data/L202500147/miniconda3/envs/qwen3-tts/bin/python3.12",
+        "-m",
+        "torch.distributed.run",
+        "--standalone",
+        "--nproc-per-node=8",
+        "--module",
+        "dual_isl_train.workers.qwen_voice_design",
+        "rollout",
+        "--config",
+        "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/resolved_config.yaml",
+        "--input",
+        "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/round_000_caption_tts_rollout.input.jsonl",
+        "--output",
+        "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/round_000/collections/round_000_caption_tts_rollout.output.jsonl"
+      ],
+      "generation_log_path": "/data/L202500147/Caption/DualISL_Train_RewardV5_LabelRobust/runs/midasheng_v5_label_robust_10rounds_8gpu_run01/logs/round_000_caption_tts_rollout.log",
+      "generation": {
+        "max_new_tokens": 512,
+        "temperature": 1.0,
+        "top_p": 1.0,
+        "top_k": 0,
+        "subtalker_temperature": 1.0,
+        "subtalker_top_p": 1.0,
+        "subtalker_top_k": 0,
+        "repetition_penalty": 1.0
+      },
+      "exposure": "legacy_train_pool; generated before round_000 updates; later used for reward/training",
+      "rollout_sha256": "2b952f19b4b7b6d24e5531baf4c6f487f3f56f1a343bb15bbe7ee704d1cf93f5"
+    },
+    "overlap_scope": "byte SHA256 against training_data/audio; not an acoustic fingerprint or pretraining audit",
+    "legacy_train_audio_files_checked": 431,
+    "previous_pilot_matches": []
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "run": "/data/L202500147/Caption/BidirectionalScoringPilot/runs/pilot30",
+  "manifest_id": "cc529b1af5b0842aa052199ffcd93b9cc5151a10af63bd7709ec78b3483fd6e1",
+  "stats": {
+    "a": {
+      "items": 30,
+      "audio_files": 30,
+      "duration_min_seconds": 4.01578231292517,
+      "duration_max_seconds": 14.681859410430839,
+      "duration_median_seconds": 7.966111111111111,
+      "duration_total_seconds": 243.71761904761905,
+      "emotion_counts": {
+        "neutral": 7,
+        "angry": 7,
+        "sad": 8,
+        "happy": 8
+      }
+    },
+    "b": {
+      "items": 30,
+      "audio_files": 120,
+      "duration_min_seconds": 1.12,
+      "duration_max_seconds": 15.84,
+      "duration_median_seconds": 4.56,
+      "duration_total_seconds": 630.5600000000001,
+      "emotion_counts": {
+        "sad": 8,
+        "happy": 8,
+        "neutral": 7,
+        "angry": 7
+      }
+    }
+  },
+  "audio_sha256_checked": 150,
+  "unique_audio_sha256": 150,
+  "smoke_overlap_by_source_id": 0,
+  "smoke_overlap_by_audio_sha256": 0,
+  "smoke_manifest_and_annotations_unchanged": true,
+  "pilot_annotations_empty": true,
+  "zip_ok_and_blinded": true,
+  "zip_mib": 52.62901782989502,
+  "permission_check": {
+    "uid": 65534,
+    "cross_account_read_write": true,
+    "external_files_readable": 40,
+    "external_files_modified": false
+  },
+  "scoring_directories_present": {
+    "smoke01": false,
+    "pilot30": false
+  },
+  "models_loaded": false,
+  "gpu_used": false
+}

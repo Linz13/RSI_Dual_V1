@@ -1,0 +1,84 @@
+{
+  "schema": "pilot-annotations-v1",
+  "manifest_id": "f57ba8f601006f22803e87d74bf612935123caf4b4d3d1854c3f98c08bf3c32c",
+  "revision": 30,
+  "a": {
+    "A001": {
+      "emotion": "neutral",
+      "final": true,
+      "updated_at": "2026-09-15T09:14:17.649Z",
+      "status": "verified",
+      "heard": true,
+      "transcript": "挺好呀，那是厂的嘛。"
+    },
+    "A002": {
+      "emotion": "sad",
+      "final": true,
+      "updated_at": "2026-09-15T09:14:32.582Z",
+      "status": "verified",
+      "heard": true,
+      "transcript": "你还是不记得，你都不知道什么日子。"
+    },
+    "A003": {
+      "emotion": "angry",
+      "final": true,
+      "updated_at": "2026-09-15T09:14:43.482Z",
+      "status": "verified",
+      "heard": true,
+      "transcript": "可那公司那么远，你把他调走，不就是明升暗降吗？他还有什么事情可以做呀？"
+    },
+    "A004": {
+      "emotion": "neutral",
+      "final": true,
+      "updated_at": "2026-09-15T09:15:11.066Z",
+      "status": "verified",
+      "heard": true,
+      "transcript": "我八四年。"
+    }
+  },
+  "b": {
+    "B001": {
+      "best": [
+        "A"
+      ],
+      "final": true,
+      "updated_at": "2026-09-15T09:16:34.949Z",
+      "status": "preferred",
+      "heard": true
+    },
+    "B002": {
+      "best": [
+        "A",
+        "B",
+        "D"
+      ],
+      "final": true,
+      "updated_at": "2026-09-15T09:17:47.266Z",
+      "status": "preferred",
+      "heard": true
+    },
+    "B003": {
+      "best": [
+        "B",
+        "D",
+        "C"
+      ],
+      "final": true,
+      "updated_at": "2026-09-15T09:18:22.183Z",
+      "status": "preferred",
+      "heard": true
+    },
+    "B004": {
+      "best": [
+        "A",
+        "C",
+        "D"
+      ],
+      "final": true,
+      "updated_at": "2026-09-15T09:19:04.566Z",
+      "status": "preferred",
+      "heard": true
+    }
+  },
+  "updated_at": "2026-09-15T09:19:04.972709+00:00"
+}
